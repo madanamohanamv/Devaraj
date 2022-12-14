@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Distributor Joint Activity Fund</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Distributor Joint Activity Funds</value>
+    </caseValues>
+    <fields>
+        <label><!-- Castrol Contribution Amount --></label>
+        <name>CAJBP_Castrol_Contribution_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Estimated Rebate Fund --></label>
+        <name>CAJBP_Estimated_Rebate_Fund__c</name>
+    </fields>
+    <fields>
+        <label><!-- Join Activity Fund Name --></label>
+        <name>CAJBP_Join_Activity_Fund_Name_URL__c</name>
+    </fields>
+    <fields>
+        <label><!-- Joint Business Plan --></label>
+        <name>CAJBP_Joint_Business_Plan__c</name>
+        <relationshipLabel><!-- Distributor Joint Activity Funds --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Castrol Percentage of Turnover Exit No. --></label>
+        <name>CAJBP_PCastrol_Perc_of_Turnover_Exit_No__c</name>
+    </fields>
+    <fields>
+        <label><!-- Partner Contribution Amount --></label>
+        <name>CAJBP_Partner_Contribution_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Partner Percentage of Turnover Exit No. --></label>
+        <name>CAJBP_Partner_Perc_of_Turnover_Exit_No__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Join Activity Fund --></label>
+        <name>CAJBP_Total_Join_Activity_Fund__c</name>
+    </fields>
+    <fields>
+        <label><!-- Joint Activity Fund Name --></label>
+        <name>Joint_Activity_Fund_Name__c</name>
+    </fields>
+    <layouts>
+        <layout>Join Activity Fund Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- You are not able to create more than one Joint Activity Found for one Joint Business Plan. --></errorMessage>
+        <name>CAJBP_Only_one_JAF_per_JBP</name>
+    </validationRules>
+</CustomObjectTranslation>

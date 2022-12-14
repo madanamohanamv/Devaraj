@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>RE IDP Twilio Setting</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>RE IDP Twilio Settings</value>
+    </caseValues>
+    <fields>
+        <label><!-- Base URL --></label>
+        <name>Base_URL__c</name>
+    </fields>
+    <fields>
+        <label><!-- Code Length --></label>
+        <name>Code_Length__c</name>
+    </fields>
+    <fields>
+        <label><!-- Via --></label>
+        <name>Via__c</name>
+        <picklistValues>
+            <masterLabel>call</masterLabel>
+            <translation><!-- call --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>sms</masterLabel>
+            <translation><!-- sms --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>RE IDP Twilio Setting Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Integration Information --></label>
+            <section>Integration Information</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <activeVersionNumber>32</activeVersionNumber>
+    <description>The flow creates a duplicate of all Tender Location Line Items related to the tender within the current round and with De-brief record type.</description>
+    <masterLabel>Clone TLLI as De-brieff</masterLabel>
+</FlowDefinition>

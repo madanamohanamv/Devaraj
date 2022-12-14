@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Level I</fullName>
+        <default>true</default>
+        <label>Level I</label>
+    </customValue>
+    <customValue>
+        <fullName>Level II</fullName>
+        <default>false</default>
+        <label>Level II</label>
+    </customValue>
+    <customValue>
+        <fullName>Level III</fullName>
+        <default>false</default>
+        <label>Level III</label>
+    </customValue>
+    <masterLabel>Service Level</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

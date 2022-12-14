@@ -1,0 +1,12 @@
+salesforce:
+  prodCredentialsId: "salesforce-customer-prod"
+  preProdCredentialsId: "salesforce-customer-uat"
+  sitCredentialsId: "salesforce-customer-sit"
+  SONARQUBE_PROJECT_KEY: "com.bp.salesforce.sfdc-cust"
+vsts:
+    credentials: "VSTS_CREDENTIALS"
+    url: "https://bp-vsts.visualstudio.com"
+sonar:
+    login: "84e381f1751cb5108caaf773db108ec8b70f7bf6"
+    hostUrl: "https://sonarqube.bpweb.bp.com"
+    sonarProjectKey: "com.bp.salesforce.sfdc-cust"

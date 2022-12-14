@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingOwnerRules>
+        <fullName>Diff_Winning_Bid_with_all_LM</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Shares Diff Winning Bids with all AirBP Location managers</description>
+        <label>Diff Winning Bid with all LM</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>AirBP</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>AirBP</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

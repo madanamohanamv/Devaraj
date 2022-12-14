@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Role xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseAccessLevel>Read</caseAccessLevel>
+    <contactAccessLevel>Edit</contactAccessLevel>
+    <mayForecastManagerShare>false</mayForecastManagerShare>
+    <name>Castrol - UK &amp; IR &amp; France &amp; BeNe Retail A&amp;I Distributor Sales</name>
+    <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    <parentRole>Castrol_Retail_North_Europe_A_I_Distributor_Sales_Manager</parentRole>
+</Role>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Plan</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Plans</value>
+    </caseValues>
+    <fields>
+        <label><!-- Currency --></label>
+        <name>AILP_Currency__c</name>
+        <picklistValues>
+            <masterLabel>AUD</masterLabel>
+            <translation><!-- AUD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AUX</masterLabel>
+            <translation><!-- AUX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BRL</masterLabel>
+            <translation><!-- BRL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BRX</masterLabel>
+            <translation><!-- BRX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DKK</masterLabel>
+            <translation><!-- DKK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EUR</masterLabel>
+            <translation><!-- EUR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EUX</masterLabel>
+            <translation><!-- EUX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NOK</masterLabel>
+            <translation><!-- NOK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NZD</masterLabel>
+            <translation><!-- NZD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NZX</masterLabel>
+            <translation><!-- NZX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SEK</masterLabel>
+            <translation><!-- SEK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>USD</masterLabel>
+            <translation><!-- USD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>USX</masterLabel>
+            <translation><!-- USX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZAR</masterLabel>
+            <translation><!-- ZAR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZAX</masterLabel>
+            <translation><!-- ZAX --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- GP --></label>
+        <name>AILP_GP__c</name>
+    </fields>
+    <fields>
+        <label><!-- Location IATA --></label>
+        <name>AILP_Location_IATA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Location --></label>
+        <name>AILP_Location_Lookup__c</name>
+        <relationshipLabel><!-- Plans --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- ROWC % --></label>
+        <name>AILP_ROWC__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unit of Measure --></label>
+        <name>AILP_Unit_of_Measure__c</name>
+        <picklistValues>
+            <masterLabel>CM</masterLabel>
+            <translation><!-- CM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LT</masterLabel>
+            <translation><!-- LT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MT</masterLabel>
+            <translation><!-- MT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>USG</masterLabel>
+            <translation><!-- USG --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Volume --></label>
+        <name>AILP_Volume__c</name>
+    </fields>
+    <fields>
+        <label><!-- WC --></label>
+        <name>AILP_WC__c</name>
+    </fields>
+    <fields>
+        <help><!-- Only current year data will be shown in dashboards --></help>
+        <label><!-- Year --></label>
+        <name>AILP_Year__c</name>
+    </fields>
+    <layouts>
+        <layout>AILP_Plan Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

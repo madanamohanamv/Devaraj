@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>UKMS Div Code Mapping</value>
+    </caseValues>
+    <fields>
+        <label><!-- Active --></label>
+        <name>Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Div Code Name --></label>
+        <name>Div_Code_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Salesforce Code --></label>
+        <name>Salesforce_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source System Code --></label>
+        <name>Source_System_Code__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

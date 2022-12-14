@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Application</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Applications</value>
+    </caseValues>
+    <fields>
+        <label><!-- Add to App Launcher --></label>
+        <name>Add_to_App_Launcher__c</name>
+        <picklistValues>
+            <masterLabel>If user accepted T&amp;C</masterLabel>
+            <translation><!-- If user accepted T&amp;C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>If user has permission</masterLabel>
+            <translation><!-- If user has permission --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- App Icon --></label>
+        <name>App_Icon__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approver --></label>
+        <name>Approver__c</name>
+    </fields>
+    <fields>
+        <label><!-- Can User Request Access? --></label>
+        <name>Can_User_Request_Access__c</name>
+    </fields>
+    <fields>
+        <label><!-- Community --></label>
+        <name>Community__c</name>
+        <picklistValues>
+            <masterLabel>BP</masterLabel>
+            <translation><!-- BP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Castrol</masterLabel>
+            <translation><!-- Castrol --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Connected App Name as defined in Configuration (Not Id) --></help>
+        <label><!-- Connected App --></label>
+        <name>Connected_App__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Active? --></label>
+        <name>Is_Active__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicates whether there is more that one Application defined for a single Connected App, so that User Consents can be returned properly --></help>
+        <label><!-- Is Multi-Region --></label>
+        <name>Is_Multi_Region__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Restricted? --></label>
+        <name>Is_Restricted__c</name>
+    </fields>
+    <fields>
+        <label><!-- Latest Privacy Policy Version --></label>
+        <name>Latest_Privacy_Policy_Version__c</name>
+    </fields>
+    <fields>
+        <label><!-- Latest Terms &amp; Conditions Version --></label>
+        <name>Latest_Terms_Conditions_Version__c</name>
+    </fields>
+    <fields>
+        <label><!-- Permission Set --></label>
+        <name>Permission_Set__c</name>
+    </fields>
+    <fields>
+        <label><!-- Short Name --></label>
+        <name>Short_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- URL --></label>
+        <name>URL__c</name>
+    </fields>
+    <layouts>
+        <layout>Application Layout</layout>
+        <sections>
+            <label><!-- Access Details --></label>
+            <section>Access Details</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Description --></label>
+            <section>Description</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Approver is required when User Can Request Access is enabled --></errorMessage>
+        <name>Approver_Required_If_User_Request_Access</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Permission Set is required when User Can Request Access is enabled --></errorMessage>
+        <name>PerSet_Required_If_User_Request_Access</name>
+    </validationRules>
+</CustomObjectTranslation>

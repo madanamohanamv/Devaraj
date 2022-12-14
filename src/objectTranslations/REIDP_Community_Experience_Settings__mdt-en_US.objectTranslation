@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>REIDP Community Experience Settings</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>REIDP Community Experience Settings</value>
+    </caseValues>
+    <fields>
+        <label><!-- Available Login Option --></label>
+        <name>Available_Login_Option__c</name>
+        <picklistValues>
+            <masterLabel>Email + Phone (Email Active)</masterLabel>
+            <translation><!-- Email + Phone (Email Active) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Email + Phone (Phone Active)</masterLabel>
+            <translation><!-- Email + Phone (Phone Active) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Email only</masterLabel>
+            <translation><!-- Email only --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Phone number only</masterLabel>
+            <translation><!-- Phone number only --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Country Calling Code --></label>
+        <name>Country_Calling_Code__c</name>
+        <relationshipLabel><!-- REIDP Community Experience Settings --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Experience --></label>
+        <name>Experience__c</name>
+    </fields>
+    <fields>
+        <label><!-- Language --></label>
+        <name>Language__c</name>
+        <picklistValues>
+            <masterLabel>English</masterLabel>
+            <translation><!-- English --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nederlands</masterLabel>
+            <translation><!-- Nederlands --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tiếng Việt</masterLabel>
+            <translation><!-- Tiếng Việt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Türkçe</masterLabel>
+            <translation><!-- Türkçe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Русский</masterLabel>
+            <translation><!-- Русский --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Українська</masterLabel>
+            <translation><!-- Українська --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Registration Link --></label>
+        <name>Registration_Link__c</name>
+    </fields>
+    <fields>
+        <label><!-- Return URL --></label>
+        <name>Return_URL__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

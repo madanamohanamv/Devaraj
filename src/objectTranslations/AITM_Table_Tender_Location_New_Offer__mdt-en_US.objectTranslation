@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Table Tender Location New Offer</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Table Tender Location New Offer</value>
+    </caseValues>
+    <fields>
+        <label><!-- Default Value --></label>
+        <name>AITM_Default_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Field Name --></label>
+        <name>AITM_Field_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Field Type --></label>
+        <name>AITM_Field_Type__c</name>
+        <picklistValues>
+            <masterLabel>date</masterLabel>
+            <translation><!-- date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>link to record</masterLabel>
+            <translation><!-- link to record --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>number</masterLabel>
+            <translation><!-- number --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>select</masterLabel>
+            <translation><!-- select --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>text</masterLabel>
+            <translation><!-- text --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Format --></label>
+        <name>AITM_Format__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Editable --></label>
+        <name>AITM_Is_Editable__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Table Footer Field --></label>
+        <name>AITM_Is_Table_Footer_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Label Text --></label>
+        <name>AITM_Label_Text__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sort Order --></label>
+        <name>AITM_Sort_Order__c</name>
+    </fields>
+    <fields>
+        <label><!-- Target Object --></label>
+        <name>AITM_Target_Object__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

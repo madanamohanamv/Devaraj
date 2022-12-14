@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ManagedTopics xmlns="http://soap.sforce.com/2006/04/metadata">
+    <managedTopic>
+        <fullName>CAPL Castrol Custom Community.Navigational:About Us</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>About Us</name>
+        <parentName></parentName>
+        <position>5</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>CAPL Castrol Custom Community.Navigational:CASTROL EDGE PROFESSIONAL</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>CASTROL EDGE PROFESSIONAL</name>
+        <parentName></parentName>
+        <position>7</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>CAPL Castrol Custom Community.Navigational:CASTROL MAGNATEC PROFESSIONAL</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>CASTROL MAGNATEC PROFESSIONAL</name>
+        <parentName></parentName>
+        <position>8</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>CAPL Castrol Custom Community.Navigational:Car Engine Oil</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Car Engine Oil</name>
+        <parentName></parentName>
+        <position>6</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>CAPL Castrol Custom Community.Navigational:Culture</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Culture</name>
+        <parentName></parentName>
+        <position>3</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>CAPL Castrol Custom Community.Navigational:Grow at your Workplace</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Grow at your Workplace</name>
+        <parentName></parentName>
+        <position>0</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>CAPL Castrol Custom Community.Navigational:Know Your Customers</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Know Your Customers</name>
+        <parentName></parentName>
+        <position>1</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>CAPL Castrol Custom Community.Navigational:Personal Development</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Personal Development</name>
+        <parentName></parentName>
+        <position>2</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>CAPL Castrol Custom Community.Navigational:Technology</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Technology</name>
+        <parentName></parentName>
+        <position>4</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+</ManagedTopics>

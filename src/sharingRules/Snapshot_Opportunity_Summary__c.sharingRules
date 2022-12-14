@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingOwnerRules>
+        <fullName>Castrol_Users_Snapshot_Oppo_Summary</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Castrol Users Snapshot Oppo Summary</label>
+        <sharedTo>
+            <group>Castrol_Users</group>
+        </sharedTo>
+        <sharedFrom>
+            <allInternalUsers></allInternalUsers>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

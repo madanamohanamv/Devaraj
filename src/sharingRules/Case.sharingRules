@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingOwnerRules>
+        <fullName>Castrol_Technical_Engineer</fullName>
+        <accessLevel>Read</accessLevel>
+        <description>Sharing all Cases to technical engineers public group containing all TE roles for each cluster.</description>
+        <label>Castrol Technical Engineer</label>
+        <sharedTo>
+            <group>Castrol_Technical_Engineers</group>
+        </sharedTo>
+        <sharedFrom>
+            <allInternalUsers></allInternalUsers>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

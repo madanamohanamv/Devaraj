@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Live Customer Feedback Settings</value>
+    </caseValues>
+    <fields>
+        <label><!-- CX Op. Manager Permission Set Name --></label>
+        <name>CX_Op_Manager_Permission_Set_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Do Not Survey Period --></label>
+        <name>Do_Not_Survey_Period__c</name>
+    </fields>
+    <fields>
+        <label><!-- Do not send surveys older than (days) --></label>
+        <name>Do_not_send_surveys_older_than__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expiry Period In Days --></label>
+        <name>Expiry_Period_In_Days__c</name>
+    </fields>
+    <fields>
+        <label><!-- High Scores Report ID --></label>
+        <name>High_Scores_Report_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Low Score Email Alert URL --></label>
+        <name>Low_Score_Email_Alert_URL__c</name>
+    </fields>
+    <fields>
+        <label><!-- Missed Period In Days --></label>
+        <name>Missed_Period_In_Days__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opt Out Period --></label>
+        <name>Opt_Out_Period__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order Survey API Active --></label>
+        <name>Order_Survey_API_Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Castrol Portal API Key --></label>
+        <name>Portal_API_Key__c</name>
+    </fields>
+    <fields>
+        <help><!-- LCF will send reminder email to customer after specified number of days. --></help>
+        <label><!-- Send Reminder After (Days) --></label>
+        <name>Send_Reminder_After_Days__c</name>
+    </fields>
+    <fields>
+        <help><!-- Run LCF in TEST mode. Only contacts flagged as &quot;Test&quot; will be considered for survey. --></help>
+        <label><!-- Test Mode --></label>
+        <name>Test_Mode__c</name>
+    </fields>
+    <fields>
+        <label><!-- URL --></label>
+        <name>URL__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

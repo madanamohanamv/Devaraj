@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Joint Business Plan</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Joint Business Plans</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>CAJBP_Account__c</name>
+        <relationshipLabel><!-- Joint Business Plans --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Castrol Contribution Amount --></label>
+        <name>CAJBP_Castrol_Contribution_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Completed --></label>
+        <name>CAJBP_Completed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contract Term End Date --></label>
+        <name>CAJBP_Contract_Term_End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contract Term Start Date --></label>
+        <name>CAJBP_Contract_Term_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current Year GFO Gross Margin --></label>
+        <name>CAJBP_Current_Year_GFO_Gross_Margin__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current Year GFO Revenue --></label>
+        <name>CAJBP_Current_Year_GFO_Revenue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current Year GFO Volume --></label>
+        <name>CAJBP_Current_Year_GFO_Volume__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date of JBP Agreed Sign-Off --></label>
+        <name>CAJBP_Date_of_JBP_Agreed_Sign_Off__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date of JBP Reviewed &amp; Closed Sign-Off --></label>
+        <name>CAJBP_Date_of_JBP_Rev_Closing_Sign_Off__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>CAJBP_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- End Date --></label>
+        <name>CAJBP_End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expected Completion Date --></label>
+        <name>CAJBP_Expected_Completion_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- JBP Agreed Customer Contact --></label>
+        <name>CAJBP_JBP_Agreed_Customer_Contact__c</name>
+        <relationshipLabel><!-- Joint Business Plans (JBP Agreed Customer Contact) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Once the JBP has been agreed between the Partner and your Sales Manager, check this box and set the status of this JBP to In Progress. Please ensure that you have uploaded an email confirmation from your customer to this JBP via the Additional tab. --></help>
+        <label><!-- JBP Agreed Sign-Off --></label>
+        <name>CAJBP_JBP_Agreed_Sign_Off__c</name>
+    </fields>
+    <fields>
+        <label><!-- JBP End Date --></label>
+        <name>CAJBP_JBP_End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- JBP Reviewed &amp; Closed Customer Contact --></label>
+        <name>CAJBP_JBP_Rev_Closing_Customer_Contact__c</name>
+        <relationshipLabel><!-- Joint Business Plans (JBP Reviewed &amp; Closed Customer Contact) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Once the JBP has been concluded and reviewed by the Partner and your Sales Manager, check this box and set the status of this JBP to Complete. Please ensure that you have uploaded an email confirmation from your Partner to this JBP via the Additional tab. --></help>
+        <label><!-- JBP Reviewed &amp; Closed Sign-Off --></label>
+        <name>CAJBP_JBP_Reviewed_Closed_Sign_Off__c</name>
+    </fields>
+    <fields>
+        <label><!-- JBP Start Date --></label>
+        <name>CAJBP_JBP_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- JBP Volume Target --></label>
+        <name>CAJBP_JBP_Volume_Target__c</name>
+    </fields>
+    <fields>
+        <label><!-- Joint Business Plan Name --></label>
+        <name>CAJBP_Joint_Business_Plan_NameURL__c</name>
+    </fields>
+    <fields>
+        <label><!-- Joint Business Plan Name --></label>
+        <name>CAJBP_Joint_Business_Plan_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Partner Contribution Amount --></label>
+        <name>CAJBP_Partner_Contribution_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Partner Current Year GFO Gross Margin --></label>
+        <name>CAJBP_Partner_Current_Year_GFO_Gross_Mar__c</name>
+    </fields>
+    <fields>
+        <label><!-- Partner Current Year GFO Revenue --></label>
+        <name>CAJBP_Partner_Current_Year_GFO_Revenue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Partner Current Year GFO Volume --></label>
+        <name>CAJBP_Partner_Current_Year_GFO_Volume__c</name>
+    </fields>
+    <fields>
+        <label><!-- Partner JBP Revenue Target --></label>
+        <name>CAJBP_Partner_JBP_Revenue_Target__c</name>
+    </fields>
+    <fields>
+        <label><!-- Partner JBP Volumte Target --></label>
+        <name>CAJBP_Partner_JBP_Volumte_Target__c</name>
+    </fields>
+    <fields>
+        <label><!-- Partner Prev. Full Year Gross Margin Act --></label>
+        <name>CAJBP_Partner_Prev_Full_Y_Gross_Marg_Act__c</name>
+    </fields>
+    <fields>
+        <label><!-- Partner Previous Full Year Volume Actual --></label>
+        <name>CAJBP_Partner_Prev_Full_Year_Volume_Act__c</name>
+    </fields>
+    <fields>
+        <label><!-- Partner YTD Gross Margin Actuals --></label>
+        <name>CAJBP_Partner_YTD_Gross_Margin_Actuals__c</name>
+    </fields>
+    <fields>
+        <label><!-- Partner YTD Revenue Actuals --></label>
+        <name>CAJBP_Partner_YTD_Revenue_Actuals__c</name>
+    </fields>
+    <fields>
+        <help><!-- Up-to previous invoiced month --></help>
+        <label><!-- Partner YTD Revenue Targets --></label>
+        <name>CAJBP_Partner_YTD_Revenue_Targets__c</name>
+    </fields>
+    <fields>
+        <help><!-- Litre --></help>
+        <label><!-- Partner YTD Volume Actuals --></label>
+        <name>CAJBP_Partner_YTD_Volume_Actuals__c</name>
+    </fields>
+    <fields>
+        <help><!-- Litre --></help>
+        <label><!-- Partner YTD Volume Targets --></label>
+        <name>CAJBP_Partner_YTD_Volume_Targets__c</name>
+    </fields>
+    <fields>
+        <label><!-- Previous Full Year Gross Margin Actuals --></label>
+        <name>CAJBP_Prev_Full_Year_Gross_Margin_Act__c</name>
+    </fields>
+    <fields>
+        <label><!-- Previous Full Year Revenue Actuals --></label>
+        <name>CAJBP_Previous_Full_Year_Revenue_Actuals__c</name>
+    </fields>
+    <fields>
+        <help><!-- Litre --></help>
+        <label><!-- Previous Full Year Volume Actuals --></label>
+        <name>CAJBP_Previous_Full_Year_Volume_Actuals__c</name>
+    </fields>
+    <fields>
+        <label><!-- Record Type --></label>
+        <name>CAJBP_Record_Type__c</name>
+        <picklistValues>
+            <masterLabel>External</masterLabel>
+            <translation><!-- External --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internal</masterLabel>
+            <translation><!-- Internal --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The Moving Annual Total (MAT) is calculated based on the YTD Actuals divided by the amount of months gone multiplied by 12. --></help>
+        <label><!-- Sell-In Previous Year MAT Turnover --></label>
+        <name>CAJBP_Sell_In_Previous_Year_MAT_Turnover__c</name>
+    </fields>
+    <fields>
+        <help><!-- The Moving Annual Total (MAT) is calculated based on the YTD Actuals divided by the amount of months gone multiplied by 12. --></help>
+        <label><!-- Sell-In Previous Year MAT Volume --></label>
+        <name>CAJBP_Sell_In_Previous_Year_MAT_Volume__c</name>
+    </fields>
+    <fields>
+        <help><!-- Fill out the relevant latest actuals and your MAT will be calculated based on the last full calendar month. --></help>
+        <label><!-- Sell-In YTD Turnover Actuals / Exit No. --></label>
+        <name>CAJBP_Sell_In_YTD_Turnover_ActualsExitNo__c</name>
+    </fields>
+    <fields>
+        <help><!-- Fill out the relevant latest actuals and your MAT will be calculated based on the last full calendar month. --></help>
+        <label><!-- Sell-In YTD Volume Actuals / Exit No. --></label>
+        <name>CAJBP_Sell_In_YTD_Volume_Actuals_Exit_No__c</name>
+    </fields>
+    <fields>
+        <help><!-- The Moving Annual Total (MAT) is calculated based on the YTD Actuals divided by the amount of months gone multiplied by 12. --></help>
+        <label><!-- Sell-Out Previous Year MAT Turnover --></label>
+        <name>CAJBP_Sell_Out_Previous_Year_MATTurnover__c</name>
+    </fields>
+    <fields>
+        <help><!-- The Moving Annual Total (MAT) is calculated based on the YTD Actuals divided by the amount of months gone multiplied by 12. --></help>
+        <label><!-- Sell-Out Previous Year MAT Volume --></label>
+        <name>CAJBP_Sell_Out_Previous_Year_MAT_Volume__c</name>
+    </fields>
+    <fields>
+        <help><!-- Fill out the relevant latest actuals and your MAT will be calculated based on the last full calendar month. --></help>
+        <label><!-- Sell-Out YTD Volume Actuals / Exit No. --></label>
+        <name>CAJBP_Sell_Out_YTD_Volume_Actuals_ExitNo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Start Date --></label>
+        <name>CAJBP_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- State --></label>
+        <name>CAJBP_State__c</name>
+        <picklistValues>
+            <masterLabel>Closed</masterLabel>
+            <translation><!-- Closed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Draft</masterLabel>
+            <translation><!-- Draft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Withdrawn</masterLabel>
+            <translation><!-- Withdrawn --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Total Joint Activity Fund --></label>
+        <name>CAJBP_Total_Joint_Activity_Fund__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>CAJBP_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vision Statement --></label>
+        <name>CAJBP_Vision_Statement__c</name>
+    </fields>
+    <fields>
+        <label><!-- YTD Gross Margin Actuals --></label>
+        <name>CAJBP_YTD_Gross_Margin_Actuals__c</name>
+    </fields>
+    <fields>
+        <help><!-- Up-to previous invoiced month --></help>
+        <label><!-- YTD Revenue Targets --></label>
+        <name>CAJBP_YTD_Revenue_Targets__c</name>
+    </fields>
+    <fields>
+        <help><!-- Litre --></help>
+        <label><!-- YTD Volume Actuals --></label>
+        <name>CAJBP_YTD_Volume_Actuals__c</name>
+    </fields>
+    <fields>
+        <help><!-- Litre --></help>
+        <label><!-- YTD Volume Targets --></label>
+        <name>CAJBP_YTD_Volume_Targets__c</name>
+    </fields>
+    <fields>
+        <label><!-- Year --></label>
+        <name>CAJBP_Year__c</name>
+    </fields>
+    <fields>
+        <label><!-- # of JAF --></label>
+        <name>CAJBP_of_JAF__c</name>
+    </fields>
+    <fields>
+        <label><!-- Partner Prev. Full Year Revenue Actual --></label>
+        <name>CAJB_Partner_Prev_Full_Year_Revenue_Act__c</name>
+    </fields>
+    <fields>
+        <label><!-- JBP Revenue Target --></label>
+        <name>JBP_Revenue_Target__c</name>
+    </fields>
+    <fields>
+        <help><!-- Fill out the relevant latest actuals and your MAT will be calculated based on the last full calendar month. --></help>
+        <label><!-- Sell-Out YTD Turnover Actuals / Exit No. --></label>
+        <name>Sell_Out_YTD_Turnover_Actuals_Exit_No__c</name>
+    </fields>
+    <fields>
+        <label><!-- YTD Revenue Actuals --></label>
+        <name>YTD_Revenue_Actuals__c</name>
+    </fields>
+    <layouts>
+        <layout>Joint Business Plan Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Previous Year Turnover Actuals --></label>
+            <section>Previous Year Turnover Actuals</section>
+        </sections>
+        <sections>
+            <label><!-- Previous Year Volume Actuals --></label>
+            <section>Previous Year Volume Actuals</section>
+        </sections>
+        <sections>
+            <label><!-- Sign Offs --></label>
+            <section>Sign Offs</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Quick Page Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- JBP Export --></label>
+        <name>CAJBP_JBP_Export_PDF</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Business SWOT --></label>
+        <name>CAJBP_New_Business_SWOT</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Customer SWOT --></label>
+        <name>CAJBP_New_Customer_SWOT</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Objective --></label>
+        <name>CAJBP_New_Objective</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Risk --></label>
+        <name>CAJBP_New_Risk</name>
+    </quickActions>
+    <recordTypes>
+        <label><!-- Direct JBP --></label>
+        <name>CAJBP_Direct_JBP</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Direct Joint Business Plan --></label>
+        <name>CAJBP_Direct_Joint_Business_Plan</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Indirect JBP --></label>
+        <name>CAJBP_Indirect_JBP</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Indirect Joint Business Plan --></label>
+        <name>CAJBP_Indirect_Joint_Business_Plan</name>
+    </recordTypes>
+    <sharingReasons>
+        <label><!-- Sharing To JBP Team Member --></label>
+        <name>Sharing_To_JBP_Team_Member</name>
+    </sharingReasons>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- You are not able to create JBP record in the past. --></errorMessage>
+        <name>CAJB_Can_not_create_JBP_for_prev_year</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You are able to insert only 4 digits. --></errorMessage>
+        <name>Check_text_in_year_field</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Conga_Composer_JBP_Export --></label>
+        <name>Conga_Composer_JBP_Export</name>
+    </webLinks>
+</CustomObjectTranslation>

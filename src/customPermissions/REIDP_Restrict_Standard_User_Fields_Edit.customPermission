@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomPermission xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>This Custom Permission is used by Validation Rule on User object to restrict editing of Standard User Fields</description>
+    <label>RE IDP Restrict Standard User Fields Edit</label>
+</CustomPermission>

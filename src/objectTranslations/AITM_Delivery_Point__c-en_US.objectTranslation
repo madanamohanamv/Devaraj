@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Delivery Point</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Delivery Points</value>
+    </caseValues>
+    <fields>
+        <label><!-- Additional Refueling Information --></label>
+        <name>AITM_Additional_Refueling_Information__c</name>
+    </fields>
+    <fields>
+        <label><!-- Airport Into Plane Provider/Bulk Name --></label>
+        <name>AITM_Airport_IntoPlane_Provider_BulkName__c</name>
+    </fields>
+    <fields>
+        <label><!-- BP Internal Location+Delivery Point Code --></label>
+        <name>AITM_BPInter_Location_DeliveryPoint_Cod__c</name>
+    </fields>
+    <fields>
+        <label><!-- CA Pricing Responsibility --></label>
+        <name>AITM_CA_Pricing_Responsibility1__c</name>
+        <relationshipLabel><!-- Delivery Points (CA Pricing Responsibility) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- To change/edit go to user master record --></help>
+        <label><!-- CA Pricing Responsibility Delegates --></label>
+        <name>AITM_CA_Pricing_ResponsibilityDeligates1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Currency --></label>
+        <name>AITM_Currency__c</name>
+    </fields>
+    <fields>
+        <label><!-- Default Delivery Point --></label>
+        <name>AITM_Default_Delivery_Point__c</name>
+    </fields>
+    <fields>
+        <label><!-- Default --></label>
+        <name>AITM_Default__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delivery By --></label>
+        <name>AITM_Delivery_By__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delivery Method --></label>
+        <name>AITM_Delivery_Method__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delivery Point External Name --></label>
+        <name>AITM_Delivery_Point_External_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delivery Point Number --></label>
+        <name>AITM_Delivery_Point_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delivery Point Unique ID --></label>
+        <name>AITM_Delivery_Point_Unique_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Density --></label>
+        <name>AITM_Density__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email IDs (for Airport Notification) --></label>
+        <name>AITM_Email_IDs_for_Airport_Notification__c</name>
+    </fields>
+    <fields>
+        <label><!-- Floor Price --></label>
+        <name>AITM_Floor_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fuel Provider Service Area AllLocations --></label>
+        <name>AITM_FuelProviderServiceAreaAllLocations__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Fuel Provider Service Area --></label>
+        <name>AITM_Fuel_Provider_Service_Area_Display__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fuel Provider Service Area Other --></label>
+        <name>AITM_Fuel_Provider_Service_Area_Other__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fuel Provider Service Area --></label>
+        <name>AITM_Fuel_Provider_Service_Area__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fueling Available (Out of Hours) --></label>
+        <name>AITM_Fueling_Available_Out_of_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- GA Pricing Responsibility --></label>
+        <name>AITM_GA_Pricing_Responsibility1__c</name>
+        <relationshipLabel><!-- Delivery Points (GA Pricing Responsibility) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- To change/edit go to user master record --></help>
+        <label><!-- GA Pricing Responsibility Delegates --></label>
+        <name>AITM_GA_Pricing_ResponsibilityDeligates1__c</name>
+    </fields>
+    <fields>
+        <label><!-- IATA --></label>
+        <name>AITM_IATA__c</name>
+    </fields>
+    <fields>
+        <label><!-- ICAO --></label>
+        <name>AITM_ICAO__c</name>
+    </fields>
+    <fields>
+        <label><!-- Info --></label>
+        <name>AITM_Info__c</name>
+    </fields>
+    <fields>
+        <label><!-- Internal Code --></label>
+        <name>AITM_Internal_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Location Manager --></label>
+        <name>AITM_Location_Manager1__c</name>
+        <relationshipLabel><!-- Delivery Points (Location Manager) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Location --></label>
+        <name>AITM_Location__c</name>
+        <relationshipLabel><!-- Delivery Points --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Measure --></label>
+        <name>AITM_Measure__c</name>
+    </fields>
+    <fields>
+        <label><!-- Notice Required for Out of Hours Fueling --></label>
+        <name>AITM_NoticeRequired_for_OutofHrs_Fueling__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opening Hours --></label>
+        <name>AITM_Opening_Hours__c</name>
+    </fields>
+    <fields>
+        <help><!-- Is there an INTO-Plane Business? Is there any ITP Business? Is it a CSA? --></help>
+        <label><!-- Operating Model --></label>
+        <name>AITM_Operating_Model__c</name>
+        <picklistValues>
+            <masterLabel>3rd Party ITP</masterLabel>
+            <translation><!-- 3rd Party ITP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Agencies</masterLabel>
+            <translation><!-- Agencies --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BP ITP</masterLabel>
+            <translation><!-- BP ITP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CSAs</masterLabel>
+            <translation><!-- CSAs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JV ITP</masterLabel>
+            <translation><!-- JV ITP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Pricing Basis CA --></label>
+        <name>AITM_Pricing_Basis_CA__c</name>
+        <relationshipLabel><!-- Delivery Points --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Pricing Basis GA --></label>
+        <name>AITM_Pricing_Basis_GA__c</name>
+        <relationshipLabel><!-- Delivery Points (Pricing Basis GA) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Product Default --></label>
+        <name>AITM_Product_Default__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Specification --></label>
+        <name>AITM_Product_Specification__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product --></label>
+        <name>AITM_Product__c</name>
+    </fields>
+    <fields>
+        <label><!-- Service Level Provided --></label>
+        <name>AITM_Service_Level_Provided__c</name>
+    </fields>
+    <fields>
+        <label><!-- Solus Location --></label>
+        <name>AITM_Solus_Location__c</name>
+    </fields>
+    <fields>
+        <label><!-- Taxes &amp; Fees --></label>
+        <name>AITM_Taxes_Fees__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unit of Measure --></label>
+        <name>AITM_Unit_of_Measure__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fuel Provider Service Area PDF Display --></label>
+        <name>Fuel_Provider_Service_Area_PDF_Display__c</name>
+    </fields>
+    <layouts>
+        <layout>Delivery Point Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

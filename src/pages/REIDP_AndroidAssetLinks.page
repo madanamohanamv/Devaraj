@@ -1,0 +1,28 @@
+<!--
+ * @author Nazim Aliyev
+ * @company Bluewolf, an IBM Company
+ * @date 6/2017
+ *
+ * This is Digital Asset Links file, required for Android App to handle links on this domain.
+ * As described in https://developer.android.com/training/app-links/index.html
+-->
+<apex:page contentType="application/json" showHeader="false" sidebar="false">
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.bp.mobile.bpme.uk",
+    "sha256_cert_fingerprints":
+    ["47:F8:C5:8F:53:80:07:12:6F:0B:45:0B:4E:B4:EB:17:1F:4B:79:02:96:12:3D:CF:97:E2:CC:0D:23:BF:A8:EE"]
+  }
+  },
+  {
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.bp.mobile.bpme.aus",
+    "sha256_cert_fingerprints":
+    ["47:F8:C5:8F:53:80:07:12:6F:0B:45:0B:4E:B4:EB:17:1F:4B:79:02:96:12:3D:CF:97:E2:CC:0D:23:BF:A8:EE"]
+  }
+}]
+</apex:page>

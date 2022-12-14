@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>REIDP Community Email Template</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>REIDP Community Email Templates</value>
+    </caseValues>
+    <fields>
+        <label><!-- Community Name --></label>
+        <name>Community_Name__c</name>
+        <picklistValues>
+            <masterLabel>BP</masterLabel>
+            <translation><!-- BP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Castrol</masterLabel>
+            <translation><!-- Castrol --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Organization-Wide Address --></label>
+        <name>Organization_Wide_Address__c</name>
+        <picklistValues>
+            <masterLabel>accounts_team@bp.com</masterLabel>
+            <translation><!-- accounts_team@bp.com --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>accountsteam@castrol.com</masterLabel>
+            <translation><!-- accountsteam@castrol.com --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>Type__c</name>
+        <picklistValues>
+            <masterLabel>Activated</masterLabel>
+            <translation><!-- Activated --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deactivated</masterLabel>
+            <translation><!-- Deactivated --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invite</masterLabel>
+            <translation><!-- Invite --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lockout</masterLabel>
+            <translation><!-- Lockout --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Migrate</masterLabel>
+            <translation><!-- Migrate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NewPermissions</masterLabel>
+            <translation><!-- NewPermissions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RemovedPermissions</masterLabel>
+            <translation><!-- RemovedPermissions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support</masterLabel>
+            <translation><!-- Support --></translation>
+        </picklistValues>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

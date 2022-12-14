@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Opportunity Competitor</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Opportunity Competitors</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account Name --></label>
+        <name>Account_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Competitor --></label>
+        <lookupFilter>
+            <errorMessage><!-- This Competitor is not available for selection for your Business Unit. --></errorMessage>
+        </lookupFilter>
+        <name>Competitor2__c</name>
+        <relationshipLabel><!-- Opportunity Competitors --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Competitor Name --></label>
+        <name>Competitor_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Only keep this box checked if this is the main competitor. If you try to add two main competitors, the old one will get automatically un-checked. --></help>
+        <label><!-- Main Competitor --></label>
+        <name>Main_Competitor__c</name>
+    </fields>
+    <fields>
+        <label><!-- MigrationID --></label>
+        <name>MigrationID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Notes --></label>
+        <name>Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Volume Share --></label>
+        <name>Opportunity_Competitor_Share__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Owner --></label>
+        <name>Opportunity_Owner__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity --></label>
+        <name>Opportunity__c</name>
+        <relationshipLabel><!-- Opportunity Competitors --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Competitor Name (If Other) --></label>
+        <name>Other_Competitor_Name__c</name>
+    </fields>
+    <layouts>
+        <layout>Castrol_OpportunityCompetitorLayout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Notes --></label>
+            <section>Notes</section>
+        </sections>
+    </layouts>
+    <startsWith>Vowel</startsWith>
+    <validationRules>
+        <errorMessage><!-- Please enter Volume Share between 1% and 100% --></errorMessage>
+        <name>CASFO_Percentage_must_be_between_1_100</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please select the competitor. If the competitor cannot be found select &quot;Other&quot; and type the competitor name. --></errorMessage>
+        <name>Competitor_Name_or_Other_Details</name>
+    </validationRules>
+</CustomObjectTranslation>

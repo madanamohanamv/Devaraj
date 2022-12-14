@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomSite xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <allowHomePage>false</allowHomePage>
+    <allowStandardAnswersPages>false</allowStandardAnswersPages>
+    <allowStandardIdeasPages>false</allowStandardIdeasPages>
+    <allowStandardLookups>false</allowStandardLookups>
+    <allowStandardPortalPages>true</allowStandardPortalPages>
+    <allowStandardSearch>false</allowStandardSearch>
+    <authorizationRequiredPage>CastrolSurvey_401_Error</authorizationRequiredPage>
+    <bandwidthExceededPage>CastrolSurvey_509_Error</bandwidthExceededPage>
+    <browserXssProtection>false</browserXssProtection>
+    <clickjackProtectionLevel>AllowAllFraming</clickjackProtectionLevel>
+    <contentSniffingProtection>false</contentSniffingProtection>
+    <cspUpgradeInsecureRequests>false</cspUpgradeInsecureRequests>
+    <description>Survey Site used by LCF application</description>
+    <fileNotFoundPage>CastrolSurvey_404_Error</fileNotFoundPage>
+    <genericErrorPage>CastrolSurvey_Exception_Error</genericErrorPage>
+    <inMaintenancePage>CastrolSurvey_Maintenance_Error</inMaintenancePage>
+    <inactiveIndexPage>CastrolSurvey_Maintenance_Error</inactiveIndexPage>
+    <indexPage>CastrolSurvey</indexPage>
+    <masterLabel>Survey</masterLabel>
+    <referrerPolicyOriginWhenCrossOrigin>false</referrerPolicyOriginWhenCrossOrigin>
+    <requireHttps>true</requireHttps>
+    <requireInsecurePortalAccess>false</requireInsecurePortalAccess>
+    <siteAdmin>system.admin@bp.sfo.mvp</siteAdmin>
+    <siteTemplate>SiteTemplate</siteTemplate>
+    <siteType>Visualforce</siteType>
+    <subdomain>bpcustomers</subdomain>
+    <urlPathPrefix>Survey</urlPathPrefix>
+</CustomSite>

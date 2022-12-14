@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assignments>
+        <name>Set_Default_Account_Owner</name>
+        <label>Set Default Account Owner</label>
+        <locationX>539</locationX>
+        <locationY>314</locationY>
+        <assignmentItems>
+            <assignToReference>Account.OwnerId</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>CurrentUserID</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Set_the_Owner_of_the_Account</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Set_the_Owner_ID</name>
+        <label>Set the Owner ID</label>
+        <locationX>239</locationX>
+        <locationY>422</locationY>
+        <assignmentItems>
+            <assignToReference>Account.OwnerId</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>SalesManagerUser.Id</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Set_the_Owner_of_the_Account</targetReference>
+        </connector>
+    </assignments>
+    <constants>
+        <description>The constant for the default account owner</description>
+        <name>DefaultAccountOwner</name>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>DEFAULT</stringValue>
+        </value>
+    </constants>
+    <decisions>
+        <name>Check_Default_Account_Owner</name>
+        <label>Check Default Account Owner</label>
+        <locationX>366</locationX>
+        <locationY>109</locationY>
+        <defaultConnector>
+            <targetReference>Set_Default_Account_Owner</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>[Default Outcome]</defaultConnectorLabel>
+        <rules>
+            <name>NamedUser</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Account.Sales_Manager_NTID__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <elementReference>DefaultAccountOwner</elementReference>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>Account.Sales_Manager_NTID__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Get_User_ID</targetReference>
+            </connector>
+            <label>Named User</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Sales_Manager</name>
+        <label>Sales Manager</label>
+        <locationX>231</locationX>
+        <locationY>323</locationY>
+        <defaultConnector>
+            <targetReference>Set_the_Owner_ID</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>[Default Outcome]</defaultConnectorLabel>
+        <rules>
+            <name>NOT_Found_in_Salesforce</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>SalesManagerUser.LastName</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Set_Default_Account_Owner</targetReference>
+            </connector>
+            <label>Not Found in Salesforce</label>
+        </rules>
+    </decisions>
+    <description>Set the owner of the account record based on the Sales Manager NTID. If the Sales Manager is not found or DEFAULT then set the owner to be the current user</description>
+    <formulas>
+        <description>The ID of the current user</description>
+        <name>CurrentUserID</name>
+        <dataType>String</dataType>
+        <expression>{!$User.Id}</expression>
+    </formulas>
+    <interviewLabel>Set Owner of Account Based on Sales Manager NTID {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Set Owner of Account Based on Sales Manager NTID</label>
+    <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <name>Get_User_ID</name>
+        <label>Get User ID</label>
+        <locationX>227</locationX>
+        <locationY>229</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Sales_Manager</targetReference>
+        </connector>
+        <faultConnector>
+            <targetReference>Set_Default_Account_Owner</targetReference>
+        </faultConnector>
+        <filters>
+            <field>NTID__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>Account.Sales_Manager_NTID__c</elementReference>
+            </value>
+        </filters>
+        <object>User</object>
+        <outputReference>SalesManagerUser</outputReference>
+        <queriedFields>Id</queriedFields>
+        <queriedFields>LastName</queriedFields>
+    </recordLookups>
+    <recordLookups>
+        <name>GetAccount</name>
+        <label>GetAccount</label>
+        <locationX>365</locationX>
+        <locationY>15</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Check_Default_Account_Owner</targetReference>
+        </connector>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>AccountID</elementReference>
+            </value>
+        </filters>
+        <object>Account</object>
+        <outputReference>Account</outputReference>
+        <queriedFields>Sales_Manager_NTID__c</queriedFields>
+        <queriedFields>OwnerId</queriedFields>
+    </recordLookups>
+    <recordUpdates>
+        <name>Set_the_Owner_of_the_Account</name>
+        <label>Set the Owner of the Account</label>
+        <locationX>396</locationX>
+        <locationY>501</locationY>
+        <inputReference>Account</inputReference>
+    </recordUpdates>
+    <startElementReference>GetAccount</startElementReference>
+    <status>Active</status>
+    <variables>
+        <name>Account</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+        <objectType>Account</objectType>
+    </variables>
+    <variables>
+        <name>AccountID</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>SalesManagerUser</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <objectType>User</objectType>
+    </variables>
+</Flow>

@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Product Mix Target</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Product Mix Targets</value>
+    </caseValues>
+    <fields>
+        <label><!-- Actual Volume Target --></label>
+        <name>CAJBP_Actual_Volume_Target__c</name>
+    </fields>
+    <fields>
+        <label><!-- Actual Volume --></label>
+        <name>CAJBP_Actual_Volume__c</name>
+    </fields>
+    <fields>
+        <label><!-- Annual Volume Target --></label>
+        <name>CAJBP_Annual_Volume_Target__c</name>
+    </fields>
+    <fields>
+        <label><!-- Annual Volume --></label>
+        <name>CAJBP_Annual_Volume__c</name>
+    </fields>
+    <fields>
+        <label><!-- Joint Business Plan --></label>
+        <name>CAJBP_Joint_Business_Plan__c</name>
+        <relationshipLabel><!-- Product Mix Targets --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Pence Per Litre Rebate Q1 --></label>
+        <name>CAJBP_Pence_Per_Litre_Rebate_Q1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pence Per Litre Rebate Q2 --></label>
+        <name>CAJBP_Pence_Per_Litre_Rebate_Q2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pence Per Litre Rebate Q3 --></label>
+        <name>CAJBP_Pence_Per_Litre_Rebate_Q3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pence Per Litre Rebate Q4 --></label>
+        <name>CAJBP_Pence_Per_Litre_Rebate_Q4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pence Per Litre Rebate --></label>
+        <name>CAJBP_Pence_Per_Litre_Rebate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Percentage Rebate Q1 --></label>
+        <name>CAJBP_Percentage_Rebate_Q1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Percentage Rebate Q2 --></label>
+        <name>CAJBP_Percentage_Rebate_Q2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Percentage Rebate Q3 --></label>
+        <name>CAJBP_Percentage_Rebate_Q3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Percentage Rebate Q4 --></label>
+        <name>CAJBP_Percentage_Rebate_Q4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Percentage Rebate --></label>
+        <name>CAJBP_Percentage_Rebate__c</name>
+    </fields>
+    <fields>
+        <help><!-- Please choose either Product Variant or Product Brand to create a rebate for tracking JBP against. --></help>
+        <label><!-- Product Variant --></label>
+        <name>CAJBP_Product_Variant__c</name>
+        <relationshipLabel><!-- Product Mix Targets --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Q1 Actual Volume --></label>
+        <name>CAJBP_Q1_Actual_Volume__c</name>
+    </fields>
+    <fields>
+        <label><!-- Q1 Volume Target --></label>
+        <name>CAJBP_Q1_Volume_Target__c</name>
+    </fields>
+    <fields>
+        <label><!-- Q2 Actual Volume --></label>
+        <name>CAJBP_Q2_Actual_Volume__c</name>
+    </fields>
+    <fields>
+        <label><!-- Q2 Volume Target --></label>
+        <name>CAJBP_Q2_Volume_Target__c</name>
+    </fields>
+    <fields>
+        <label><!-- Q3 Actual Volume --></label>
+        <name>CAJBP_Q3_Actual_Volume__c</name>
+    </fields>
+    <fields>
+        <label><!-- Q3 Volume Target --></label>
+        <name>CAJBP_Q3_Volume_Target__c</name>
+    </fields>
+    <fields>
+        <label><!-- Q4 Actual Volume --></label>
+        <name>CAJBP_Q4_Actual_Volume__c</name>
+    </fields>
+    <fields>
+        <label><!-- Q4 Volume Target --></label>
+        <name>CAJBP_Q4_Volume_Target__c</name>
+    </fields>
+    <fields>
+        <label><!-- Remaining Volume Required --></label>
+        <name>CAJBP_Remaining_Volume_Required__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Volume Target --></label>
+        <name>CAJBP_Total_Volume_Target__c</name>
+    </fields>
+    <fields>
+        <label><!-- or --></label>
+        <name>CAJBP_or__c</name>
+    </fields>
+    <fields>
+        <help><!-- Please choose either Product Variant or Product Brand to create a rebate for tracking JBP against. --></help>
+        <label><!-- Product Brand --></label>
+        <name>Product_Brand__c</name>
+        <picklistValues>
+            <masterLabel>Alusol</masterLabel>
+            <translation><!-- Alusol --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brayco</masterLabel>
+            <translation><!-- Brayco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CRB</masterLabel>
+            <translation><!-- CRB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EDGE</masterLabel>
+            <translation><!-- EDGE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GTX</masterLabel>
+            <translation><!-- GTX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hysol</masterLabel>
+            <translation><!-- Hysol --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Magnatec</masterLabel>
+            <translation><!-- Magnatec --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Molub-Alloy</masterLabel>
+            <translation><!-- Molub-Alloy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Optigear</masterLabel>
+            <translation><!-- Optigear --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Power 1</masterLabel>
+            <translation><!-- Power 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Syntilo</masterLabel>
+            <translation><!-- Syntilo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tribol</masterLabel>
+            <translation><!-- Tribol --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vecton</masterLabel>
+            <translation><!-- Vecton --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Annual Sell-In PPL Rebate</layout>
+        <sections>
+            <label><!-- Actuals --></label>
+            <section>Actuals</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Annual Sell-In Percentage Rebate</layout>
+        <sections>
+            <label><!-- Actuals --></label>
+            <section>Actuals</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Annual Sell-Out PPL Rebate</layout>
+        <sections>
+            <label><!-- Actuals --></label>
+            <section>Actuals</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Annual Sell-Out Percentage Rebate</layout>
+        <sections>
+            <label><!-- Actuals --></label>
+            <section>Actuals</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Quarterly Sell-In PPL Rebate</layout>
+        <sections>
+            <label><!-- Actuals --></label>
+            <section>Actuals</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Quarterly Sell-In Percentage Rebate</layout>
+        <sections>
+            <label><!-- Actuals --></label>
+            <section>Actuals</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Quarterly Sell-Out PPL Rebate</layout>
+        <sections>
+            <label><!-- Actuals --></label>
+            <section>Actuals</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Quarterly Sell-Out Percentage Rebate</layout>
+        <sections>
+            <label><!-- Actuals --></label>
+            <section>Actuals</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Annual Sell-In PPL Rebate --></label>
+        <name>CAJBP_Annual_Sell_In_PPL_Rebate</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Annual Sell-In Percentage Rebate --></label>
+        <name>CAJBP_Annual_Sell_In_Percentage_Rebate</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Annual Sell-Out PPL Rebate --></label>
+        <name>CAJBP_Annual_Sell_Out_PPL_Rebate</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Annual Sell-Out Percentage Rebate --></label>
+        <name>CAJBP_Annual_Sell_Out_Percentage_Rebate</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Quarterly Sell-In PPL Rebate --></label>
+        <name>CAJBP_Quarterly_Sell_In_PPL_Rebate</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Quarterly Sell-In Percentage Rebate --></label>
+        <name>CAJBP_Quarterly_Sell_In_Percentage_Rebate</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Quarterly Sell-Out PPL Rebate --></label>
+        <name>CAJBP_Quarterly_Sell_Out_PPL_Rebate</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Quarterly Sell-Out Percentage Rebate --></label>
+        <name>CAJBP_Quarterly_Sell_Out_Percentage_Rebate</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>LCF Operations Manager Settings</value>
+    </caseValues>
+    <fields>
+        <label><!-- Operations Manager Email --></label>
+        <name>Operations_Manager_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Operations Manager First Name --></label>
+        <name>Operations_Manager_First_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Organization --></label>
+        <name>Sales_Organization__c</name>
+    </fields>
+    <fields>
+        <label><!-- Survey Type --></label>
+        <name>Survey_Type__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

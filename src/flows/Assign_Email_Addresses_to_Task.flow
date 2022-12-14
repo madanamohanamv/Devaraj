@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assignments>
+        <name>Assign_Primary_and_Secondary_Email_Addresses</name>
+        <label>Assign Primary and Secondary Email Addresses</label>
+        <locationX>506</locationX>
+        <locationY>321</locationY>
+        <assignmentItems>
+            <assignToReference>TaskToUpdate.Send_Task_Primary_Email__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>PrimaryEmailAddress</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>TaskToUpdate.Send_Task_Secondary_Email__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>SecondaryEmailAddress</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>TaskToUpdate.Send_Task_Display_Name__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>DisplayName</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Update_Task</targetReference>
+        </connector>
+    </assignments>
+    <description>Assigns Email Addresses to Task for Sending Task as Email</description>
+    <interviewLabel>Assign Email Addresses to Task  {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Assign Email Addresses to Task</label>
+    <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <name>Get_Email_Addresses_from_Send_Task_Settings</name>
+        <label>Get Email Addresses from Send Task Settings</label>
+        <locationX>111</locationX>
+        <locationY>43</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Get_Task_to_Update</targetReference>
+        </connector>
+        <filters>
+            <field>Name</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>SendTaskSettingName</elementReference>
+            </value>
+        </filters>
+        <object>Send_Task_Settings__c</object>
+        <outputAssignments>
+            <assignToReference>DisplayName</assignToReference>
+            <field>Display_Name__c</field>
+        </outputAssignments>
+        <outputAssignments>
+            <assignToReference>PrimaryEmailAddress</assignToReference>
+            <field>Primary_Email__c</field>
+        </outputAssignments>
+        <outputAssignments>
+            <assignToReference>SecondaryEmailAddress</assignToReference>
+            <field>Secondary_Email__c</field>
+        </outputAssignments>
+    </recordLookups>
+    <recordLookups>
+        <name>Get_Task_to_Update</name>
+        <label>Get Task to Update</label>
+        <locationX>300</locationX>
+        <locationY>183</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Assign_Primary_and_Secondary_Email_Addresses</targetReference>
+        </connector>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>TaskId</elementReference>
+            </value>
+        </filters>
+        <object>Task</object>
+        <outputReference>TaskToUpdate</outputReference>
+        <queriedFields>Id</queriedFields>
+        <queriedFields>Send_Task_Primary_Email__c</queriedFields>
+        <queriedFields>Send_Task_Secondary_Email__c</queriedFields>
+    </recordLookups>
+    <recordUpdates>
+        <name>Update_Task</name>
+        <label>Update Task</label>
+        <locationX>676</locationX>
+        <locationY>440</locationY>
+        <inputReference>TaskToUpdate</inputReference>
+    </recordUpdates>
+    <startElementReference>Get_Email_Addresses_from_Send_Task_Settings</startElementReference>
+    <status>Active</status>
+    <variables>
+        <description>The display name from the custom settings</description>
+        <name>DisplayName</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <description>The primary email address obtained from the Send Task by Email settings</description>
+        <name>PrimaryEmailAddress</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <description>The secondary email address brought back from Send Task As Email Settings to be stamped on Task record</description>
+        <name>SecondaryEmailAddress</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <description>The name of the Send Task Setting stamped on the Task record</description>
+        <name>SendTaskSettingName</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <description>The Task Id of the record to be updated</description>
+        <name>TaskId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <description>The Task To Update</description>
+        <name>TaskToUpdate</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <objectType>Task</objectType>
+    </variables>
+</Flow>

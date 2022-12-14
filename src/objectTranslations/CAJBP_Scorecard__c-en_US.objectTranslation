@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Scorecard</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Scorecards</value>
+    </caseValues>
+    <fields>
+        <label><!-- Joint Business Plan --></label>
+        <name>CAJBP_Joint_Business_Plan__c</name>
+        <relationshipLabel><!-- Scorecards --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- The Moving Annual Total (MAT) is calculated based on the YTD Actuals divided by the amount of months gone multiplied by 12. --></help>
+        <label><!-- Sell-In Current Year MAT Turnover --></label>
+        <name>CAJBP_Sell_In_Current_Year_MAT_Turnover__c</name>
+    </fields>
+    <fields>
+        <help><!-- The Moving Annual Total (MAT) is calculated based on the YTD Actuals divided by the amount of months gone multiplied by 12. --></help>
+        <label><!-- Sell-In Current Year MAT Volume --></label>
+        <name>CAJBP_Sell_In_Current_Year_MAT_Volume__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sell-In Volume Plan --></label>
+        <name>CAJBP_Sell_In_Volume_Plan__c</name>
+    </fields>
+    <fields>
+        <help><!-- Fill out the relevant latest actuals and your MAT will be calculated based on the last full calendar month. --></help>
+        <label><!-- Sell-In YTD Turnover Actuals --></label>
+        <name>CAJBP_Sell_In_YTD_Turnover_Actuals__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sell-In YTD Volume Actuals --></label>
+        <name>CAJBP_Sell_In_YTD_Volume_Actuals_Copied__c</name>
+    </fields>
+    <fields>
+        <help><!-- Fill out the relevant latest actuals and your MAT will be calculated based on the last full calendar month. --></help>
+        <label><!-- Sell-In YTD Volume Actuals --></label>
+        <name>CAJBP_Sell_In_YTD_Volume_Actuals__c</name>
+    </fields>
+    <fields>
+        <help><!-- The Moving Annual Total (MAT) is calculated based on the YTD Actuals divided by the amount of months gone multiplied by 12. --></help>
+        <label><!-- Sell-Out Current Year MAT Turnover --></label>
+        <name>CAJBP_Sell_Out_Current_Year_MAT_Turnover__c</name>
+    </fields>
+    <fields>
+        <help><!-- The Moving Annual Total (MAT) is calculated based on the YTD Actuals divided by the amount of months gone multiplied by 12. --></help>
+        <label><!-- Sell-Out Current Year MAT Volume --></label>
+        <name>CAJBP_Sell_Out_Current_Year_MAT_Volume__c</name>
+    </fields>
+    <fields>
+        <help><!-- Fill out the relevant latest actuals and your MAT will be calculated based on the last full calendar month. --></help>
+        <label><!-- Sell-Out YTD Turnover Actuals --></label>
+        <name>CAJBP_Sell_Out_YTD_Turnover_Actuals__c</name>
+    </fields>
+    <fields>
+        <help><!-- Fill out the relevant latest actuals and your MAT will be calculated based on the last full calendar month. --></help>
+        <label><!-- Sell-Out YTD Volume Actuals --></label>
+        <name>CAJBP_Sell_Out_YTD_Volume_Actuals__c</name>
+    </fields>
+    <fields>
+        <label><!-- Target YTD --></label>
+        <name>CAJBP_Target_YTD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Turnover Sell-In Target --></label>
+        <name>CAJBP_Total_Turnover_Sell_In_Target__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Volume Sell-In Target --></label>
+        <name>CAJBP_Total_Volume_Sell_In_Target__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ways of Working Targets --></label>
+        <name>CAJBP_Ways_of_Working_Targets__c</name>
+    </fields>
+    <layouts>
+        <layout>Scorecard Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- In Year Turnover Actuals --></label>
+            <section>In Year Turnover Actuals</section>
+        </sections>
+        <sections>
+            <label><!-- In Year Volume Actuals --></label>
+            <section>In Year Volume Actuals</section>
+        </sections>
+        <sections>
+            <label><!-- Overall Annual Target --></label>
+            <section>Overall Annual Target</section>
+        </sections>
+        <sections>
+            <label><!-- Ways of Working Targets (Enablers) --></label>
+            <section>Ways of Working Targets (Enablers)</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

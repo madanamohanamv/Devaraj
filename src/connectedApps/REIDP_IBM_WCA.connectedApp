@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>bp-idp@bluewolfgroup.com</contactEmail>
+    <description>This app enables connectivity between IBM WCA and Salesforce.</description>
+    <label>RE IDP IBM WCA</label>
+    <logoUrl>https://castrol--IDPDEV--c.documentforce.com/servlet/servlet.ImageServer?id=0159E000000MFqS&amp;oid=00D9E0000000qQO</logoUrl>
+    <oauthConfig>
+        <callbackUrl>https://login.salesforce.com/services/oauth2/token</callbackUrl>
+        <consumerKey>3MVG98_Psg5cppybfa6udyqaByed8kzexaHho.73X2PINyaolW2duFP6sbcdKJmDyQqujn3C.6otUn0TwaXYS</consumerKey>
+        <scopes>Basic</scopes>
+        <scopes>Api</scopes>
+    </oauthConfig>
+</ConnectedApp>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Inland Refinery</fullName>
+        <default>false</default>
+        <label>Inland Refinery</label>
+    </customValue>
+    <customValue>
+        <fullName>Inland Oil Company/Trader</fullName>
+        <default>false</default>
+        <label>Inland Oil Company/Trader</label>
+    </customValue>
+    <customValue>
+        <fullName>Import</fullName>
+        <default>false</default>
+        <label>Import</label>
+    </customValue>
+    <customValue>
+        <fullName>Combination</fullName>
+        <default>false</default>
+        <label>Combination</label>
+    </customValue>
+    <customValue>
+        <fullName>Road</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Road</label>
+    </customValue>
+    <customValue>
+        <fullName>Vessel</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Vessel</label>
+    </customValue>
+    <customValue>
+        <fullName>Pipe</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Pipe</label>
+    </customValue>
+    <masterLabel>Supply</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

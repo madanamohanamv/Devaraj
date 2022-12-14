@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>LU09</fullName>
+        <default>false</default>
+        <label>Aral Luxembourg SA</label>
+    </customValue>
+    <customValue>
+        <fullName>AT0N</fullName>
+        <default>false</default>
+        <label>Austrian B2Mobility</label>
+    </customValue>
+    <customValue>
+        <fullName>AT0H</fullName>
+        <default>false</default>
+        <label>Austrian BP Europa S</label>
+    </customValue>
+    <customValue>
+        <fullName>BE0N</fullName>
+        <default>false</default>
+        <label>Belgium B2Mobility</label>
+    </customValue>
+    <customValue>
+        <fullName>BE01</fullName>
+        <default>false</default>
+        <label>BP Belgium HC</label>
+    </customValue>
+    <customValue>
+        <fullName>PL0N</fullName>
+        <default>false</default>
+        <label>BPESE Poland Fuels</label>
+    </customValue>
+    <customValue>
+        <fullName>CH23</fullName>
+        <default>false</default>
+        <label>BP Eur SE-BP Switzer</label>
+    </customValue>
+    <customValue>
+        <fullName>LU0A</fullName>
+        <default>false</default>
+        <label>BP Luxembourg S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>NL01</fullName>
+        <default>false</default>
+        <label>BP Nederland HC</label>
+    </customValue>
+    <customValue>
+        <fullName>ES01</fullName>
+        <default>false</default>
+        <label>BP Oil España, S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>ES06</fullName>
+        <default>false</default>
+        <label>BP Oil Ref. Cast SAU</label>
+    </customValue>
+    <customValue>
+        <fullName>PT04</fullName>
+        <default>false</default>
+        <label>BP Portugal -Comér</label>
+    </customValue>
+    <customValue>
+        <fullName>DE0N</fullName>
+        <default>false</default>
+        <label>German B2Mobility</label>
+    </customValue>
+    <customValue>
+        <fullName>DE1N</fullName>
+        <default>false</default>
+        <label>German B2Mobility Supercards</label>
+    </customValue>
+    <customValue>
+        <fullName>DE01</fullName>
+        <default>false</default>
+        <label>German BP Europa SE</label>
+    </customValue>
+    <customValue>
+        <fullName>LU0N</fullName>
+        <default>false</default>
+        <label>Luxembourg B2Mobility</label>
+    </customValue>
+    <customValue>
+        <fullName>NL0N</fullName>
+        <default>false</default>
+        <label>Nederland B2Mobility</label>
+    </customValue>
+    <customValue>
+        <fullName>PL1N</fullName>
+        <default>false</default>
+        <label>Poland B2Mobility</label>
+    </customValue>
+    <customValue>
+        <fullName>PT0N</fullName>
+        <default>false</default>
+        <label>Portugal B2Mobility</label>
+    </customValue>
+    <customValue>
+        <fullName>ES0N</fullName>
+        <default>false</default>
+        <label>Spain B2Mobility</label>
+    </customValue>
+    <masterLabel>Sales Organisation Description</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

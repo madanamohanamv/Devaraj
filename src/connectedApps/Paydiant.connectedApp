@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>bp-idp@bluewolfgroup.com</contactEmail>
+    <label>Paydiant</label>
+    <oauthConfig>
+        <callbackUrl>com.bp.mobile.bpme.app://oauth2callback
+com.bp.mobile.bpme.app://oauth2callback-paydiant</callbackUrl>
+        <consumerKey>3MVG98_Psg5cppybfa6udyqaByWeN2CaQt8N8Y7ShnbG_HIFEjyoPDDWpJjBkfr2IA6FKjj40niRlw2XI00lR</consumerKey>
+        <idTokenConfig>
+            <idTokenIncludeAttributes>true</idTokenIncludeAttributes>
+            <idTokenIncludeCustomPerms>true</idTokenIncludeCustomPerms>
+            <idTokenIncludeStandardClaims>true</idTokenIncludeStandardClaims>
+            <idTokenValidity>0</idTokenValidity>
+        </idTokenConfig>
+        <scopes>Basic</scopes>
+        <scopes>Api</scopes>
+        <scopes>Web</scopes>
+        <scopes>Full</scopes>
+        <scopes>CustomApplications</scopes>
+        <scopes>RefreshToken</scopes>
+        <scopes>OpenID</scopes>
+        <scopes>CustomPermissions</scopes>
+    </oauthConfig>
+</ConnectedApp>

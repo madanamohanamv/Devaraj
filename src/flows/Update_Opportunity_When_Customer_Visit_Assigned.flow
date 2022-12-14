@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assignments>
+        <name>Set_Customer_Visit_to_True</name>
+        <label>Set Customer Visit to True</label>
+        <locationX>348</locationX>
+        <locationY>277</locationY>
+        <assignmentItems>
+            <assignToReference>Opportunity.Customer_Visit_Associated__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Update_Opportunity_Activity_Flag</targetReference>
+        </connector>
+    </assignments>
+    <decisions>
+        <name>Opportunity_Associated_to_Event</name>
+        <label>Opportunity Associated to Event</label>
+        <locationX>348</locationX>
+        <locationY>145</locationY>
+        <defaultConnectorLabel>[Default Outcome]</defaultConnectorLabel>
+        <rules>
+            <name>Opportunity_Assigned</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Opportunity.Id</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Set_Customer_Visit_to_True</targetReference>
+            </connector>
+            <label>Opportunity Assigned</label>
+        </rules>
+    </decisions>
+    <description>Flow that updates a flag on the opportunity when a task is associated to the opportunity</description>
+    <interviewLabel>Update Opportunity When Customer Visit Assigned {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Update Opportunity When Customer Visit Assigned</label>
+    <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <name>Get_Associated_Opportunity</name>
+        <label>Get Associated Opportunity</label>
+        <locationX>346</locationX>
+        <locationY>44</locationY>
+        <assignNullValuesIfNoRecordsFound>true</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Opportunity_Associated_to_Event</targetReference>
+        </connector>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>WhatID</elementReference>
+            </value>
+        </filters>
+        <object>Opportunity</object>
+        <outputAssignments>
+            <assignToReference>Opportunity.Customer_Visit_Associated__c</assignToReference>
+            <field>Customer_Visit_Associated__c</field>
+        </outputAssignments>
+        <outputAssignments>
+            <assignToReference>Opportunity.Id</assignToReference>
+            <field>Id</field>
+        </outputAssignments>
+    </recordLookups>
+    <recordUpdates>
+        <name>Update_Opportunity_Activity_Flag</name>
+        <label>Update Opportunity Activity Flag</label>
+        <locationX>347</locationX>
+        <locationY>386</locationY>
+        <inputReference>Opportunity</inputReference>
+    </recordUpdates>
+    <startElementReference>Get_Associated_Opportunity</startElementReference>
+    <status>Active</status>
+    <variables>
+        <description>The Opportunity associated to the What ID</description>
+        <name>Opportunity</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <objectType>Opportunity</objectType>
+    </variables>
+    <variables>
+        <description>The What ID of the Event</description>
+        <name>WhatID</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+</Flow>

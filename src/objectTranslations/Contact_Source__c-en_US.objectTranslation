@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Contact Source</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Contact Sources</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account ERP ID --></label>
+        <name>Account_ERP_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Integration ID --></label>
+        <name>Account_Integration_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Name --></label>
+        <name>Account_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Business Unit --></label>
+        <name>Business_Unit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Ship To --></label>
+        <name>CALCF_Ship_To__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Deduplication ID --></label>
+        <name>Contact_Deduplication_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Email --></label>
+        <name>Contact_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact First Name --></label>
+        <name>Contact_First_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Last Name --></label>
+        <name>Contact_Last_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact --></label>
+        <name>Contact__c</name>
+        <relationshipLabel><!-- Contact Sources --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- External Contact ID --></label>
+        <name>External_Contact_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- External User ID --></label>
+        <name>External_User_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source Reference --></label>
+        <name>Reference__c</name>
+    </fields>
+    <fields>
+        <label><!-- Review Comments --></label>
+        <name>Review_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Review --></label>
+        <name>Review__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Organisation --></label>
+        <name>Sales_Organisation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source System --></label>
+        <name>Source_System__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source URL --></label>
+        <name>Source_URL__c</name>
+    </fields>
+    <fields>
+        <label><!-- User Source --></label>
+        <name>User_Source__c</name>
+    </fields>
+    <layouts>
+        <layout>Castrol_ContactSourceLayout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Source Data --></label>
+            <section>Source Data</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

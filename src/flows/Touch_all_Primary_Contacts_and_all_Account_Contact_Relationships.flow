@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Process that selects all primary contacts and all account contact relationships for an Account</description>
+    <interviewLabel>Touch all Primary Contacts and all Account Contact Relationships {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Touch all Primary Contacts and all Account Contact Relationships</label>
+    <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <name>Lookup_Primary_Contacts</name>
+        <label>Lookup Primary Contacts</label>
+        <locationX>452</locationX>
+        <locationY>312</locationY>
+        <assignNullValuesIfNoRecordsFound>true</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Touch_all_Primary_Contacts</targetReference>
+        </connector>
+        <filters>
+            <field>AccountId</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>AccountId</elementReference>
+            </value>
+        </filters>
+        <object>Contact</object>
+        <outputReference>PrimaryContacts</outputReference>
+        <queriedFields>Id</queriedFields>
+    </recordLookups>
+    <recordLookups>
+        <name>Lookup_related_Account_Contact_Relationships</name>
+        <label>Lookup related Account Contact Relationships</label>
+        <locationX>133</locationX>
+        <locationY>42</locationY>
+        <assignNullValuesIfNoRecordsFound>true</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Touch_all_related_Account_Contact_Relationships</targetReference>
+        </connector>
+        <filters>
+            <field>AccountId</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>AccountId</elementReference>
+            </value>
+        </filters>
+        <object>AccountContactRelation</object>
+        <outputReference>AccountContactRelationships</outputReference>
+        <queriedFields>Id</queriedFields>
+    </recordLookups>
+    <recordUpdates>
+        <name>Touch_all_Primary_Contacts</name>
+        <label>Touch all Primary Contacts</label>
+        <locationX>681</locationX>
+        <locationY>464</locationY>
+        <inputReference>PrimaryContacts</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Touch_all_related_Account_Contact_Relationships</name>
+        <label>Touch all related Account Contact Relationships</label>
+        <locationX>278</locationX>
+        <locationY>171</locationY>
+        <connector>
+            <targetReference>Lookup_Primary_Contacts</targetReference>
+        </connector>
+        <inputReference>AccountContactRelationships</inputReference>
+    </recordUpdates>
+    <startElementReference>Lookup_related_Account_Contact_Relationships</startElementReference>
+    <status>Active</status>
+    <variables>
+        <description>The Account Contact Realtionship objects related to AccountId passed to the flow</description>
+        <name>AccountContactRelationships</name>
+        <dataType>SObject</dataType>
+        <isCollection>true</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <objectType>AccountContactRelation</objectType>
+    </variables>
+    <variables>
+        <description>The account of of the Account that has changed</description>
+        <name>AccountId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <description>Collection of Primary Contacts</description>
+        <name>PrimaryContacts</name>
+        <dataType>SObject</dataType>
+        <isCollection>true</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <objectType>Contact</objectType>
+    </variables>
+</Flow>

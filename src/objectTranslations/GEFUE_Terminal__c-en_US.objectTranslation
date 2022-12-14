@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Terminal</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Terminals</value>
+    </caseValues>
+    <fields>
+        <label><!-- Address --></label>
+        <name>GEFUE_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- City --></label>
+        <name>GEFUE_City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary --></label>
+        <name>GEFUE_Primary__c</name>
+    </fields>
+    <fields>
+        <label><!-- State --></label>
+        <name>GEFUE_State__c</name>
+    </fields>
+    <fields>
+        <label><!-- Terminal DMA --></label>
+        <name>GEFUE_Terminal_DMA__c</name>
+        <picklistValues>
+            <masterLabel>ALBANY GA</masterLabel>
+            <translation><!-- ALBANY GA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ATLANTA</masterLabel>
+            <translation><!-- ATLANTA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AUGUSTA</masterLabel>
+            <translation><!-- AUGUSTA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BALTIMORE</masterLabel>
+            <translation><!-- BALTIMORE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BATON ROUGE</masterLabel>
+            <translation><!-- BATON ROUGE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BIRMINGHAM</masterLabel>
+            <translation><!-- BIRMINGHAM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BOSTON</masterLabel>
+            <translation><!-- BOSTON --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CEDAR RAPIDS-WTRLO-IWC&amp;DUB</masterLabel>
+            <translation><!-- CEDAR RAPIDS-WTRLO-IWC&amp;DUB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CHAMPAIGN &amp; SPRINGFIELD-DECATUR</masterLabel>
+            <translation><!-- CHAMPAIGN &amp; SPRINGFIELD-DECATUR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CHARLESTON</masterLabel>
+            <translation><!-- CHARLESTON --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CHARLESTON-HUNTINGTON</masterLabel>
+            <translation><!-- CHARLESTON-HUNTINGTON --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CHARLOTTE</masterLabel>
+            <translation><!-- CHARLOTTE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CHATTANOOGA</masterLabel>
+            <translation><!-- CHATTANOOGA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CHICAGO</masterLabel>
+            <translation><!-- CHICAGO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CINCINNATI</masterLabel>
+            <translation><!-- CINCINNATI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CLEVELAND-AKRON-CANTON</masterLabel>
+            <translation><!-- CLEVELAND-AKRON-CANTON --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>COLUMBUS GA</masterLabel>
+            <translation><!-- COLUMBUS GA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>COLUMBUS OH</masterLabel>
+            <translation><!-- COLUMBUS OH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DAVENPORT-R. ISLAND-MOLINE</masterLabel>
+            <translation><!-- DAVENPORT-R. ISLAND-MOLINE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DAYTON</masterLabel>
+            <translation><!-- DAYTON --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DES MOINES-AMES</masterLabel>
+            <translation><!-- DES MOINES-AMES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DETROIT</masterLabel>
+            <translation><!-- DETROIT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DULUTH-SUPERIOR</masterLabel>
+            <translation><!-- DULUTH-SUPERIOR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ERIE</masterLabel>
+            <translation><!-- ERIE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EUGENE</masterLabel>
+            <translation><!-- EUGENE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FLINT-SAGINAW-BAY CITY</masterLabel>
+            <translation><!-- FLINT-SAGINAW-BAY CITY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FT. WAYNE</masterLabel>
+            <translation><!-- FT. WAYNE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GRAND RAPIDS-KALAMZOO</masterLabel>
+            <translation><!-- GRAND RAPIDS-KALAMZOO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GREENBAY-APPLETON</masterLabel>
+            <translation><!-- GREENBAY-APPLETON --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GREENSBORO-HIGH POINT</masterLabel>
+            <translation><!-- GREENSBORO-HIGH POINT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GREENVILLE-SPARTANBURG</masterLabel>
+            <translation><!-- GREENVILLE-SPARTANBURG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HATTIESBURG-LAUREL</masterLabel>
+            <translation><!-- HATTIESBURG-LAUREL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HOUSTON</masterLabel>
+            <translation><!-- HOUSTON --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INDIANAPOLIS</masterLabel>
+            <translation><!-- INDIANAPOLIS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JACKSONVILLE</masterLabel>
+            <translation><!-- JACKSONVILLE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JOHNSTOWN-ALTOONA</masterLabel>
+            <translation><!-- JOHNSTOWN-ALTOONA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KANSAS CITY</masterLabel>
+            <translation><!-- KANSAS CITY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KNOXVILLE</masterLabel>
+            <translation><!-- KNOXVILLE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LAKE CHARLES</masterLabel>
+            <translation><!-- LAKE CHARLES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LANSING</masterLabel>
+            <translation><!-- LANSING --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LEXINGTON</masterLabel>
+            <translation><!-- LEXINGTON --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LIMA</masterLabel>
+            <translation><!-- LIMA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LOUISVILLE</masterLabel>
+            <translation><!-- LOUISVILLE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MACON</masterLabel>
+            <translation><!-- MACON --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MADISON</masterLabel>
+            <translation><!-- MADISON --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MEMPHIS</masterLabel>
+            <translation><!-- MEMPHIS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MERIDIAN</masterLabel>
+            <translation><!-- MERIDIAN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MIAMI-FT. LAUDERDALE</masterLabel>
+            <translation><!-- MIAMI-FT. LAUDERDALE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MILWAUKEE</masterLabel>
+            <translation><!-- MILWAUKEE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MINNEAPOLIS-ST. PAUL</masterLabel>
+            <translation><!-- MINNEAPOLIS-ST. PAUL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MOBILE-PENSACOLA</masterLabel>
+            <translation><!-- MOBILE-PENSACOLA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MONTGOMERY</masterLabel>
+            <translation><!-- MONTGOMERY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MW &amp; EGC MARKETING AND SALES</masterLabel>
+            <translation><!-- MW &amp; EGC MARKETING AND SALES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NASHVILLE</masterLabel>
+            <translation><!-- NASHVILLE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NEW HAVEN</masterLabel>
+            <translation><!-- NEW HAVEN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NEW YORK</masterLabel>
+            <translation><!-- NEW YORK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NORFOLK-PORTSMITH</masterLabel>
+            <translation><!-- NORFOLK-PORTSMITH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OMAHA</masterLabel>
+            <translation><!-- OMAHA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ORLANDO-DAYTONA</masterLabel>
+            <translation><!-- ORLANDO-DAYTONA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OTTUMWA-KIRKSVILLE</masterLabel>
+            <translation><!-- OTTUMWA-KIRKSVILLE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PADUCAH-CAPE GIRARD</masterLabel>
+            <translation><!-- PADUCAH-CAPE GIRARD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PARKERSBURG</masterLabel>
+            <translation><!-- PARKERSBURG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PEORIA-BLOOMINGTON</masterLabel>
+            <translation><!-- PEORIA-BLOOMINGTON --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PHILADELPHIA</masterLabel>
+            <translation><!-- PHILADELPHIA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PHOENIX</masterLabel>
+            <translation><!-- PHOENIX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PITTSBURGH</masterLabel>
+            <translation><!-- PITTSBURGH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PORTLAND</masterLabel>
+            <translation><!-- PORTLAND --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PROVIDENCE</masterLabel>
+            <translation><!-- PROVIDENCE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RALEIGH-DURHAM</masterLabel>
+            <translation><!-- RALEIGH-DURHAM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RICHMOND-PETERSBURG</masterLabel>
+            <translation><!-- RICHMOND-PETERSBURG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ROANOKE-LYNCHBURG</masterLabel>
+            <translation><!-- ROANOKE-LYNCHBURG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ROCHESTER-MASON CITY-AUSTIN</masterLabel>
+            <translation><!-- ROCHESTER-MASON CITY-AUSTIN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ROCKFORD</masterLabel>
+            <translation><!-- ROCKFORD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SACRAMNTO-STKTON-MODESTO</masterLabel>
+            <translation><!-- SACRAMNTO-STKTON-MODESTO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SAN ANTONIO</masterLabel>
+            <translation><!-- SAN ANTONIO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SAN FRANCISCO-OAK-SAN JOSE</masterLabel>
+            <translation><!-- SAN FRANCISCO-OAK-SAN JOSE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SAVANNAH</masterLabel>
+            <translation><!-- SAVANNAH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SEATTLE-TACOMA</masterLabel>
+            <translation><!-- SEATTLE-TACOMA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SIOUX FALLS</masterLabel>
+            <translation><!-- SIOUX FALLS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SOUTH BEND-ELKHART</masterLabel>
+            <translation><!-- SOUTH BEND-ELKHART --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SPOKANE</masterLabel>
+            <translation><!-- SPOKANE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ST. LOUIS</masterLabel>
+            <translation><!-- ST. LOUIS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TALLAHASSEE-THOMASVILLE</masterLabel>
+            <translation><!-- TALLAHASSEE-THOMASVILLE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TAMPA-ST. PETERSBURG</masterLabel>
+            <translation><!-- TAMPA-ST. PETERSBURG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TOLEDO</masterLabel>
+            <translation><!-- TOLEDO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TRAVERSE CITY-CADILLAC</masterLabel>
+            <translation><!-- TRAVERSE CITY-CADILLAC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TULSA</masterLabel>
+            <translation><!-- TULSA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UNA</masterLabel>
+            <translation><!-- UNA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WASHINGTON DC</masterLabel>
+            <translation><!-- WASHINGTON DC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WAUSAU-RHINELANDER</masterLabel>
+            <translation><!-- WAUSAU-RHINELANDER --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WILMINGTON</masterLabel>
+            <translation><!-- WILMINGTON --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>YAKIMA-PASCO-RCHLND-KNNWCK</masterLabel>
+            <translation><!-- YAKIMA-PASCO-RCHLND-KNNWCK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>YOUNGSTOWN</masterLabel>
+            <translation><!-- YOUNGSTOWN --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Terminal Number --></label>
+        <name>GEFUE_Terminal_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Terminal Supply Source --></label>
+        <name>GEFUE_Terminal_Supply_Source__c</name>
+        <picklistValues>
+            <masterLabel>COASTAL</masterLabel>
+            <translation><!-- COASTAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INLAND</masterLabel>
+            <translation><!-- INLAND --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TOLEDO - INTEGRATED</masterLabel>
+            <translation><!-- TOLEDO - INTEGRATED --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TOLEDO - NON-INTEGRATED</masterLabel>
+            <translation><!-- TOLEDO - NON-INTEGRATED --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UNA</masterLabel>
+            <translation><!-- UNA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WC</masterLabel>
+            <translation><!-- WC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WHITING - INTEGRATED</masterLabel>
+            <translation><!-- WHITING - INTEGRATED --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WHITING - NON-INTEGRATED</masterLabel>
+            <translation><!-- WHITING - NON-INTEGRATED --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Termnial Footprint --></label>
+        <name>GEFUE_Termnial_Footprint__c</name>
+        <picklistValues>
+            <masterLabel>Coastal</masterLabel>
+            <translation><!-- Coastal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inland</masterLabel>
+            <translation><!-- Inland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NorCal</masterLabel>
+            <translation><!-- NorCal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PNW</masterLabel>
+            <translation><!-- PNW --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Toledo</masterLabel>
+            <translation><!-- Toledo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WC</masterLabel>
+            <translation><!-- WC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Whiting</masterLabel>
+            <translation><!-- Whiting --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- ZIP --></label>
+        <name>GEFUE_ZIP__c</name>
+    </fields>
+    <layouts>
+        <layout>Terminal Layout</layout>
+        <sections>
+            <label><!-- Address Information --></label>
+            <section>Address Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Supply Information --></label>
+            <section>Supply Information</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

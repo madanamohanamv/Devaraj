@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Surveys</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Surveys</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Surveys --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Area --></label>
+        <name>Area__c</name>
+    </fields>
+    <fields>
+        <label><!-- Case Number --></label>
+        <name>CALCF_Case_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Case SR Number --></label>
+        <name>CALCF_Case_SR_Number__c</name>
+    </fields>
+    <fields>
+        <help><!-- Account Manager that planned and closed QBR Meeting and triggered a Survey. --></help>
+        <label><!-- QBR Closed By --></label>
+        <name>CALCF_QBR_Closed_By__c</name>
+        <relationshipLabel><!-- Surveys (QBR Closed By) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- QBR Event Id --></label>
+        <name>CALCF_QBR_Event_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- QBR Requester --></label>
+        <name>CALCF_QBR_Requester__c</name>
+        <relationshipLabel><!-- Surveys (QBR Requester) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- QBR Sales CES --></label>
+        <name>CALCF_QBR_Sales_CES__c</name>
+    </fields>
+    <fields>
+        <label><!-- QBR Sales NPS --></label>
+        <name>CALCF_QBR_Sales_NPS__c</name>
+    </fields>
+    <fields>
+        <label><!-- QBR Sales Questions Not Filled Reason --></label>
+        <name>CALCF_QBR_Sales_Q_Not_Filled_Reason__c</name>
+    </fields>
+    <fields>
+        <label><!-- QBR Sales Questions Filled --></label>
+        <name>CALCF_QBR_Sales_Questions_Filled__c</name>
+    </fields>
+    <fields>
+        <label><!-- Case --></label>
+        <name>Case__c</name>
+        <relationshipLabel><!-- Surveys --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Channel --></label>
+        <name>Channel__c</name>
+    </fields>
+    <fields>
+        <label><!-- Closed Date --></label>
+        <name>Closed_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Complaint Contact Type --></label>
+        <name>Complaint_Contact_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Complaint Owner Team --></label>
+        <name>Complaint_Owner_Team__c</name>
+    </fields>
+    <fields>
+        <label><!-- Complaint Owner --></label>
+        <name>Complaint_Owner__c</name>
+    </fields>
+    <fields>
+        <label><!-- Complaint Resolution Code --></label>
+        <name>Complaint_Resolution_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Complaint Resolutions --></label>
+        <name>Complaint_Resolutions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Complaint Root Cause --></label>
+        <name>Complaint_Root_Cause__c</name>
+    </fields>
+    <fields>
+        <label><!-- Complaint SLA Missed Reason --></label>
+        <name>Complaint_SLA_Missed_Reason__c</name>
+    </fields>
+    <fields>
+        <label><!-- Complaint SLA Missed --></label>
+        <name>Complaint_SLA_Missed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Complaint SLA --></label>
+        <name>Complaint_SLA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Complaint Sub Root Cause --></label>
+        <name>Complaint_Sub_Root_Cause__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Dissatisfied Customer --></label>
+        <name>Contact_Dissatisfied_Customer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Status --></label>
+        <name>Contact_Status__c</name>
+        <picklistValues>
+            <masterLabel>Closed</masterLabel>
+            <translation><!-- Closed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contacted</masterLabel>
+            <translation><!-- Contacted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Handed Off</masterLabel>
+            <translation><!-- Handed Off --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In progress</masterLabel>
+            <translation><!-- In progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Requires Contact</masterLabel>
+            <translation><!-- Requires Contact --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Contact Time Stamp --></label>
+        <name>Contact_Time_Stamp__c</name>
+    </fields>
+    <fields>
+        <label><!-- Surveyed Contact --></label>
+        <name>Contact__c</name>
+        <relationshipLabel><!-- Surveys --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Created Date --></label>
+        <name>Created_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Complaint Description --></label>
+        <name>Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Due Date --></label>
+        <name>Due_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- &quot;True&quot; if reminder was sent, &quot;False&quot; if not. --></help>
+        <label><!-- Fire Reminder --></label>
+        <name>Fire_Reminder__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fire Survey --></label>
+        <name>Fire_Survey__c</name>
+    </fields>
+    <fields>
+        <label><!-- IFrame URL --></label>
+        <name>IFrame_URL__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsSent --></label>
+        <name>IsSent__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsTaken --></label>
+        <name>IsTaken__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Low Scoring --></label>
+        <name>Is_Low_Scoring__c</name>
+    </fields>
+    <fields>
+        <label><!-- Count Of Related Tasks --></label>
+        <name>LCF_Count_Of_Tasks__c</name>
+    </fields>
+    <fields>
+        <label><!-- Language Code --></label>
+        <name>Language_Code__c</name>
+    </fields>
+    <fields>
+        <help><!-- Time needed for this customer to be contacted. Time is calculated as difference between taking survey and moment of changing status to &apos;contacted&apos;. --></help>
+        <label><!-- Lead Time --></label>
+        <name>Lead_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mode --></label>
+        <name>Mode__c</name>
+        <picklistValues>
+            <masterLabel>Batch</masterLabel>
+            <translation><!-- Batch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Online</masterLabel>
+            <translation><!-- Online --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Notes --></label>
+        <name>Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order Ship-To --></label>
+        <name>Order_Ship_To__c</name>
+    </fields>
+    <fields>
+        <label><!-- Portal Messages --></label>
+        <name>Portal_Messages__c</name>
+    </fields>
+    <fields>
+        <label><!-- Preferred Language Code --></label>
+        <name>Preferred_Language_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Priority --></label>
+        <name>Priority__c</name>
+    </fields>
+    <fields>
+        <label><!-- Record Type Name --></label>
+        <name>Record_Type_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reference Number --></label>
+        <name>Reference_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Organisation --></label>
+        <name>Sales_Organisation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source System --></label>
+        <name>Source_System__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sub Area --></label>
+        <name>Sub_Area__c</name>
+    </fields>
+    <fields>
+        <label><!-- Survey Expiry Date --></label>
+        <name>Survey_Expiry_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Survey Fire Time --></label>
+        <name>Survey_Fire_Time__c</name>
+    </fields>
+    <fields>
+        <help><!-- Checkbox indicates if there is value in free text field on survey. --></help>
+        <label><!-- Survey Has Comments --></label>
+        <name>Survey_Has_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Survey Missed Date --></label>
+        <name>Survey_Missed_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Time when reminder will be sent if survey is &quot;Sent&quot; but not &quot;Taken&quot;. --></help>
+        <label><!-- Survey Reminder Date --></label>
+        <name>Survey_Reminder_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Survey Status --></label>
+        <name>Survey_Status__c</name>
+        <picklistValues>
+            <masterLabel>Expired</masterLabel>
+            <translation><!-- Expired --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Missed</masterLabel>
+            <translation><!-- Missed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation><!-- Pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sent</masterLabel>
+            <translation><!-- Sent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Taken</masterLabel>
+            <translation><!-- Taken --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Survey Taken Date/Time --></label>
+        <name>Survey_Taken_Date_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Survey Time --></label>
+        <name>Survey_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Survey Touchpoint --></label>
+        <name>Survey_Touchpoint__c</name>
+    </fields>
+    <fields>
+        <label><!-- Survey Template --></label>
+        <name>Survey__c</name>
+        <relationshipLabel><!-- Surveys --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Taken --></label>
+        <name>Taken__c</name>
+    </fields>
+    <fields>
+        <label><!-- Touchpoint Status --></label>
+        <name>Touchpoint_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Touchpoint Sub Status --></label>
+        <name>Touchpoint_Sub_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Survey Taken By User --></label>
+        <name>User__c</name>
+        <relationshipLabel><!-- Surveys (Survey Taken By User) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Web Page URL --></label>
+        <name>Web_Page_URL__c</name>
+    </fields>
+    <layouts>
+        <layout>CALCF_Quarterly_Business_ReviewLayout</layout>
+        <sections>
+            <label><!-- Contact Information --></label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- QBR Information --></label>
+            <section>QBR Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Castrol_ComplaintsLayout</layout>
+        <sections>
+            <label><!-- Complaint Information --></label>
+            <section>Complaint Information</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Information --></label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Castrol_GeneralEnquiries</layout>
+        <sections>
+            <label><!-- Complaint Information --></label>
+            <section>Complaint Information</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Information --></label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Castrol_OrdersLayout</layout>
+        <sections>
+            <label><!-- Contact Information --></label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Order Detaills --></label>
+            <section>Order Detaills</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Castrol_TechnicalEnquiries</layout>
+        <sections>
+            <label><!-- Complaint Information --></label>
+            <section>Complaint Information</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Information --></label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <description><!-- Compliants --></description>
+        <label><!-- Complaints --></label>
+        <name>Complaints</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- General Enquiries --></description>
+        <label><!-- General Enquiries --></label>
+        <name>General_Enquiries</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Orders --></description>
+        <label><!-- Orders --></label>
+        <name>Orders</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Quarterly Business Review --></label>
+        <name>Quarterly_Business_Review</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Technical Enquiries --></description>
+        <label><!-- Technical Enquiries --></label>
+        <name>Technical_Enquiries</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>User Consent</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>User Consents</value>
+    </caseValues>
+    <fields>
+        <label><!-- Accepted Time --></label>
+        <name>Accepted_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Accepted --></label>
+        <name>Accepted__c</name>
+    </fields>
+    <fields>
+        <label><!-- Application Short Name --></label>
+        <name>Application_Short_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Application --></label>
+        <name>Application__c</name>
+        <relationshipLabel><!-- User Consents --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Channel --></label>
+        <name>Channel__c</name>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation><!-- Email --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Phone</masterLabel>
+            <translation><!-- Phone --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Postal</masterLabel>
+            <translation><!-- Postal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Push</masterLabel>
+            <translation><!-- Push --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SMS</masterLabel>
+            <translation><!-- SMS --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Contact --></label>
+        <name>Contact__c</name>
+        <relationshipLabel><!-- User Consents --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>Type__c</name>
+        <picklistValues>
+            <masterLabel>3rd Party Sharing</masterLabel>
+            <translation><!-- 3rd Party Sharing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Drive Carbon Neutral</masterLabel>
+            <translation><!-- Drive Carbon Neutral --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>General Loyalty</masterLabel>
+            <translation><!-- General Loyalty --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>General Marketing</masterLabel>
+            <translation><!-- General Marketing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Personal Loyalty</masterLabel>
+            <translation><!-- Personal Loyalty --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Personal Marketing</masterLabel>
+            <translation><!-- Personal Marketing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Privacy Policy</masterLabel>
+            <translation><!-- Privacy Policy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Profiling</masterLabel>
+            <translation><!-- Profiling --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Terms and Conditions</masterLabel>
+            <translation><!-- Terms and Conditions --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Unique ID --></label>
+        <name>Unique_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- User --></label>
+        <name>User__c</name>
+        <relationshipLabel><!-- User Consents --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Version --></label>
+        <name>Version__c</name>
+    </fields>
+    <layouts>
+        <layout>User Consent Layout</layout>
+        <sections>
+            <label><!-- Consent Info --></label>
+            <section>Consent Info</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

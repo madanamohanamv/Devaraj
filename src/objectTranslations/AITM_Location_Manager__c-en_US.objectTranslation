@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Location Manager</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Location Managers</value>
+    </caseValues>
+    <fields>
+        <help><!-- Email addresses of Location Manager delegates --></help>
+        <label><!-- Delegates --></label>
+        <name>AITM_Delegates__c</name>
+    </fields>
+    <fields>
+        <label><!-- Location Manager Unique ID --></label>
+        <name>AITM_Location_Manager_Unique_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Location Manager --></label>
+        <name>AITM_Location_Manager__c</name>
+        <relationshipLabel><!-- Location Managers --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Location --></label>
+        <name>AITM_Location__c</name>
+        <relationshipLabel><!-- Location Managers --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Name --></label>
+        <name>AITM_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sector --></label>
+        <name>AITM_Sector__c</name>
+    </fields>
+    <layouts>
+        <layout>Location Manager Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

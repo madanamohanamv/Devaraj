@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Opportunity</entityName>
+    <fieldName>StageName</fieldName>
+    <masterLabel>CASFO_General_Opportunity</masterLabel>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;Agreement reached/Loss Confirmed. All documentation completed.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Implementation stage&lt;/b&gt;&lt;/p&gt;&lt;p&gt;CS in process of setting action agreement, required additional credit checks performed&lt;/p&gt;</info>
+        <picklistValueName>Implementation</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;Potential opportunity identified by some form of lead identification task.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Lead stage&lt;/b&gt;&lt;/p&gt;&lt;p&gt;Very basic info known about customer&lt;/p&gt;</info>
+        <picklistValueName>Lead</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;Customer and Castrol are in negotiations&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Negotiation stage&lt;/b&gt;&lt;/p&gt;&lt;p&gt;Negotiations are advancing. If new prices are required then approval process followed&lt;/p&gt;</info>
+        <picklistValueName>Negotiation</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;Sales are assessing opportunity/risk and capturing all the information required to quote&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Opportunity stage&lt;/b&gt;&lt;/p&gt;&lt;p&gt;All the details have been gathered, credit check performed&lt;/p&gt;</info>
+        <picklistValueName>Opportunity</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;Sales prepare quotation and submit an offer document to the Customer.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Proposal stage&lt;/b&gt;&lt;/p&gt;&lt;p&gt;All necessary approvals/pricing tools and documents to be completed before quotation can be presented to the customer&lt;/p&gt;</info>
+        <picklistValueName>Proposal</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;Customer needs to trial product (mainly for Industrial /IKAM)&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Trial stage&lt;/b&gt;&lt;/p&gt;&lt;p&gt;Product being trialed by customer&lt;/p&gt;</info>
+        <picklistValueName>Trial</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>General</recordTypeName>
+</PathAssistant>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>CALCF SalesOffice Brand Mapping</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>CALCF SalesOffice Brand Mappings</value>
+    </caseValues>
+    <fields>
+        <label><!-- Brand --></label>
+        <name>CALCF_Brand__c</name>
+        <picklistValues>
+            <masterLabel>aral</masterLabel>
+            <translation><!-- aral --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>bp</masterLabel>
+            <translation><!-- bp --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>castrol</masterLabel>
+            <translation><!-- castrol --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sales Office --></label>
+        <name>CALCF_SalesOffice__c</name>
+        <picklistValues>
+            <masterLabel>DE01</masterLabel>
+            <translation><!-- DE01 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DE02</masterLabel>
+            <translation><!-- DE02 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DE03</masterLabel>
+            <translation><!-- DE03 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DE04</masterLabel>
+            <translation><!-- DE04 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DE05</masterLabel>
+            <translation><!-- DE05 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DE06</masterLabel>
+            <translation><!-- DE06 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DE07</masterLabel>
+            <translation><!-- DE07 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DE08</masterLabel>
+            <translation><!-- DE08 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DE09</masterLabel>
+            <translation><!-- DE09 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DE10</masterLabel>
+            <translation><!-- DE10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DE11</masterLabel>
+            <translation><!-- DE11 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DE12</masterLabel>
+            <translation><!-- DE12 --></translation>
+        </picklistValues>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

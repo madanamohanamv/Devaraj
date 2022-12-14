@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>BPG Platform Event</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>BPG Platform Events</value>
+    </caseValues>
+    <fields>
+        <label><!-- BPG Code --></label>
+        <name>BPG_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- BPG ID --></label>
+        <name>BPG_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- JSON --></label>
+        <name>BPG_JSON__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

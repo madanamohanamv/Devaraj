@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>bp-idp@bluewolfgroup.com</contactEmail>
+    <label>RE IDP Turing</label>
+    <oauthConfig>
+        <callbackUrl>https://www.strala.energy/turing/loginsuccess.jsp
+com.energy.strala:/index.html
+com.bp.energy.strala:/index.html</callbackUrl>
+        <consumerKey>3MVG98_Psg5cppybfa6udyqaByYA3hDV_1ajZnPOKaPONfrOZgoXTg6vJyz7zakvAqMsGxdAdfa.O6ltralLc</consumerKey>
+        <idTokenConfig>
+            <idTokenIncludeAttributes>true</idTokenIncludeAttributes>
+            <idTokenIncludeCustomPerms>false</idTokenIncludeCustomPerms>
+            <idTokenIncludeStandardClaims>true</idTokenIncludeStandardClaims>
+            <idTokenValidity>2</idTokenValidity>
+        </idTokenConfig>
+        <scopes>Basic</scopes>
+        <scopes>Api</scopes>
+        <scopes>Web</scopes>
+        <scopes>CustomApplications</scopes>
+        <scopes>RefreshToken</scopes>
+        <scopes>OpenID</scopes>
+    </oauthConfig>
+</ConnectedApp>

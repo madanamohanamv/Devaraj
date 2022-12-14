@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingOwnerRules>
+        <fullName>Castrol_Users_Campaign</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Share lead records between AU0A users</description>
+        <label>Castrol Users Campaign</label>
+        <sharedTo>
+            <group>Castrol_Users</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>Castrol_Users</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>OLCM Country ISO Code</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>OLCM Country ISO Codes</value>
+    </caseValues>
+    <fields>
+        <label><!-- OLCM Country ISO Code --></label>
+        <name>OLCM_Country_ISO_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- OLCM Country --></label>
+        <name>OLCM_Country__c</name>
+    </fields>
+    <layouts>
+        <layout>OLCM Country ISO Code Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

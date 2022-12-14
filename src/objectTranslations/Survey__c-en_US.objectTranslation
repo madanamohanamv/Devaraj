@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Survey Template</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Survey Templates</value>
+    </caseValues>
+    <fields>
+        <help><!-- Check to make template active. Only one survey template for the combination Sales Organization/Language Code should be active. --></help>
+        <label><!-- Active --></label>
+        <name>Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Brand --></label>
+        <name>CALCF_Brand__c</name>
+    </fields>
+    <fields>
+        <help><!-- Heading at the top of the survey --></help>
+        <label><!-- Header --></label>
+        <name>Castrol_Header__c</name>
+    </fields>
+    <fields>
+        <label><!-- Subheader --></label>
+        <name>Castrol_Subheader__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Button Text --></label>
+        <name>Contact_Button_Text__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Me Description --></label>
+        <name>Contact_Me_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Me Header --></label>
+        <name>Contact_Me_Header__c</name>
+    </fields>
+    <fields>
+        <label><!-- Country Name EN --></label>
+        <name>Country_Name_EN__c</name>
+    </fields>
+    <fields>
+        <help><!-- The name of the country of page viewer --></help>
+        <label><!-- Country Name --></label>
+        <name>Country_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Do Not Contact Button Text --></label>
+        <name>Do_Not_Contact_Button_Text__c</name>
+    </fields>
+    <fields>
+        <help><!-- If the template is not in English, it should be linked to English template. --></help>
+        <label><!-- Reference Template English --></label>
+        <name>EN_Reference_Template__c</name>
+        <relationshipLabel><!-- Survey Templates --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Third line of expired page --></help>
+        <label><!-- Expired Description --></label>
+        <name>Expired_Description__c</name>
+    </fields>
+    <fields>
+        <help><!-- Second line of expired heading --></help>
+        <label><!-- Expired Header2 --></label>
+        <name>Expired_Header2__c</name>
+    </fields>
+    <fields>
+        <help><!-- Heading at the top of page if survey link has expired --></help>
+        <label><!-- Expired Header --></label>
+        <name>Expired_Header__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hide Survey Name --></label>
+        <name>Hide_Survey_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Heading at top of iframe --></help>
+        <label><!-- Iframe Header --></label>
+        <name>Iframe_Header__c</name>
+    </fields>
+    <fields>
+        <help><!-- Iframe Subheading --></help>
+        <label><!-- Iframe Subheader --></label>
+        <name>Iframe_Subheader__c</name>
+    </fields>
+    <fields>
+        <label><!-- Integration Id --></label>
+        <name>Integration_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Label Dont Know 1 to 5 --></label>
+        <name>Label_Dont_Know_1_to_5__c</name>
+    </fields>
+    <fields>
+        <label><!-- Label Left 0 to 10 --></label>
+        <name>Label_Left_0_to_10__c</name>
+    </fields>
+    <fields>
+        <help><!-- Left label on 1-5 dont know questions --></help>
+        <label><!-- Label Left 1 to 5 --></label>
+        <name>Label_Left_1_to_5__c</name>
+    </fields>
+    <fields>
+        <label><!-- Label Right 0 to 10 --></label>
+        <name>Label_Right_0_to_10__c</name>
+    </fields>
+    <fields>
+        <help><!-- Right label on 1-5 dont know questions --></help>
+        <label><!-- Label Right 1 to 5 --></label>
+        <name>Label_Right_1_to_5__c</name>
+    </fields>
+    <fields>
+        <label><!-- Language Code --></label>
+        <name>Language_Code__c</name>
+        <picklistValues>
+            <masterLabel>DA</masterLabel>
+            <translation><!-- DA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DE</masterLabel>
+            <translation><!-- DE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EN</masterLabel>
+            <translation><!-- EN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ES</masterLabel>
+            <translation><!-- ES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FI</masterLabel>
+            <translation><!-- FI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IT</masterLabel>
+            <translation><!-- IT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO</masterLabel>
+            <translation><!-- NO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PT</masterLabel>
+            <translation><!-- PT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SV</masterLabel>
+            <translation><!-- SV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>de_BE</masterLabel>
+            <translation><!-- de_BE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>fr_BE</masterLabel>
+            <translation><!-- fr_BE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>nl_NL</masterLabel>
+            <translation><!-- nl_NL --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Text for the Legal Notice link --></help>
+        <label><!-- Legal Notice Text --></label>
+        <name>Legal_Notice_Text__c</name>
+    </fields>
+    <fields>
+        <help><!-- URL to Legal Notice on castrol.com for the relevant country --></help>
+        <label><!-- Legal Notice URL --></label>
+        <name>Legal_Notice_URL__c</name>
+    </fields>
+    <fields>
+        <label><!-- Migration ID --></label>
+        <name>Migration_ID__c</name>
+    </fields>
+    <fields>
+        <help><!-- Title of the page in the &lt;title&gt; tag, appearing in the tab at the top of the browser and on search engines --></help>
+        <label><!-- Page Title --></label>
+        <name>Page_Title__c</name>
+    </fields>
+    <fields>
+        <help><!-- Text for the Privacy Statement link --></help>
+        <label><!-- Privacy Statement Text --></label>
+        <name>Privacy_Statement_Text__c</name>
+    </fields>
+    <fields>
+        <help><!-- URL to Privacy Statement on castrol.com for the relevant country --></help>
+        <label><!-- Privacy Statement URL --></label>
+        <name>Privacy_Statement_URL__c</name>
+    </fields>
+    <fields>
+        <help><!-- Text appearing next to a question if a required is not filled out --></help>
+        <label><!-- Required Field Label --></label>
+        <name>Required_Field_Label__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Organisation --></label>
+        <name>Sales_Organization__c</name>
+    </fields>
+    <fields>
+        <label><!-- Submission Button Text --></label>
+        <name>Submission_Button_Text__c</name>
+    </fields>
+    <fields>
+        <help><!-- Message to be displayed to the user when the Survey has been submitted --></help>
+        <label><!-- Submit Response --></label>
+        <name>Submit_Response__c</name>
+    </fields>
+    <fields>
+        <help><!-- Example: #survey_container{ margin: 0 auto; width: 600px; box-shadow: 0 0 14px #CCCCCC; -moz-box-shadow: 0 0 14px #CCCCCC; -webkit-box-shadow: 0 0 14px #CCCCCC; } --></help>
+        <label><!-- Survey Container CSS --></label>
+        <name>Survey_Container_CSS__c</name>
+    </fields>
+    <fields>
+        <label><!-- Survey Header --></label>
+        <name>Survey_Header__c</name>
+    </fields>
+    <fields>
+        <label><!-- Taken Description --></label>
+        <name>Taken_Description__c</name>
+    </fields>
+    <fields>
+        <help><!-- Second line of taken heading --></help>
+        <label><!-- Taken Header2 --></label>
+        <name>Taken_Header2__c</name>
+    </fields>
+    <fields>
+        <help><!-- Heading at top of page if survey has already been taken --></help>
+        <label><!-- Taken Header --></label>
+        <name>Taken_Header__c</name>
+    </fields>
+    <fields>
+        <help><!-- Third line of thank you page if in iframe --></help>
+        <label><!-- Thank You Description Iframe --></label>
+        <name>Thank_You_Description_Iframe__c</name>
+    </fields>
+    <fields>
+        <help><!-- Third line of thank you page --></help>
+        <label><!-- Thank You Description --></label>
+        <name>Thank_You_Description__c</name>
+    </fields>
+    <fields>
+        <help><!-- Second line of heading of the thank you page --></help>
+        <label><!-- Thank You Header2 --></label>
+        <name>Thank_You_Header2__c</name>
+    </fields>
+    <fields>
+        <help><!-- Heading at the top of the page after survey has been successfully submitted --></help>
+        <label><!-- Thank You Header --></label>
+        <name>Thank_You_Header__c</name>
+    </fields>
+    <fields>
+        <label><!-- Thank You Text --></label>
+        <name>Thank_You_Text__c</name>
+    </fields>
+    <fields>
+        <help><!-- The title that appears in the Castrol header/banner/bar at the top of the page --></help>
+        <label><!-- Topbar Title --></label>
+        <name>Topbar_Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- URL --></label>
+        <name>URL__c</name>
+    </fields>
+    <fields>
+        <help><!-- Touchpoint / Source of Survey. --></help>
+        <label><!-- Touchpoint --></label>
+        <name>lcf_Channel__c</name>
+        <picklistValues>
+            <masterLabel>Complaints</masterLabel>
+            <translation><!-- Complaints --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Orders</masterLabel>
+            <translation><!-- Orders --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Thank You Link --></label>
+        <name>thankYouLink__c</name>
+    </fields>
+    <fields>
+        <label><!-- Thank You Text --></label>
+        <name>thankYouText__c</name>
+    </fields>
+    <layouts>
+        <layout>Castrol_SurveyLayout</layout>
+        <sections>
+            <label><!-- Answer Labels --></label>
+            <section>Answer Labels</section>
+        </sections>
+        <sections>
+            <label><!-- Contact me Details --></label>
+            <section>Contact me Details</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Expired Details --></label>
+            <section>Expired Details</section>
+        </sections>
+        <sections>
+            <label><!-- Legal Details --></label>
+            <section>Legal Details</section>
+        </sections>
+        <sections>
+            <label><!-- Survey Details --></label>
+            <section>Survey Details</section>
+        </sections>
+        <sections>
+            <label><!-- Taken Details --></label>
+            <section>Taken Details</section>
+        </sections>
+        <sections>
+            <label><!-- Thank you Details --></label>
+            <section>Thank you Details</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

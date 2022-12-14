@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Supplier</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Suppliers</value>
+    </caseValues>
+    <fields>
+        <help><!-- Check the box of this is BP supplier info for this location --></help>
+        <label><!-- Is this supplier BP? --></label>
+        <name>AITM_BP_Supplier__c</name>
+    </fields>
+    <fields>
+        <label><!-- Location --></label>
+        <name>AITM_Location__c</name>
+        <relationshipLabel><!-- Suppliers --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Market Share (%) --></label>
+        <name>AITM_Market_Share__c</name>
+    </fields>
+    <fields>
+        <label><!-- Volume (USG) --></label>
+        <name>AITM_Volume_USG__c</name>
+    </fields>
+    <layouts>
+        <layout>AITM_Supplier_Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Sum of suppliers volume can&apos;t be greater than Location Overall Size --></errorMessage>
+        <name>Supplier_total_vs_Location_Overal_Volume</name>
+    </validationRules>
+</CustomObjectTranslation>

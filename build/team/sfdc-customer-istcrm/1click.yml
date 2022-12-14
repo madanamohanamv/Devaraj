@@ -1,0 +1,15 @@
+sonar:
+  projectKey: "com.bp.salesforce.crm"
+  login: "84e381f1751cb5108caaf773db108ec8b70f7bf6"
+  hostUrl: "https://sonarqube.bpweb.bp.com"
+salesforce:
+  ciCredentialsId: "__SALESFORCE_CRED_ID_CI__"
+  testCredentialsId: "salesforce-istcrm-test"
+  testdeploySfCredentialsId: "salesforce-istcrm-testdeploy"
+selenium:
+  jobUri: "http://bp1xeuap3357:8080/job/<app-name>/build"
+  testSuite: "smoke"
+istcrm:
+  repoURL: "https://bp-vsts.visualstudio.com/Salesforce%20Platform/_git/sfdc-customer-istcrm"
+  repoCredentialsId: "VSTS_CREDENTIALS"
+  org: "customer"

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Enquiries Settings</value>
+    </caseValues>
+    <fields>
+        <label><!-- IsActive --></label>
+        <name>Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enquiry Type --></label>
+        <name>Enquiry_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- SR Area --></label>
+        <name>SR_Area__c</name>
+    </fields>
+    <fields>
+        <label><!-- SR Sub Area --></label>
+        <name>SR_Sub_Area__c</name>
+    </fields>
+    <fields>
+        <label><!-- SR Type --></label>
+        <name>SR_Type__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

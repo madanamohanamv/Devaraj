@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Carrier</fullName>
+        <default>false</default>
+        <label>Carrier</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Decision Maker</fullName>
+        <default>false</default>
+        <label>Decision Maker</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Delivery</fullName>
+        <default>false</default>
+        <label>Delivery</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Installer</fullName>
+        <default>false</default>
+        <label>Installer</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Invoice</fullName>
+        <default>false</default>
+        <label>Invoice</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Manager</fullName>
+        <default>false</default>
+        <label>Manager</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Order</fullName>
+        <default>false</default>
+        <label>Order</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Order Confirmation Receiver</fullName>
+        <default>false</default>
+        <label>Order Confirmation Receiver</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Payment</fullName>
+        <default>false</default>
+        <label>Payment</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Portal User</fullName>
+        <default>false</default>
+        <label>Portal User</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Pricing</fullName>
+        <default>false</default>
+        <label>Pricing</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Purchasing</fullName>
+        <default>false</default>
+        <label>Purchasing</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Technical</fullName>
+        <default>false</default>
+        <label>Technical</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Used Oil Analyst</fullName>
+        <default>false</default>
+        <label>Used Oil Analyst</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Mechanic</fullName>
+        <default>false</default>
+        <label>Mechanic</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Workshop Owner</fullName>
+        <default>false</default>
+        <label>Workshop Owner</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Distributor Sales Rep</fullName>
+        <default>false</default>
+        <label>Distributor Sales Rep</label>
+    </standardValue>
+</StandardValueSet>

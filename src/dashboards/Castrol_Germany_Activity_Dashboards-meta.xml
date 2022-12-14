@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DashboardFolder xmlns="http://soap.sforce.com/2006/04/metadata">
+    <folderShares>
+        <accessLevel>View</accessLevel>
+        <sharedTo>Castrol_Central_Europe_Industrial_Sales_Manager</sharedTo>
+        <sharedToType>Role</sharedToType>
+    </folderShares>
+    <folderShares>
+        <accessLevel>View</accessLevel>
+        <sharedTo>Castrol_SFO_Germany_Reporting</sharedTo>
+        <sharedToType>Group</sharedToType>
+    </folderShares>
+    <name>Castrol Germany Activity Dashboards</name>
+</DashboardFolder>

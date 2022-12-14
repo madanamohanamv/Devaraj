@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Bank Account</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Bank Accounts</value>
+    </caseValues>
+    <fields>
+        <label><!-- Bank Account ID --></label>
+        <name>AITM_Bank_Account_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bank Account Number --></label>
+        <name>AITM_Bank_Account_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bank Address --></label>
+        <name>AITM_Bank_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bank City --></label>
+        <name>AITM_Bank_City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bank IBAN Number --></label>
+        <name>AITM_Bank_IBAN_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Currency --></label>
+        <name>AITM_Currency__c</name>
+    </fields>
+    <layouts>
+        <layout>Bank Account Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

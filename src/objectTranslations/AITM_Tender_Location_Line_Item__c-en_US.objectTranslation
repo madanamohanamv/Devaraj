@@ -1,0 +1,1015 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Tender Location Line Item</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Tender Location Line Items</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account Manager Notes/Instructions --></label>
+        <name>AITM_Account_Manager_Notes_Instructions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account --></label>
+        <name>AITM_Account__c</name>
+        <relationshipLabel><!-- Tender Location Line Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Ad-hoc Volume --></label>
+        <name>AITM_Ad_hoc_Volume__c</name>
+    </fields>
+    <fields>
+        <label><!-- Additional Margin From Line Items --></label>
+        <name>AITM_Additional_Margin_From_Line_Items__c</name>
+    </fields>
+    <fields>
+        <label><!-- Additional Notes (Taxes and Fees) --></label>
+        <name>AITM_Additional_Notes_Taxes_and_Fees__c</name>
+    </fields>
+    <fields>
+        <label><!-- Additional Refueling Information --></label>
+        <name>AITM_Additional_Refueling_Information__c</name>
+    </fields>
+    <fields>
+        <label><!-- Adjusted Differential --></label>
+        <name>AITM_Adjusted_Differential__c</name>
+    </fields>
+    <fields>
+        <label><!-- Awarded Volume --></label>
+        <name>AITM_Awarded_Volume__c</name>
+    </fields>
+    <fields>
+        <label><!-- Base Cost --></label>
+        <name>AITM_Base_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bid Expiry Data --></label>
+        <name>AITM_Bid_Expiry_Data__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bid Expiry Date --></label>
+        <name>AITM_Bid_Expiry_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Buying Power Value --></label>
+        <name>AITM_Buying_Power_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- CSO Costs --></label>
+        <name>AITM_CSO_Costs__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contract Length --></label>
+        <name>AITM_Contract_Length__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cost Of Product --></label>
+        <name>AITM_Cost_Of_Product__c</name>
+    </fields>
+    <fields>
+        <label><!-- Credit Days Adjustment --></label>
+        <name>AITM_Credit_Days_Adjustment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Credit Days --></label>
+        <name>AITM_Credit_Days__c</name>
+    </fields>
+    <fields>
+        <label><!-- Credit Rating Of Customer --></label>
+        <name>AITM_Credit_Rating_Of_Customer__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6</masterLabel>
+            <translation><!-- 6 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7 (B)</masterLabel>
+            <translation><!-- 7 (B) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7 (B-)</masterLabel>
+            <translation><!-- 7 (B-) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8</masterLabel>
+            <translation><!-- 8 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Credit Rating --></label>
+        <name>AITM_Credit_Rating__c</name>
+    </fields>
+    <fields>
+        <label><!-- Credit Terms Adjustment --></label>
+        <name>AITM_Credit_Terms_Adjustment__c</name>
+    </fields>
+    <fields>
+        <help><!-- Currency Pricing Basis populating from Offer Differential Currency --></help>
+        <label><!-- Currency --></label>
+        <name>AITM_Currency_Pricing_Basis1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Currency --></label>
+        <name>AITM_Currency_Pricing_Basis__c</name>
+    </fields>
+    <fields>
+        <help><!-- Currency of Rebate populating from Offer Differential Currency --></help>
+        <label><!-- Currency --></label>
+        <name>AITM_Currency_Rebate1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Currency --></label>
+        <name>AITM_Currency_Rebate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Currency --></label>
+        <name>AITM_Currency_Winning_Differential__c</name>
+    </fields>
+    <fields>
+        <label><!-- Currency --></label>
+        <name>AITM_Currency__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Tender Rounds --></label>
+        <name>AITM_Current_Round__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current Value --></label>
+        <name>AITM_Current_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer And Location Specific Revenue --></label>
+        <name>AITM_Customer_Location_Specific_Revenue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Specific Into-Plane Costs --></label>
+        <name>AITM_Customer_Specific_Into_Plane_Costs__c</name>
+    </fields>
+    <fields>
+        <help><!-- Delivery Method Used in DEPE Report --></help>
+        <label><!-- Delivery Method --></label>
+        <name>AITM_DEPE_Delivery_Method__c</name>
+    </fields>
+    <fields>
+        <help><!-- Measure Used in DEPE Report --></help>
+        <label><!-- Measure --></label>
+        <name>AITM_DEPE_Measure__c</name>
+    </fields>
+    <fields>
+        <help><!-- Pricing Basis Code Used in DEPE Report --></help>
+        <label><!-- Pricing Basis --></label>
+        <name>AITM_DEPE_Pricing_Basis__c</name>
+    </fields>
+    <fields>
+        <help><!-- Display Product in DEPE Report --></help>
+        <label><!-- Product --></label>
+        <name>AITM_DEPE_Product__c</name>
+    </fields>
+    <fields>
+        <label><!-- Data Capture Delay --></label>
+        <name>AITM_Data_Capture_Delay__c</name>
+    </fields>
+    <fields>
+        <label><!-- Calculate Pricing Excellence --></label>
+        <name>AITM_Data_Pricing_Calculation_Provided__c</name>
+    </fields>
+    <fields>
+        <label><!-- Credit Days --></label>
+        <name>AITM_Days__c</name>
+    </fields>
+    <fields>
+        <label><!-- De-brief Notes --></label>
+        <name>AITM_Debrief_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delivery By --></label>
+        <name>AITM_Delivery_By__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delivery Method --></label>
+        <name>AITM_Delivery_Method__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delivery Point Info --></label>
+        <name>AITM_Delivery_Point_Info__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delivery Point --></label>
+        <name>AITM_Delivery_Point__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Density Adjustment --></label>
+        <name>AITM_Density_Adjustments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>AITM_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- AM/LM Details &amp; Contacts --></label>
+        <name>AITM_Details_Context__c</name>
+    </fields>
+    <fields>
+        <label><!-- Differential (USG) --></label>
+        <name>AITM_Differential_USG__c</name>
+    </fields>
+    <fields>
+        <label><!-- Duration --></label>
+        <name>AITM_Duration__c</name>
+        <picklistValues>
+            <masterLabel>Contract</masterLabel>
+            <translation><!-- Contract --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Days</masterLabel>
+            <translation><!-- Days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Months</masterLabel>
+            <translation><!-- Months --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Weeks</masterLabel>
+            <translation><!-- Weeks --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Year</masterLabel>
+            <translation><!-- Year --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- End Date --></label>
+        <name>AITM_End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Floor Price --></label>
+        <name>AITM_Estimated_Floor_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Exchange --></label>
+        <name>AITM_Exchange__c</name>
+        <picklistValues>
+            <masterLabel>ECB</masterLabel>
+            <translation><!-- ECB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IATA</masterLabel>
+            <translation><!-- IATA --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Floor Price --></label>
+        <name>AITM_Floor_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- GRN --></label>
+        <name>AITM_GRN__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gross Profit (USD) --></label>
+        <name>AITM_Gross_Profit__c</name>
+    </fields>
+    <fields>
+        <label><!-- History Line Item --></label>
+        <name>AITM_History_Line_Item__c</name>
+        <relationshipLabel><!-- Tender Location Line Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- IATA/Internal Code --></label>
+        <name>AITM_IATA_Internal_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Include Notes in Contract --></label>
+        <name>AITM_Include_Notes_in_Contract__c</name>
+    </fields>
+    <fields>
+        <label><!-- Include Taxes and Fees in Contract --></label>
+        <name>AITM_Include_Taxes_and_Fees_in_Contract__c</name>
+    </fields>
+    <fields>
+        <label><!-- Include on de-brief? --></label>
+        <name>AITM_Include_on_debrief__c</name>
+    </fields>
+    <fields>
+        <label><!-- Instrument --></label>
+        <name>AITM_Instrument__c</name>
+        <picklistValues>
+            <masterLabel>GO Swaps</masterLabel>
+            <translation><!-- GO Swaps --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Go Singapore</masterLabel>
+            <translation><!-- Go Singapore --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jet AG</masterLabel>
+            <translation><!-- Jet AG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jet Barge NYH</masterLabel>
+            <translation><!-- Jet Barge NYH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jet CIF NWE</masterLabel>
+            <translation><!-- Jet CIF NWE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jet Chicago</masterLabel>
+            <translation><!-- Jet Chicago --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jet FOB Med</masterLabel>
+            <translation><!-- Jet FOB Med --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jet FOB Rdam</masterLabel>
+            <translation><!-- Jet FOB Rdam --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jet Los Angeles</masterLabel>
+            <translation><!-- Jet Los Angeles --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jet Pipeline USG</masterLabel>
+            <translation><!-- Jet Pipeline USG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jet Singapore</masterLabel>
+            <translation><!-- Jet Singapore --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Invoice Frequency --></label>
+        <name>AITM_Invoice_Frequency__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Clone --></label>
+        <name>AITM_Is_Clone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Current Round --></label>
+        <name>AITM_Is_Current_Round__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Pricing Basis Not Represented --></label>
+        <name>AITM_Is_Pricing_Basis_Not_Represented__c</name>
+    </fields>
+    <fields>
+        <label><!-- JV Profit Dividend --></label>
+        <name>AITM_JV_Profit_Dividend__c</name>
+    </fields>
+    <fields>
+        <label><!-- LM Context, Strategic Rationale &amp; Info --></label>
+        <name>AITM_LM_Context_Strategic_Rationale_Info__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Call To Pricing System --></label>
+        <name>AITM_Last_Call_To_Pricing_System__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Tender Result --></label>
+        <name>AITM_Last_Tender_Result__c</name>
+    </fields>
+    <fields>
+        <label><!-- Level Of Interest --></label>
+        <name>AITM_Level_Of_Interest__c</name>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation><!-- High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation><!-- Low --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation><!-- Medium --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Line Item Margins --></label>
+        <name>AITM_Line_Item_Margins__c</name>
+    </fields>
+    <fields>
+        <label><!-- Line Item Name Account --></label>
+        <name>AITM_Line_Item_Name_Account__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delivery Point --></label>
+        <name>AITM_Location_Delivery_Point__c</name>
+        <relationshipLabel><!-- Tender Location Line Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Location Manager Level of Interest --></label>
+        <name>AITM_Location_Manager_Level_of_Interest__c</name>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation><!-- High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation><!-- Low --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Max</masterLabel>
+            <translation><!-- Max --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation><!-- Medium --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Location Manager --></label>
+        <name>AITM_Location_Manager__c</name>
+        <relationshipLabel><!-- Tender Location Line Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Location Neutral WC Payment Days --></label>
+        <name>AITM_Location_Neutral_WC_Payment_Days__c</name>
+    </fields>
+    <fields>
+        <label><!-- Overall Location Size In USG --></label>
+        <name>AITM_Location_Size__c</name>
+    </fields>
+    <fields>
+        <label><!-- Location Strategy --></label>
+        <name>AITM_Location_Strategy__c</name>
+    </fields>
+    <fields>
+        <label><!-- Location --></label>
+        <name>AITM_Location__c</name>
+        <relationshipLabel><!-- Tender Location Line Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Mark-Up Customer Buying Power --></label>
+        <name>AITM_Mark_Up_Customer_Buying_Power__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mark-Up Customer Segment --></label>
+        <name>AITM_Mark_Up_Customer_Segment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mark-Up Location Strategy --></label>
+        <name>AITM_Mark_Up_Location_Strategy__c</name>
+    </fields>
+    <fields>
+        <label><!-- Market Structure Value --></label>
+        <name>AITM_Market_Structure_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Measure --></label>
+        <name>AITM_Measure__c</name>
+    </fields>
+    <fields>
+        <label><!-- Minimum Selling Price --></label>
+        <name>AITM_Minimum_Selling_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Offered Differential --></label>
+        <name>AITM_Offered_Differential__c</name>
+    </fields>
+    <fields>
+        <label><!-- Offered Volume (USG) --></label>
+        <name>AITM_Offered_Volume__c</name>
+    </fields>
+    <fields>
+        <label><!-- On Airfield  Fixed --></label>
+        <name>AITM_On_Airfield_Fixed__c</name>
+    </fields>
+    <fields>
+        <label><!-- On Airfield Variable --></label>
+        <name>AITM_On_Airfield_Variable__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other Income Fixed --></label>
+        <name>AITM_Other_Income_Fixed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other Income  Variable --></label>
+        <name>AITM_Other_Income_Variable__c</name>
+    </fields>
+    <fields>
+        <label><!-- Overall Customer Credit Days --></label>
+        <name>AITM_Overall_Credit_Days_Customer__c</name>
+    </fields>
+    <fields>
+        <label><!-- PPI --></label>
+        <name>AITM_PPI__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payment Currency --></label>
+        <name>AITM_Payment_Currency__c</name>
+    </fields>
+    <fields>
+        <label><!-- Percentage Volume Offered --></label>
+        <name>AITM_Percentage_Volume_Offered__c</name>
+    </fields>
+    <fields>
+        <label><!-- Platts Index --></label>
+        <name>AITM_Platts_Index__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pre Airfield  Fixed --></label>
+        <name>AITM_Pre_Airfield_Fixed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pre Airfield Variable --></label>
+        <name>AITM_Pre_Airfield_Variable__c</name>
+    </fields>
+    <fields>
+        <label><!-- Premium --></label>
+        <name>AITM_Premium__c</name>
+    </fields>
+    <fields>
+        <label><!-- Previous Round Differential --></label>
+        <name>AITM_Previous_Round_Differential__c</name>
+    </fields>
+    <fields>
+        <label><!-- Previous TLLI Id --></label>
+        <name>AITM_Previous_TLLI_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- AITM_Pricer_No_Default_Delivery_Point --></label>
+        <name>AITM_Pricer_No_Default_Delivery_Points__c</name>
+        <relationshipLabel><!-- Tender Location Line Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Pricing Basis Description --></label>
+        <name>AITM_Pricing_Basis_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pricing Basis --></label>
+        <name>AITM_Pricing_Basis__c</name>
+        <relationshipLabel><!-- Tender Location Line Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Pricing Excellence --></label>
+        <name>AITM_Pricing_Excellence__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pricing Service Call Status --></label>
+        <name>AITM_Pricing_Service_Call_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Default --></label>
+        <name>AITM_Product_Default__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Loss --></label>
+        <name>AITM_Product_Loss__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Specification --></label>
+        <name>AITM_Product_Specification__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity --></label>
+        <name>AITM_Quantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rebate --></label>
+        <name>AITM_Rebate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Replenishment Pricing Basis --></label>
+        <name>AITM_Replenishment_Pricing_Basis__c</name>
+        <relationshipLabel><!-- Tender Location Line Items (Replenishment Pricing Basis) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Replacement Pricing Period --></label>
+        <name>AITM_Replenishment_Pricing_Period__c</name>
+    </fields>
+    <fields>
+        <help><!-- Requested volume recalculated to USG --></help>
+        <label><!-- Requested Volume (USG) --></label>
+        <name>AITM_Requested_Volume_USG__c</name>
+    </fields>
+    <fields>
+        <label><!-- Requested Volume UoM --></label>
+        <name>AITM_Requested_Volume_UoM__c</name>
+    </fields>
+    <fields>
+        <label><!-- Return on Working Capital (%) --></label>
+        <name>AITM_Return_On_WC__c</name>
+    </fields>
+    <fields>
+        <label><!-- This is Round --></label>
+        <name>AITM_Round__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Pricing Period --></label>
+        <name>AITM_Sales_Pricing_Period__c</name>
+    </fields>
+    <fields>
+        <label><!-- Security Text on Offer --></label>
+        <name>AITM_Security_Text_on_Offer__c</name>
+    </fields>
+    <fields>
+        <help><!-- Please note that security type information will be editable only at the Tender Customer level. Please go to Tender Customer record to update. --></help>
+        <label><!-- Security Type --></label>
+        <name>AITM_Security_Type__c</name>
+        <picklistValues>
+            <masterLabel>BG/CD - Bank Guarantee+Cash Deposit</masterLabel>
+            <translation><!-- BG/CD - Bank Guarantee+Cash Deposit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BG/PCG - Guarantee</masterLabel>
+            <translation><!-- BG/PCG - Guarantee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BG/PCG+DD - Guarantee+Direct Debit</masterLabel>
+            <translation><!-- BG/PCG+DD - Guarantee+Direct Debit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CD - Cash Deposit</masterLabel>
+            <translation><!-- CD - Cash Deposit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CP - Cash Payment</masterLabel>
+            <translation><!-- CP - Cash Payment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CT - Credit Terms</masterLabel>
+            <translation><!-- CT - Credit Terms --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DD - Direct Debit</masterLabel>
+            <translation><!-- DD - Direct Debit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FP - Fixed Price Physical deals</masterLabel>
+            <translation><!-- FP - Fixed Price Physical deals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LC - Letters of Credit</masterLabel>
+            <translation><!-- LC - Letters of Credit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NA</masterLabel>
+            <translation><!-- NA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PP - Pre-pay</masterLabel>
+            <translation><!-- PP - Pre-pay --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Specification --></label>
+        <name>AITM_Specification__c</name>
+        <picklistValues>
+            <masterLabel>AFQRJOS (latest issue)</masterLabel>
+            <translation><!-- AFQRJOS (latest issue) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ASTM D1655 (latest revision)</masterLabel>
+            <translation><!-- ASTM D1655 (latest revision) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ASTM D910 (latest issue)</masterLabel>
+            <translation><!-- ASTM D910 (latest issue) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Can/CGS B, 3.23 (latest issue)</masterLabel>
+            <translation><!-- Can/CGS B, 3.23 (latest issue) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Defence Standard 91-80 (latest issue)</masterLabel>
+            <translation><!-- Defence Standard 91-80 (latest issue) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Defence Standard 91-87 (latest issue)</masterLabel>
+            <translation><!-- Defence Standard 91-87 (latest issue) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Defence Standard 91-91 (latest issue)</masterLabel>
+            <translation><!-- Defence Standard 91-91 (latest issue) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MIL-DTL 5642U (latest issue)</masterLabel>
+            <translation><!-- MIL-DTL 5642U (latest issue) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MIL-DTL 83133 (latest issue)</masterLabel>
+            <translation><!-- MIL-DTL 83133 (latest issue) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MIL-DTL-1684L</masterLabel>
+            <translation><!-- MIL-DTL-1684L --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MIL-STD-1548 (latest issue)</masterLabel>
+            <translation><!-- MIL-STD-1548 (latest issue) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Start Date --></label>
+        <name>AITM_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>AITM_Status__c</name>
+        <picklistValues>
+            <masterLabel>Awaiting price</masterLabel>
+            <translation><!-- Awaiting price --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Represented</masterLabel>
+            <translation><!-- Not Represented --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Priced</masterLabel>
+            <translation><!-- Priced --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Stock Days --></label>
+        <name>AITM_Stock_Days__c</name>
+    </fields>
+    <fields>
+        <label><!-- Supplier Credit Days --></label>
+        <name>AITM_Supplier_Credit_Days__c</name>
+    </fields>
+    <fields>
+        <label><!-- Target Price --></label>
+        <name>AITM_Target_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Taxes &amp; Fees --></label>
+        <name>AITM_Taxes_Fees__c</name>
+    </fields>
+    <fields>
+        <label><!-- Temperature Adjustment --></label>
+        <name>AITM_Temperature_Adjustment_At_Location__c</name>
+    </fields>
+    <fields>
+        <label><!-- AITM_Tender_Id --></label>
+        <name>AITM_Tender_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tender Location --></label>
+        <name>AITM_Tender_Location__c</name>
+        <relationshipLabel><!-- Tender Location Line Items (Tender Location) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Tender Owner Profile --></label>
+        <name>AITM_Tender_Owner_Profile__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tender Result --></label>
+        <name>AITM_Tender_Result__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tender Unique ID --></label>
+        <name>AITM_Tender_Unique_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tender --></label>
+        <name>AITM_Tender__c</name>
+        <relationshipLabel><!-- Tender Location Line Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Title --></label>
+        <name>AITM_Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unit GP --></label>
+        <name>AITM_Unit_GP__c</name>
+    </fields>
+    <fields>
+        <help><!-- Unit Of Measure of Rebate populating from Offer Differential UoM --></help>
+        <label><!-- Unit Of Measure --></label>
+        <name>AITM_Unit_Of_Measure_Rebate1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unit Of Measure --></label>
+        <name>AITM_Unit_Of_Measure_Rebate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unit Of Measure --></label>
+        <name>AITM_Unit_Of_Measure_Winning_Differentia__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unit Of Measure --></label>
+        <name>AITM_Unit_Of_Measure__c</name>
+    </fields>
+    <fields>
+        <help><!-- Unit Of Measure of Pricing Basis populating from Offer Differential UoM --></help>
+        <label><!-- Unit of Measure --></label>
+        <name>AITM_Unit_of_Measure_Pricing_Basis1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unit of Measure --></label>
+        <name>AITM_Unit_of_Measure_Pricing_Basis__c</name>
+    </fields>
+    <fields>
+        <label><!-- Variance --></label>
+        <name>AITM_Variance__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tendered volume of overall location size --></label>
+        <name>AITM_Volume_Overall_Location_Size__c</name>
+    </fields>
+    <fields>
+        <label><!-- Requested Volume --></label>
+        <name>AITM_Volume__c</name>
+    </fields>
+    <fields>
+        <label><!-- Winning Differential --></label>
+        <name>AITM_Winning_Differential__c</name>
+    </fields>
+    <fields>
+        <label><!-- Winning Supplier --></label>
+        <name>AITM_Winning_Supplier__c</name>
+    </fields>
+    <fields>
+        <label><!-- Winning Terms --></label>
+        <name>AITM_Winning_Terms__c</name>
+    </fields>
+    <fields>
+        <label><!-- Working Capital (USD) --></label>
+        <name>AITM_Working_Capital__c</name>
+    </fields>
+    <fields>
+        <label><!-- Yearly Volume (USG) --></label>
+        <name>AITM_Yearly_Volume__c</name>
+    </fields>
+    <layouts>
+        <layout>Air_TMTender LABP Location Layout</layout>
+        <sections>
+            <label><!-- Account/Location Manager Instructions --></label>
+            <section>Account/Location Manager Instructions</section>
+        </sections>
+        <sections>
+            <label><!-- Credit Terms --></label>
+            <section>Credit Terms</section>
+        </sections>
+        <sections>
+            <label><!-- Delivery point --></label>
+            <section>Delivery point</section>
+        </sections>
+        <sections>
+            <label><!-- Location --></label>
+            <section>Location</section>
+        </sections>
+        <sections>
+            <label><!-- Navigation --></label>
+            <section>Navigation</section>
+        </sections>
+        <sections>
+            <label><!-- Price --></label>
+            <section>Price</section>
+        </sections>
+        <sections>
+            <label><!-- Volume --></label>
+            <section>Volume</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Air_TMTender Location Layout</layout>
+        <sections>
+            <label><!-- Account/Location Manager Instructions --></label>
+            <section>Account/Location Manager Instructions</section>
+        </sections>
+        <sections>
+            <label><!-- Credit Terms --></label>
+            <section>Credit Terms</section>
+        </sections>
+        <sections>
+            <label><!-- Delivery point --></label>
+            <section>Delivery point</section>
+        </sections>
+        <sections>
+            <label><!-- Location --></label>
+            <section>Location</section>
+        </sections>
+        <sections>
+            <label><!-- Navigation --></label>
+            <section>Navigation</section>
+        </sections>
+        <sections>
+            <label><!-- Price --></label>
+            <section>Price</section>
+        </sections>
+        <sections>
+            <label><!-- Pricing Excellence - General Data --></label>
+            <section>Pricing Excellence - General Data</section>
+        </sections>
+        <sections>
+            <label><!-- Pricing Excellence - Master Data --></label>
+            <section>Pricing Excellence - Master Data</section>
+        </sections>
+        <sections>
+            <label><!-- Volume --></label>
+            <section>Volume</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Air_TMTenderLocationDebrief</layout>
+        <sections>
+            <label><!-- Navigation --></label>
+            <section>Navigation</section>
+        </sections>
+        <sections>
+            <label><!-- Notes --></label>
+            <section>Notes</section>
+        </sections>
+        <sections>
+            <label><!-- Result: De-brief --></label>
+            <section>Result: De-brief</section>
+        </sections>
+        <sections>
+            <label><!-- Result: Winning Bid --></label>
+            <section>Result: Winning Bid</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <description><!-- Record type used once Tender is moved to de-brief stage --></description>
+        <label><!-- De-brief --></label>
+        <name>AITM_Debrief</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Default record type for tender location line item --></description>
+        <label><!-- Default --></label>
+        <name>AITM_Default</name>
+    </recordTypes>
+    <sharingReasons>
+        <label><!-- Sharing To Pricing Delegates --></label>
+        <name>Sharing_To_Pricing_Delegates</name>
+    </sharingReasons>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Please, enter the duration quantity --></errorMessage>
+        <name>Duration_empty</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- End date on the Line Item can&apos;t be later than Tender end date or earlier than start date --></errorMessage>
+        <name>End_Date</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- This pricing basis has to have Current Value --></errorMessage>
+        <name>PB_Type_C</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- This pricing basis has to have Differential value --></errorMessage>
+        <name>PB_Type_D</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Offered Volume cannot be higher than Requested Volume --></errorMessage>
+        <name>Requested_Volume</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Start Date on the Line Item can&apos;t be earlier than Tender start date or later than end date --></errorMessage>
+        <name>Start_Date</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Back_to_Location --></label>
+        <name>Back_to_Location</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Back_to_Tender --></label>
+        <name>Back_to_Tender</name>
+    </webLinks>
+</CustomObjectTranslation>

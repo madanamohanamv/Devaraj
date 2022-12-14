@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>AITM_SYSADMIN_AIRBP_Role</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Sharing rule with System Admin and Data Migration profiles with Read/Write access to AIRBP</description>
+        <label>AITM_SYSADMIN_AIRBP_Role</label>
+        <sharedTo>
+            <role>AirBP</role>
+        </sharedTo>
+        <booleanFilter>1 OR 2</booleanFilter>
+        <criteriaItems>
+            <field>ProfileId</field>
+            <operation>equals</operation>
+            <value>00e58000000wu1Z</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>ProfileId</field>
+            <operation>equals</operation>
+            <value>00e58000000ST0F</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>CAIDP_Users</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>CAIDP Users</label>
+        <sharedTo>
+            <role>Castrol_Identity_Provider_Support_Admin</role>
+        </sharedTo>
+        <booleanFilter>(1 OR 2) AND 3</booleanFilter>
+        <criteriaItems>
+            <field>ProfileId</field>
+            <operation>equals</operation>
+            <value>00e58000000SR4w</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>ProfileId</field>
+            <operation>equals</operation>
+            <value>00e58000000SR4x</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Country</field>
+            <operation>equals</operation>
+            <value>$User.Country</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>REIDP_All_Customers</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>RE IDP All Customers</label>
+        <sharedTo>
+            <group>REIDP_All_Customers</group>
+        </sharedTo>
+        <booleanFilter>1 OR 2 OR 3</booleanFilter>
+        <criteriaItems>
+            <field>ProfileId</field>
+            <operation>equals</operation>
+            <value>00e58000000SR4w</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>ProfileId</field>
+            <operation>equals</operation>
+            <value>00e58000000SSFm</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>ProfileId</field>
+            <operation>equals</operation>
+            <value>00e58000000SSFr</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>REIDP_FastTrack_Users</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>RE IDP FastTrack Users</label>
+        <sharedTo>
+            <role>BP_Identity_Provider_FastTrack_Administrator</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>ProfileId</field>
+            <operation>equals</operation>
+            <value>00e58000000SR4x</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>REIDP_FastTrack_Users_Read_Only</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>RE IDP FastTrack Users Read Only</label>
+        <sharedTo>
+            <role>BP_Identity_Provider_FastTrack_Administrator_ViewOnly</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>ProfileId</field>
+            <operation>equals</operation>
+            <value>00e58000000SR4x</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>REIDP_Users</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>REIDP Users</label>
+        <sharedTo>
+            <role>BP_Identity_Provider_Support_Admin</role>
+        </sharedTo>
+        <booleanFilter>1 OR 2</booleanFilter>
+        <criteriaItems>
+            <field>ProfileId</field>
+            <operation>equals</operation>
+            <value>00e58000000SR4w</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>ProfileId</field>
+            <operation>equals</operation>
+            <value>00e58000000SR4x</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingOwnerRules>
+        <fullName>AITM_RoleAirBP_DataMigration</fullName>
+        <accessLevel>Read</accessLevel>
+        <description>Users of Role:AirBP Shared with Role: AIR_BP_Data_Migration</description>
+        <label>AITM_RoleAirBP_DataMigration</label>
+        <sharedTo>
+            <role>AIR_BP_Data_Migration</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>AirBP</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>AITM_RoleDataMigration_DataMigration</fullName>
+        <accessLevel>Read</accessLevel>
+        <description>Users of Role: AIR_BP_Data_Migration shared with Role: AIR_BP_Data_Migration</description>
+        <label>AITM_RoleDataMigration_DataMigration</label>
+        <sharedTo>
+            <role>AIR_BP_Data_Migration</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>AIR_BP_Data_Migration</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Account_Managers_To_Change_Owners_For_Tenders</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Account Managers To Change Owners For Tenders</label>
+        <sharedTo>
+            <role>AirBP</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>AirBP</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>AirBP</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Share the AIRBP records with LABP Users Group</description>
+        <label>AirBP</label>
+        <sharedTo>
+            <group>LABP_Users</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>AirBP</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>AirLABP</fullName>
+        <accessLevel>Read</accessLevel>
+        <description>LABP Role sharing access to Data Migration role</description>
+        <label>AirLABP</label>
+        <sharedTo>
+            <role>AIR_BP_Data_Migration</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>AirLABP</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Castrol_Users</fullName>
+        <accessLevel>Read</accessLevel>
+        <description>Share user records between castrol users</description>
+        <label>Castrol Users</label>
+        <sharedTo>
+            <group>Castrol_Users</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>Castrol_Users</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Internal_Read_Only</fullName>
+        <accessLevel>Read</accessLevel>
+        <description>Shares All Internal Users with Saviynt Team</description>
+        <label>Internal Read Only</label>
+        <sharedTo>
+            <group>Saviynt_Team</group>
+        </sharedTo>
+        <sharedFrom>
+            <allInternalUsers></allInternalUsers>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>LABPUserAccess</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Community users sharing LABP</description>
+        <label>LABPUserAccess</label>
+        <sharedTo>
+            <group>LABP_Users</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>LABP_Users</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Winning Diff</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Winning Diffs</value>
+    </caseValues>
+    <fields>
+        <help><!-- Currency should be USD --></help>
+        <label><!-- Currency --></label>
+        <name>AILP_Currency__c</name>
+        <picklistValues>
+            <masterLabel>USX</masterLabel>
+            <translation><!-- USX --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Please enter the customer text exactly as you see it in Analytics dashboards. --></help>
+        <label><!-- Customer --></label>
+        <name>AILP_Customer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Diff Winning Bid Input --></label>
+        <name>AILP_Diff_Winning_Bid_Input__c</name>
+    </fields>
+    <fields>
+        <label><!-- Location IATA --></label>
+        <name>AILP_Location_IATA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Location --></label>
+        <name>AILP_Location_Lookup__c</name>
+        <relationshipLabel><!-- Winning Diffs --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Unit of Measure should be USG --></help>
+        <label><!-- Unit of Measure --></label>
+        <name>AILP_Unit_of_Measure__c</name>
+        <picklistValues>
+            <masterLabel>USG</masterLabel>
+            <translation><!-- USG --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>AILP_Diff Winning Bid Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

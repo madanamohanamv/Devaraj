@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>true</doesSendEmailToMembers>
+    <name>RE IDP CPL Approver Queue</name>
+    <queueMembers>
+        <users>
+            <user>cansu.tac@bp.com</user>
+            <user>murat.dedeoglu@ec1.bp.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>REIDP_Application__c</sobjectType>
+    </queueSobject>
+</Queue>

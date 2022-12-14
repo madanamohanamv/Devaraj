@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assignments>
+        <name>Set_Contact_Default_Values</name>
+        <label>Set Contact Default Values</label>
+        <locationX>586</locationX>
+        <locationY>251</locationY>
+        <assignmentItems>
+            <assignToReference>Contact.TimeZone__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>ContactDefaults.TimeZone__c</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>Contact.Home_Location__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>ContactDefaults.Home_Location__c</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>Contact.Preferred_Language__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>ContactDefaults.Language__c</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>Contact.Use_Contact_Defaults__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Update_Contact</targetReference>
+        </connector>
+    </assignments>
+    <description>Sets the contacts default values</description>
+    <interviewLabel>Set Contact Default Values {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Set Contact Default Values Visual Flow</label>
+    <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <name>Get_Contact_Details</name>
+        <label>Get Contact Details</label>
+        <locationX>366</locationX>
+        <locationY>119</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Set_Contact_Default_Values</targetReference>
+        </connector>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>ContactID</elementReference>
+            </value>
+        </filters>
+        <object>Contact</object>
+        <outputReference>Contact</outputReference>
+        <queriedFields>Home_Location__c</queriedFields>
+        <queriedFields>Relationship_Tier__c</queriedFields>
+        <queriedFields>Language__c</queriedFields>
+        <queriedFields>Use_Contact_Defaults__c</queriedFields>
+    </recordLookups>
+    <recordLookups>
+        <name>Lookup_Contact_Default_Values</name>
+        <label>Lookup Contact Default Values</label>
+        <locationX>169</locationX>
+        <locationY>36</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Get_Contact_Details</targetReference>
+        </connector>
+        <filters>
+            <field>Name</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>SalesOrganisation</elementReference>
+            </value>
+        </filters>
+        <object>Contact_Default_Settings__c</object>
+        <outputReference>ContactDefaults</outputReference>
+        <queriedFields>Language__c</queriedFields>
+        <queriedFields>TimeZone__c</queriedFields>
+        <queriedFields>Home_Location__c</queriedFields>
+    </recordLookups>
+    <recordUpdates>
+        <name>Update_Contact</name>
+        <label>Update Contact</label>
+        <locationX>822</locationX>
+        <locationY>382</locationY>
+        <inputReference>Contact</inputReference>
+    </recordUpdates>
+    <startElementReference>Lookup_Contact_Default_Values</startElementReference>
+    <status>Active</status>
+    <variables>
+        <description>the contact to be updated</description>
+        <name>Contact</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <objectType>Contact</objectType>
+    </variables>
+    <variables>
+        <description>the default settings to be applied to the contact</description>
+        <name>ContactDefaults</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <objectType>Contact_Default_Settings__c</objectType>
+    </variables>
+    <variables>
+        <description>The Id of the Contact to be updated</description>
+        <name>ContactID</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <description>The Contacts Primary Account Sales Organisation</description>
+        <name>SalesOrganisation</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+</Flow>

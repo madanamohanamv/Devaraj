@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <attributes>
+        <formula>$User.REIDP_Country_of_App__c</formula>
+        <key>country-of-app</key>
+    </attributes>
+    <attributes>
+        <formula>IF(ISBLANK($User.REIDP_Drive_Carbon_Neutral_Timestamp__c), &apos;null&apos;, IF($User.REIDP_Drive_Carbon_Neutral__c, &apos;true&apos;, &apos;false&apos;))</formula>
+        <key>drive-carbon-neutral</key>
+    </attributes>
+    <attributes>
+        <formula>$User.REIDP_Favourite_Station__c</formula>
+        <key>favourite-station</key>
+    </attributes>
+    <attributes>
+        <formula>IF($User.REIDP_General_Marketing_Info__c, &apos;true&apos;, &apos;false&apos;)</formula>
+        <key>general-marketing</key>
+    </attributes>
+    <attributes>
+        <formula>IF($User.REIDP_Is_Phone_Verified__c, &apos;true&apos;,&apos;false&apos;)</formula>
+        <key>is-phone-verified</key>
+    </attributes>
+    <attributes>
+        <formula>$User.REIDP_Loyalty_Card__c</formula>
+        <key>loyalty-card</key>
+    </attributes>
+    <attributes>
+        <formula>IF($User.REIDP_Mobile_Wallet__c, &apos;true&apos;, &apos;false&apos;)</formula>
+        <key>mobile-wallet</key>
+    </attributes>
+    <attributes>
+        <formula>IF($User.REIDP_Personal_Marketing_Info__c, &apos;true&apos;, &apos;false&apos;)</formula>
+        <key>personal-marketing</key>
+    </attributes>
+    <attributes>
+        <formula>$User.Phone</formula>
+        <key>phone</key>
+    </attributes>
+    <attributes>
+        <formula>LPAD(TEXT(DAY(DATEVALUE($User.REIDP_T_C_Accepted__c))), 2, &apos;0&apos;) + &apos;/&apos; +
+LPAD(TEXT(MONTH(DATEVALUE($User.REIDP_T_C_Accepted__c))), 2, &apos;0&apos;) + &apos;/&apos; +
+TEXT(YEAR(DATEVALUE($User.REIDP_T_C_Accepted__c)))</formula>
+        <key>terms-conditions-accepted</key>
+    </attributes>
+    <contactEmail>bp-idp@bluewolfgroup.com</contactEmail>
+    <label>BPMe</label>
+    <oauthConfig>
+        <callbackUrl>com.bp.mobile.bpme.app://oauth2callback
+com.bp.mobile.bpme.app://oauth2callback-bpme</callbackUrl>
+        <consumerKey>3MVG98_Psg5cppybfa6udyqaByX2RLPsdkNIes4cmHJdg5DJ6myhq5gYmoVndq3_jCX44sircDeQ9BgHKH227</consumerKey>
+        <idTokenConfig>
+            <idTokenIncludeAttributes>true</idTokenIncludeAttributes>
+            <idTokenIncludeCustomPerms>true</idTokenIncludeCustomPerms>
+            <idTokenIncludeStandardClaims>true</idTokenIncludeStandardClaims>
+            <idTokenValidity>0</idTokenValidity>
+        </idTokenConfig>
+        <scopes>Basic</scopes>
+        <scopes>Api</scopes>
+        <scopes>Web</scopes>
+        <scopes>Full</scopes>
+        <scopes>CustomApplications</scopes>
+        <scopes>RefreshToken</scopes>
+        <scopes>OpenID</scopes>
+        <scopes>CustomPermissions</scopes>
+    </oauthConfig>
+    <plugin>REIDP_UserConsentPlugin</plugin>
+</ConnectedApp>

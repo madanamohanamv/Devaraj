@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Location</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Locations</value>
+    </caseValues>
+    <fields>
+        <label><!-- Airport Classification --></label>
+        <name>AITM_Airport_Classification_GA__c</name>
+        <picklistValues>
+            <masterLabel>Hub</masterLabel>
+            <translation><!-- Hub --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Regional</masterLabel>
+            <translation><!-- Regional --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Airport Classification --></label>
+        <name>AITM_Airport_Classification__c</name>
+        <picklistValues>
+            <masterLabel>Hub</masterLabel>
+            <translation><!-- Hub --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Regional</masterLabel>
+            <translation><!-- Regional --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Average Working Capital --></label>
+        <name>AITM_Average_Working_Capital_GA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Average Working Capital --></label>
+        <name>AITM_Average_Working_Capital__c</name>
+    </fields>
+    <fields>
+        <label><!-- BP Location Volume --></label>
+        <name>AITM_BP_Location_Volume_GA__c</name>
+    </fields>
+    <fields>
+        <label><!-- BP Location Volume --></label>
+        <name>AITM_BP_Location_Volume__c</name>
+    </fields>
+    <fields>
+        <label><!-- Classification --></label>
+        <name>AITM_Classification__c</name>
+    </fields>
+    <fields>
+        <label><!-- Competition --></label>
+        <name>AITM_Competition_GA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Competition --></label>
+        <name>AITM_Competition__c</name>
+    </fields>
+    <fields>
+        <label><!-- Context Owner - Pricing Contact --></label>
+        <name>AITM_Context_Owner_Pricing_Contact_CA1__c</name>
+        <relationshipLabel><!-- Locations (Context Owner - Pricing Contact) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Context Owner - Pricing Contact --></label>
+        <name>AITM_Context_Owner_Pricing_Contact_GA1__c</name>
+        <relationshipLabel><!-- Locations (Context Owner - Pricing Contact) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Country --></label>
+        <name>AITM_Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- Credit Days --></label>
+        <name>AITM_Credit_Days__c</name>
+    </fields>
+    <fields>
+        <label><!-- Currency --></label>
+        <name>AITM_Currency__c</name>
+    </fields>
+    <fields>
+        <label><!-- Data Capture Delay --></label>
+        <name>AITM_Data_Capture_Delay_GA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Data Capture Delay --></label>
+        <name>AITM_Data_Capture_Delay__c</name>
+    </fields>
+    <fields>
+        <label><!-- Default Delivery Point (CA) --></label>
+        <name>AITM_Default_Delivery_Point_CA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Default Delivery Point (GA) --></label>
+        <name>AITM_Default_Delivery_Point_GA__c</name>
+    </fields>
+    <fields>
+        <help><!-- Email addresses of Location Manager delegates --></help>
+        <label><!-- Delegates --></label>
+        <name>AITM_Delegates__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delivery By --></label>
+        <name>AITM_Delivery_By__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delivery Method --></label>
+        <name>AITM_Delivery_Method__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delivery Point --></label>
+        <name>AITM_Delivery_Point__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Density --></label>
+        <name>AITM_Density__c</name>
+    </fields>
+    <fields>
+        <label><!-- Floor Price --></label>
+        <name>AITM_Floor_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- IATA/ICAO --></label>
+        <name>AITM_IATA_ICAO__c</name>
+    </fields>
+    <fields>
+        <label><!-- IATA --></label>
+        <name>AITM_IATA__c</name>
+    </fields>
+    <fields>
+        <label><!-- ICAO --></label>
+        <name>AITM_ICAO__c</name>
+    </fields>
+    <fields>
+        <label><!-- Internal Code --></label>
+        <name>AITM_Internal_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Into-Plane Provider --></label>
+        <name>AITM_Into_plane__c</name>
+    </fields>
+    <fields>
+        <label><!-- Location Group --></label>
+        <name>AITM_Location_Group_GA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Location Group --></label>
+        <name>AITM_Location_Group__c</name>
+    </fields>
+    <fields>
+        <help><!-- What is happening with Customers and Competitors at this location which may affect Air BP strategy, profitability and Tender performance? --></help>
+        <label><!-- Location Market Context --></label>
+        <name>AITM_Location_Market_Context_GA__c</name>
+    </fields>
+    <fields>
+        <help><!-- What is happening with Customers and Competitors at this location which may affect Air BP strategy, profitability and Tender performance? --></help>
+        <label><!-- Location Market Context --></label>
+        <name>AITM_Location_Market_Context__c</name>
+    </fields>
+    <fields>
+        <label><!-- Location Segmentation --></label>
+        <name>AITM_Location_Segmentation_GA__c</name>
+        <picklistValues>
+            <masterLabel>Concession</masterLabel>
+            <translation><!-- Concession --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Core</masterLabel>
+            <translation><!-- Core --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Opportunistic</masterLabel>
+            <translation><!-- Opportunistic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Optimise</masterLabel>
+            <translation><!-- Optimise --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Location Segmentation --></label>
+        <name>AITM_Location_Segmentation__c</name>
+        <picklistValues>
+            <masterLabel>Concession</masterLabel>
+            <translation><!-- Concession --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Core</masterLabel>
+            <translation><!-- Core --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Opportunistic</masterLabel>
+            <translation><!-- Opportunistic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Optimise</masterLabel>
+            <translation><!-- Optimise --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Overall Location Size --></label>
+        <name>AITM_Location_Size__c</name>
+    </fields>
+    <fields>
+        <label><!-- Location Strategy --></label>
+        <name>AITM_Location_Strategy_GA__c</name>
+        <picklistValues>
+            <masterLabel>Defend</masterLabel>
+            <translation><!-- Defend --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Exit</masterLabel>
+            <translation><!-- Exit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grow</masterLabel>
+            <translation><!-- Grow --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maintain</masterLabel>
+            <translation><!-- Maintain --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reduce</masterLabel>
+            <translation><!-- Reduce --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Location Strategy --></label>
+        <name>AITM_Location_Strategy__c</name>
+    </fields>
+    <fields>
+        <label><!-- Location Type --></label>
+        <name>AITM_Location_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Location Unique ID --></label>
+        <name>AITM_Location_Unique_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Locations Filter --></label>
+        <name>AITM_Locations_Filter__c</name>
+        <picklistValues>
+            <masterLabel>NonPolish</masterLabel>
+            <translation><!-- NonPolish --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Polish</masterLabel>
+            <translation><!-- Polish --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Market Classification --></label>
+        <name>AITM_Market_Classification_GA__c</name>
+        <picklistValues>
+            <masterLabel>Declining</masterLabel>
+            <translation><!-- Declining --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Growing</masterLabel>
+            <translation><!-- Growing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Steady</masterLabel>
+            <translation><!-- Steady --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Market Classification --></label>
+        <name>AITM_Market_Classification__c</name>
+        <picklistValues>
+            <masterLabel>Declining</masterLabel>
+            <translation><!-- Declining --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Growing</masterLabel>
+            <translation><!-- Growing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Steady</masterLabel>
+            <translation><!-- Steady --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Measure --></label>
+        <name>AITM_Measure__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number Of Marketers --></label>
+        <name>AITM_Number_Of_Marketers_GA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number Of Marketers --></label>
+        <name>AITM_Number_Of_Marketers__c</name>
+    </fields>
+    <fields>
+        <help><!-- Is there an INTO-Plane Business? Is there any ITP Business? Is it a CSA? --></help>
+        <label><!-- Operating Model --></label>
+        <name>AITM_Operating_Model__c</name>
+        <picklistValues>
+            <masterLabel>3rd Party ITP</masterLabel>
+            <translation><!-- 3rd Party ITP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Agencies</masterLabel>
+            <translation><!-- Agencies --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BP ITP</masterLabel>
+            <translation><!-- BP ITP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CSAs</masterLabel>
+            <translation><!-- CSAs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JV ITP</masterLabel>
+            <translation><!-- JV ITP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Overall Location Size --></label>
+        <name>AITM_Overall_Location_Size_GA__c</name>
+    </fields>
+    <fields>
+        <help><!-- Default Pricing basis for the location --></help>
+        <label><!-- Pricing Basis --></label>
+        <name>AITM_Pricing_Basis__c</name>
+        <relationshipLabel><!-- Locations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Pricing Excellence --></label>
+        <name>AITM_Pricing_Excellence__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary Airport Supply --></label>
+        <name>AITM_Primary_Airport_Supply_GA__c</name>
+        <picklistValues>
+            <masterLabel>Pipe</masterLabel>
+            <translation><!-- Pipe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Road</masterLabel>
+            <translation><!-- Road --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vessel</masterLabel>
+            <translation><!-- Vessel --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Primary Airport Supply --></label>
+        <name>AITM_Primary_Airport_Supply__c</name>
+        <picklistValues>
+            <masterLabel>Pipe</masterLabel>
+            <translation><!-- Pipe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Road</masterLabel>
+            <translation><!-- Road --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vessel</masterLabel>
+            <translation><!-- Vessel --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Primary Product Supply --></label>
+        <name>AITM_Primary_Product_Supply_GA__c</name>
+        <picklistValues>
+            <masterLabel>Combination</masterLabel>
+            <translation><!-- Combination --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Import</masterLabel>
+            <translation><!-- Import --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inland Oil Company/Trader</masterLabel>
+            <translation><!-- Inland Oil Company/Trader --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inland Refinery</masterLabel>
+            <translation><!-- Inland Refinery --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Primary Product Supply --></label>
+        <name>AITM_Primary_Supply__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product and Density for Pricing --></label>
+        <name>AITM_Product__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Organisation --></label>
+        <name>AITM_Sales_Organisation_GA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Organisation --></label>
+        <name>AITM_Sales_Organisation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Specification --></label>
+        <name>AITM_Specification__c</name>
+        <picklistValues>
+            <masterLabel>AFQRJOS (latest issue)</masterLabel>
+            <translation><!-- AFQRJOS (latest issue) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ASTM D1655 (latest revision)</masterLabel>
+            <translation><!-- ASTM D1655 (latest revision) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ASTM D910 (latest issue)</masterLabel>
+            <translation><!-- ASTM D910 (latest issue) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Can/CGS B, 3.23 (latest issue)</masterLabel>
+            <translation><!-- Can/CGS B, 3.23 (latest issue) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Defence Standard 91-80 (latest issue)</masterLabel>
+            <translation><!-- Defence Standard 91-80 (latest issue) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Defence Standard 91-87 (latest issue)</masterLabel>
+            <translation><!-- Defence Standard 91-87 (latest issue) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Defence Standard 91-91 (latest issue)</masterLabel>
+            <translation><!-- Defence Standard 91-91 (latest issue) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MIL-DTL 5642U (latest issue)</masterLabel>
+            <translation><!-- MIL-DTL 5642U (latest issue) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MIL-DTL 83133 (latest issue)</masterLabel>
+            <translation><!-- MIL-DTL 83133 (latest issue) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MIL-DTL-1684L</masterLabel>
+            <translation><!-- MIL-DTL-1684L --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MIL-STD-1548 (latest issue)</masterLabel>
+            <translation><!-- MIL-STD-1548 (latest issue) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Stock Days --></label>
+        <name>AITM_Stock_Days_GA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Stock Days --></label>
+        <name>AITM_Stock_Days__c</name>
+    </fields>
+    <fields>
+        <help><!-- What are your main Vulnerabilities and Opportunities? Do you have any CAPEX Requirements? Are there any changes in WC Requirements? --></help>
+        <label><!-- Strategy Overview --></label>
+        <name>AITM_Strategy_Overview_GA__c</name>
+    </fields>
+    <fields>
+        <help><!-- What are your main Vulnerabilities and Opportunities? Do you have any CAPEX Requirements? Are there any changes in WC Requirements? --></help>
+        <label><!-- Strategy Overview --></label>
+        <name>AITM_Strategy_Overview__c</name>
+    </fields>
+    <fields>
+        <label><!-- Suppliers Total Volume --></label>
+        <name>AITM_Suppliers_Total_Volume_GA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Suppliers Total Volume --></label>
+        <name>AITM_Suppliers_Total__c</name>
+    </fields>
+    <fields>
+        <label><!-- Taxes &amp; Fees --></label>
+        <name>AITM_Taxes_Fees__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unit of Measure --></label>
+        <name>AITM_Unit_Of_Measure__c</name>
+    </fields>
+    <layouts>
+        <layout>Air_TMLocation Layout</layout>
+        <sections>
+            <label><!-- Basic Location Details --></label>
+            <section>Basic Location Details</section>
+        </sections>
+        <sections>
+            <label><!-- CA Context --></label>
+            <section>CA Context</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- GA Context --></label>
+            <section>GA Context</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

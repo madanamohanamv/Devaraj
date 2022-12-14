@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ModerationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <action>FreezeAndNotify</action>
+    <active>false</active>
+    <entitiesAndFields>
+        <entityName>FeedItem</entityName>
+    </entitiesAndFields>
+    <entitiesAndFields>
+        <entityName>FeedComment</entityName>
+    </entitiesAndFields>
+    <entitiesAndFields>
+        <entityName>FeedPollChoice</entityName>
+    </entitiesAndFields>
+    <masterLabel>CAPL_PostCreation</masterLabel>
+    <notifyLimit>1</notifyLimit>
+    <timePeriod>Medium</timePeriod>
+    <type>Rate</type>
+    <userCriteria>CAPL Castrol Custom Community.Customer_Members</userCriteria>
+</ModerationRule>

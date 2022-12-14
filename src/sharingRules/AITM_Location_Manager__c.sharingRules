@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingOwnerRules>
+        <fullName>AIRBP_LABPAM_Access</fullName>
+        <accessLevel>Read</accessLevel>
+        <description>Owner of AIRBP records shared with LABP AM as readonly</description>
+        <label>AIRBP_LABPAM_Access</label>
+        <sharedTo>
+            <group>LABP_Account_Manager</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>AirBP</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>AITM_AIRBP_Role</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>AITM_AIRBP_Role</label>
+        <sharedTo>
+            <role>AirBP</role>
+        </sharedTo>
+        <sharedFrom>
+            <allInternalUsers></allInternalUsers>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>AITM_AIR_Data_Migration</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Used for Data Loader Profile</description>
+        <label>AITM_AIR_Data_Migration</label>
+        <sharedTo>
+            <role>AIR_BP_Data_Migration</role>
+        </sharedTo>
+        <sharedFrom>
+            <allInternalUsers></allInternalUsers>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>AITM_LABPLM_LABPAM</fullName>
+        <accessLevel>Read</accessLevel>
+        <description>Records owned by LABP Location Manager Users shared with LABP Account Manager users</description>
+        <label>AITM_LABPLM_LABPAM</label>
+        <sharedTo>
+            <group>LABP_Account_Manager</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>LABP_Location_Manager</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

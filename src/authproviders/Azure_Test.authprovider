@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AuthProvider xmlns="http://soap.sforce.com/2006/04/metadata">
+    <authorizeUrl>https://login.microsoftonline.com/b989f104-d41b-4f40-b814-1a3bfee7dbc7/oauth2/authorize</authorizeUrl>
+    <consumerKey>df6fce85-53df-47c2-8e8f-fdcd635a333c</consumerKey>
+    <consumerSecret>dc5sR+ZJazutfyoGpO67PD1PaM/FJF7/LdDTVWT3gj8t6j7+ifdm14eXbDv3mwtT</consumerSecret>
+    <friendlyName>Azure Test</friendlyName>
+    <includeOrgIdInIdentifier>false</includeOrgIdInIdentifier>
+    <providerType>MicrosoftACS</providerType>
+    <sendAccessTokenInHeader>false</sendAccessTokenInHeader>
+    <sendClientCredentialsInHeader>false</sendClientCredentialsInHeader>
+    <tokenUrl>https://login.microsoftonline.com/b989f104-d41b-4f40-b814-1a3bfee7dbc7/oauth2/token</tokenUrl>
+</AuthProvider>

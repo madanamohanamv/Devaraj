@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>CALCF_SendSurveyTask</fullName>
+        <description>CALCF_SendSurveyTask</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Send_Task_Primary_Email__c</field>
+            <type>email</type>
+        </recipients>
+        <recipients>
+            <field>Send_Task_Secondary_Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Live_Customer_Feedback_Templates/Send_Survey_Related_Task</template>
+    </alerts>
+    <alerts>
+        <fullName>CA_SendTaskAsEmail</fullName>
+        <description>CA_SendTaskAsEmail</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Send_Task_Primary_Email__c</field>
+            <type>email</type>
+        </recipients>
+        <recipients>
+            <field>Send_Task_Secondary_Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Castrol_Sales/Send_Task_As_Email</template>
+    </alerts>
+</Workflow>

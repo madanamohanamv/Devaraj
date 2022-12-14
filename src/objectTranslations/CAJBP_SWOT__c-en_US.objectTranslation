@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>SWOT</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>SWOTS</value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- default --></label>
+        <name>default</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Active --></label>
+        <name>CAJBP_Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>CAJBP_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Joint Business Plan --></label>
+        <name>CAJBP_Joint_Business_Plan__c</name>
+        <relationshipLabel><!-- SWOTS --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Title --></label>
+        <name>CAJBP_Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>Type__c</name>
+        <picklistValues>
+            <masterLabel>Opportunity</masterLabel>
+            <translation><!-- Opportunity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strength</masterLabel>
+            <translation><!-- Strength --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Threat</masterLabel>
+            <translation><!-- Threat --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Weakness</masterLabel>
+            <translation><!-- Weakness --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>External View</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Internal View</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Customer View --></label>
+        <name>CAJBP_External</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Business View --></label>
+        <name>CAJBP_Internal</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

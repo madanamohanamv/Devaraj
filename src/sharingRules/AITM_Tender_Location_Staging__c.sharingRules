@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingOwnerRules>
+        <fullName>AITM_AIRBP_Role</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>AITM_AIRBP_Role</label>
+        <sharedTo>
+            <role>AirBP</role>
+        </sharedTo>
+        <sharedFrom>
+            <allInternalUsers></allInternalUsers>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>AITM_AIR_Data_Migration</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Used for data loader profile</description>
+        <label>AITM_AIR_Data_Migration</label>
+        <sharedTo>
+            <role>AIR_BP_Data_Migration</role>
+        </sharedTo>
+        <sharedFrom>
+            <allInternalUsers></allInternalUsers>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

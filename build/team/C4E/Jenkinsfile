@@ -1,0 +1,171 @@
+def config = [:]
+
+node('centos-large') {
+    
+    stage("Checkout from SCC") {
+        git url: 'https://bp-vsts.visualstudio.com/Salesforce%20Platform/_git/sfdc-customer',
+                branch: 'integration', credentialsId: "${VSTS_CREDENTIALS}"
+
+        sh('[ -e ci ] || mkdir ci')
+        dir('ci') {
+            git url: 'https://bp-vsts.visualstudio.com/Salesforce%20Platform/_git/sfdc-c4e-devops',
+                    branch: '1-click', credentialsId: "${VSTS_CREDENTIALS}"
+        }
+    }
+    def builddir = pwd() + "/build/team/C4E"
+    stage("Load settings") {
+        def oneclick = readYaml file: "${builddir}/1click.yml"
+
+        config = [
+                prodCredentialsId   : oneclick.salesforce.prodCredentialsId,
+                preProdCredentialsId: oneclick.salesforce.preProdCredentialsId,
+                sitCredentialsId    : oneclick.salesforce.sitCredentialsId,
+                vstsCreds           : oneclick.vsts.credentials,
+                vstsUrl             : oneclick.vsts.url,
+                sonarProject       : oneclick.salesforce.SONARQUBE_PROJECT_KEY
+        ]
+    }
+    
+    stage("create pre-release branch") {
+
+        withCredentials([usernamePassword(credentialsId: "${config.vstsCreds}", passwordVariable: 'GIT_PASSWORD', usernameVariable: 'GIT_USERNAME')]) {
+            sh '''git config --global user.email \\"adam.walker1@bp.com\\" '''
+            sh '''git config --global user.name \\"Adam Walker\\" '''
+            sh "git checkout release --quiet"
+            sh "git branch pre-release --quiet"
+            sh "git checkout pre-release --quiet"
+            sh "git merge origin/integration"
+            sh "git checkout integration" 
+        }
+    }
+
+    stage ("Clean unlisted files") {
+        sh "${WORKSPACE}/ci/clean-sf.sh"
+    }
+
+
+    stage("Deploy to SIT Environment") {
+   
+
+        withCredentials([[$class: 'UsernamePasswordMultiBinding', credentialsId: "${config.sitCredentialsId}", usernameVariable: 'SF_USERNAME', passwordVariable: 'SF_PASSWORD']]) {
+            def antDir = "${tool 'Ant1.10'}"
+            env.PATH="${antDir}/bin:${env.PATH}"
+            sh "${WORKSPACE}/ci/deploy-sf.sh ${builddir}/sit.properties"
+        }
+    }
+    
+    stage("push pre-release branch") {
+        withCredentials([usernamePassword(credentialsId: "${config.vstsCreds}", passwordVariable: 'GIT_PASSWORD', usernameVariable: 'GIT_USERNAME')]) {
+            echo "Push pre-release branch to remote"
+            sh "git rev-parse --abbrev-ref HEAD"
+            sh('git push https://${GIT_PASSWORD}@bp-vsts.visualstudio.com/Salesforce%20Platform/_git/sfdc-customer pre-release')
+        }
+    
+    }
+    
+}
+
+stage("Deploy to PreProd Environment") {
+    
+    timeout(time: 5, unit: 'DAYS') {
+        input message: 'Approve deployment to PreProd ?'
+    }
+
+    node('centos-large') {
+
+        stage("Checkout release") {
+            git url: 'https://bp-vsts.visualstudio.com/Salesforce%20Platform/_git/sfdc-customer',
+                branch: 'release', credentialsId: "${config.vstsCreds}"
+
+            sh('[ -e ci ] || mkdir ci')
+            dir('ci') {
+               git url: 'https://bp-vsts.visualstudio.com/Salesforce%20Platform/_git/sfdc-c4e-devops',
+                        branch: '1-click', credentialsId: "${config.vstsCreds}"
+            }
+        }
+
+        stage("Merge integration into release") {
+        withCredentials([usernamePassword(credentialsId: "${config.vstsCreds}", passwordVariable: 'GIT_PASSWORD', usernameVariable: 'GIT_USERNAME')]) {
+            echo "List current working directory:"
+            sh "git rev-parse --abbrev-ref HEAD"
+            sh "git checkout release --quiet" 
+            sh "git merge origin/pre-release" 
+            echo "List current working brnach"
+            sh "git rev-parse --abbrev-ref HEAD"
+            sh('git push https://${GIT_PASSWORD}@bp-vsts.visualstudio.com/Salesforce%20Platform/_git/sfdc-customer release')
+            }
+        }
+
+        stage('Deployment in PreProd') {
+
+            def builddir = pwd() + "/build/team/C4E"
+
+            stage ("Clean unlisted files") {
+                sh "${WORKSPACE}/ci/clean-sf.sh"
+            }
+
+            withCredentials([[$class: 'UsernamePasswordMultiBinding', credentialsId: "${config.preProdCredentialsId}", usernameVariable: 'SF_USERNAME', passwordVariable: 'SF_PASSWORD']]) {
+                def antDir = "${tool 'Ant1.10'}"
+                env.PATH="${antDir}/bin:${env.PATH}"
+                sh "${WORKSPACE}/ci/deploy-sf.sh ${builddir}/preprod.properties"
+            } 
+        }
+
+        stage("Delete pre-release branch") {
+        withCredentials([usernamePassword(credentialsId: "${config.vstsCreds}", passwordVariable: 'GIT_PASSWORD', usernameVariable: 'GIT_USERNAME')]) {
+            sh "git checkout release --quiet"
+            sh('git push https://${GIT_PASSWORD}@bp-vsts.visualstudio.com/Salesforce%20Platform/_git/sfdc-customer --delete pre-release')
+            }
+        }
+
+    }
+}
+
+stage("Deploy to Prod Environment") {
+
+    timeout(time: 5, unit: 'DAYS') {
+        input message: 'Approve deployment to Prod ?'
+    }
+
+    node('centos-large') {
+
+        stage("Checkout master") {
+            git url: 'https://bp-vsts.visualstudio.com/Salesforce%20Platform/_git/sfdc-customer',
+                branch: 'master', credentialsId: "${config.vstsCreds}"
+
+            sh('[ -e ci ] || mkdir ci')
+            dir('ci') {
+               git url: 'https://bp-vsts.visualstudio.com/Salesforce%20Platform/_git/sfdc-c4e-devops',
+                        branch: '1-click', credentialsId: "${config.vstsCreds}"
+            }
+        }
+
+        stage("Merge release into master") {
+        withCredentials([usernamePassword(credentialsId: "${config.vstsCreds}", passwordVariable: 'GIT_PASSWORD', usernameVariable: 'GIT_USERNAME')]) {
+            echo "List current working directory:"
+            sh '''git config --global user.email \\"adam.walker1@bp.com\\" '''
+            sh '''git config --global user.name \\"Adam Walker\\" '''
+            sh "git rev-parse --abbrev-ref HEAD"
+            sh "git checkout master --quiet" 
+            sh "git merge origin/release" 
+            echo "List current working brnach"
+            sh "git rev-parse --abbrev-ref HEAD"
+            sh('git push https://${GIT_PASSWORD}@bp-vsts.visualstudio.com/Salesforce%20Platform/_git/sfdc-customer master')
+            }
+        }
+
+        stage('Deployment in Prod') {
+            def builddir = pwd() + "/build/team/C4E"
+
+            stage ("Clean unlisted files") {
+                sh "${WORKSPACE}/ci/clean-sf.sh"
+            }
+
+            withCredentials([[$class: 'UsernamePasswordMultiBinding', credentialsId: "${config.prodCredentialsId}", usernameVariable: 'SF_USERNAME', passwordVariable: 'SF_PASSWORD']]) {
+                def antDir = "${tool 'Ant1.10'}"
+                env.PATH="${antDir}/bin:${env.PATH}"
+                sh "${WORKSPACE}/ci/deploy-sf.sh ${builddir}/prod.properties"
+            }
+        }
+    }
+}

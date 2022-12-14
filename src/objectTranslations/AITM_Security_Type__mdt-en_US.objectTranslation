@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>AITM_Security_Type</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>AITM_Security_Type</value>
+    </caseValues>
+    <fields>
+        <label><!-- Description --></label>
+        <name>AITM_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- MNMC --></label>
+        <name>AITM_MNMC__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contract Text --></label>
+        <name>Contract_Text__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

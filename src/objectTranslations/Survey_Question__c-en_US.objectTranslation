@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Survey Question</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Survey Questions</value>
+    </caseValues>
+    <fields>
+        <label><!-- Short Name --></label>
+        <name>CALCF_Question_Short_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Category --></label>
+        <name>Category__c</name>
+        <picklistValues>
+            <masterLabel>CES</masterLabel>
+            <translation><!-- CES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Comments</masterLabel>
+            <translation><!-- Comments --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delivery</masterLabel>
+            <translation><!-- Delivery --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>First response time</masterLabel>
+            <translation><!-- First response time --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NPS</masterLabel>
+            <translation><!-- NPS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Price &amp; Payments</masterLabel>
+            <translation><!-- Price &amp; Payments --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product availability</masterLabel>
+            <translation><!-- Product availability --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quality of response</masterLabel>
+            <translation><!-- Quality of response --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resolution satisfaction</masterLabel>
+            <translation><!-- Resolution satisfaction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resolution speed</masterLabel>
+            <translation><!-- Resolution speed --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Choices --></label>
+        <name>Choices__c</name>
+    </fields>
+    <fields>
+        <label><!-- Freetext Placeholder Text --></label>
+        <name>Freetext_Placeholder_Text__c</name>
+    </fields>
+    <fields>
+        <label><!-- Survey Integration Id --></label>
+        <name>Integration_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Migration ID --></label>
+        <name>Migration_ID__c</name>
+    </fields>
+    <fields>
+        <help><!-- The question in the native language of the survey to be used on externally facing survey pages or emails as appropriate --></help>
+        <label><!-- Native Language Question --></label>
+        <name>Native_Language_Question__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the position of the question within the survey here. --></help>
+        <label><!-- OrderNumber --></label>
+        <name>OrderNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Question Header --></label>
+        <name>Question_Header__c</name>
+    </fields>
+    <fields>
+        <label><!-- Question Integration Id --></label>
+        <name>Question_Integration_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Question --></label>
+        <name>Question__c</name>
+    </fields>
+    <fields>
+        <help><!-- Check this box if you want the taker to be required to take the question. --></help>
+        <label><!-- Required --></label>
+        <name>Required__c</name>
+    </fields>
+    <fields>
+        <label><!-- Survey Template --></label>
+        <name>Survey__c</name>
+        <relationshipLabel><!-- SurveyQuestions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Total Responses --></label>
+        <name>Total_Responses__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>Type__c</name>
+        <picklistValues>
+            <masterLabel>Free Text</masterLabel>
+            <translation><!-- Free Text --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Single Select--Horizontal</masterLabel>
+            <translation><!-- Single Select- - Horizontal --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Count of CES Difficult Responses (1 - 2) --></help>
+        <label><!-- CES Difficult Count --></label>
+        <name>lcf_CES_Difficult_Count__c</name>
+    </fields>
+    <fields>
+        <help><!-- Count of CES Easy Responses (5 - 4) --></help>
+        <label><!-- CES Easy Count --></label>
+        <name>lcf_CES_Easy_Count__c</name>
+    </fields>
+    <fields>
+        <help><!-- Count of CES Neither Responses (3) --></help>
+        <label><!-- CES Neither Count --></label>
+        <name>lcf_CES_Neither_Count__c</name>
+    </fields>
+    <fields>
+        <help><!-- Customer Effort Score (% easy - % difficult) --></help>
+        <label><!-- CES Score --></label>
+        <name>lcf_CES_Score__c</name>
+    </fields>
+    <fields>
+        <help><!-- Customer Effort Score Question --></help>
+        <label><!-- CES --></label>
+        <name>lcf_CES__c</name>
+    </fields>
+    <fields>
+        <help><!-- Count of NPS Difficult Responses (0 - 6) --></help>
+        <label><!-- NPS Detractors Count --></label>
+        <name>lcf_NPS_Detractors_Count__c</name>
+    </fields>
+    <fields>
+        <help><!-- Count of NPS Passives Responses (7 - 8) --></help>
+        <label><!-- NPS Passives Count --></label>
+        <name>lcf_NPS_Passives_Count__c</name>
+    </fields>
+    <fields>
+        <help><!-- Count of NPS Promoters Responses (9 - 10) --></help>
+        <label><!-- NPS Promoters Count --></label>
+        <name>lcf_NPS_Promoters_Count__c</name>
+    </fields>
+    <fields>
+        <help><!-- Net Promoter Score (% promoters - % detractors) --></help>
+        <label><!-- NPS Score --></label>
+        <name>lcf_NPS_Score__c</name>
+    </fields>
+    <fields>
+        <help><!-- Net Promoter Score Question --></help>
+        <label><!-- NPS --></label>
+        <name>lcf_NPS__c</name>
+    </fields>
+    <layouts>
+        <layout>Castrol_SurveyQuestionLayout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Net Promoter and Net Easy Ratings --></label>
+            <section>Net Promoter and Net Easy Ratings</section>
+        </sections>
+        <sections>
+            <label><!-- Survey Question Labels --></label>
+            <section>Survey Question Labels</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

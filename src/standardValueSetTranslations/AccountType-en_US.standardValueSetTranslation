@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Branded Direct</masterLabel>
+        <translation><!-- Branded Direct --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Branded Jobber</masterLabel>
+        <translation><!-- Branded Jobber --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Commercial</masterLabel>
+        <translation><!-- Commercial --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Competitor</masterLabel>
+        <translation><!-- Competitor --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>M &amp; S Prospect: Natural Person</masterLabel>
+        <translation><!-- M &amp; S Prospect: Natural Person --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>M &amp; S:Marine Port</masterLabel>
+        <translation>Port</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>M&amp;S Bill-to party customer</masterLabel>
+        <translation>Bill-To Party</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>M&amp;S Hierarchy node Customer Group</masterLabel>
+        <translation>Customer Group</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>M&amp;S Payer customer</masterLabel>
+        <translation>Payer</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>M&amp;S Ship-to party customer</masterLabel>
+        <translation>Ship-To Party</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>M&amp;S Sold-to NaturalPers-Air BP</masterLabel>
+        <translation><!-- M&amp;S Sold-to NaturalPers-Air BP --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>M&amp;S Sold-to Related Customers</masterLabel>
+        <translation><!-- M&amp;S Sold-to Related Customers --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>M&amp;S Sold-to party customer IB</masterLabel>
+        <translation><!-- M&amp;S Sold-to party customer IB --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Sold-to customer NaturalPerson</masterLabel>
+        <translation><!-- Sold-to customer NaturalPerson --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Suspect</masterLabel>
+        <translation><!-- Suspect --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZMMP</masterLabel>
+        <translation>M&amp;S Marine Main Port</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZMPS</masterLabel>
+        <translation>M&amp;S Prospect 3rd party</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZMSP</masterLabel>
+        <translation>Sold-To Party</translation>
+    </valueTranslation>
+</StandardValueSetTranslation>

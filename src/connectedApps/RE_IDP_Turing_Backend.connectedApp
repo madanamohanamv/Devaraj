@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>bp-idp@bluewolfgroup.com</contactEmail>
+    <label>RE IDP Turing Backend</label>
+    <oauthConfig>
+        <callbackUrl>https://www.strala.energy/turing/loginsuccess.jsp</callbackUrl>
+        <certificate>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</certificate>
+        <consumerKey>3MVG98_Psg5cppybfa6udyqaBybr6zH9_epsdaloAmRUSngUwKiCPKDivE2p1.eUkUfSjEJD0x.51V0DHbofj</consumerKey>
+        <idTokenConfig>
+            <idTokenIncludeAttributes>true</idTokenIncludeAttributes>
+            <idTokenIncludeCustomPerms>false</idTokenIncludeCustomPerms>
+            <idTokenIncludeStandardClaims>true</idTokenIncludeStandardClaims>
+            <idTokenValidity>2</idTokenValidity>
+        </idTokenConfig>
+        <scopes>Basic</scopes>
+        <scopes>Api</scopes>
+        <scopes>Web</scopes>
+        <scopes>CustomApplications</scopes>
+        <scopes>RefreshToken</scopes>
+        <scopes>OpenID</scopes>
+    </oauthConfig>
+</ConnectedApp>

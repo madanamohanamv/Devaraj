@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Tender</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Tenders</value>
+    </caseValues>
+    <fields>
+        <label><!-- Airline profile --></label>
+        <name>AITM_Arl_Prfl_And_Tndr_Information__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bids in by --></label>
+        <name>AITM_Bids_In_By__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contract is sent to a Customer --></label>
+        <name>AITM_Contract_Is_Sent_To_A_Customer__c</name>
+    </fields>
+    <fields>
+        <help><!-- What currency do you want to use for this tender? --></help>
+        <label><!-- Invoice Currency --></label>
+        <name>AITM_Currency__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cust talk influence req conducted --></label>
+        <name>AITM_Cust_Talk_Influence_Req_Conducted__c</name>
+    </fields>
+    <fields>
+        <label><!-- Density --></label>
+        <name>AITM_Density__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email --></label>
+        <name>AITM_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- End Date --></label>
+        <name>AITM_End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gross Profit New Contract --></label>
+        <name>AITM_Gross_Profit_New_Contract__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gross Profit (USD/yr) Notes --></label>
+        <name>AITM_Gross_Profit_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gross Profit Previous Contract --></label>
+        <name>AITM_Gross_Profit_Previous_Contract__c</name>
+    </fields>
+    <fields>
+        <label><!-- Historic Tender --></label>
+        <name>AITM_Historic_Tender__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Customer talk infl req conducted --></label>
+        <name>AITM_Is_Customer_Talk_Infl_Req_Conducted__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Multi-year incentive scheme offered --></label>
+        <name>AITM_Is_Multi_Year_Int_Scheme_Offered__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Pro-active package offered --></label>
+        <name>AITM_Is_Pro_Active_Package_Offered__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last look to incumbent --></label>
+        <name>AITM_Last_Look_To_Incumbent__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Varies</masterLabel>
+            <translation><!-- Varies --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Multi-year incentive scheme offered --></label>
+        <name>AITM_Multi_Year_Int_Offered_Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- No feedback, progress to de-brief --></label>
+        <name>AITM_No_Feedback_Progress_To_De_Brief__c</name>
+    </fields>
+    <fields>
+        <label><!-- Notes For Tender --></label>
+        <name>AITM_Notes_For_Tender__c</name>
+    </fields>
+    <fields>
+        <label><!-- Notes on feedback --></label>
+        <name>AITM_Notes_On_Feedback__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number Of Customers --></label>
+        <name>AITM_Number_Of_Customers__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number Of Locations --></label>
+        <name>AITM_Number_Of_Locations__c</name>
+    </fields>
+    <fields>
+        <label><!-- Estimated Number of Rounds --></label>
+        <name>AITM_Number_Of_Rounds__c</name>
+    </fields>
+    <fields>
+        <label><!-- Offer Sent To A Customer --></label>
+        <name>AITM_Offer_Sent_To_A_Customer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Offer Valid Until --></label>
+        <name>AITM_Offer_Valid_Until__c</name>
+    </fields>
+    <fields>
+        <label><!-- Phone --></label>
+        <name>AITM_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Price Performance Index New Contract --></label>
+        <name>AITM_Price_Perf_Index_New_Contract__c</name>
+    </fields>
+    <fields>
+        <label><!-- Price Performance Index Prev Contract --></label>
+        <name>AITM_Price_Perf_Index_Prev_Contract__c</name>
+    </fields>
+    <fields>
+        <label><!-- Price Performance Index Notes --></label>
+        <name>AITM_Price_Performance_Index_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pro-active package offered --></label>
+        <name>AITM_Pro_Active_Package_Offered_Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Produce Customer Email --></label>
+        <name>AITM_Produce_Customer_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quality of feedback --></label>
+        <name>AITM_Quality_Of_Feedback__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROWC New Contract --></label>
+        <name>AITM_ROWC_New_Contract__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROWC (%) Notes --></label>
+        <name>AITM_ROWC_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROWC Previous Contract --></label>
+        <name>AITM_ROWC_Previous_Contract__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recognition And Shout Outs --></label>
+        <name>AITM_Recognition_And_Shout_Outs__c</name>
+    </fields>
+    <fields>
+        <label><!-- Record Name --></label>
+        <name>AITM_Record_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Send Feedback Notification --></label>
+        <name>AITM_Send_Feedback_Notification__c</name>
+    </fields>
+    <fields>
+        <label><!-- Send Invitation Notification --></label>
+        <name>AITM_Send_Invitation_Notification__c</name>
+    </fields>
+    <fields>
+        <label><!-- Send LABP Feedback Notification --></label>
+        <name>AITM_Send_LABP_Feedback_Notification__c</name>
+    </fields>
+    <fields>
+        <label><!-- Stage --></label>
+        <name>AITM_Stage__c</name>
+        <picklistValues>
+            <masterLabel>Awaiting Price</masterLabel>
+            <translation><!-- Awaiting Price --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closed</masterLabel>
+            <translation><!-- Closed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Debrief</masterLabel>
+            <translation><!-- Debrief --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Feedback and Negotiation</masterLabel>
+            <translation><!-- Feedback and Negotiation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Offer Submitted</masterLabel>
+            <translation><!-- Offer Submitted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Priced</masterLabel>
+            <translation><!-- Priced --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tender Created</masterLabel>
+            <translation><!-- Tender Created --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Start Date --></label>
+        <name>AITM_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tender Contact --></label>
+        <name>AITM_Tender_Contact__c</name>
+        <relationshipLabel><!-- Tenders --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Tender Context --></label>
+        <name>AITM_Tender_Context__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tender Information --></label>
+        <name>AITM_Tender_Information__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tender Preparation --></label>
+        <name>AITM_Tender_Preparation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tender Process --></label>
+        <name>AITM_Tender_Process__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tender Sector --></label>
+        <name>AITM_Tender_Sector__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tender Unique ID --></label>
+        <name>AITM_Tender_Unique_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Title --></label>
+        <name>AITM_Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Volume (USG) --></label>
+        <name>AITM_Total_Volume__c</name>
+    </fields>
+    <fields>
+        <help><!-- What measure do you want to use for this tender? --></help>
+        <label><!-- Unit of Measure --></label>
+        <name>AITM_Unit_Of_Measure__c</name>
+    </fields>
+    <fields>
+        <label><!-- Volume New Contract --></label>
+        <name>AITM_Volume_New_Contract__c</name>
+    </fields>
+    <fields>
+        <label><!-- Volume (USG/yr) Notes --></label>
+        <name>AITM_Volume_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Volume Previous Contract --></label>
+        <name>AITM_Volume_Previous_Contract__c</name>
+    </fields>
+    <fields>
+        <label><!-- What Could have gone better --></label>
+        <name>AITM_What_Could_Have_Gone_Better__c</name>
+    </fields>
+    <fields>
+        <label><!-- What have we learnt --></label>
+        <name>AITM_What_Have_We_Learnt__c</name>
+    </fields>
+    <fields>
+        <label><!-- What Went Well --></label>
+        <name>AITM_What_Went_Well__c</name>
+    </fields>
+    <fields>
+        <label><!-- Working Capital New Contract --></label>
+        <name>AITM_Working_Capital_New_Contract__c</name>
+    </fields>
+    <fields>
+        <label><!-- Working Capital (USD) Notes --></label>
+        <name>AITM_Working_Capital_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Working Capital Previous Contract --></label>
+        <name>AITM_Working_Capital_Previous_Contract__c</name>
+    </fields>
+    <layouts>
+        <layout>Air_TMAccountManagerTenderLayout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Negotiation Instructions --></label>
+            <section>Negotiation Instructions</section>
+        </sections>
+        <sections>
+            <label><!-- Optional --></label>
+            <section>Optional</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+        <sections>
+            <label><!-- Tender Contacts --></label>
+            <section>Tender Contacts</section>
+        </sections>
+        <sections>
+            <label><!-- Tender Details --></label>
+            <section>Tender Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Air_TMLABPAccountManagerTenderLayout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Negotiation Instructions --></label>
+            <section>Negotiation Instructions</section>
+        </sections>
+        <sections>
+            <label><!-- Optional --></label>
+            <section>Optional</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+        <sections>
+            <label><!-- Tender Contacts --></label>
+            <section>Tender Contacts</section>
+        </sections>
+        <sections>
+            <label><!-- Tender Details --></label>
+            <section>Tender Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Air_TMLABPLocationManagerTenderLayout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Negotiation Instructions --></label>
+            <section>Negotiation Instructions</section>
+        </sections>
+        <sections>
+            <label><!-- Optional --></label>
+            <section>Optional</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+        <sections>
+            <label><!-- Tender Contacts --></label>
+            <section>Tender Contacts</section>
+        </sections>
+        <sections>
+            <label><!-- Tender Details --></label>
+            <section>Tender Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Air_TMLocationManagerTenderLayout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Negotiation Instructions --></label>
+            <section>Negotiation Instructions</section>
+        </sections>
+        <sections>
+            <label><!-- Optional --></label>
+            <section>Optional</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+        <sections>
+            <label><!-- Tender Contacts --></label>
+            <section>Tender Contacts</section>
+        </sections>
+        <sections>
+            <label><!-- Tender Details --></label>
+            <section>Tender Details</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Add Customer --></label>
+        <name>AITM_Add_Customer</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Add Customer --></label>
+        <name>AITM_Add_Customers</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Add Locations --></label>
+        <name>AITM_Add_Locations</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Change Customer --></label>
+        <name>AITM_Change_Customer</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Change Dates --></label>
+        <name>AITM_Change_Date</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Generate Offer --></label>
+        <name>AITM_GenerateOffer</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Generate Contract --></label>
+        <name>AITM_Generate_Contract</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Send Contract To A Customer --></label>
+        <name>AITM_Send_Contract_To_A_Customer</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Send DeBrief Email --></label>
+        <name>AITM_Send_DeBrief_Email</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Send Feedback Email --></label>
+        <name>AITM_Send_Feedback_Email</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Send Offer To A Customer --></label>
+        <name>AITM_Send_Offer_To_A_Customer</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Sharing --></label>
+        <name>AITM_Sharing</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Upload Locations --></label>
+        <name>AITM_Upload_Locations</name>
+    </quickActions>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- A tender can only be assigned or delegated to another Account Manager. Please try again --></errorMessage>
+        <name>AITM_EditAccess_To_Their_Tender_To_Other</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- In order to move to the next stage please produce customer contract email --></errorMessage>
+        <name>Check_Contract_Email_Is_Sent_In_DeBrief</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The end date has to be after the start date on a tender --></errorMessage>
+        <name>End_Date_Before_Start_Date</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- In order to move to the next stage please produce customer email --></errorMessage>
+        <name>Send_Email_Before_Moving_To_The_Next_Sta</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- At least one customer and at least one location should be added. --></errorMessage>
+        <name>Stage_Awaiting_Price_Customers_Locations</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- To go to the next stage please fill this field. --></errorMessage>
+        <name>Stage_Awaiting_Price_Negotiation_Instruc</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- All tender details fields are mandatory. --></errorMessage>
+        <name>Stage_Awaiting_Price_Tender_Details</name>
+    </validationRules>
+</CustomObjectTranslation>

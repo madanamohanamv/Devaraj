@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Rebate</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Rebates</value>
+    </caseValues>
+    <fields>
+        <label><!-- Calculation Type --></label>
+        <name>CAJBP_Calculation_Type__c</name>
+        <picklistValues>
+            <masterLabel>Pence Per Litre</masterLabel>
+            <translation><!-- Pence Per Litre --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Percentage</masterLabel>
+            <translation><!-- Percentage --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Pence Per Liter --></label>
+        <name>CAJBP_Pence_Per_Liter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Percentage Rebate --></label>
+        <name>CAJBP_Percentage_Rebate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rebate Type Name --></label>
+        <name>CAJBP_Rebate_Type_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rebate Type --></label>
+        <name>CAJBP_Rebate_Type__c</name>
+        <picklistValues>
+            <masterLabel>Multiple</masterLabel>
+            <translation><!-- Multiple --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Single</masterLabel>
+            <translation><!-- Single --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Actuals should be populated before sharing with your partner --></help>
+        <label><!-- Remaining Turnover Required --></label>
+        <name>CAJBP_Remaining_Turnover_Required__c</name>
+    </fields>
+    <fields>
+        <help><!-- Actuals should be populated before sharing with your partner --></help>
+        <label><!-- Remaining Volume Required --></label>
+        <name>CAJBP_Remaining_Volume_Required__c</name>
+    </fields>
+    <fields>
+        <label><!-- Scorecard --></label>
+        <name>CAJBP_Scorecard__c</name>
+        <relationshipLabel><!-- Rebates --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Sell Type --></label>
+        <name>CAJBP_Sell_Type__c</name>
+        <picklistValues>
+            <masterLabel>Sell-in</masterLabel>
+            <translation><!-- Sell-in --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sell-out</masterLabel>
+            <translation><!-- Sell-out --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Pence Per Liter --></label>
+        <name>CAJBP_Stretch_Pence_Per_Liter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Percentage Rebate --></label>
+        <name>CAJBP_Stretch_Percentage_Rebate__c</name>
+    </fields>
+    <fields>
+        <help><!-- Payment on reaching target --></help>
+        <label><!-- Stretch Rebate Amount --></label>
+        <name>CAJBP_Stretch_Rebate_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Target YTD --></label>
+        <name>CAJBP_Stretch_Turnover_Target_YTD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Stretch Turnover Target --></label>
+        <name>CAJBP_Stretch_Turnover_Target__c</name>
+    </fields>
+    <fields>
+        <label><!-- Target YTD --></label>
+        <name>CAJBP_Stretch_Volume_Target_YTD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Stretch Volume Target --></label>
+        <name>CAJBP_Stretch_Volume_Target__c</name>
+    </fields>
+    <fields>
+        <help><!-- Applicable only for Indirect Joint Business Plan --></help>
+        <label><!-- Stretch Turnover Target --></label>
+        <name>CAJBP_Stretch_Volume_Turnover_Target__c</name>
+    </fields>
+    <fields>
+        <help><!-- Payment on reaching target --></help>
+        <label><!-- Target Rebate Amount --></label>
+        <name>CAJBP_Target_Rebate_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Target Type --></label>
+        <name>CAJBP_Target_Type__c</name>
+        <picklistValues>
+            <masterLabel>Turnover</masterLabel>
+            <translation><!-- Turnover --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Volume</masterLabel>
+            <translation><!-- Volume --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Target --></label>
+        <name>CAJBP_Target__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pence Per Liter --></label>
+        <name>CAJBP_Threshold_Pence_Per_Liter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Percentage Rebate --></label>
+        <name>CAJBP_Threshold_Percentage_Rebate__c</name>
+    </fields>
+    <fields>
+        <help><!-- Payment on reaching target --></help>
+        <label><!-- Threshold Rebate Amount --></label>
+        <name>CAJBP_Threshold_Rebate_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Target YTD --></label>
+        <name>CAJBP_Threshold_Turnover_Target_YTD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Threshold Turnover Target --></label>
+        <name>CAJBP_Threshold_Turnover_Target__c</name>
+    </fields>
+    <fields>
+        <label><!-- Target YTD --></label>
+        <name>CAJBP_Threshold_Volume_Target_YTD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Threshold Volume Target --></label>
+        <name>CAJBP_Threshold_Volume_Target__c</name>
+    </fields>
+    <fields>
+        <help><!-- Applicable only for Indirect Joint Business Plan --></help>
+        <label><!-- Threshold Turnover Target --></label>
+        <name>CAJBP_Threshold_Volume_Turnover_Target__c</name>
+    </fields>
+    <fields>
+        <label><!-- Target YTD --></label>
+        <name>CAJBP_Turnover_Target_YTD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Turnover Target --></label>
+        <name>CAJBP_Turnover_Target__c</name>
+    </fields>
+    <fields>
+        <label><!-- Target YTD --></label>
+        <name>CAJBP_Volume_Target_YTD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Volume Target --></label>
+        <name>CAJBP_Volume_Target__c</name>
+    </fields>
+    <fields>
+        <help><!-- Applicable only for Indirect Joint Business Plan --></help>
+        <label><!-- Turnover Target --></label>
+        <name>CAJBP_Volume_Turnover_Target__c</name>
+    </fields>
+    <layouts>
+        <layout>Multiple Turnover Rebate Target Pence Per Litre</layout>
+        <sections>
+            <label><!-- Actuals --></label>
+            <section>Actuals</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Stretch Target --></label>
+            <section>Stretch Target</section>
+        </sections>
+        <sections>
+            <label><!-- Target --></label>
+            <section>Target</section>
+        </sections>
+        <sections>
+            <label><!-- Threshold Target --></label>
+            <section>Threshold Target</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Multiple Turnover Rebate Target Percentage</layout>
+        <sections>
+            <label><!-- Actuals --></label>
+            <section>Actuals</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Stretch Target --></label>
+            <section>Stretch Target</section>
+        </sections>
+        <sections>
+            <label><!-- Target --></label>
+            <section>Target</section>
+        </sections>
+        <sections>
+            <label><!-- Threshold Target --></label>
+            <section>Threshold Target</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Multiple Volume Rebate Target Pence Per Litre</layout>
+        <sections>
+            <label><!-- Actuals --></label>
+            <section>Actuals</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Stretch Target --></label>
+            <section>Stretch Target</section>
+        </sections>
+        <sections>
+            <label><!-- Target --></label>
+            <section>Target</section>
+        </sections>
+        <sections>
+            <label><!-- Threshold Target --></label>
+            <section>Threshold Target</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Multiple Volume Rebate Target Percentage</layout>
+        <sections>
+            <label><!-- Actuals --></label>
+            <section>Actuals</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Stretch Target --></label>
+            <section>Stretch Target</section>
+        </sections>
+        <sections>
+            <label><!-- Target --></label>
+            <section>Target</section>
+        </sections>
+        <sections>
+            <label><!-- Threshold Target --></label>
+            <section>Threshold Target</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Single Turnover Rebate Target Pence Per Litre</layout>
+        <sections>
+            <label><!-- Actuals --></label>
+            <section>Actuals</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Target --></label>
+            <section>Target</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Single Turnover Rebate Target Percentage</layout>
+        <sections>
+            <label><!-- Actuals --></label>
+            <section>Actuals</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Target --></label>
+            <section>Target</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Single Volume Rebate Target Pence Per Litre</layout>
+        <sections>
+            <label><!-- Actuals --></label>
+            <section>Actuals</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Details --></label>
+            <section>Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Single Volume Rebate Target Percentage</layout>
+        <sections>
+            <label><!-- Actuals --></label>
+            <section>Actuals</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Target --></label>
+            <section>Target</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Multiple Turnover Rebate Target PPL (Sell-In) --></label>
+        <name>CAJBP_Multiple_Turnover_Rebate_Target_PPL_Sell_In</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Multiple Turnover Rebate Target PPL (Sell-Out) --></label>
+        <name>CAJBP_Multiple_Turnover_Rebate_Target_PPL_Sell_Out</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Multiple Turnover Rebate Target Percentage (Sell-In) --></label>
+        <name>CAJBP_Multiple_Turnover_Rebate_Target_Percentage_Sell_In</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Multiple Turnover Rebate Target Percentage (Sell-Out) --></label>
+        <name>CAJBP_Multiple_Turnover_Rebate_Target_Percentage_Sell_Out</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Multiple Volume Rebate Target PPL (Sell-In) --></label>
+        <name>CAJBP_Multiple_Volume_Rebate_Target_PPL_Sell_In</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Multiple Volume Rebate Target PPL (Sell-Out) --></label>
+        <name>CAJBP_Multiple_Volume_Rebate_Target_PPL_Sell_Out</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Multiple Volume Rebate Target Percentage (Sell-In) --></label>
+        <name>CAJBP_Multiple_Volume_Rebate_Target_Percentage_Sell_In</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Multiple Volume Rebate Target Percentage (Sell-Out) --></label>
+        <name>CAJBP_Multiple_Volume_Rebate_Target_Percentage_Sell_Out</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Single Turnover Rebate Target PPL (Sell-In) --></label>
+        <name>CAJBP_Single_Turnover_Rebate_Target_PPL_Sell_In</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Single Turnover Rebate Target PPL (Sell-Out) --></label>
+        <name>CAJBP_Single_Turnover_Rebate_Target_PPL_Sell_Out</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Single Turnover Rebate Target Percentage (Sell-In) --></label>
+        <name>CAJBP_Single_Turnover_Rebate_Target_Percentage_Sell_In</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Single Turnover Rebate Target Percentage (Sell-Out) --></label>
+        <name>CAJBP_Single_Turnover_Rebate_Target_Percentage_Sell_Out</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Single Volume Rebate Target PPL (Sell-In) --></label>
+        <name>CAJBP_Single_Volume_Rebate_Target_PPL_Sell_In</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Single Volume Rebate Target PPL (Sell-Out) --></label>
+        <name>CAJBP_Single_Volume_Rebate_Target_PPL_Sell_Out</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Single Volume Rebate Target Percentage (Sell-In) --></label>
+        <name>CAJBP_Single_Volume_Rebate_Target_Percentage_Sell_In</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Single Volume Rebate Target Percentage (Sell-Out) --></label>
+        <name>CAJBP_Single_Volume_Rebate_Target_Percentage_Sell_Out</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Turnover Target fields are not applicable for direct Joint Business Plans. Please make sure that all Turnover Target field are empty. --></errorMessage>
+        <name>CAJBP_IndirectVolumeTurnover</name>
+    </validationRules>
+</CustomObjectTranslation>

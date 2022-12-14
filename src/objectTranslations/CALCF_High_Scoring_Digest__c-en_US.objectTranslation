@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>CALCF High Scoring Digest</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>CALCF High Scoring Digests</value>
+    </caseValues>
+    <fields>
+        <label><!-- CALCF End Date --></label>
+        <name>CALCF_End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- CALCF Fire Email --></label>
+        <name>CALCF_Fire_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- CALCF High Score Count --></label>
+        <name>CALCF_High_Score_Count__c</name>
+    </fields>
+    <fields>
+        <label><!-- CALCF Operations Manager Email --></label>
+        <name>CALCF_Operations_Manager_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- CALCF Operations Manager First Name --></label>
+        <name>CALCF_Operations_Manager_First_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- CALCF Report Link --></label>
+        <name>CALCF_Report_Link__c</name>
+    </fields>
+    <fields>
+        <label><!-- CALCF Sales Organization --></label>
+        <name>CALCF_Sales_Organization__c</name>
+    </fields>
+    <fields>
+        <label><!-- CALCF Start Date --></label>
+        <name>CALCF_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- CALCF Survey Type --></label>
+        <name>CALCF_Survey_Type__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Avgas 100LL</fullName>
+        <default>false</default>
+        <label>Avgas 100LL</label>
+    </customValue>
+    <customValue>
+        <fullName>Avgas 80 octane</fullName>
+        <default>false</default>
+        <label>Avgas 80 octane</label>
+    </customValue>
+    <customValue>
+        <fullName>Cetron /Unleaded Gasoline</fullName>
+        <default>false</default>
+        <label>Cetron /Unleaded Gasoline</label>
+    </customValue>
+    <customValue>
+        <fullName>F-34</fullName>
+        <default>false</default>
+        <label>F-34</label>
+    </customValue>
+    <customValue>
+        <fullName>F76 Military Diesel</fullName>
+        <default>false</default>
+        <label>F76 Military Diesel</label>
+    </customValue>
+    <customValue>
+        <fullName>Jet A @ 1 CM=0.8 MT</fullName>
+        <default>false</default>
+        <label>Jet A @ 1 CM=0.8 MT</label>
+    </customValue>
+    <customValue>
+        <fullName>Jet A (Bonded) @ 1 CM=0.8 MT</fullName>
+        <default>false</default>
+        <label>Jet A (Bonded) @ 1 CM=0.8 MT</label>
+    </customValue>
+    <customValue>
+        <fullName>Jet A (FTZ) @ 1 CM=0.8 MT</fullName>
+        <default>false</default>
+        <label>Jet A (FTZ) @ 1 CM=0.8 MT</label>
+    </customValue>
+    <customValue>
+        <fullName>Jet A (With Additive) @ 1 CM=0.8 MT</fullName>
+        <default>false</default>
+        <label>Jet A (With Additive) @ 1 CM=0.8 MT</label>
+    </customValue>
+    <customValue>
+        <fullName>Jet A (with FSII) @ 1 CM=0.8 MT</fullName>
+        <default>false</default>
+        <label>Jet A (with FSII) @ 1 CM=0.8 MT</label>
+    </customValue>
+    <customValue>
+        <fullName>Jet A-1 @ 1 CM=0.8 MT</fullName>
+        <default>false</default>
+        <label>Jet A-1 @ 1 CM=0.8 MT</label>
+    </customValue>
+    <customValue>
+        <fullName>Jet A-1 (with FSII) @ 1 CM=0.8 MT</fullName>
+        <default>false</default>
+        <label>Jet A-1 (with FSII) @ 1 CM=0.8 MT</label>
+    </customValue>
+    <customValue>
+        <fullName>Jet A - Ground Service Eqpt.</fullName>
+        <default>false</default>
+        <label>Jet A - Ground Service Eqpt.</label>
+    </customValue>
+    <customValue>
+        <fullName>Jet AL48</fullName>
+        <default>false</default>
+        <label>Jet AL48</label>
+    </customValue>
+    <customValue>
+        <fullName>JET B</fullName>
+        <default>false</default>
+        <label>JET B</label>
+    </customValue>
+    <customValue>
+        <fullName>Jet for International</fullName>
+        <default>false</default>
+        <label>Jet for International</label>
+    </customValue>
+    <customValue>
+        <fullName>JP-4</fullName>
+        <default>false</default>
+        <label>JP-4</label>
+    </customValue>
+    <customValue>
+        <fullName>JP-5</fullName>
+        <default>false</default>
+        <label>JP-5</label>
+    </customValue>
+    <customValue>
+        <fullName>JP-6 Military Grade</fullName>
+        <default>false</default>
+        <label>JP-6 Military Grade</label>
+    </customValue>
+    <customValue>
+        <fullName>JP-8</fullName>
+        <default>false</default>
+        <label>JP-8</label>
+    </customValue>
+    <customValue>
+        <fullName>Kerosene</fullName>
+        <default>false</default>
+        <label>Kerosene</label>
+    </customValue>
+    <customValue>
+        <fullName>RT</fullName>
+        <default>false</default>
+        <label>RT</label>
+    </customValue>
+    <customValue>
+        <fullName>Sump - Jet A</fullName>
+        <default>false</default>
+        <label>Sump - Jet A</label>
+    </customValue>
+    <customValue>
+        <fullName>Trans - Mix</fullName>
+        <default>false</default>
+        <label>Trans - Mix</label>
+    </customValue>
+    <customValue>
+        <fullName>TS-1 @ 1 CM=0.8 MT</fullName>
+        <default>false</default>
+        <label>TS-1 @ 1 CM=0.8 MT</label>
+    </customValue>
+    <customValue>
+        <fullName>Not specified</fullName>
+        <default>true</default>
+        <label>Not specified</label>
+    </customValue>
+    <customValue>
+        <fullName>Jet A (Bonded) @ 331 usg/MT</fullName>
+        <default>false</default>
+        <label>Jet A (Bonded) @ 331 usg/MT</label>
+    </customValue>
+    <customValue>
+        <fullName>TS-1 @ 331 usg/MT</fullName>
+        <default>false</default>
+        <label>TS-1 @ 331 usg/MT</label>
+    </customValue>
+    <customValue>
+        <fullName>Jet A-1 (with FSII) @ 331 usg/MT</fullName>
+        <default>false</default>
+        <label>Jet A-1 (with FSII) @ 331 usg/MT</label>
+    </customValue>
+    <customValue>
+        <fullName>Jet A @ 331 usg/MT</fullName>
+        <default>false</default>
+        <label>Jet A @ 331 usg/MT</label>
+    </customValue>
+    <customValue>
+        <fullName>Jet A (FTZ) @ 331 usg/MT</fullName>
+        <default>false</default>
+        <label>Jet A (FTZ) @ 331 usg/MT</label>
+    </customValue>
+    <customValue>
+        <fullName>Jet A (With Additive) @ 331 usg/MT</fullName>
+        <default>false</default>
+        <label>Jet A (With Additive) @ 331 usg/MT</label>
+    </customValue>
+    <customValue>
+        <fullName>Jet A-1 @ 331 usg/MT</fullName>
+        <default>false</default>
+        <label>Jet A-1 @ 331 usg/MT</label>
+    </customValue>
+    <customValue>
+        <fullName>Jet A (with FSII) @ 331 usg/MT</fullName>
+        <default>false</default>
+        <label>Jet A (with FSII) @ 331 usg/MT</label>
+    </customValue>
+    <customValue>
+        <fullName>Jet A (with FSII)</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Jet A (with FSII)</label>
+    </customValue>
+    <customValue>
+        <fullName>Jet A</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Jet A</label>
+    </customValue>
+    <customValue>
+        <fullName>Jet A-1 (with FSII)</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Jet A-1 (with FSII)</label>
+    </customValue>
+    <customValue>
+        <fullName>Jet A-1</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Jet A-1</label>
+    </customValue>
+    <customValue>
+        <fullName>TS-1</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>TS-1</label>
+    </customValue>
+    <customValue>
+        <fullName>Jet A (Bonded)</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Jet A (Bonded)</label>
+    </customValue>
+    <customValue>
+        <fullName>Jet A - Ground Service Eqpt</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Jet A - Ground Service Eqpt</label>
+    </customValue>
+    <customValue>
+        <fullName>Jet A (With Additive)</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Jet A (With Additive)</label>
+    </customValue>
+    <customValue>
+        <fullName>Jet A (FTZ)</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Jet A (FTZ)</label>
+    </customValue>
+    <masterLabel>Product</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Role xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseAccessLevel>None</caseAccessLevel>
+    <contactAccessLevel>Edit</contactAccessLevel>
+    <description>South Europe Cluster CX Manager</description>
+    <mayForecastManagerShare>false</mayForecastManagerShare>
+    <name>Castrol - South Europe Cluster CX Manager</name>
+    <opportunityAccessLevel>None</opportunityAccessLevel>
+    <parentRole>Castrol_Regional_CX_Lead_Europe_Africa</parentRole>
+</Role>

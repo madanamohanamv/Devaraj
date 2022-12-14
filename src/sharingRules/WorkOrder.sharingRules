@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingOwnerRules>
+        <fullName>Castrol_Users_Work_Order</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Share work order records between Castrol users</description>
+        <label>Castrol Users Work Order</label>
+        <sharedTo>
+            <group>Castrol_Users</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>Castrol_Users</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

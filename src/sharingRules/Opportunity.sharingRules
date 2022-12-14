@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingOwnerRules>
+        <fullName>TR01_FWS_OEM</fullName>
+        <accessLevel>Read</accessLevel>
+        <description>CASFO: Opportunities shared between FWS and OEM roles.</description>
+        <label>TR01 FWS &amp; OEM</label>
+        <sharedTo>
+            <group>Castrol_TR01_Opportunities_FWS_OEM</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>Castrol_TR01_Opportunities_FWS_OEM</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>TR01_HD_Industrial</fullName>
+        <accessLevel>Read</accessLevel>
+        <description>CASFO: Opportunities shared between HD and Industrial roles.</description>
+        <label>TR01 HD &amp; Industrial</label>
+        <sharedTo>
+            <group>Castrol_TR01_Opportunities_HD_Indu</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>Castrol_TR01_Opportunities_HD_Indu</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>TR01_Indirect</fullName>
+        <accessLevel>Read</accessLevel>
+        <description>CASFO: Opportunities shared between indirect roles.</description>
+        <label>TR01 Indirect</label>
+        <sharedTo>
+            <group>Castrol_TR01_Opportunities_Indirect</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>Castrol_TR01_Opportunities_Indirect</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

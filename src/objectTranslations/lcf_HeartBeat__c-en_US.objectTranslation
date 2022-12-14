@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>HeartBeat</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>HeartBeats</value>
+    </caseValues>
+    <fields>
+        <label><!-- Area --></label>
+        <name>CALCF_Area__c</name>
+        <picklistValues>
+            <masterLabel>Complaints</masterLabel>
+            <translation><!-- Complaints --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delivery</masterLabel>
+            <translation><!-- Delivery --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ease of doing business</masterLabel>
+            <translation><!-- Ease of doing business --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invoicing</masterLabel>
+            <translation><!-- Invoicing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ordering</masterLabel>
+            <translation><!-- Ordering --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Truly Loyal</masterLabel>
+            <translation><!-- Truly Loyal --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Country --></label>
+        <name>CALCF_Country_Code__c</name>
+        <picklistValues>
+            <masterLabel>Global</masterLabel>
+            <translation><!-- Global --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spain</masterLabel>
+            <translation><!-- Spain --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Score (%) --></label>
+        <name>CALCF_Percent__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Organisation --></label>
+        <name>CALCF_Sales_Organisation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Year --></label>
+        <name>CALCF_Year__c</name>
+    </fields>
+    <layouts>
+        <layout>Castrol_HeartBeatLayout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

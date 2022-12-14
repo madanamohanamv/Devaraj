@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>AITM_Tender__c</entityName>
+    <fieldName>AITM_Stage__c</fieldName>
+    <masterLabel>Tender Stage</masterLabel>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;Once all location status shown as priced sales stage will automatically move to &amp;#39;Priced&amp;#39;&lt;/p&gt;</info>
+        <picklistValueName>Awaiting Price</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;A contract was generated and tender is closed.&lt;/p&gt;</info>
+        <picklistValueName>Closed</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>AITM_No_Feedback_Progress_To_De_Brief__c</fieldNames>
+        <info>&lt;p&gt;Account manager adds feedback from a customer to the Tender Locations, feedback tab. If there is feedback on any locations, the next stage will be Awaiting price and new round for the Tender is created. If there is no feedback, check the &lt;i&gt;No feedback, progress to de-brief&lt;/i&gt; checkbox.&lt;/p&gt;</info>
+        <picklistValueName>Feedback and Negotiation</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;The offer PDF is generated and can be accessed in the tender attachments.&lt;/p&gt;</info>
+        <picklistValueName>Offer Submitted</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>AITM_Produce_Customer_Email__c</fieldNames>
+        <info>&lt;p&gt;Tender Manager must verify pricing and all details before being ready to submit to customer. Click &amp;#39;mark stage as complete&amp;#39; to submit offer to customer&lt;/p&gt;</info>
+        <picklistValueName>Priced</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;Add customer data, location &amp;amp; volume information and &amp;#39;mark stage as complete&amp;#39; to send tender to Location Managers. &lt;/p&gt;</info>
+        <picklistValueName>Tender Created</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>__MASTER__</recordTypeName>
+</PathAssistant>

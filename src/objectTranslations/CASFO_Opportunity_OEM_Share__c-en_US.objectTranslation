@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Opportunity OEM</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Opportunity OEMs</value>
+    </caseValues>
+    <fields>
+        <label><!-- Margin --></label>
+        <name>CASFO_OEM_Margin__c</name>
+    </fields>
+    <fields>
+        <help><!-- Margin multiplied by Opportunity&apos;s Probability. --></help>
+        <label><!-- Probability of Margin --></label>
+        <name>CASFO_OEM_Probability_of_Margin__c</name>
+    </fields>
+    <fields>
+        <help><!-- Volume multiplied by Opportunity&apos;s Probability. --></help>
+        <label><!-- Probability of Volume --></label>
+        <name>CASFO_OEM_Probability_of_Volume__c</name>
+    </fields>
+    <fields>
+        <label><!-- Revenue --></label>
+        <name>CASFO_OEM_Revenue__c</name>
+    </fields>
+    <fields>
+        <label><!-- OEM --></label>
+        <name>CASFO_OEM_Share_OEM__c</name>
+        <picklistValues>
+            <masterLabel>ABB</masterLabel>
+            <translation><!-- ABB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Abarth</masterLabel>
+            <translation><!-- Abarth --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Airbus</masterLabel>
+            <translation><!-- Airbus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Alfa Romeo</masterLabel>
+            <translation><!-- Alfa Romeo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Anglo American</masterLabel>
+            <translation><!-- Anglo American --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aston Martin</masterLabel>
+            <translation><!-- Aston Martin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Atlas Copco</masterLabel>
+            <translation><!-- Atlas Copco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Audi</masterLabel>
+            <translation><!-- Audi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BMW</masterLabel>
+            <translation><!-- BMW --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BP</masterLabel>
+            <translation><!-- BP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bentley</masterLabel>
+            <translation><!-- Bentley --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Boeing</masterLabel>
+            <translation><!-- Boeing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bosch</masterLabel>
+            <translation><!-- Bosch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chevrolet</masterLabel>
+            <translation><!-- Chevrolet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chrysler</masterLabel>
+            <translation><!-- Chrysler --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Citroen*</masterLabel>
+            <translation><!-- Citroen* --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dacia</masterLabel>
+            <translation><!-- Dacia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Daimler</masterLabel>
+            <translation><!-- Daimler --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delphi</masterLabel>
+            <translation><!-- Delphi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FCA(Fiat Chrysler)</masterLabel>
+            <translation><!-- FCA(Fiat Chrysler) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Federal Mogul</masterLabel>
+            <translation><!-- Federal Mogul --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fiat</masterLabel>
+            <translation><!-- Fiat --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ford</masterLabel>
+            <translation><!-- Ford --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GE</masterLabel>
+            <translation><!-- GE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GE WIND</masterLabel>
+            <translation><!-- GE WIND --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GKN</masterLabel>
+            <translation><!-- GKN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Geely</masterLabel>
+            <translation><!-- Geely --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>General Motors</masterLabel>
+            <translation><!-- General Motors --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Honda</masterLabel>
+            <translation><!-- Honda --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hyundai</masterLabel>
+            <translation><!-- Hyundai --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Iberdrola</masterLabel>
+            <translation><!-- Iberdrola --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Infiniti</masterLabel>
+            <translation><!-- Infiniti --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JCB</masterLabel>
+            <translation><!-- JCB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JLR</masterLabel>
+            <translation><!-- JLR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jaguar</masterLabel>
+            <translation><!-- Jaguar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jeep</masterLabel>
+            <translation><!-- Jeep --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kia</masterLabel>
+            <translation><!-- Kia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Komatsu</masterLabel>
+            <translation><!-- Komatsu --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Land Rover</masterLabel>
+            <translation><!-- Land Rover --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lexus</masterLabel>
+            <translation><!-- Lexus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lotus</masterLabel>
+            <translation><!-- Lotus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MG</masterLabel>
+            <translation><!-- MG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MINI</masterLabel>
+            <translation><!-- MINI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Magna Getrag</masterLabel>
+            <translation><!-- Magna Getrag --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mahle</masterLabel>
+            <translation><!-- Mahle --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maserati</masterLabel>
+            <translation><!-- Maserati --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mazda</masterLabel>
+            <translation><!-- Mazda --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mercedes</masterLabel>
+            <translation><!-- Mercedes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mitsubishi</masterLabel>
+            <translation><!-- Mitsubishi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nissan</masterLabel>
+            <translation><!-- Nissan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Opel</masterLabel>
+            <translation><!-- Opel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other British</masterLabel>
+            <translation><!-- Other British --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Imports</masterLabel>
+            <translation><!-- Other Imports --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PSA incl. FdM</masterLabel>
+            <translation><!-- PSA incl. FdM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Peugeot</masterLabel>
+            <translation><!-- Peugeot --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Porsche</masterLabel>
+            <translation><!-- Porsche --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Renault</masterLabel>
+            <translation><!-- Renault --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Renault Nissan Group</masterLabel>
+            <translation><!-- Renault Nissan Group --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rolls-Royce plc</masterLabel>
+            <translation><!-- Rolls-Royce plc --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SEAT</masterLabel>
+            <translation><!-- SEAT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SKF</masterLabel>
+            <translation><!-- SKF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Schaeffler</masterLabel>
+            <translation><!-- Schaeffler --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Siemens Group</masterLabel>
+            <translation><!-- Siemens Group --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Siemens Wind</masterLabel>
+            <translation><!-- Siemens Wind --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Skoda</masterLabel>
+            <translation><!-- Skoda --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Smart</masterLabel>
+            <translation><!-- Smart --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ssangyong</masterLabel>
+            <translation><!-- Ssangyong --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Subaru</masterLabel>
+            <translation><!-- Subaru --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Suzuki</masterLabel>
+            <translation><!-- Suzuki --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tata</masterLabel>
+            <translation><!-- Tata --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Toyota</masterLabel>
+            <translation><!-- Toyota --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VW Group</masterLabel>
+            <translation><!-- VW Group --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vauxhall</masterLabel>
+            <translation><!-- Vauxhall --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vestas</masterLabel>
+            <translation><!-- Vestas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Volvo</masterLabel>
+            <translation><!-- Volvo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Volvo Group(Trucks)</masterLabel>
+            <translation><!-- Volvo Group(Trucks) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZF</masterLabel>
+            <translation><!-- ZF --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Opportunity --></label>
+        <name>CASFO_OEM_Share_Opportunity__c</name>
+        <relationshipLabel><!-- Opportunity OEMs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- OEM Share --></label>
+        <name>CASFO_OEM_Share_Volume_Share__c</name>
+    </fields>
+    <fields>
+        <label><!-- Volume --></label>
+        <name>CASFO_OEM_Volume__c</name>
+    </fields>
+    <layouts>
+        <layout>Opportunity OEM Share Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Vowel</startsWith>
+    <validationRules>
+        <errorMessage><!-- Please enter OEM Share between 1% and 100% --></errorMessage>
+        <name>CASFO_Percentage_must_be_between_1_100</name>
+    </validationRules>
+</CustomObjectTranslation>

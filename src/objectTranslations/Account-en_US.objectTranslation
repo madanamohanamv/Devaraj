@@ -1,0 +1,1940 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- MA C2C --></label>
+        <name>MA_C2C</name>
+    </fieldSets>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Geocode Accuracy</value>
+        </caseValues>
+        <name>billing_accuracy_geocode_account</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Address</value>
+        </caseValues>
+        <name>billing_address_account</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>City</value>
+        </caseValues>
+        <name>billing_city_account</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Country</value>
+        </caseValues>
+        <name>billing_country_account</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Country Code</value>
+        </caseValues>
+        <name>billing_country_code_account</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Latitude</value>
+        </caseValues>
+        <name>billing_latitude_account</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Longitude</value>
+        </caseValues>
+        <name>billing_longitude_account</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>State/Province</value>
+        </caseValues>
+        <name>billing_state_account</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>State/Province Code</value>
+        </caseValues>
+        <name>billing_state_code_account</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Street</value>
+        </caseValues>
+        <name>billing_street_account</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Zip/Postal Code</value>
+        </caseValues>
+        <name>billing_zip_account</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <label><!-- Account Classification --></label>
+        <name>AITM_Account_Classification__c</name>
+        <picklistValues>
+            <masterLabel>BP Intra-company Sale</masterLabel>
+            <translation><!-- BP Intra-company Sale --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bank</masterLabel>
+            <translation><!-- Bank --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bulk Only</masterLabel>
+            <translation><!-- Bulk Only --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bulk and Equipment</masterLabel>
+            <translation><!-- Bulk and Equipment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA Reseller</masterLabel>
+            <translation><!-- CA Reseller --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CSO</masterLabel>
+            <translation><!-- CSO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Distributor</masterLabel>
+            <translation><!-- Distributor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flight Card</masterLabel>
+            <translation><!-- Flight Card --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GA Reseller</masterLabel>
+            <translation><!-- GA Reseller --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Global</masterLabel>
+            <translation><!-- Global --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Government</masterLabel>
+            <translation><!-- Government --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Into Plane Contracted</masterLabel>
+            <translation><!-- Into Plane Contracted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Key Global</masterLabel>
+            <translation><!-- Key Global --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Key Regional</masterLabel>
+            <translation><!-- Key Regional --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Military</masterLabel>
+            <translation><!-- Military --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oil Company</masterLabel>
+            <translation><!-- Oil Company --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Regional</masterLabel>
+            <translation><!-- Regional --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sterling Card</masterLabel>
+            <translation><!-- Sterling Card --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Storage and Handling</masterLabel>
+            <translation><!-- Storage and Handling --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trader</masterLabel>
+            <translation><!-- Trader --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Aircraft Fleet --></label>
+        <name>AITM_Aircraft_Fleet__c</name>
+    </fields>
+    <fields>
+        <label><!-- Alliance --></label>
+        <name>AITM_Alliance__c</name>
+        <relationshipLabel><!-- Accounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Bank Account --></label>
+        <name>AITM_Bank_Account__c</name>
+        <relationshipLabel><!-- Accounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Bespoke Offer Template --></label>
+        <name>AITM_Bespoke_Offer_Template__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bespoke Contract Template --></label>
+        <name>AITM_Bespoke_Template__c</name>
+    </fields>
+    <fields>
+        <label><!-- Signatory --></label>
+        <name>AITM_Contracting_Entity_Signatory__c</name>
+    </fields>
+    <fields>
+        <label><!-- Title --></label>
+        <name>AITM_Contracting_Entity_Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contracting Entity --></label>
+        <name>AITM_Contracting_Entity__c</name>
+        <relationshipLabel><!-- Accounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Credit Days --></label>
+        <name>AITM_Credit_Days1__c</name>
+    </fields>
+    <fields>
+        <help><!-- Credit days up to 65 --></help>
+        <label><!-- Credit Days --></label>
+        <name>AITM_Credit_Days__c</name>
+    </fields>
+    <fields>
+        <label><!-- Credit Rating --></label>
+        <name>AITM_Credit_Rating__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6</masterLabel>
+            <translation><!-- 6 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7 (B)</masterLabel>
+            <translation><!-- 7 (B) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7 (B-)</masterLabel>
+            <translation><!-- 7 (B-) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8</masterLabel>
+            <translation><!-- 8 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Customer Segment --></label>
+        <name>AITM_Customer_Segment__c</name>
+        <picklistValues>
+            <masterLabel>Aggregator</masterLabel>
+            <translation><!-- Aggregator --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>At Risk</masterLabel>
+            <translation><!-- At Risk --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BOCM</masterLabel>
+            <translation><!-- BOCM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BODO</masterLabel>
+            <translation><!-- BODO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Base</masterLabel>
+            <translation><!-- Base --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>COCM</masterLabel>
+            <translation><!-- COCM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CODO</masterLabel>
+            <translation><!-- CODO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>COMO</masterLabel>
+            <translation><!-- COMO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Core</masterLabel>
+            <translation><!-- Core --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DODO</masterLabel>
+            <translation><!-- DODO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>End User</masterLabel>
+            <translation><!-- End User --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Government</masterLabel>
+            <translation><!-- Government --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>High Volume Retailer</masterLabel>
+            <translation><!-- High Volume Retailer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Key</masterLabel>
+            <translation><!-- Key --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OEM</masterLabel>
+            <translation><!-- OEM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Railroad</masterLabel>
+            <translation><!-- Railroad --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reseller</masterLabel>
+            <translation><!-- Reseller --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retailer</masterLabel>
+            <translation><!-- Retailer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Steady State</masterLabel>
+            <translation><!-- Steady State --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strategic</masterLabel>
+            <translation><!-- Strategic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strong</masterLabel>
+            <translation><!-- Strong --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Truck Stop</masterLabel>
+            <translation><!-- Truck Stop --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Customer Type --></label>
+        <name>AITM_Customer_Type__c</name>
+        <picklistValues>
+            <masterLabel>Apprentice</masterLabel>
+            <translation><!-- Apprentice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Guru</masterLabel>
+            <translation><!-- Guru --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Juggler</masterLabel>
+            <translation><!-- Juggler --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Top Dog</masterLabel>
+            <translation><!-- Top Dog --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Distribution Email --></label>
+        <name>AITM_DistributionEmail__c</name>
+    </fields>
+    <fields>
+        <label><!-- End Date --></label>
+        <name>AITM_End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Exchange Rate --></label>
+        <name>AITM_Exchange_Rate__c</name>
+        <picklistValues>
+            <masterLabel>ECB</masterLabel>
+            <translation><!-- ECB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IATA</masterLabel>
+            <translation><!-- IATA --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- GRN --></label>
+        <name>AITM_GRN__c</name>
+    </fields>
+    <fields>
+        <label><!-- Group --></label>
+        <name>AITM_Group__c</name>
+        <relationshipLabel><!-- Group --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Invoice Frequency --></label>
+        <name>AITM_Invoice_Frequency__c</name>
+    </fields>
+    <fields>
+        <label><!-- Owner Role --></label>
+        <name>AITM_Owner_Role__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payment Currency --></label>
+        <name>AITM_Payment_Currency__c</name>
+    </fields>
+    <fields>
+        <label><!-- Preferred Service Level --></label>
+        <name>AITM_Preferred_Service_Level__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sector --></label>
+        <name>AITM_Sector__c</name>
+        <picklistValues>
+            <masterLabel>Commercial Aviation</masterLabel>
+            <translation><!-- Commercial Aviation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>General Aviation</masterLabel>
+            <translation><!-- General Aviation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Military</masterLabel>
+            <translation><!-- Military --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Security Text on Offer --></label>
+        <name>AITM_Security_Text_on_Offer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Security Type --></label>
+        <name>AITM_Security_Type__c</name>
+        <picklistValues>
+            <masterLabel>BG - Bank Guarantee</masterLabel>
+            <translation><!-- BG - Bank Guarantee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BG/CD - Bank Guarantee+Cash Deposit</masterLabel>
+            <translation><!-- BG/CD - Bank Guarantee+Cash Deposit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BG/PCG - Guarantee</masterLabel>
+            <translation><!-- BG/PCG - Guarantee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BG/PCG+DD - Guarantee+Direct Debit</masterLabel>
+            <translation><!-- BG/PCG+DD - Guarantee+Direct Debit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CD - Cash Deposit</masterLabel>
+            <translation><!-- CD - Cash Deposit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CP - Cash Payment</masterLabel>
+            <translation><!-- CP - Cash Payment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CT - Credit Terms</masterLabel>
+            <translation><!-- CT - Credit Terms --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DD - Direct Debit</masterLabel>
+            <translation><!-- DD - Direct Debit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FP - Fixed Price Physical deals</masterLabel>
+            <translation><!-- FP - Fixed Price Physical deals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LC - Letters of Credit</masterLabel>
+            <translation><!-- LC - Letters of Credit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NA</masterLabel>
+            <translation><!-- NA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PP - Pre-pay</masterLabel>
+            <translation><!-- PP - Pre-pay --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Account Business Partner --></label>
+        <name>Account_Business_Partner__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Currency --></label>
+        <name>Account_Currency__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account ERP ID --></label>
+        <name>Account_ERP_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Siebel Activity UID --></label>
+        <name>Account_Siebel_Activity_UID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Siebel ID --></label>
+        <name>Account_Siebel_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Siebel Merge ID --></label>
+        <name>Account_Siebel_Merge_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Team --></label>
+        <name>Account_Team__c</name>
+    </fields>
+    <fields>
+        <label><!-- Alias --></label>
+        <name>Alias__c</name>
+    </fields>
+    <fields>
+        <label><!-- Alternate Customer Name --></label>
+        <name>Alternate_Customer_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Application ID --></label>
+        <name>Application_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing Address Line 1 --></label>
+        <name>Billing_Address_Line_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing Address Line 2 --></label>
+        <name>Billing_Address_Line_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Brand --></label>
+        <name>Brand__c</name>
+    </fields>
+    <fields>
+        <label><!-- Business County --></label>
+        <name>Business_County__c</name>
+    </fields>
+    <fields>
+        <label><!-- Business Unit --></label>
+        <name>Business_Unit__c</name>
+        <picklistValues>
+            <masterLabel>Advanced Mobility Unit</masterLabel>
+            <translation><!-- Advanced Mobility Unit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fuels North America</masterLabel>
+            <translation><!-- Fuels North America --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lubricants - Automotive</masterLabel>
+            <translation><!-- Lubricants - Automotive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lubricants - Industrial</masterLabel>
+            <translation><!-- Lubricants - Industrial --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- ASM ID --></label>
+        <name>CAIDB_ASM_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- ASM --></label>
+        <name>CAIDB_ASM__c</name>
+    </fields>
+    <fields>
+        <label><!-- Brand --></label>
+        <name>CAIDB_Brand__c</name>
+    </fields>
+    <fields>
+        <label><!-- Distrbutor Code --></label>
+        <name>CAIDB_Distrbutor_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Distributor Code --></label>
+        <name>CAIDB_Distributor_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Distributor English Name --></label>
+        <name>CAIDB_Distributor_English_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email --></label>
+        <name>CAIDB_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enter BP Date --></label>
+        <name>CAIDB_Enter_BP_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mobile Phone --></label>
+        <name>CAIDB_Mobile_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number Of Mechanics --></label>
+        <name>CAIDB_Number_Of_Trainees__c</name>
+    </fields>
+    <fields>
+        <label><!-- RSM ID --></label>
+        <name>CAIDB_RSM_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- RSM --></label>
+        <name>CAIDB_RSM__c</name>
+    </fields>
+    <fields>
+        <label><!-- Region Name --></label>
+        <name>CAIDB_Region_Name__c</name>
+        <picklistValues>
+            <masterLabel>Default</masterLabel>
+            <translation><!-- Default --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Space --></label>
+        <name>CAIDB_Space__c</name>
+        <picklistValues>
+            <masterLabel>CVO</masterLabel>
+            <translation><!-- CVO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MCO</masterLabel>
+            <translation><!-- MCO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PCO</masterLabel>
+            <translation><!-- PCO --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>CAIDB_Status__c</name>
+        <picklistValues>
+            <masterLabel>Default</masterLabel>
+            <translation><!-- Default --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Existing</masterLabel>
+            <translation><!-- Existing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation><!-- New --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Potential</masterLabel>
+            <translation><!-- Potential --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Terminated</masterLabel>
+            <translation><!-- Terminated --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Volume Per Month --></label>
+        <name>CAIDB_Volume_Per_Month__c</name>
+    </fields>
+    <fields>
+        <label><!-- Workshop Owner --></label>
+        <name>CAIDB_Workshop_Owner__c</name>
+        <relationshipLabel><!-- Workshops --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Workshop Tier --></label>
+        <name>CAIDB_Workshop_Tier__c</name>
+        <picklistValues>
+            <masterLabel>Castrol Auto Service</masterLabel>
+            <translation><!-- Castrol Auto Service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Certified Castrol Auto Service</masterLabel>
+            <translation><!-- Certified Castrol Auto Service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partnership with other non-oil brands</masterLabel>
+            <translation><!-- Partnership with other non-oil brands --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Standard Workshop</masterLabel>
+            <translation><!-- Standard Workshop --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Workshop Type --></label>
+        <name>CAIDB_Workshop_Type__c</name>
+        <picklistValues>
+            <masterLabel>Car, Bike &amp; others</masterLabel>
+            <translation><!-- Car, Bike &amp; others --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cars/Pick ups</masterLabel>
+            <translation><!-- Cars/Pick ups --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lorries/Buses</masterLabel>
+            <translation><!-- Lorries/Buses --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Motorcycles/Scooters</masterLabel>
+            <translation><!-- Motorcycles/Scooters --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Yearly Total Vol --></label>
+        <name>CAIDB_Yearly_Total_Vol__c</name>
+    </fields>
+    <fields>
+        <label><!-- Channel + BU --></label>
+        <name>CALCF_Channel_BU__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Office --></label>
+        <name>CALCF_Sales_Office__c</name>
+    </fields>
+    <fields>
+        <label><!-- Channel --></label>
+        <name>CASFO_Channel__c</name>
+    </fields>
+    <fields>
+        <label><!-- City, Street --></label>
+        <name>CASFO_City_Street__c</name>
+    </fields>
+    <fields>
+        <label><!-- Classification Code --></label>
+        <name>CASFO_Classification_Code__c</name>
+    </fields>
+    <fields>
+        <help><!-- Calculated based on an AVERAGE of all days between Customer meetings per last calendar year. --></help>
+        <label><!-- Customer Meeting Frequency --></label>
+        <name>CASFO_Customer_Meeting_Frequency__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Service Level --></label>
+        <name>CASFO_Customer_Service_Level__c</name>
+    </fields>
+    <fields>
+        <help><!-- Number of days from last Event of type Customer Meeting with Visit Completed set as true. --></help>
+        <label><!-- Days from Last Visit --></label>
+        <name>CASFO_Days_from_Last_Visit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Documents --></label>
+        <name>CASFO_Documents__c</name>
+    </fields>
+    <fields>
+        <help><!-- Date of last Event of type Customer Meeting with Visit Completed set as true. --></help>
+        <label><!-- Last Meeting Activity Date --></label>
+        <name>CASFO_LastMeetingActivityDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Minimum Days Between Visits --></label>
+        <name>CASFO_Minimum_Days_Between_Visits__c</name>
+    </fields>
+    <fields>
+        <help><!-- Will be checked, when Account is overdue for a visit. --></help>
+        <label><!-- Overdue --></label>
+        <name>CASFO_Overdue__c</name>
+    </fields>
+    <fields>
+        <label><!-- QBR Completed Date --></label>
+        <name>CASFO_QBR_Completed_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- QBR Favourite --></label>
+        <name>CASFO_QBR_Favorite__c</name>
+    </fields>
+    <fields>
+        <label><!-- QBR Overdue Notification --></label>
+        <name>CASFO_QBR_Overdue_Notification__c</name>
+    </fields>
+    <fields>
+        <label><!-- QBR Planned Date --></label>
+        <name>CASFO_QBR_Planned_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- QBR Planned --></label>
+        <name>CASFO_QBR_Planned__c</name>
+    </fields>
+    <fields>
+        <label><!-- QBR Requested Date --></label>
+        <name>CASFO_QBR_Requested_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- QBR Requested --></label>
+        <name>CASFO_QBR_Requested__c</name>
+    </fields>
+    <fields>
+        <label><!-- QBR Requester --></label>
+        <name>CASFO_QBR_Requester__c</name>
+        <relationshipLabel><!-- Accounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Visits per Quarter --></label>
+        <name>CASFO_Visits_per_Quarter__c</name>
+    </fields>
+    <fields>
+        <label><!-- CSDARCONumber --></label>
+        <name>CSDARCONumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- CSDDefaultwareHouseID --></label>
+        <name>CSDDefaultwareHouseID__c</name>
+    </fields>
+    <fields>
+        <label><!-- CSDMDMID --></label>
+        <name>CSDMDMID__c</name>
+    </fields>
+    <fields>
+        <label><!-- CSDPrimaryDistributorName --></label>
+        <name>CSDPrimaryDistributorName__c</name>
+    </fields>
+    <fields>
+        <label><!-- CSDPrimaryDistributorNumber --></label>
+        <name>CSDPrimaryDistributorNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- CSDSalesSegment --></label>
+        <name>CSDSalesSegment__c</name>
+    </fields>
+    <fields>
+        <label><!-- CSDSecondaryTerritory --></label>
+        <name>CSDSecondaryTerritory__c</name>
+    </fields>
+    <fields>
+        <label><!-- CSD Distribution Channel / Div Code --></label>
+        <name>CSD_DistChannelDivCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- CSD ISIC Code Description --></label>
+        <name>CSD_ISIC_Code_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- CSD ISIC Code --></label>
+        <name>CSD_ISIC_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- CSR Team --></label>
+        <name>CSR_Team__c</name>
+    </fields>
+    <fields>
+        <label><!-- Call Frequency --></label>
+        <name>Call_Frequency__c</name>
+        <picklistValues>
+            <masterLabel>Bi-Monthly</masterLabel>
+            <translation><!-- Bi-Monthly --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fortnightly</masterLabel>
+            <translation><!-- Fortnightly --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monthly</masterLabel>
+            <translation><!-- Monthly --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quarterly</masterLabel>
+            <translation><!-- Quarterly --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Telephone</masterLabel>
+            <translation><!-- Telephone --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Weekly</masterLabel>
+            <translation><!-- Weekly --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Segment Profile 3 --></help>
+        <label><!-- Channel / Key Brand --></label>
+        <name>Channel__c</name>
+    </fields>
+    <fields>
+        <label><!-- Classification --></label>
+        <name>Classification__c</name>
+        <picklistValues>
+            <masterLabel>AUA A Class Customer</masterLabel>
+            <translation><!-- AUA A Class Customer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AUB B Class Customer</masterLabel>
+            <translation><!-- AUB B Class Customer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AUC C Class Customer</masterLabel>
+            <translation><!-- AUC C Class Customer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AUT Telephone</masterLabel>
+            <translation><!-- AUT Telephone --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AUX</masterLabel>
+            <translation><!-- AUX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GD Gold</masterLabel>
+            <translation>Gold</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MG Migrate</masterLabel>
+            <translation><!-- MG Migrate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NZA A Class Customer</masterLabel>
+            <translation><!-- NZA A Class Customer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NZB B Class Customer</masterLabel>
+            <translation><!-- NZB B Class Customer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NZC C Class Customer</masterLabel>
+            <translation><!-- NZC C Class Customer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NZT Telephone</masterLabel>
+            <translation><!-- NZT Telephone --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NZX</masterLabel>
+            <translation><!-- NZX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PL Platinum</masterLabel>
+            <translation>Platinum</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SL Silver</masterLabel>
+            <translation>Silver</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unallocated</masterLabel>
+            <translation><!-- Unallocated --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Country ISO Code --></label>
+        <name>Country_ISO_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Credit Agency Id --></label>
+        <name>Credit_Agency_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Credit Days --></label>
+        <name>Credit_Days__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Since --></label>
+        <name>Customer_Since__c</name>
+    </fields>
+    <fields>
+        <label><!-- DUNS Number --></label>
+        <name>DUNS_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Del Block Code --></label>
+        <name>Del_Block_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delivery Block --></label>
+        <name>Delivery_Block__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cost Center Number --></label>
+        <name>GEFUE_Cost_Center_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Partner Portal Number --></label>
+        <name>GEFUE_Partner_Portal_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- SVB Number --></label>
+        <name>GEFUE_SVB_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Identifier --></label>
+        <name>Identifier__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inactive --></label>
+        <name>Inactive__c</name>
+    </fields>
+    <fields>
+        <label><!-- Integration Id --></label>
+        <name>Integration_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Location --></label>
+        <name>Location__c</name>
+    </fields>
+    <fields>
+        <label><!-- Marked for Deletion --></label>
+        <name>Marked_for_Deletion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Master Account --></label>
+        <name>Master_Account__c</name>
+        <relationshipLabel><!-- Accounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Additional Days(Number of days) --></label>
+        <name>OLCM_Additional_Days_Number__c</name>
+        <picklistValues>
+            <masterLabel>0</masterLabel>
+            <translation><!-- 0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10</masterLabel>
+            <translation><!-- 10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>11</masterLabel>
+            <translation><!-- 11 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>12</masterLabel>
+            <translation><!-- 12 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>13</masterLabel>
+            <translation><!-- 13 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>14</masterLabel>
+            <translation><!-- 14 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6</masterLabel>
+            <translation><!-- 6 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7</masterLabel>
+            <translation><!-- 7 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8</masterLabel>
+            <translation><!-- 8 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9</masterLabel>
+            <translation><!-- 9 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- BP Annual Margin Forecast(LC) --></label>
+        <name>OLCM_BP_Annual_Margin_Forecast__c</name>
+    </fields>
+    <fields>
+        <label><!-- BP Annual Margin History(LC) --></label>
+        <name>OLCM_BP_Annual_Margin_History__c</name>
+    </fields>
+    <fields>
+        <label><!-- BP Risk Rating --></label>
+        <name>OLCM_BP_Risk_Rating__c</name>
+    </fields>
+    <fields>
+        <label><!-- Credit Agency Identifier --></label>
+        <name>OLCM_Credit_Agency_Identifier__c</name>
+    </fields>
+    <fields>
+        <label><!-- Credit Analyst --></label>
+        <name>OLCM_Credit_Analyst__c</name>
+    </fields>
+    <fields>
+        <label><!-- Credit Comments --></label>
+        <name>OLCM_Credit_Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Credit Control Area --></label>
+        <name>OLCM_Credit_Control_Area__c</name>
+    </fields>
+    <fields>
+        <label><!-- Credit Limit Valid to Date --></label>
+        <name>OLCM_Credit_Limit_To_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Credit Request Check --></label>
+        <name>OLCM_Credit_Request_Check__c</name>
+    </fields>
+    <fields>
+        <label><!-- Credit Request Send --></label>
+        <name>OLCM_Credit_Request_Send__c</name>
+    </fields>
+    <fields>
+        <label><!-- Credit Segment --></label>
+        <name>OLCM_Credit_Segment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Credit Status Description --></label>
+        <name>OLCM_Credit_Status_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Credit Unique Identifier --></label>
+        <name>OLCM_Credit_Unique_Id_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Currency --></label>
+        <name>OLCM_Currency_ISO_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Distrubution channel Code --></label>
+        <name>OLCM_Distribution_Channel_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Distribution Channel Description --></label>
+        <name>OLCM_Distribution_Channel_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fuels Card Customers --></label>
+        <name>OLCM_Fuels_Card_Customers__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fuels Customers --></label>
+        <name>OLCM_Fuels_Customers__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gross Requested Credit(LC) --></label>
+        <name>OLCM_Gross_Requested_Credit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoicing Frequency(Number of Days) --></label>
+        <name>OLCM_Invoice_Frequency_Number__c</name>
+        <picklistValues>
+            <masterLabel>0</masterLabel>
+            <translation><!-- 0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>14</masterLabel>
+            <translation><!-- 14 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30</masterLabel>
+            <translation><!-- 30 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7</masterLabel>
+            <translation><!-- 7 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Last Modified Greater than 60 Days --></label>
+        <name>OLCM_Last_Modified_Greater_than_60_Days__c</name>
+    </fields>
+    <fields>
+        <label><!-- OLCM Marked For Deletion --></label>
+        <name>OLCM_Marked_For_Deletion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Net Requested Credit(LC) --></label>
+        <name>OLCM_Net_Requested_Credit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payment Terms(Number of days) --></label>
+        <name>OLCM_Payment_Term_Number__c</name>
+        <picklistValues>
+            <masterLabel>0</masterLabel>
+            <translation><!-- 0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>110</masterLabel>
+            <translation><!-- 110 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>115</masterLabel>
+            <translation><!-- 115 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>15</masterLabel>
+            <translation><!-- 15 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30</masterLabel>
+            <translation><!-- 30 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>45</masterLabel>
+            <translation><!-- 45 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>55</masterLabel>
+            <translation><!-- 55 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>60</masterLabel>
+            <translation><!-- 60 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7</masterLabel>
+            <translation><!-- 7 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>70</masterLabel>
+            <translation><!-- 70 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>85</masterLabel>
+            <translation><!-- 85 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9</masterLabel>
+            <translation><!-- 9 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>90</masterLabel>
+            <translation><!-- 90 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Peak Exposure(Number of days) --></label>
+        <name>OLCM_Peak_Exposure_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recoverable MOT --></label>
+        <name>OLCM_Recoverable_MOT_Percent__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recoverable VAT Percentage --></label>
+        <name>OLCM_Recoverable_VAT_Percentage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Area --></label>
+        <name>OLCM_Sales_Area__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Division Code --></label>
+        <name>OLCM_Sales_Division_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Division Description --></label>
+        <name>OLCM_Sales_Division_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Organisation Code --></label>
+        <name>OLCM_Sales_Organisation_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Organisation Description --></label>
+        <name>OLCM_Sales_Organisation_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Security to Request(Total Amount LC) --></label>
+        <name>OLCM_Securities_To_Request_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Security in Hand(Amount LC) --></label>
+        <name>OLCM_Security_In_Hand_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approved limit --></label>
+        <name>OLCM_Total_Credit_Limit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Monthly Forecast Sales(LC) --></label>
+        <name>OLCM_Total_Forecast_Sales__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unique Identifier Format --></label>
+        <name>OLCM_Unique_Identifier_Format__c</name>
+    </fields>
+    <fields>
+        <help><!-- Please refer to the Unique Identifier help link below --></help>
+        <label><!-- Unique Identifier --></label>
+        <name>OLCM_Unique_identifier__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order Block Code --></label>
+        <name>Order_Block_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order Block --></label>
+        <name>Order_Block__c</name>
+    </fields>
+    <fields>
+        <label><!-- POBOXNumber --></label>
+        <name>POBOXNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- POBoxCity --></label>
+        <name>POBoxCity__c</name>
+    </fields>
+    <fields>
+        <label><!-- POBoxPostCode --></label>
+        <name>POBoxPostCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Partner Counter --></label>
+        <name>Partner_Counter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Party UID --></label>
+        <name>Party_UID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payment Type --></label>
+        <name>Payment_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Country Of App --></label>
+        <name>REIDP_Country_Of_App__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email --></label>
+        <name>REIDP_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Active --></label>
+        <name>REIDP_Is_Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Phone --></label>
+        <name>REIDP_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Record Type --></label>
+        <name>Record_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Distribution Channel --></label>
+        <name>Sales_Distribution_Channel__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Distribution Channel Code --></label>
+        <name>Sales_Distribution_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Division Code --></label>
+        <name>Sales_Division_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Manager NTID --></label>
+        <name>Sales_Manager_NTID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Manager --></label>
+        <name>Sales_Manager__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Organisation --></label>
+        <name>Sales_Organisation__c</name>
+        <picklistValues>
+            <masterLabel>AE0A</masterLabel>
+            <translation><!-- AE0A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AT01</masterLabel>
+            <translation><!-- AT01 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AT0H</masterLabel>
+            <translation><!-- AT0H --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AT0N</masterLabel>
+            <translation><!-- AT0N --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AU0A</masterLabel>
+            <translation><!-- AU0A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BE01</masterLabel>
+            <translation><!-- BE01 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BE0N</masterLabel>
+            <translation><!-- BE0N --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CH01</masterLabel>
+            <translation><!-- CH01 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CH23</masterLabel>
+            <translation><!-- CH23 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CN0A</masterLabel>
+            <translation><!-- CN0A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CZ01</masterLabel>
+            <translation><!-- CZ01 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DE01</masterLabel>
+            <translation><!-- DE01 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DE0N</masterLabel>
+            <translation><!-- DE0N --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DE1N</masterLabel>
+            <translation><!-- DE1N --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK01</masterLabel>
+            <translation><!-- DK01 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ES01</masterLabel>
+            <translation><!-- ES01 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ES06</masterLabel>
+            <translation><!-- ES06 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ES0N</masterLabel>
+            <translation><!-- ES0N --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FI01</masterLabel>
+            <translation><!-- FI01 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FR07</masterLabel>
+            <translation><!-- FR07 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GR01</masterLabel>
+            <translation><!-- GR01 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HN01</masterLabel>
+            <translation><!-- HN01 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IB01</masterLabel>
+            <translation><!-- IB01 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ID0A</masterLabel>
+            <translation><!-- ID0A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IN0A</masterLabel>
+            <translation><!-- IN0A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IR01</masterLabel>
+            <translation><!-- IR01 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IT02</masterLabel>
+            <translation><!-- IT02 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JP0A</masterLabel>
+            <translation><!-- JP0A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KR0A</masterLabel>
+            <translation><!-- KR0A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LU09</masterLabel>
+            <translation><!-- LU09 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LU0A</masterLabel>
+            <translation><!-- LU0A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LU0N</masterLabel>
+            <translation><!-- LU0N --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MY0A</masterLabel>
+            <translation><!-- MY0A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NL01</masterLabel>
+            <translation><!-- NL01 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NL0N</masterLabel>
+            <translation><!-- NL0N --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO01</masterLabel>
+            <translation><!-- NO01 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NZ0A</masterLabel>
+            <translation><!-- NZ0A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PH0A</masterLabel>
+            <translation><!-- PH0A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PK0A</masterLabel>
+            <translation><!-- PK0A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PL01</masterLabel>
+            <translation><!-- PL01 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PL0N</masterLabel>
+            <translation><!-- PL0N --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PL1N</masterLabel>
+            <translation><!-- PL1N --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PT04</masterLabel>
+            <translation><!-- PT04 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PT0N</masterLabel>
+            <translation><!-- PT0N --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RO01</masterLabel>
+            <translation><!-- RO01 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RU01</masterLabel>
+            <translation><!-- RU01 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SA0A</masterLabel>
+            <translation><!-- SA0A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE01</masterLabel>
+            <translation><!-- SE01 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SG0A</masterLabel>
+            <translation><!-- SG0A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SK01</masterLabel>
+            <translation><!-- SK01 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TH0A</masterLabel>
+            <translation><!-- TH0A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TR01</masterLabel>
+            <translation><!-- TR01 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TW0A</masterLabel>
+            <translation><!-- TW0A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UK01</masterLabel>
+            <translation><!-- UK01 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US01</masterLabel>
+            <translation><!-- US01 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VN0A</masterLabel>
+            <translation><!-- VN0A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZA0A</masterLabel>
+            <translation><!-- ZA0A --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Salesforce ID --></label>
+        <name>Salesforce_ID1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Salesforce ID --></label>
+        <name>Salesforce_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>Search_type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Segment 1 --></label>
+        <name>Segment_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Segment 2 --></label>
+        <name>Segment_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Segment 5 --></label>
+        <name>Segment_5__c</name>
+    </fields>
+    <fields>
+        <label><!-- Service Experience Level --></label>
+        <name>Service_Experience_Level__c</name>
+        <picklistValues>
+            <masterLabel>GD Gold</masterLabel>
+            <translation><!-- GD Gold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PL Platinum</masterLabel>
+            <translation><!-- PL Platinum --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SL Silver</masterLabel>
+            <translation><!-- SL Silver --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unallocated</masterLabel>
+            <translation><!-- Unallocated --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Siebel Competitor Name --></label>
+        <name>Siebel_Competitor_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Segment Profile 4 --></help>
+        <label><!-- Sub Channel --></label>
+        <name>Sub_Channel__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tax Number --></label>
+        <name>Tax_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Territory --></label>
+        <name>Territory__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unique Identifier Help --></label>
+        <name>Unique_Identifier_Help__c</name>
+    </fields>
+    <layouts>
+        <layout>Air_TMAccount Layout</layout>
+        <sections>
+            <label><!-- Contracting Entity --></label>
+            <section>Contracting Entity</section>
+        </sections>
+        <sections>
+            <label><!-- Credit Terms --></label>
+            <section>Credit Terms</section>
+        </sections>
+        <sections>
+            <label><!-- Customer Defaults At Locations --></label>
+            <section>Customer Defaults At Locations</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>BPD_CustomerCRMBase</layout>
+        <sections>
+            <label><!-- Additional Account Information --></label>
+            <section>Additional Account Information</section>
+        </sections>
+        <sections>
+            <label><!-- Charts --></label>
+            <section>Charts</section>
+        </sections>
+        <sections>
+            <label><!-- Credit Conclusion --></label>
+            <section>Credit Conclusion</section>
+        </sections>
+        <sections>
+            <label><!-- Credit Request Information --></label>
+            <section>Credit Request Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>BPD_ProspectCRMBase</layout>
+        <sections>
+            <label><!-- Additional Account Information --></label>
+            <section>Additional Account Information</section>
+        </sections>
+        <sections>
+            <label><!-- Credit Conclusion --></label>
+            <section>Credit Conclusion</section>
+        </sections>
+        <sections>
+            <label><!-- Credit Request Information --></label>
+            <section>Credit Request Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>CAIDB_Distributor Account Layout</layout>
+        <sections>
+            <label><!-- Contact Details --></label>
+            <section>Contact Details</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Distributor Details --></label>
+            <section>Distributor Details</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>CAIDB_Workshop Account Layout</layout>
+        <sections>
+            <label><!-- Address Details --></label>
+            <section>Address Details</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Workshop Details --></label>
+            <section>Workshop Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Castrol_CustomerAccountLayout</layout>
+        <sections>
+            <label><!-- Charts --></label>
+            <section>Charts</section>
+        </sections>
+        <sections>
+            <label><!-- FCM Section --></label>
+            <section>FCM Section</section>
+        </sections>
+        <sections>
+            <label><!-- QBR --></label>
+            <section>QBR</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Person Account Layout</layout>
+        <layoutType>PersonAccount</layoutType>
+        <sections>
+            <label><!-- Charts --></label>
+            <section>Charts</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- New Direct JBP --></label>
+        <name>CAJBP_New_Direct_JBP</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Indirect JBP --></label>
+        <name>CAJBP_New_Indirect_JBP</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Contact --></label>
+        <name>CASFO_New_Contact</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Child Account --></label>
+        <name>Child_Account</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Log a Call --></label>
+        <name>GEAMU_LogCall</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Event --></label>
+        <name>GEAMU_NewEvent</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Task --></label>
+        <name>GEAMU_NewTask</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Update Account --></label>
+        <name>GEFUE_Update_SVB_Number</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Opportunity --></label>
+        <name>New_Opportunity</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Opportunity --></label>
+        <name>New_SG_Opportunity</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Delete &amp; Anonymize --></label>
+        <name>REIDP_Delete_Anonymize</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Request Credit Assessment --></label>
+        <name>Request_Credit_Assessment</name>
+    </quickActions>
+    <recordTypes>
+        <description><!-- Accounting details --></description>
+        <label><!-- Accounting Details --></label>
+        <name>AITM_Accounting_Details</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Billing details --></description>
+        <label><!-- Billing Details --></label>
+        <name>AITM_Billing_Details</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Customer legal entity --></description>
+        <label><!-- Legal Entity --></label>
+        <name>AITM_Legal_Entity</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- AirBP Customer Account --></description>
+        <label><!-- AirBP Customer --></label>
+        <name>AirBP_Customer</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- IWS Distributor Details --></description>
+        <label><!-- IWS Distributor Account --></label>
+        <name>CAIDB_Distributor_Account</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- IWS Workshop Details --></description>
+        <label><!-- IWS Workshop Account --></label>
+        <name>CAIDB_Workshop_Account</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Account Details --></description>
+        <label><!-- CAJBP_Account --></label>
+        <name>CAJBP_Account</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- An Organisation who competes on Opportunities --></description>
+        <label><!-- Competitor --></label>
+        <name>Competitor</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- An Existing Customer currently doing business with BP --></description>
+        <label><!-- Customer --></label>
+        <name>Customer</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Account Record type for the AMU MVP --></description>
+        <label><!-- AMU Account --></label>
+        <name>GEAMU_Account</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- A prospective customer not yet doing business with Castrol --></description>
+        <label><!-- Prospect --></label>
+        <name>Prospect</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- RE IDP Business Account --></label>
+        <name>RE_IDP_Business_Account</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Site Account --></description>
+        <label><!-- Site --></label>
+        <name>Site</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Customer Account Name can not be modified. Ensure the Account Name is changed in SAP which will then reflect these changes in Salesforce. --></errorMessage>
+        <name>CASFO_PreventCustomerAccountNameChanges</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Conga_Composer_OAuth --></label>
+        <name>APXTConga4__Conga_Composer_OAuth</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Conga_Mail_Merge --></label>
+        <name>APXTConga4__Conga_Mail_Merge</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- AltavistaNews --></label>
+        <name>AltavistaNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleNews --></label>
+        <name>GoogleNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- HooversProfile --></label>
+        <name>HooversProfile</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Set_Visit_Window --></label>
+        <name>Set_Visit_Window</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- YahooMaps --></label>
+        <name>YahooMaps</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>AFQRJOS latest issue</fullName>
+        <default>false</default>
+        <label>AFQRJOS (latest issue)</label>
+    </customValue>
+    <customValue>
+        <fullName>ASTM D1655 (latest revision)</fullName>
+        <default>false</default>
+        <label>ASTM D1655 (latest revision)</label>
+    </customValue>
+    <customValue>
+        <fullName>ASTM D910 (latest issue)</fullName>
+        <default>false</default>
+        <label>ASTM D910 (latest issue)</label>
+    </customValue>
+    <customValue>
+        <fullName>Can/CGS B, 3.23 (latest issue)</fullName>
+        <default>false</default>
+        <label>Can/CGS B, 3.23 (latest issue)</label>
+    </customValue>
+    <customValue>
+        <fullName>Defence Standard 91-87 (latest issue)</fullName>
+        <default>false</default>
+        <label>Defence Standard 91-87 (latest issue)</label>
+    </customValue>
+    <customValue>
+        <fullName>Defence Standard 91-80 (latest issue)</fullName>
+        <default>false</default>
+        <label>Defence Standard 91-80 (latest issue)</label>
+    </customValue>
+    <customValue>
+        <fullName>Defence Standard 91-91 (latest issue)</fullName>
+        <default>false</default>
+        <label>Defence Standard 91-91 (latest issue)</label>
+    </customValue>
+    <customValue>
+        <fullName>MIL-DTL 5642U (latest issue)</fullName>
+        <default>false</default>
+        <label>MIL-DTL 5642U (latest issue)</label>
+    </customValue>
+    <customValue>
+        <fullName>MIL-DTL 83133 (latest issue)</fullName>
+        <default>false</default>
+        <label>MIL-DTL 83133 (latest issue)</label>
+    </customValue>
+    <customValue>
+        <fullName>MIL-DTL-1684L</fullName>
+        <default>false</default>
+        <label>MIL-DTL-1684L</label>
+    </customValue>
+    <customValue>
+        <fullName>MIL-STD-1548 (latest issue)</fullName>
+        <default>false</default>
+        <label>MIL-STD-1548 (latest issue)</label>
+    </customValue>
+    <masterLabel>Specification</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

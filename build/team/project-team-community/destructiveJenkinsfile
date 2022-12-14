@@ -1,0 +1,55 @@
+final BUILD_PATH = 'build/team/sfdc-customer-cxs'
+def config = [:]
+
+node('centos-large') {
+
+    stage("Checkout from DevOps from SCC") {
+        git url: 'https://bp-vsts.visualstudio.com/Salesforce%20Platform/_git/sfdc-customer-cxs',
+                branch: "${BRANCH}", credentialsId: 'VSTS_CREDENTIALS'
+        sh('[ -e ci ] || mkdir ci')
+        dir('ci') {
+            git url: 'https://bp-vsts.visualstudio.com/Salesforce%20Platform/_git/sfdc-c4e-devops',
+                    branch: '1-click', credentialsId: 'VSTS_CREDENTIALS'
+        }
+    }
+
+    stage("Load settings") {
+        def builddir = pwd() + "/$BUILD_PATH"
+        def oneclick = readYaml file: "${builddir}/1click.yml"
+        //def envRepoBranch = "${ENVIRONMENT}" + "RepoBranch"
+        def envSfCredentialsID = "${ENVIRONMENT}" + "SfCredentialsId"
+        
+        config = [
+                repoUrl: oneclick."${REPOSITORY}".repoURL,
+                repoCredentials: oneclick."${REPOSITORY}".repoCredentialsId,
+                //repoBranch: oneclick."${REPOSITORY}".rollbackBranch,
+                sfCredentialsId: oneclick.salesforce."${envSfCredentialsID}",
+                sfOrg: oneclick."${REPOSITORY}".org,
+                rollbackTag: "${TAG}"
+        ]
+    }
+
+    stage("Get rollback code") {
+        
+                echo "${config.rollbackTag}"
+                sh "git checkout ${config.rollbackTag} src/"
+                sh "cp ${WORKSPACE}/sfdc-rollback/${REPOSITORY}-del/filesToIncludeInBuild.txt ${WORKSPACE}/package/filesToIncludeInBuild.txt"
+    }
+
+    stage ("Clean unlisted files") {
+        sh "${WORKSPACE}/ci/clean-sf.sh"
+    }
+
+    stage ("Rollback from Salesforce Environment") {
+        withCredentials([[$class: 'UsernamePasswordMultiBinding', credentialsId: "${config.sfCredentialsId}", usernameVariable: 'SF_USERNAME', passwordVariable: 'SF_PASSWORD']]) {
+                sh "${WORKSPACE}/ci/deploy-sf.sh ${WORKSPACE}/ci/deployment/${config.sfOrg}/${ENVIRONMENT}.properties"
+        }
+    }
+
+    stage ("Destructive build to Salesforce Environment") {
+        sh "chmod 755 ${WORKSPACE}/ci/destructive-sf.sh"
+        withCredentials([[$class: 'UsernamePasswordMultiBinding', credentialsId: "${config.sfCredentialsId}", usernameVariable: 'SF_USERNAME', passwordVariable: 'SF_PASSWORD']]) {
+                sh "${WORKSPACE}/ci/destructive-sf.sh ${WORKSPACE}/ci/deployment/${config.sfOrg}/${ENVIRONMENT}.properties ${WORKSPACE}/sfdc-rollback/${REPOSITORY}-del"
+        }
+    }
+}

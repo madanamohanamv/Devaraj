@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <interviewLabel>Reset Primary Flag on Old Opportunity Contact {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Reset Primary Flag on Old Opportunity Contacts</label>
+    <loops>
+        <name>Loop_through_the_Primary_Contacts_on_the_Opportunity</name>
+        <label>Loop through the Primary Contacts on the Opportunity</label>
+        <locationX>287</locationX>
+        <locationY>200</locationY>
+        <assignNextValueToReference>OldPrimaryOpportunityContact</assignNextValueToReference>
+        <collectionReference>OpportunityPrimaryContacts</collectionReference>
+        <iterationOrder>Asc</iterationOrder>
+        <nextValueConnector>
+            <targetReference>Reset_the_Primary_Flag_on_the_Opportunity_Contact</targetReference>
+        </nextValueConnector>
+    </loops>
+    <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <name>Query_the_Previous_Primary_Contact</name>
+        <label>Query the Previous Primary Contact</label>
+        <locationX>290</locationX>
+        <locationY>79</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Loop_through_the_Primary_Contacts_on_the_Opportunity</targetReference>
+        </connector>
+        <filters>
+            <field>CASFO_Opportunity__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>OpportunityID</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>CASFO_Primary_Contact__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Id</field>
+            <operator>NotEqualTo</operator>
+            <value>
+                <elementReference>NewPrimaryContactId</elementReference>
+            </value>
+        </filters>
+        <object>CASFO_Opportunity_Contact__c</object>
+        <outputReference>OpportunityPrimaryContacts</outputReference>
+        <queriedFields>Id</queriedFields>
+        <queriedFields>CASFO_Primary_Contact__c</queriedFields>
+    </recordLookups>
+    <recordUpdates>
+        <name>Reset_the_Primary_Flag_on_the_Opportunity_Contact</name>
+        <label>Reset the Primary Flag on the Opportunity Contact</label>
+        <locationX>500</locationX>
+        <locationY>199</locationY>
+        <connector>
+            <targetReference>Loop_through_the_Primary_Contacts_on_the_Opportunity</targetReference>
+        </connector>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>OldPrimaryOpportunityContact.Id</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>CASFO_Primary_Contact__c</field>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </inputAssignments>
+        <object>CASFO_Opportunity_Contact__c</object>
+    </recordUpdates>
+    <startElementReference>Query_the_Previous_Primary_Contact</startElementReference>
+    <status>Active</status>
+    <variables>
+        <description>The ID of the New Primary Contact</description>
+        <name>NewPrimaryContactId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <description>The Old Primary Opportunity Contact</description>
+        <name>OldPrimaryOpportunityContact</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <objectType>CASFO_Opportunity_Contact__c</objectType>
+    </variables>
+    <variables>
+        <description>The ID of the Opportunity this contact is against</description>
+        <name>OpportunityID</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <description>The list of Opporutnity Contacts that are already flagged as primary against the Opporunity (Excluding the new Primary record)</description>
+        <name>OpportunityPrimaryContacts</name>
+        <dataType>SObject</dataType>
+        <isCollection>true</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <objectType>CASFO_Opportunity_Contact__c</objectType>
+    </variables>
+</Flow>

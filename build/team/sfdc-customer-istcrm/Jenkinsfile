@@ -1,0 +1,65 @@
+final BUILD_PATH = 'build/team/sfdc-customer-istcrm'
+def config = [:]
+
+node('centos-large') {
+
+    stage("Checkout from SCC") {
+        git url: 'https://bp-vsts.visualstudio.com/Salesforce%20Platform/_git/sfdc-customer-istcrm',
+                branch: 'develop', credentialsId: 'VSTS_CREDENTIALS'
+
+        sh('[ -e ci ] || mkdir ci')
+        dir('ci') {
+            git url: 'https://bp-vsts.visualstudio.com/Salesforce%20Platform/_git/sfdc-c4e-devops',
+                    branch: '1-click', credentialsId: 'VSTS_CREDENTIALS'
+        }
+    }
+    stage("Load settings") {
+        def builddir = pwd() + "/$BUILD_PATH"
+        def oneclick = readYaml file: "${builddir}/1click.yml"
+
+        config = [
+                sonarProjectKey: oneclick.sonar.projectKey,
+                sonarHostUrl: oneclick.sonar.hostUrl,
+                sonarLogin: oneclick.sonar.login,
+                ciCredentialsId: oneclick.salesforce.ciCredentialsId,
+                testCredentialsId: oneclick.salesforce.testCredentialsId,
+                seleniumJobUri: oneclick.selenium.jobUri
+        ]
+    }
+
+    stage ("Clean unlisted files") {
+        sh "${WORKSPACE}/ci/clean-sf.sh"
+    }
+
+    stage ("Stash build") {
+        stash excludes: '**/*.class', name: 'project'
+    }
+
+    stage("Code Scan") {
+        sh 'chmod 755 ${WORKSPACE}/ci/check_salesforce_code_file_name_standards.sh'
+        sh returnStdout: true, script: '${WORKSPACE}/ci/check_salesforce_code_file_name_standards.sh ${WORKSPACE}/src/'
+        sleep 15
+        scannerHome = tool 'Sonar'
+        withSonarQubeEnv('SonarQube') {
+            sh "${scannerHome}/bin/sonar-scanner -Dsonar.projectKey=${config.sonarProjectKey}  -Dsonar.host.url=${config.sonarHostUrl} -Dsonar.login=${config.sonarLogin} -Dsonar.sources=src,package"
+       }
+    }
+    
+    stage("Deploy to TEST Environment") {
+
+        def builddir = pwd() + "/$BUILD_PATH"
+
+        withCredentials([[$class: 'UsernamePasswordMultiBinding', credentialsId: "${config.testCredentialsId}", usernameVariable: 'SF_USERNAME', passwordVariable: 'SF_PASSWORD']]) {
+            def antDir = "${tool 'Ant1.10'}"
+            env.PATH="${antDir}/bin:${env.PATH}"
+            sh "${WORKSPACE}/ci/deploy-sf.sh ${builddir}/test.properties"
+        }
+    }
+
+   // stage("Selenium Testing : using suite smoke") {
+        //https://jenkins.io/doc/pipeline/steps/Parameterized-Remote-Trigger/
+        //def handle = triggerRemoteJob(job: 'http://bp1xeuap3357:8080/job/Salesforce/build', auth: TokenAuth(apiToken: 'auth', userName: 'paj4ff'), parameters: 'TEST_SUITE=smoke')
+    //}
+
+}
+

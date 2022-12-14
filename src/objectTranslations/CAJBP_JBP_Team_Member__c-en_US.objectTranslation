@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>JBP Team Member</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>JBP Team Members</value>
+    </caseValues>
+    <fields>
+        <label><!-- Access --></label>
+        <name>CAJBP_Access__c</name>
+        <picklistValues>
+            <masterLabel>Read Only</masterLabel>
+            <translation><!-- Read Only --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Read/Write</masterLabel>
+            <translation><!-- Read/Write --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Joint Business Plan --></label>
+        <name>CAJBP_Joint_Business_Plan__c</name>
+        <relationshipLabel><!-- JBP Team Members --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Unique Key --></label>
+        <name>CAJBP_Unique_Key__c</name>
+    </fields>
+    <fields>
+        <label><!-- User --></label>
+        <name>CAJBP_User__c</name>
+        <relationshipLabel><!-- JBP Team Members --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Team Member Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- The owner of the Joint Business Plan cannot be a team member --></errorMessage>
+        <name>CAJBP_JBP_Owner_Not_Allowed</name>
+    </validationRules>
+</CustomObjectTranslation>

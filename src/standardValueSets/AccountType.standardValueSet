@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Suspect</fullName>
+        <default>false</default>
+        <label>Suspect</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ZMSP</fullName>
+        <default>false</default>
+        <label>ZMSP</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ZMPY</fullName>
+        <default>false</default>
+        <label>M&amp;S Payer customer</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ZMMP</fullName>
+        <default>false</default>
+        <label>ZMMP</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ZMPS</fullName>
+        <default>false</default>
+        <label>ZMPS</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Competitor</fullName>
+        <default>false</default>
+        <label>Competitor</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ZMAN</fullName>
+        <default>false</default>
+        <label>M&amp;S Sold-to NaturalPers-Air BP</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ZMRE</fullName>
+        <default>false</default>
+        <label>M&amp;S Sold-to Related Customers</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ZMSN</fullName>
+        <default>false</default>
+        <label>Sold-to customer NaturalPerson</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ZMSI</fullName>
+        <default>false</default>
+        <label>M&amp;S Sold-to party customer IB</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ZMBP</fullName>
+        <default>false</default>
+        <label>M&amp;S Bill-to party customer</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ZMHI</fullName>
+        <default>false</default>
+        <label>M&amp;S Hierarchy node Customer Group</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ZMPO</fullName>
+        <default>false</default>
+        <label>M &amp; S:Marine Port</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ZMSH</fullName>
+        <default>false</default>
+        <label>M&amp;S Ship-to party customer</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ZMPN</fullName>
+        <default>false</default>
+        <label>M &amp; S Prospect: Natural Person</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Branded Jobber</fullName>
+        <default>false</default>
+        <label>Branded Jobber</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Commercial</fullName>
+        <default>false</default>
+        <label>Commercial</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Branded Direct</fullName>
+        <default>false</default>
+        <label>Branded Direct</label>
+    </standardValue>
+</StandardValueSet>

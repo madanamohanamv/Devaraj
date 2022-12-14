@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QuickAction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>AITM - Button used to change Tender Account record and (if possible) related records</description>
+    <height>300</height>
+    <label>Change Customer</label>
+    <lightningComponent>AITM_ChangeCustomer</lightningComponent>
+    <optionsCreateFeedItem>false</optionsCreateFeedItem>
+    <type>LightningComponent</type>
+    <width>-100</width>
+</QuickAction>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Objective &amp; Risk</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Objectives &amp; Risks</value>
+    </caseValues>
+    <fields>
+        <label><!-- Actual Cost --></label>
+        <name>CAJBP_Actual_Cost__c</name>
+    </fields>
+    <fields>
+        <help><!-- Partner value is only to be entered when the Partner has suggested an appropriate number and should be left blank if the Partner has not suggested a number. This should not be populated by Castrol in the absence of a number from your Partner. --></help>
+        <label><!-- Actual Partner Value --></label>
+        <name>CAJBP_Actual_Partner_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Actual Volume --></label>
+        <name>CAJBP_Actual_Volume__c</name>
+    </fields>
+    <fields>
+        <label><!-- Estimated Cost --></label>
+        <name>CAJBP_Estimated_Cost__c</name>
+    </fields>
+    <fields>
+        <help><!-- Partner value is only to be entered when the Partner has suggested an appropriate number and should be left blank if the Partner has not suggested a number. This should not be populated by Castrol in the absence of a number from your Partner. --></help>
+        <label><!-- Estimated Partner Value --></label>
+        <name>CAJBP_Estimated_Partner_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Estimated Volume --></label>
+        <name>CAJBP_Estimated_Volume__c</name>
+    </fields>
+    <fields>
+        <label><!-- Joint Business Plan --></label>
+        <name>CAJBP_Joint_Business_Plan__c</name>
+        <relationshipLabel><!-- Objectives &amp; Risks --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Name of Objective or Risk --></label>
+        <name>CAJBP_Name_of_Objective_or_Risk__c</name>
+    </fields>
+    <fields>
+        <label><!-- Objective Description --></label>
+        <name>CAJBP_Objective_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Objective Title --></label>
+        <name>CAJBP_Objective_Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- Risk Description --></label>
+        <name>CAJBP_Risk_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Risk Title --></label>
+        <name>CAJBP_Risk_Title__c</name>
+    </fields>
+    <layouts>
+        <layout>Objective Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Risk Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Objective --></label>
+        <name>CAJBP_Objective</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Risk --></label>
+        <name>CAJBP_Risk</name>
+    </recordTypes>
+    <sharingReasons>
+        <label><!-- Sharing To JBP Team Member --></label>
+        <name>Sharing_To_JBP_Team_Member</name>
+    </sharingReasons>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

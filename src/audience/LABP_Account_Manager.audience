@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Audience xmlns="http://soap.sforce.com/2006/04/metadata">
+    <audienceName>LABP Account Manager</audienceName>
+    <container>LABP Tendering</container>
+    <criterion>
+        <criterionValue>
+            <profile>air_tmlabplogin</profile>
+        </criterionValue>
+        <operator>Equal</operator>
+        <type>Profile</type>
+    </criterion>
+    <criterion>
+        <criterionValue>
+            <profile>air_tmlabp</profile>
+        </criterionValue>
+        <operator>Equal</operator>
+        <type>Profile</type>
+    </criterion>
+    <formulaFilterType>AllCriteriaMatch</formulaFilterType>
+</Audience>

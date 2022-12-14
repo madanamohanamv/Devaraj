@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingOwnerRules>
+        <fullName>AIRBP_LABPLM_Tender_Access</fullName>
+        <accessLevel>Read</accessLevel>
+        <description>Owner of AIRBP Tenders share with LABPLM Readonly access</description>
+        <label>AIRBP_LABPLM_Tender_Access</label>
+        <sharedTo>
+            <group>LABP_Location_Manager</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>AirBP</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>AITM_AIR_Data_Migration</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Used for Data Loader Profile</description>
+        <label>AITM_AIR_Data_Migration</label>
+        <sharedTo>
+            <role>AIR_BP_Data_Migration</role>
+        </sharedTo>
+        <sharedFrom>
+            <allInternalUsers></allInternalUsers>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>AITM_AIR_Data_Migration_BP</fullName>
+        <accessLevel>Read</accessLevel>
+        <description>Used to share the records owned by Data migration role with the Air BP role users</description>
+        <label>AITM_AIR_Data_Migration_BP</label>
+        <sharedTo>
+            <role>AirBP</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>AIR_BP_Data_Migration</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>LABPAM_LABPLM_Access</fullName>
+        <accessLevel>Read</accessLevel>
+        <description>Owner of LABP AM share records to LABP LM with access level as readonly</description>
+        <label>LABPAM_LABPLM_Access</label>
+        <sharedTo>
+            <group>LABP_Location_Manager</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>LABP_Account_Manager</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>LABP_AIRBP_Tender_Access</fullName>
+        <accessLevel>Read</accessLevel>
+        <description>Owner of LABP Tenders share with AIRBP Role Readonly access</description>
+        <label>LABP_AIRBP_Tender_Access</label>
+        <sharedTo>
+            <role>AirBP</role>
+        </sharedTo>
+        <sharedFrom>
+            <group>LABP_Account_Manager</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

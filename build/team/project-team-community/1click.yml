@@ -1,0 +1,9 @@
+sonar:
+  projectKey: "com.bp.salesforce.project.team.a"
+  login: "84e381f1751cb5108caaf773db108ec8b70f7bf6"
+  hostUrl: "https://sonarqube.bpweb.bp.com"
+salesforce:
+  ciCredentialsId: "salesforce-customer-bpgci"
+  testCredentialsId: "salesforce-customer-bpgtest"
+selenium:
+  jobUri: "__SELENIUM_JOB_URI__"

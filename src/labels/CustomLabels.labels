@@ -1,0 +1,3840 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>AITM_AccessLevel</fullName>
+        <categories>AirBP RTE</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AITM_AccessLevel</shortDescription>
+        <value>Access Level</value>
+    </labels>
+    <labels>
+        <fullName>AITM_AddCustomerValidation</fullName>
+        <categories>AirBP RTE</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AITM_AddCustomerValidation</shortDescription>
+        <value>You have entered no volume – please add volume or click Ad Hoc</value>
+    </labels>
+    <labels>
+        <fullName>AITM_AddLocationValidation</fullName>
+        <categories>AirBP RTE</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AITM AddLocationValidation</shortDescription>
+        <value>You have entered no volume – please add volume or click Ad Hoc</value>
+    </labels>
+    <labels>
+        <fullName>AITM_AddNewPermission</fullName>
+        <categories>AirBP RTE</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AITM_AddNewPermission</shortDescription>
+        <value>Add New Permission</value>
+    </labels>
+    <labels>
+        <fullName>AITM_Add_Current_Value</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AITM_Add_Current_Value</shortDescription>
+        <value>Please add current value</value>
+    </labels>
+    <labels>
+        <fullName>AITM_Add_Offered_Differential</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AITM_Add_Offered_Differential</shortDescription>
+        <value>Please add the offered differential</value>
+    </labels>
+    <labels>
+        <fullName>AITM_AffiliatesError</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Affiliates Error</shortDescription>
+        <value>Please choose the Affiliates with in the Tender Customer</value>
+    </labels>
+    <labels>
+        <fullName>AITM_Appendix4Title</fullName>
+        <categories>AirBP RTE</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AITM_Appendix4Title</shortDescription>
+        <value>Contract Confirmation</value>
+    </labels>
+    <labels>
+        <fullName>AITM_Back</fullName>
+        <categories>AirBP RTE</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AITM_Back</shortDescription>
+        <value>Back</value>
+    </labels>
+    <labels>
+        <fullName>AITM_ContractIsNotGenerated</fullName>
+        <categories>AirBP RTE</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ContractIsNotGenerated</shortDescription>
+        <value>Contract is not generated.</value>
+    </labels>
+    <labels>
+        <fullName>AITM_ContractPDFGenerationSuccess</fullName>
+        <categories>AirBP RTE</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OfferPDFGenerationSuccess</shortDescription>
+        <value>Contract PDF was generated: available in tender attachments</value>
+    </labels>
+    <labels>
+        <fullName>AITM_Contract_Is_Not_Sent</fullName>
+        <categories>AirBP RTE</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AITM_Contract_Is_Not_Sent</shortDescription>
+        <value>Before go to the next stage, please send Contract email.</value>
+    </labels>
+    <labels>
+        <fullName>AITM_Delete</fullName>
+        <categories>labels, buttons</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AITM_Delete</shortDescription>
+        <value>Delete</value>
+    </labels>
+    <labels>
+        <fullName>AITM_EditOldRoundErrorMessage</fullName>
+        <categories>AirBP RTE</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>EditOldRoundErrorMessage</shortDescription>
+        <value>Sorry, you cannot edit previous rounds records!</value>
+    </labels>
+    <labels>
+        <fullName>AITM_EmptyFeedbackErrorMessage</fullName>
+        <categories>AirBP RTE</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>EmptyFeedbackErrorMessage</shortDescription>
+        <value>One or more locations should have feedback entered in their feedback tabs</value>
+    </labels>
+    <labels>
+        <fullName>AITM_Flag_Requested_Volume</fullName>
+        <categories>AirBP RTE</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AITM Flag Requested Volume</shortDescription>
+        <value>Please note we are quoting for [[OFFERED VOLUME]] [[UNIT]] from the requested [[REQUESTED VOLUME]]</value>
+    </labels>
+    <labels>
+        <fullName>AITM_GenerateDeBriefEmailChatterPost</fullName>
+        <categories>AirBP RTE</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AITM_GenerateDeBriefEmailChatterPost</shortDescription>
+        <value>Debrief email attached</value>
+    </labels>
+    <labels>
+        <fullName>AITM_GenerateDeBriefEmailSuccess</fullName>
+        <categories>AirBP RTE</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AITM_GenerateDeBriefEmailSuccess</shortDescription>
+        <value>Success! Email sent - for reference, copy of the email is added to the tender attachments. Airports notifications are sent in a background</value>
+    </labels>
+    <labels>
+        <fullName>AITM_GenerateFeedbackEmailChatterPost</fullName>
+        <categories>AirBP RTE</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AITM_GenerateFeedbackEmailChatterPost</shortDescription>
+        <value>Feedback email attached</value>
+    </labels>
+    <labels>
+        <fullName>AITM_GenerateFeedbackEmailSuccess</fullName>
+        <categories>AirBP RTE</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AITM_GenerateFeedbackEmailSuccess</shortDescription>
+        <value>Success! Email sent - for reference, copy of the email is added to the tender attachments</value>
+    </labels>
+    <labels>
+        <fullName>AITM_GeneratedContractEmailSentToACustomer</fullName>
+        <categories>AirBP RTE</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GeneratedContractEmailSentToACustomer</shortDescription>
+        <value>Contract has been already sent to the customer</value>
+    </labels>
+    <labels>
+        <fullName>AITM_GeneratedOfferButtonNotDebriefStage</fullName>
+        <categories>AirBP RTE</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AITM_GeneratedOfferButtonNotDebriefStage</shortDescription>
+        <value>This tender is not in debrief stage, please use only debrief tender for contract submission</value>
+    </labels>
+    <labels>
+        <fullName>AITM_GeneratedOfferButtonNotPricedStage</fullName>
+        <categories>AirBP RTE</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GeneratedOfferButtonNotPricedStage</shortDescription>
+        <value>This tender is not in priced stage, please use only priced tender for offer submission</value>
+    </labels>
+    <labels>
+        <fullName>AITM_GeneratedOfferButtonOfferSentToACustomer</fullName>
+        <categories>AirBP RTE</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GeneratedOfferButtonOfferSentToACustomer</shortDescription>
+        <value>Offer has been already sent to the customer</value>
+    </labels>
+    <labels>
+        <fullName>AITM_GeneratedOfferButtonProduceNotTicket</fullName>
+        <categories>AirBP RTE</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GeneratedOfferButtonProduceNotTicket</shortDescription>
+        <value>In case to send email please tick the Produce Customer Email checkbox on a tender</value>
+    </labels>
+    <labels>
+        <fullName>AITM_InvitationEmailSendSuccess</fullName>
+        <categories>AirBP RTE</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AITM_InvitationEmailSendSuccess</shortDescription>
+        <value>Location Managers been notified</value>
+    </labels>
+    <labels>
+        <fullName>AITM_Invoice_Frequency_BiMonthly</fullName>
+        <categories>AirBP RTE</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AITM_Invoice_Frequency_BiMonthly</shortDescription>
+        <value>Bi monthly - Invoiced twice a month covering deliveries from 1 to 15 &apos;day of the month and from the 16th day of the month to the last day of the month. The date of sale shall be the last day of that period.Above definitions of invoicing cycles apply as well in case of submitting assurance in form of prepayment. The prepayment will be settled according to BP rules described in section 11 of General terms and conditions .Invoicing currency for Polish deliveries shall be USD. Parties may agree other currency of payment - according to rules described in general terms and conditions.</value>
+    </labels>
+    <labels>
+        <fullName>AITM_Invoice_Frequency_Biweekly</fullName>
+        <categories>AirBP RTE</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AITM_Invoice_Frequency_Biweekly</shortDescription>
+        <value>Bi weekly - invoiced twice a week: on Tuesday covering deliveries from Friday to Monday and on Friday covering deliveries from Tuesday to Thursday.The date of sale shall be the last day of invoicing period. Shall the month end on a different day than Monday or Thursday, Seller shall issue two separate invoiced for that period - one covering deliveries to the last day of the month, and the other for the period from the first day of the following month.&lt;br/&gt;</value>
+    </labels>
+    <labels>
+        <fullName>AITM_Invoice_Frequency_Daily</fullName>
+        <categories>AirBP RTE</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AITM_Invoice_Frequency_Daily</shortDescription>
+        <value>For Locations marked with (P) &lt;br/&gt;
+The following invoice cycle calculation rules apply:&lt;br/&gt;
+Daily - Invoiced every day. The date the sale shall be the delivery date.&lt;br/&gt;</value>
+    </labels>
+    <labels>
+        <fullName>AITM_Invoice_Frequency_FortNightly</fullName>
+        <categories>AirBP RTE</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AITM_Invoice_Frequency_FortNightly</shortDescription>
+        <value>Fortnightly - invoiced every fortnight on a Tuesday, covering deliveries from Tuesday till Monday. The date of sale shall be the last day of that period. The first invoicing cycle, starts 1st January, 2016 and ends 11th January 2016 and each following cycle covers two weeks. Shall the month end on a different day than Monday, Seller shall issue two  separate invoices for the deliveries made in the last week of the month: one for the period from Tuesday to the last day of the month and the other for the period from the first day of the following month to Monday. Shall the tax rates (incl. VAT) be a subject of change on a day other than Monday, regulations set forth in the preceding sentence shall apply respectively. Irrespective of the date of entering the contract, determination of invoicing dates is always based on the starting date: 1st January 2016.&lt;br/&gt;</value>
+    </labels>
+    <labels>
+        <fullName>AITM_Invoice_Frequency_Weekly</fullName>
+        <categories>AirBP RTE</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AITM_Invoice_Frequency_Weekly</shortDescription>
+        <value>Weekly - invoiced every week on a Tuesday, covering deliveries from Tuesday till Monday. The date of sale shall be the last day of that period.Shall the month end on a different day than Monday, Seller shall issue two separate invoices for the deliveries made in the last week of the month: one for the period from Tuesday to the last day of the month and the other for the period from the first day of the following month to Monday. Shall the tax rates (including VAT) be a subject of change on a day other than Monday, regulations set forth in the preceding sentence shall apply respectively.&lt;br/&gt;</value>
+    </labels>
+    <labels>
+        <fullName>AITM_LackingPermissions</fullName>
+        <categories>AirBP RTE</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AITM_LackingPermissions</shortDescription>
+        <value>You don\&apos;t have the proper permissions for ths action</value>
+    </labels>
+    <labels>
+        <fullName>AITM_LocationManagerDuplicateMessage</fullName>
+        <categories>AirBP RTE</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AITM_LocationManagerDuplicateMessage</shortDescription>
+        <value>You cannot have multiple Location Managers per different sectors</value>
+    </labels>
+    <labels>
+        <fullName>AITM_LocationManagerTenderLocationEditError</fullName>
+        <categories>AirBP RTE</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AITM_LocationManagerTenderLocationEditError</shortDescription>
+        <value>You are not Location Manager of this location, therefore, edit is not available for you.</value>
+    </labels>
+    <labels>
+        <fullName>AITM_LocationUsernamePrefix</fullName>
+        <categories>AirBP RTE</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Location Username Prefix</shortDescription>
+        <value>.airbp.sandbox.dev</value>
+    </labels>
+    <labels>
+        <fullName>AITM_MultipleGroupsForRole</fullName>
+        <categories>AirBP RTE</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AITM_MultipleGroupsForRole</shortDescription>
+        <value>There are multiple groups for that role</value>
+    </labels>
+    <labels>
+        <fullName>AITM_Name</fullName>
+        <categories>AirBP RTE</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AITM_Name</shortDescription>
+        <value>Name</value>
+    </labels>
+    <labels>
+        <fullName>AITM_NewContractPDFAppendix4ChatterText</fullName>
+        <categories>AirBP RTE</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AITM_NewContractPDFAppendix4ChatterText</shortDescription>
+        <value>Generated Contract Appendix4</value>
+    </labels>
+    <labels>
+        <fullName>AITM_NewContractPDFAppendix4Prefix</fullName>
+        <categories>AirBP RTE</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AITM_NewContractPDFAppendix4Prefix</shortDescription>
+        <value>Contract Appendix4</value>
+    </labels>
+    <labels>
+        <fullName>AITM_NewContractPDFContractChatterText</fullName>
+        <categories>AirBP RTE</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NewContractPDFContractChatterText</shortDescription>
+        <value>Generated Contract</value>
+    </labels>
+    <labels>
+        <fullName>AITM_NewContractPDFContractPrefix</fullName>
+        <categories>AirBP RTE</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NewContractPDFContractPrefix</shortDescription>
+        <value>Air BP contract dated:</value>
+    </labels>
+    <labels>
+        <fullName>AITM_NewOfferPDFAppendix4ChatterText</fullName>
+        <categories>AirBP RTE</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AITM_NewOfferPDFAppendix4ChatterText</shortDescription>
+        <value>Generated Offer Appendix4</value>
+    </labels>
+    <labels>
+        <fullName>AITM_NewOfferPDFAppendix4Prefix</fullName>
+        <categories>AirBP RTE</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AITM_NewOfferPDFAppendix4Prefix</shortDescription>
+        <value>Offer Appendix4</value>
+    </labels>
+    <labels>
+        <fullName>AITM_NewOfferPDFLegalChatterText</fullName>
+        <categories>AirBP RTE</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NewOfferPDFLegalChatterText</shortDescription>
+        <value>Generated Terms And Conditions: Legal</value>
+    </labels>
+    <labels>
+        <fullName>AITM_NewOfferPDFLegalFilePrefix</fullName>
+        <categories>AirBP RTE</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NewOfferPDFLegalFilePrefix</shortDescription>
+        <value>GTandC</value>
+    </labels>
+    <labels>
+        <fullName>AITM_NewOfferPDFMSDS2101FilePrefix</fullName>
+        <categories>AirBP RTE</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NewOfferPDFMSDS2101FilePrefix</shortDescription>
+        <value>SAV2101_1</value>
+    </labels>
+    <labels>
+        <fullName>AITM_NewOfferPDFMSDS2102FilePrefix</fullName>
+        <categories>AirBP RTE</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NewOfferPDFMSDS2102FilePrefix</shortDescription>
+        <value>SAV2102_1</value>
+    </labels>
+    <labels>
+        <fullName>AITM_NewOfferPDFMSDS2105FilePrefix</fullName>
+        <categories>AirBP RTE</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NewOfferPDFMSDS2105FilePrefix</shortDescription>
+        <value>SAV2105_1</value>
+    </labels>
+    <labels>
+        <fullName>AITM_NewOfferPDFOfferChatterText</fullName>
+        <categories>AirBP RTE</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NewOfferPDFOfferChatterText</shortDescription>
+        <value>Generated Offer</value>
+    </labels>
+    <labels>
+        <fullName>AITM_NewOfferPDFOfferPrefix</fullName>
+        <categories>AirBP RTE</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NewOfferPDFOfferPrefix</shortDescription>
+        <value>Air BP offer dated:</value>
+    </labels>
+    <labels>
+        <fullName>AITM_Next_Back_Buttons_Error_Message</fullName>
+        <categories>AirBP RTE</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AITM_Next_Back_Buttons_Error_Message</shortDescription>
+        <value>Next and Back buttons functionality is disabled.</value>
+    </labels>
+    <labels>
+        <fullName>AITM_OWDReadWrite</fullName>
+        <categories>AirBP RTE</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AITM_OWDReadWrite</shortDescription>
+        <value>Sharing Settings must be private or public read/write to enable manual sharing</value>
+    </labels>
+    <labels>
+        <fullName>AITM_OfferAppendix4Title</fullName>
+        <categories>AirBP RTE</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AITM_Appendix4Title</shortDescription>
+        <value>Offer Confirmation</value>
+    </labels>
+    <labels>
+        <fullName>AITM_OfferPDFGenerationSuccess</fullName>
+        <categories>AirBP RTE</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OfferPDFGenerationSuccess</shortDescription>
+        <value>Offer PDF was generated. You can see all PDF in Tender Attachments or send them all by email</value>
+    </labels>
+    <labels>
+        <fullName>AITM_OwnerAdminModify</fullName>
+        <categories>AirBP RTE</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AITM_OwnerAdminModify</shortDescription>
+        <value>Only the record owner or administrators can modify permissions</value>
+    </labels>
+    <labels>
+        <fullName>AITM_PricingCallRequiredFieldsError</fullName>
+        <categories>AirBP RTE</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AITM_PricingCallRequiredFieldsError</shortDescription>
+        <value>Not all outputs are able to be calculated, please check values of those fields:</value>
+    </labels>
+    <labels>
+        <fullName>AITM_PublicGroups</fullName>
+        <categories>AirBP RTE</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AITM_PublicGroups</shortDescription>
+        <value>Public Groups</value>
+    </labels>
+    <labels>
+        <fullName>AITM_Read</fullName>
+        <categories>labels, buttons</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AITM_Read</shortDescription>
+        <value>Read</value>
+    </labels>
+    <labels>
+        <fullName>AITM_ReadWrite</fullName>
+        <categories>labels, buttons</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AITM_ReadWrite</shortDescription>
+        <value>Read / Write</value>
+    </labels>
+    <labels>
+        <fullName>AITM_Reason</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AITM_Reason</shortDescription>
+        <value>Reason</value>
+    </labels>
+    <labels>
+        <fullName>AITM_Roles</fullName>
+        <categories>AirBP RTE</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AITM_Roles</shortDescription>
+        <value>Roles</value>
+    </labels>
+    <labels>
+        <fullName>AITM_Search</fullName>
+        <categories>AirBP RTE</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AITM_Search</shortDescription>
+        <value>Search</value>
+    </labels>
+    <labels>
+        <fullName>AITM_SearchFor</fullName>
+        <categories>AirBP RTE</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AITM_SearchFor</shortDescription>
+        <value>For</value>
+    </labels>
+    <labels>
+        <fullName>AITM_SetAccessLevel</fullName>
+        <categories>AirBP RTE</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AITM_SetAccessLevel</shortDescription>
+        <value>Set Access Level</value>
+    </labels>
+    <labels>
+        <fullName>AITM_TenderAccountDuplicateError</fullName>
+        <categories>AirBP RTE</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AITM_TenderAccountDuplicateError</shortDescription>
+        <value>The following customer has been already added to the tender</value>
+    </labels>
+    <labels>
+        <fullName>AITM_TooManyResultsMessage</fullName>
+        <categories>AirBP RTE</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>TooManyResultsMessage</shortDescription>
+        <value>Your search found more than 200 results.  Keep typing to make it more specific</value>
+    </labels>
+    <labels>
+        <fullName>AITM_Type</fullName>
+        <categories>AirBP RTE</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AITM_Type</shortDescription>
+        <value>Type</value>
+    </labels>
+    <labels>
+        <fullName>AITM_Type3</fullName>
+        <categories>AirBP RTE</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AITM_Type3</shortDescription>
+        <value>Type at least 3 characters to see results</value>
+    </labels>
+    <labels>
+        <fullName>AITM_UploadLocationGRNErrorMessage</fullName>
+        <categories>AirBP RTE</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Upload Location GRN Error Message</shortDescription>
+        <value>Please add accounts with the following GRN numbers to the tender first:</value>
+    </labels>
+    <labels>
+        <fullName>AITM_UploadLocationLoadSuccess</fullName>
+        <categories>AirBP RTE</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>UploadLocationLoadSuccess</shortDescription>
+        <value>Load finished without errors</value>
+    </labels>
+    <labels>
+        <fullName>AITM_UploadLocationLocationsCodesErrorMessage</fullName>
+        <categories>AirBP RTE</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>UploadLocationLocationsCodesErrorMessage</shortDescription>
+        <value>Locations with the following IATA/ICAO codes are not found in Salesforce:</value>
+    </labels>
+    <labels>
+        <fullName>AITM_UploadLocationWrongFile</fullName>
+        <categories>AirBP RTE</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Upload Location Wrong File</shortDescription>
+        <value>Please select valid file to load: Tab/Space delimited text file</value>
+    </labels>
+    <labels>
+        <fullName>AITM_UserOrGroup</fullName>
+        <categories>AirBP RTE</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AITM_UserOrGroup</shortDescription>
+        <value>User Or Group</value>
+    </labels>
+    <labels>
+        <fullName>AITM_Users</fullName>
+        <categories>AirBP RTE</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AITM_Users</shortDescription>
+        <value>Users</value>
+    </labels>
+    <labels>
+        <fullName>AITM_ValidateTenderCustomer</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Account fields are missing</shortDescription>
+        <value>Please populate Contracting Entity, Customer Segment or Credit Days and try again</value>
+    </labels>
+    <labels>
+        <fullName>AITM_ViewCurrentPermissions</fullName>
+        <categories>AirBP RTE</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AITM_ViewCurrentPermissions</shortDescription>
+        <value>View/Edit Current Permissions</value>
+    </labels>
+    <labels>
+        <fullName>BPCancelLabel</fullName>
+        <categories>Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BP Cancel Label</shortDescription>
+        <value>Cancel</value>
+    </labels>
+    <labels>
+        <fullName>BPDuplicateEmail</fullName>
+        <categories>Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BP Community duplicate email exception</shortDescription>
+        <value>A user with this email address already exists. Please verify your input or login as an existing user.</value>
+    </labels>
+    <labels>
+        <fullName>BPEmailClickHere</fullName>
+        <categories>Retail, IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPEmailClickHere</shortDescription>
+        <value>Click here</value>
+    </labels>
+    <labels>
+        <fullName>BPEmailGoToBP</fullName>
+        <categories>Retail, IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPEmailGoToBP</shortDescription>
+        <value>Go to BP</value>
+    </labels>
+    <labels>
+        <fullName>BPEmailLockedOutAccountBodyOrTryLogin</fullName>
+        <categories>Retail, IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPEmailLockedOutAccountBodyOrTryLogin</shortDescription>
+        <value>or try to login again.</value>
+    </labels>
+    <labels>
+        <fullName>BPEmailLockedOutAccountBodyPasswordReset</fullName>
+        <categories>Retail, IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPEmailLockedOutAccountBodyPasswordReset</shortDescription>
+        <value>After 15 minutes, you can reset the password using the following link:</value>
+    </labels>
+    <labels>
+        <fullName>BPEmailLockedOutAccountBodyPolicyViolation</fullName>
+        <categories>Retail, IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPEmailLockedOutAccountBodyPolicyViolation</shortDescription>
+        <value>Your password for BP has been locked due to a security policy violation.</value>
+    </labels>
+    <labels>
+        <fullName>BPEmailLockedOutAccountSubject</fullName>
+        <categories>Retail, IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPEmailLockedOutAccountSubject</shortDescription>
+        <value>Your BP Password Locked Out</value>
+    </labels>
+    <labels>
+        <fullName>BPEmailNewDeviceBody</fullName>
+        <categories>Retail, IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPEmailNewDeviceBody</shortDescription>
+        <value>We have noticed that you have accessed your BP account from a different device.&lt;br/&gt;
+Please check the details below and if this was not you, please contact BP support immediately.</value>
+    </labels>
+    <labels>
+        <fullName>BPEmailNewDeviceBodyDateDetails</fullName>
+        <categories>Retail, IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPEmailNewDeviceBodyDateDetails</shortDescription>
+        <value>Date accessed details</value>
+    </labels>
+    <labels>
+        <fullName>BPEmailNewDeviceSubject</fullName>
+        <categories>Retail, IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPEmailNewDeviceSubject</shortDescription>
+        <value>A new device has logged in with your account</value>
+    </labels>
+    <labels>
+        <fullName>BPEmailNewEmailBody</fullName>
+        <categories>Retail, IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPEmailNewEmailBody</shortDescription>
+        <value>New Email Address</value>
+    </labels>
+    <labels>
+        <fullName>BPEmailNewEmailClickButton</fullName>
+        <categories>Retail, IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPEmailNewEmailClickButton</shortDescription>
+        <value>To verify this Email Address please click on the button below.</value>
+    </labels>
+    <labels>
+        <fullName>BPEmailNewEmailRequest</fullName>
+        <categories>Retail, IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPEmailNewEmailRequest</shortDescription>
+        <value>We have received the following request to change your current Email Address. New Email Address.</value>
+    </labels>
+    <labels>
+        <fullName>BPEmailNewEmailSubject</fullName>
+        <categories>Retail, IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPEmailNewEmailSubject</shortDescription>
+        <value>New Email Address</value>
+    </labels>
+    <labels>
+        <fullName>BPEmailNewEmailVerify</fullName>
+        <categories>Retail, IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPEmailNewEmailVerify</shortDescription>
+        <value>Verify</value>
+    </labels>
+    <labels>
+        <fullName>BPEmailNewPasswordBody</fullName>
+        <categories>Retail, IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPEmailNewPasswordBody</shortDescription>
+        <value>a password reset has been requested for your BP account. Click on &quot;Go to BP&quot; to complete the password reset.</value>
+    </labels>
+    <labels>
+        <fullName>BPEmailNewPasswordSubject</fullName>
+        <categories>Retail, IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPEmailNewPasswordSubject</shortDescription>
+        <value>Your new BP password</value>
+    </labels>
+    <labels>
+        <fullName>BPEmailNotWorking</fullName>
+        <categories>Retail, IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPEmailNotWorking</shortDescription>
+        <value>Not working?</value>
+    </labels>
+    <labels>
+        <fullName>BPEmailThanksForChoosingBP</fullName>
+        <categories>Retail, IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPEmailThanksForChoosingBP</shortDescription>
+        <value>Thank you for choosing BP</value>
+    </labels>
+    <labels>
+        <fullName>BPEmailThanksFromBPTeam</fullName>
+        <categories>Retail, IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPEmailThanksFromBPTeam</shortDescription>
+        <value>Thanks from BP Accounts Team</value>
+    </labels>
+    <labels>
+        <fullName>BPEmailWelcomeBodyAccountUse</fullName>
+        <categories>Retail, IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPEmailWelcomeBodyAccountUse</shortDescription>
+        <value>You will be able to use this account to access a number of features and services provided by BP.</value>
+    </labels>
+    <labels>
+        <fullName>BPEmailWelcomeBodyGetStarted</fullName>
+        <categories>Retail, IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPEmailWelcomeBodyGetStarted</shortDescription>
+        <value>To get started please verify your account by clicking on the button below where you will be asked to create a password.</value>
+    </labels>
+    <labels>
+        <fullName>BPEmailWelcomeBodyUsername</fullName>
+        <categories>Retail, IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPEmailWelcomeBodyUsername</shortDescription>
+        <value>Your username is</value>
+    </labels>
+    <labels>
+        <fullName>BPEmailWelcomeBodyWelcome</fullName>
+        <categories>Retail, IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPEmailWelcomeBodyWelcome</shortDescription>
+        <value>Welcome to BP!</value>
+    </labels>
+    <labels>
+        <fullName>BPEmailWelcomeSubject</fullName>
+        <categories>Retail, IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPEmailWelcomeSubject</shortDescription>
+        <value>Welcome to BP</value>
+    </labels>
+    <labels>
+        <fullName>BPEmailWelcomeVerify</fullName>
+        <categories>Retail, IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPEmailWelcomeVerify</shortDescription>
+        <value>Verify</value>
+    </labels>
+    <labels>
+        <fullName>BPForgotPasswordText</fullName>
+        <categories>Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPForgotPasswordText</shortDescription>
+        <value>Please enter the email address that you used when creating your account. An email will be sent to that address with further instructions on how to reset your password.</value>
+    </labels>
+    <labels>
+        <fullName>BPInvalidNewPassword</fullName>
+        <categories>Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Invalid new password on Change Password screen</shortDescription>
+        <value>Error: Your new password is invalid.</value>
+    </labels>
+    <labels>
+        <fullName>BPInvalidOldPassword</fullName>
+        <categories>Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Invalid old password on Change Password screen</shortDescription>
+        <value>Error: Your old password is invalid.</value>
+    </labels>
+    <labels>
+        <fullName>BPInvalidPassword</fullName>
+        <categories>Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPInvalidPassword</shortDescription>
+        <value>Incorrect username or password. &lt;br/&gt;
+Number of remaining attempts: {0}</value>
+    </labels>
+    <labels>
+        <fullName>BPInvalidUsername</fullName>
+        <categories>Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Invalid Username on Forgot Password Screen</shortDescription>
+        <value>Invalid Username</value>
+    </labels>
+    <labels>
+        <fullName>BPNewPasswordTitle</fullName>
+        <categories>Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Page title for new password page</shortDescription>
+        <value>Set Your Password</value>
+    </labels>
+    <labels>
+        <fullName>BPPasswordLockout</fullName>
+        <categories>Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPPasswordLockout</shortDescription>
+        <value>Your account has been locked out for {0} minutes due to a security policy violation. Please try again in {0} minutes.</value>
+    </labels>
+    <labels>
+        <fullName>BPPasswordResetButton</fullName>
+        <categories>Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Text for Password Reset Button</shortDescription>
+        <value>Send Password Reset Email</value>
+    </labels>
+    <labels>
+        <fullName>BPPasswordResetUnsuccessful</fullName>
+        <categories>Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BP Unsuccessful Password Reset Error</shortDescription>
+        <value>Password reset was unsuccessful. Please check your username and try again.</value>
+    </labels>
+    <labels>
+        <fullName>BPVerifyPhoneLabel</fullName>
+        <categories>Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BPVerifyPhoneLabel</shortDescription>
+        <value>Verify Phone</value>
+    </labels>
+    <labels>
+        <fullName>BP_Change_Email</fullName>
+        <categories>Retail, Change Email</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BP Change Email</shortDescription>
+        <value>Email Changed</value>
+    </labels>
+    <labels>
+        <fullName>BP_Email_Change_Success_Text</fullName>
+        <categories>Retail, Change Email</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BP Email Change Success Text</shortDescription>
+        <value>The email address for your BP account was successfully changed.</value>
+    </labels>
+    <labels>
+        <fullName>BP_Error</fullName>
+        <categories>Retail, Error</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BP Error</shortDescription>
+        <value>Error</value>
+    </labels>
+    <labels>
+        <fullName>BP_Please_Select_Country</fullName>
+        <categories>Retail, Phone Verification</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BP Please select country</shortDescription>
+        <value>Please select country</value>
+    </labels>
+    <labels>
+        <fullName>BP_Please_enter_valid_phone_number</fullName>
+        <categories>Retail, Phone Verification</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BP Please enter valid phone number</shortDescription>
+        <value>Please enter valid phone number</value>
+    </labels>
+    <labels>
+        <fullName>CAJBP_CustomerGroup</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CAJBP_CustomerGroup</shortDescription>
+        <value>Customer Group</value>
+    </labels>
+    <labels>
+        <fullName>CAJBP_Duplicated_JBP_Team_Member</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CAJBP: Duplicated JBP Team Member</shortDescription>
+        <value>Team Member already exists with the same assigned user.</value>
+    </labels>
+    <labels>
+        <fullName>CAJBP_Exception_occured</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CAJBP Exception occured</shortDescription>
+        <value>The following exception has occurred:</value>
+    </labels>
+    <labels>
+        <fullName>CAJBP_GrantAccessError</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CAJBP_GrantAccessError</shortDescription>
+        <value>Unable to grant sharing access due to following exception:</value>
+    </labels>
+    <labels>
+        <fullName>CAJBP_JBPBridgeChartActual</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CAJBP_JBPBridgeChartActual</shortDescription>
+        <value>Actual</value>
+    </labels>
+    <labels>
+        <fullName>CAJBP_JBPBridgeChartDownload</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CAJBP_JBPBridgeChartDownload</shortDescription>
+        <value>Download</value>
+    </labels>
+    <labels>
+        <fullName>CAJBP_JBPBridgeChartDownloadName</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CAJBP_JBPBridgeChartDownloadName</shortDescription>
+        <value>{AccountName} {Year} {ChartTitle}</value>
+    </labels>
+    <labels>
+        <fullName>CAJBP_JBPBridgeChartEstimated</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CAJBP_JBPBridgeChartEstimated</shortDescription>
+        <value>Estimated</value>
+    </labels>
+    <labels>
+        <fullName>CAJBP_JBPBridgeChartName</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CAJBP_JBPBridgeChartName</shortDescription>
+        <value>JBP Bridge Chart</value>
+    </labels>
+    <labels>
+        <fullName>CAJBP_JBPBridgeChartTarget</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CAJBP_JBPBridgeChartTarget</shortDescription>
+        <value>Target</value>
+    </labels>
+    <labels>
+        <fullName>CAJBP_JBPBridgeChartTotalFor</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CAJBP_JBPBridgeChartTotalFor</shortDescription>
+        <value>Total for</value>
+    </labels>
+    <labels>
+        <fullName>CAJBP_JBPBridgeChartTurnover</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CAJBP_JBPBridgeChartTurnover</shortDescription>
+        <value>Turnover</value>
+    </labels>
+    <labels>
+        <fullName>CAJBP_JBPBridgeChartVolume</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CAJBP_JBPBridgeChartVolume</shortDescription>
+        <value>Volume</value>
+    </labels>
+    <labels>
+        <fullName>CAJBP_Loading</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CAJBP_Loading</shortDescription>
+        <value>Loading</value>
+    </labels>
+    <labels>
+        <fullName>CAJBP_MissingChild</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CAJBP_MissingChild</shortDescription>
+        <value>The record {0} has no child in {1}</value>
+    </labels>
+    <labels>
+        <fullName>CAJBP_MissingCongaButtonUrl</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CAJBP_MissingCongaButtonUrl</shortDescription>
+        <value>Conga Solution assigned to this object has no button url.</value>
+    </labels>
+    <labels>
+        <fullName>CAJBP_MissingCongaSolution</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CAJBP_MissingCongaSolution</shortDescription>
+        <value>Conga Solution does not exist for this object</value>
+    </labels>
+    <labels>
+        <fullName>CAJBP_MissingScorecard</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CAJBP_MissingScorecard</shortDescription>
+        <value>JBP is missing a scorecard record</value>
+    </labels>
+    <labels>
+        <fullName>CAJBP_NewRebateCancelButton</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CAJBP_NewRebateCancelButton</shortDescription>
+        <value>Cancel</value>
+    </labels>
+    <labels>
+        <fullName>CAJBP_NewRebateHeader</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CAJBP_NewRebateHeader</shortDescription>
+        <value>New Rebate</value>
+    </labels>
+    <labels>
+        <fullName>CAJBP_NewRebateNextButton</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CAJBP_NewRebateNextButton</shortDescription>
+        <value>Next</value>
+    </labels>
+    <labels>
+        <fullName>CAJBP_OnlyOneJbpInProgressOrDraftAllowed</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CAJBP_OnlyOneJbpInProgressOrDraftAllowed</shortDescription>
+        <value>Joint Business Plan with State In Progress or Draft already exists.</value>
+    </labels>
+    <labels>
+        <fullName>CAJBP_RebateTargetLabel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CAJBP_RebateTargetLabel</shortDescription>
+        <value>Target:</value>
+    </labels>
+    <labels>
+        <fullName>CAJBP_RebatesHeader</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CAJBP_RebatesHeader</shortDescription>
+        <value>Rebates</value>
+    </labels>
+    <labels>
+        <fullName>CAJBP_RevokeAccessError</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CAJBP_RevokeAccessError</shortDescription>
+        <value>Unable to revoke sharing access due to following exception:</value>
+    </labels>
+    <labels>
+        <fullName>CAJBP_SoldToParty</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CAJBP_SoldToParty</shortDescription>
+        <value>Sold-To Party</value>
+    </labels>
+    <labels>
+        <fullName>CALCF_QBR_ClosingCESQuestion</fullName>
+        <categories>Castrol, LCF, QBR</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CALCF_QBR_ClosingCESQuestion</shortDescription>
+        <value>I find it easy to work with my BP/Castrol account manager on joint business reviews &amp; sales planning</value>
+    </labels>
+    <labels>
+        <fullName>CALCF_QBR_ClosingCancelledReason</fullName>
+        <categories>Castrol, LCF, QBR</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CALCF_QBR_ClosingCancelledReason</shortDescription>
+        <value>Please specify why meeting was cancelled</value>
+    </labels>
+    <labels>
+        <fullName>CALCF_QBR_ClosingClosed</fullName>
+        <categories>Castrol, LCF, QBR</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CALCF_QBR_ClosingClosed</shortDescription>
+        <value>This Quarterly Business Review Meeting is already closed!</value>
+    </labels>
+    <labels>
+        <fullName>CALCF_QBR_ClosingConfirmContacts</fullName>
+        <categories>Castrol, LCF, QBR</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CALCF_QBR_ClosingConfirmContacts</shortDescription>
+        <value>Please confirm that QBR survey can be sent to following contacts:</value>
+    </labels>
+    <labels>
+        <fullName>CALCF_QBR_ClosingHeader</fullName>
+        <categories>Castrol, LCF, QBR</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CALCF_QBR_ClosingHeader</shortDescription>
+        <value>Close Quarterly Business Review Meeting</value>
+    </labels>
+    <labels>
+        <fullName>CALCF_QBR_ClosingNPSQuestion</fullName>
+        <categories>Castrol, LCF, QBR</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CALCF_QBR_ClosingNPSQuestion</shortDescription>
+        <value>Based on your most recent business planning &amp; review experience with your BP/Castrol account manager, how likely would you be to recommend us to a friend or colleague</value>
+    </labels>
+    <labels>
+        <fullName>CALCF_QBR_ClosingNoAnswer</fullName>
+        <categories>Castrol, LCF, QBR</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CALCF_QBR_ClosingNoAnswer</shortDescription>
+        <value>If you prefer not to answer, please explain your choice</value>
+    </labels>
+    <labels>
+        <fullName>CALCF_QBR_ClosingNotQBR</fullName>
+        <categories>Castrol, LCF, QBR</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CALCF_QBR_ClosingNotQBR</shortDescription>
+        <value>This functionality can only be used with QBR Meeting</value>
+    </labels>
+    <labels>
+        <fullName>CALCF_QBR_ClosingQuestionInfo</fullName>
+        <categories>Castrol, LCF, QBR</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CALCF_QBR_ClosingQuestionInfo</shortDescription>
+        <value>In the survey we are going to ask the customer one CES and one NPS question as per below. Please mark what you think that the customer will indicate as their experience:</value>
+    </labels>
+    <labels>
+        <fullName>CALCF_QBR_ClosingSuccess</fullName>
+        <categories>Castrol, LCF, QBR</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CALCF_QBR_ClosingSuccess</shortDescription>
+        <value>Event was successfully closed.</value>
+    </labels>
+    <labels>
+        <fullName>CALCF_QBR_ClosingSurveyWarning</fullName>
+        <categories>Castrol, LCF, QBR</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CALCF_QBR_ClosingSurveyWarning</shortDescription>
+        <value>By closing this QBR meeting as Completed surveys are going to be sent to included Contacts!</value>
+    </labels>
+    <labels>
+        <fullName>CALCF_QBR_RequesterFavToggle</fullName>
+        <categories>Castrol, LCF, QBR</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CALCF_QBR_RequesterFavToggle</shortDescription>
+        <value>Show only QBR Favourites</value>
+    </labels>
+    <labels>
+        <fullName>CALCF_QBR_RequesterRule1</fullName>
+        <categories>Castrol, LCF, QBR</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CALCF_QBR_RequesterRule1</shortDescription>
+        <value>Account classification is Platinum</value>
+    </labels>
+    <labels>
+        <fullName>CALCF_QBR_RequesterRule2</fullName>
+        <categories>Castrol, LCF, QBR</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CALCF_QBR_RequesterRule2</shortDescription>
+        <value>Account type is Sold-To Party</value>
+    </labels>
+    <labels>
+        <fullName>CALCF_QBR_RequesterRule3</fullName>
+        <categories>Castrol, LCF, QBR</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CALCF_QBR_RequesterRule3</shortDescription>
+        <value>There is no QBR meeting requested nor planned for Account</value>
+    </labels>
+    <labels>
+        <fullName>CALCF_QBR_RequesterRule4</fullName>
+        <categories>Castrol, LCF, QBR</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CALCF_QBR_RequesterRule4</shortDescription>
+        <value>There is no QBR meeting completed in last 90 days</value>
+    </labels>
+    <labels>
+        <fullName>CALCF_QBR_RequesterRuleIntro</fullName>
+        <categories>Castrol, LCF, QBR</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CALCF_QBR_RequesterRuleIntro</shortDescription>
+        <value>All accounts automatically shown bellow are eligible for QBR meeting, that means they fulfill following rules:</value>
+    </labels>
+    <labels>
+        <fullName>CALCF_QBR_RequesterRuleOutro</fullName>
+        <categories>Castrol, LCF, QBR</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CALCF_QBR_RequesterRuleOutro</shortDescription>
+        <value>You can search for and add any account visible to you. Please be aware that those rules are not applied for adding accounts manually and should be checked before sending request!</value>
+    </labels>
+    <labels>
+        <fullName>CALCF_QBR_RequesterSearchPlaceholder</fullName>
+        <categories>Castrol, LCF, QBR</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CALCF_QBR_RequesterSearchPlaceholder</shortDescription>
+        <value>Search by Name or ERP Id to add Account</value>
+    </labels>
+    <labels>
+        <fullName>CALCF_QBR_RequesterTitle</fullName>
+        <categories>Castrol, LCF, QBR</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CALCF_QBR_RequesterTitle</shortDescription>
+        <value>Request Quarterly Business Review Meeting</value>
+    </labels>
+    <labels>
+        <fullName>CALCF_QBR_RequesterToastPlural</fullName>
+        <categories>Castrol, LCF, QBR</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CALCF_QBR_RequesterToastPlural</shortDescription>
+        <value>QBR Meetings Requested Successfully. Account owners have been notified.</value>
+    </labels>
+    <labels>
+        <fullName>CALCF_QBR_RequesterToastSingular</fullName>
+        <categories>Castrol, LCF, QBR</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CALCF_QBR_RequesterToastSingular</shortDescription>
+        <value>QBR Meeting Requested Successfully. Account owner has been notified.</value>
+    </labels>
+    <labels>
+        <fullName>CASFO_Accounts_With_Open_Complaints_Warning</fullName>
+        <categories>Castrol, SFO</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CASFO: Accounts With Open Complaints Warning</shortDescription>
+        <value>Accounts with 3 or more open complaints.</value>
+    </labels>
+    <labels>
+        <fullName>CASFO_OpenText_Document_Link</fullName>
+        <categories>Castrol, SFO</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CASFO: Link pointing to Open Text portal used in formula field on Account</shortDescription>
+        <value>https://orex-cs-fe1.bpweb.bp.com/OTCS/cs.exe/OPEN/DisplayCusWS?&amp;CustID=</value>
+    </labels>
+    <labels>
+        <fullName>CASFO_Open_Complaints_warning</fullName>
+        <categories>Castrol, SFO</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CASFO: Open Complaints warning</shortDescription>
+        <value>There are 3 or more open complaints for this Account!</value>
+    </labels>
+    <labels>
+        <fullName>CASFO_SIT_Link</fullName>
+        <categories>Castrol, SFO</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CASFO: SIT Link</shortDescription>
+        <value>https://uktableau.bpweb.bp.com/t/DownstreamLubricants/views/Sales_Information_Tool/HomePage?:embed=y&amp;:showAppBanner=false&amp;:display_count=no&amp;:showVizHome=no&amp;:toolbar=top&amp;:tabs=no&amp;dm_i=4RSQ,4ZA,BMAGA,DUN,1#1</value>
+    </labels>
+    <labels>
+        <fullName>CA_LCF_Charts_CES_Name</fullName>
+        <categories>Castrol, SFO</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CA_LCF_Charts_CES_Name</shortDescription>
+        <value>Average CES Score</value>
+    </labels>
+    <labels>
+        <fullName>CA_LCF_Charts_NPS_Name</fullName>
+        <categories>Castrol, SFO</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CA_LCF_Charts_NPS_Name</shortDescription>
+        <value>Average NPS Score</value>
+    </labels>
+    <labels>
+        <fullName>CA_LCF_Charts_No_Data</fullName>
+        <categories>Castrol, SFO</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CA_LCF_Charts_No_Data</shortDescription>
+        <value>There are no surveys related to this record.</value>
+    </labels>
+    <labels>
+        <fullName>CastrolAccountActivated</fullName>
+        <categories>Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CastrolAccountActivated</shortDescription>
+        <value>Your Castrol account is activated! Your username is</value>
+    </labels>
+    <labels>
+        <fullName>CastrolAccountLocked</fullName>
+        <categories>Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CastrolAccountLocked</shortDescription>
+        <value>After 15 minutes, you can reset the password using the following link or try to login again</value>
+    </labels>
+    <labels>
+        <fullName>CastrolActivated</fullName>
+        <categories>Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CastrolActivated</shortDescription>
+        <value>Your Account Activated</value>
+    </labels>
+    <labels>
+        <fullName>CastrolAppExchange</fullName>
+        <categories>Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CastrolAppExchange</shortDescription>
+        <value>Use the following link to access your App Exchange:</value>
+    </labels>
+    <labels>
+        <fullName>CastrolApplicationLabel</fullName>
+        <categories>Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Castrol Application Label</shortDescription>
+        <value>Application</value>
+    </labels>
+    <labels>
+        <fullName>CastrolBackToLogin</fullName>
+        <categories>Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CastrolBackToLogin</shortDescription>
+        <value>Back to login</value>
+    </labels>
+    <labels>
+        <fullName>CastrolButtonBelow</fullName>
+        <categories>Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CastrolButtonBelow</shortDescription>
+        <value>To go to the login page click on the button below.</value>
+    </labels>
+    <labels>
+        <fullName>CastrolCancelLabel</fullName>
+        <categories>Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CastrolCancelLabel</shortDescription>
+        <value>Cancel</value>
+    </labels>
+    <labels>
+        <fullName>CastrolCheckAccountEmail</fullName>
+        <categories>Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CastrolCheckAccountEmail</shortDescription>
+        <value>Check the email account associated with your user name for instructions on resetting your password. Remember to look in your spam folder, where automated messages sometimes filter. If you still can&apos;t log in, contact your administrator.</value>
+    </labels>
+    <labels>
+        <fullName>CastrolCheckEmail</fullName>
+        <categories>Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CastrolCheckEmail</shortDescription>
+        <value>Now check your email</value>
+    </labels>
+    <labels>
+        <fullName>CastrolChoice</fullName>
+        <categories>Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CastrolChoice</shortDescription>
+        <value>Thank you for choosing Castrol</value>
+    </labels>
+    <labels>
+        <fullName>CastrolClickHere</fullName>
+        <categories>Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CastrolClickHere</shortDescription>
+        <value>Click here</value>
+    </labels>
+    <labels>
+        <fullName>CastrolCountry</fullName>
+        <categories>Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CastrolCountry</shortDescription>
+        <value>Country</value>
+    </labels>
+    <labels>
+        <fullName>CastrolCountryRequired</fullName>
+        <categories>Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CastrolCountryRequired</shortDescription>
+        <value>Country is required.</value>
+    </labels>
+    <labels>
+        <fullName>CastrolDeactivated</fullName>
+        <categories>Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CastrolDeactivated</shortDescription>
+        <value>Your Castrol account has been de-activated. 
+Please reach out your Castrol contact if you have any questions.</value>
+    </labels>
+    <labels>
+        <fullName>CastrolDeactivatedSubject</fullName>
+        <categories>Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CastrolDeactivatedSubject</shortDescription>
+        <value>Your Account Deactivated</value>
+    </labels>
+    <labels>
+        <fullName>CastrolDuplicateEmail</fullName>
+        <categories>Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CastrolDuplicateEmail</shortDescription>
+        <value>A user with this email address already exists. Please verify your input or login as an existing user.</value>
+    </labels>
+    <labels>
+        <fullName>CastrolEmail</fullName>
+        <categories>Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CastrolEmail</shortDescription>
+        <value>Email</value>
+    </labels>
+    <labels>
+        <fullName>CastrolEmptyError</fullName>
+        <categories>Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CastrolEmptyError</shortDescription>
+        <value>Please fill required fields.</value>
+    </labels>
+    <labels>
+        <fullName>CastrolErrors</fullName>
+        <categories>Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CastrolErrors</shortDescription>
+        <value>Review the errors on this page.</value>
+    </labels>
+    <labels>
+        <fullName>CastrolFAQ</fullName>
+        <categories>Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CastrolFAQ</shortDescription>
+        <value>FAQ</value>
+    </labels>
+    <labels>
+        <fullName>CastrolFirstName</fullName>
+        <categories>Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CastrolFirstName</shortDescription>
+        <value>First Name</value>
+    </labels>
+    <labels>
+        <fullName>CastrolForgotPassword</fullName>
+        <categories>Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CastrolForgotPassword</shortDescription>
+        <value>Forgot your password?</value>
+    </labels>
+    <labels>
+        <fullName>CastrolGetStarted</fullName>
+        <categories>Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CastrolGetStarted</shortDescription>
+        <value>To get started please verify your account by clicking on the button below.</value>
+    </labels>
+    <labels>
+        <fullName>CastrolGoTo</fullName>
+        <categories>Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CastrolGoTo</shortDescription>
+        <value>Go to Castrol</value>
+    </labels>
+    <labels>
+        <fullName>CastrolGoToApps</fullName>
+        <categories>Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CastrolGoToApps</shortDescription>
+        <value>Go to App Exchange</value>
+    </labels>
+    <labels>
+        <fullName>CastrolHaveAccount</fullName>
+        <categories>Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CastrolHaveAccount</shortDescription>
+        <value>Already have an account?</value>
+    </labels>
+    <labels>
+        <fullName>CastrolHi</fullName>
+        <categories>Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CastrolHi</shortDescription>
+        <value>Hi</value>
+    </labels>
+    <labels>
+        <fullName>CastrolInvalidEmail</fullName>
+        <categories>Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CastrolInvalidEmail</shortDescription>
+        <value>Invalid Email Address</value>
+    </labels>
+    <labels>
+        <fullName>CastrolInvalidNewPassword</fullName>
+        <categories>Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CastrolInvalidNewPassword</shortDescription>
+        <value>Error: Your new password is invalid.</value>
+    </labels>
+    <labels>
+        <fullName>CastrolInvalidOldPassword</fullName>
+        <categories>Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CastrolInvalidOldPassword</shortDescription>
+        <value>Error: Your old password is invalid.</value>
+    </labels>
+    <labels>
+        <fullName>CastrolInvalidPhone</fullName>
+        <categories>Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CastrolInvalidPhone</shortDescription>
+        <value>Invalid phone number</value>
+    </labels>
+    <labels>
+        <fullName>CastrolInviteMessage</fullName>
+        <categories>Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CastrolInviteMessage</shortDescription>
+        <value>You are invited to join Castrol ID community!</value>
+    </labels>
+    <labels>
+        <fullName>CastrolInviteSubject</fullName>
+        <categories>Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CastrolInviteSubject</shortDescription>
+        <value>Join Castrol Community</value>
+    </labels>
+    <labels>
+        <fullName>CastrolLastName</fullName>
+        <categories>Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CastrolLastName</shortDescription>
+        <value>Last Name</value>
+    </labels>
+    <labels>
+        <fullName>CastrolLegalNotice</fullName>
+        <categories>Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CastrolLegalNotice</shortDescription>
+        <value>Legal Notice</value>
+    </labels>
+    <labels>
+        <fullName>CastrolLocked</fullName>
+        <categories>Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CastrolLocked</shortDescription>
+        <value>Your Castrol Password Locked Out</value>
+    </labels>
+    <labels>
+        <fullName>CastrolLogin</fullName>
+        <categories>Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CastrolLogin</shortDescription>
+        <value>Login</value>
+    </labels>
+    <labels>
+        <fullName>CastrolLoginFailed</fullName>
+        <categories>Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CastrolLoginFailed</shortDescription>
+        <value>Your login attempt has failed. Make sure the username and password are correct.</value>
+    </labels>
+    <labels>
+        <fullName>CastrolMigrateMessage</fullName>
+        <categories>Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CastrolMigrateMessage</shortDescription>
+        <value>You are migrated to Castrol ID community!</value>
+    </labels>
+    <labels>
+        <fullName>CastrolNew</fullName>
+        <categories>Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CastrolNew</shortDescription>
+        <value>New to Castrol?</value>
+    </labels>
+    <labels>
+        <fullName>CastrolNotWorking</fullName>
+        <categories>Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CastrolNotWorking</shortDescription>
+        <value>Not working?</value>
+    </labels>
+    <labels>
+        <fullName>CastrolPassword</fullName>
+        <categories>Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CastrolPassword</shortDescription>
+        <value>Password</value>
+    </labels>
+    <labels>
+        <fullName>CastrolPasswordChanged</fullName>
+        <categories>Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CastrolPasswordChanged</shortDescription>
+        <value>Password has been changed</value>
+    </labels>
+    <labels>
+        <fullName>CastrolPasswordLength</fullName>
+        <categories>Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CastrolPasswordLength</shortDescription>
+        <value>Your password must be at least 8 characters long</value>
+    </labels>
+    <labels>
+        <fullName>CastrolPasswordLocked</fullName>
+        <categories>Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CastrolPasswordLocked</shortDescription>
+        <value>Your password for Castrol has been locked due to a security policy violation.</value>
+    </labels>
+    <labels>
+        <fullName>CastrolPasswordReset</fullName>
+        <categories>Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CastrolPasswordReset</shortDescription>
+        <value>A password reset has been requested for your Castrol account. Click on &quot;Go to Castrol&quot; to complete the password reset.</value>
+    </labels>
+    <labels>
+        <fullName>CastrolPasswordSubject</fullName>
+        <categories>Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CastrolPasswordSubject</shortDescription>
+        <value>Your new Castrol password</value>
+    </labels>
+    <labels>
+        <fullName>CastrolPrivacy</fullName>
+        <categories>Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CastrolPrivacy</shortDescription>
+        <value>By clicking &quot;Sign Up&quot;, you agree to Castrol&apos;s</value>
+    </labels>
+    <labels>
+        <fullName>CastrolPrivacyPolicy</fullName>
+        <categories>Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CastrolPrivacyPolicy</shortDescription>
+        <value>Privacy Policy</value>
+    </labels>
+    <labels>
+        <fullName>CastrolRegistration</fullName>
+        <categories>Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CastrolRegistration</shortDescription>
+        <value>Press following button to access registration page:</value>
+    </labels>
+    <labels>
+        <fullName>CastrolResetMessage</fullName>
+        <categories>Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CastrolResetMessage</shortDescription>
+        <value>Please enter the email address that you used when creating your account. An email will be sent to that address with further instructions on how to reset your password.</value>
+    </labels>
+    <labels>
+        <fullName>CastrolResetPassword</fullName>
+        <categories>Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CastrolResetPassword</shortDescription>
+        <value>Password reset</value>
+    </labels>
+    <labels>
+        <fullName>CastrolSendReset</fullName>
+        <categories>Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CastrolSendReset</shortDescription>
+        <value>Send password reset email</value>
+    </labels>
+    <labels>
+        <fullName>CastrolServiceAdded</fullName>
+        <categories>Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CastrolServiceAdded</shortDescription>
+        <value>New Web Services were added to your account:</value>
+    </labels>
+    <labels>
+        <fullName>CastrolServiceAddedSubject</fullName>
+        <categories>Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CastrolServiceAddedSubject</shortDescription>
+        <value>New Web Services Available</value>
+    </labels>
+    <labels>
+        <fullName>CastrolServiceRemoved</fullName>
+        <categories>Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CastrolServiceRemoved</shortDescription>
+        <value>Following Web Services were removed from your account:</value>
+    </labels>
+    <labels>
+        <fullName>CastrolServiceRemovedSubject</fullName>
+        <categories>Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CastrolServiceRemovedSubject</shortDescription>
+        <value>Access Removed from Web Services</value>
+    </labels>
+    <labels>
+        <fullName>CastrolSignUp</fullName>
+        <categories>Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CastrolSignUp</shortDescription>
+        <value>Sign Up</value>
+    </labels>
+    <labels>
+        <fullName>CastrolSupport</fullName>
+        <categories>Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CastrolSupport</shortDescription>
+        <value>Have any questions? Please contact us:</value>
+    </labels>
+    <labels>
+        <fullName>CastrolSystemError</fullName>
+        <categories>Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CastrolSystemError</shortDescription>
+        <value>Password change failed. Please, check the input.</value>
+    </labels>
+    <labels>
+        <fullName>CastrolTC</fullName>
+        <categories>Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CastrolTC</shortDescription>
+        <value>Terms and Conditions</value>
+    </labels>
+    <labels>
+        <fullName>CastrolTermsNotAccepted</fullName>
+        <categories>Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CastrolTermsNotAccepted</shortDescription>
+        <value>Please accept Castrol Privacy Policy and Legal Notice.</value>
+    </labels>
+    <labels>
+        <fullName>CastrolThanks</fullName>
+        <categories>Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CastrolThanks</shortDescription>
+        <value>Thanks from Castrol Accounts Team</value>
+    </labels>
+    <labels>
+        <fullName>CastrolUsername</fullName>
+        <categories>Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CastrolUsername</shortDescription>
+        <value>Username</value>
+    </labels>
+    <labels>
+        <fullName>CastrolVerify</fullName>
+        <categories>Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CastrolVerify</shortDescription>
+        <value>Verify</value>
+    </labels>
+    <labels>
+        <fullName>CastrolWelcome</fullName>
+        <categories>Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CastrolWelcome</shortDescription>
+        <value>Welcome to Castrol</value>
+    </labels>
+    <labels>
+        <fullName>CastrolWelcomeLabel</fullName>
+        <categories>Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CastrolWelcomeLabel</shortDescription>
+        <value>Welcome to Castrol! You will be able to use your account to access a number of features and services provided by Castrol.</value>
+    </labels>
+    <labels>
+        <fullName>Email_CastrolRep</fullName>
+        <categories>Castrol, LCF</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Email_CastrolRep</shortDescription>
+        <value>Castrol Rep - TBC /custom settings/</value>
+    </labels>
+    <labels>
+        <fullName>Email_Subject1</fullName>
+        <categories>Castrol, LCF</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Email_Subject1</shortDescription>
+        <value>Tell us about your recent experience with Castrol</value>
+    </labels>
+    <labels>
+        <fullName>Estimate_Del_Revenue_War</fullName>
+        <categories>Castrol, SFO</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Warning that adding estimate will remove already existing revenues.</shortDescription>
+        <value>WARNING: By adding this Estimate you will remove all existing Opportunity Revenues</value>
+    </labels>
+    <labels>
+        <fullName>Estimate_Missing_Fields</fullName>
+        <categories>Castrol, SFO</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Warning that some fields are not properly filled.</shortDescription>
+        <value>Please make sure all required fields are filled out correctly.</value>
+    </labels>
+    <labels>
+        <fullName>IDPAcceptPolicyAnd</fullName>
+        <categories>Retail, IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IDPAcceptPolicyAnd</shortDescription>
+        <value>and</value>
+    </labels>
+    <labels>
+        <fullName>IDPAcceptPolicyPrefix</fullName>
+        <categories>Retail, IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IDPAcceptPolicyPrefix</shortDescription>
+        <value>By clicking &quot;Sign Up&quot;, you agree to {0}&apos;s</value>
+    </labels>
+    <labels>
+        <fullName>IDPAcceptPolicySuffix</fullName>
+        <categories>Retail, IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IDPAcceptPolicySuffix</shortDescription>
+        <value>{1}</value>
+    </labels>
+    <labels>
+        <fullName>IDPAdditionalInfo</fullName>
+        <categories>IDP, Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IDPAdditionalInfo</shortDescription>
+        <value>Additional Information</value>
+    </labels>
+    <labels>
+        <fullName>IDPAppAccess</fullName>
+        <categories>Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IDPAppAccess</shortDescription>
+        <value>Apps you have access to</value>
+    </labels>
+    <labels>
+        <fullName>IDPAppLauncher</fullName>
+        <categories>Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IDPAppLauncher</shortDescription>
+        <value>App Launcher</value>
+    </labels>
+    <labels>
+        <fullName>IDPAppNoAccess</fullName>
+        <categories>Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IDPAppNoAccess</shortDescription>
+        <value>You don&apos;t have access to any apps.</value>
+    </labels>
+    <labels>
+        <fullName>IDPBackToLogin</fullName>
+        <categories>IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IDPBackToLogin</shortDescription>
+        <value>Back to login</value>
+    </labels>
+    <labels>
+        <fullName>IDPCancel</fullName>
+        <categories>Retail, IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IDPCancel</shortDescription>
+        <value>Cancel</value>
+    </labels>
+    <labels>
+        <fullName>IDPChangePassword</fullName>
+        <categories>IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IDPChangePassword</shortDescription>
+        <value>Change Password</value>
+    </labels>
+    <labels>
+        <fullName>IDPChangePasswordConfirmation</fullName>
+        <categories>IDP, Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IDPChangePasswordConfirmation</shortDescription>
+        <value>Change Password Confirmation</value>
+    </labels>
+    <labels>
+        <fullName>IDPChangeYourPassword</fullName>
+        <categories>IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IDPChangeYourPassword</shortDescription>
+        <value>Change your password</value>
+    </labels>
+    <labels>
+        <fullName>IDPCheckAccountUsernameEmail</fullName>
+        <categories>IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IDPCheckAccountUsernameEmail</shortDescription>
+        <value>Check the email account associated with your user name for instructions on resetting your password. Remember to look in your spam folder, where automated messages can sometimes end up.</value>
+    </labels>
+    <labels>
+        <fullName>IDPCheckEmail</fullName>
+        <categories>IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IDPCheckEmail</shortDescription>
+        <value>Now check your email</value>
+    </labels>
+    <labels>
+        <fullName>IDPCheckPhone</fullName>
+        <categories>IDP, Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IDPCheckPhone</shortDescription>
+        <value>Now check your phone</value>
+    </labels>
+    <labels>
+        <fullName>IDPConfirmPassword</fullName>
+        <categories>IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IDPConfirmPassword</shortDescription>
+        <value>Confirm Password</value>
+    </labels>
+    <labels>
+        <fullName>IDPEdit</fullName>
+        <categories>IDP, Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IDPEdit</shortDescription>
+        <value>Edit</value>
+    </labels>
+    <labels>
+        <fullName>IDPEditRecord</fullName>
+        <categories>IDP, Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IDPEditRecord</shortDescription>
+        <value>Edit Record</value>
+    </labels>
+    <labels>
+        <fullName>IDPEmail</fullName>
+        <categories>IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IDPEmail</shortDescription>
+        <value>Email</value>
+    </labels>
+    <labels>
+        <fullName>IDPEmailRequired</fullName>
+        <categories>IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IDPEmailRequired</shortDescription>
+        <value>Email address is required.</value>
+    </labels>
+    <labels>
+        <fullName>IDPEmptyError</fullName>
+        <categories>IDP, Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IDPEmptyError</shortDescription>
+        <value>Please fill required fields.</value>
+    </labels>
+    <labels>
+        <fullName>IDPEnterPassword</fullName>
+        <categories>IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IDP Enter Password</shortDescription>
+        <value>Enter a value in the Password field.</value>
+    </labels>
+    <labels>
+        <fullName>IDPEnterUsername</fullName>
+        <categories>IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IDP Enter Username</shortDescription>
+        <value>Enter a value in the User Name field.</value>
+    </labels>
+    <labels>
+        <fullName>IDPError</fullName>
+        <categories>IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IDPError</shortDescription>
+        <value>Error:</value>
+    </labels>
+    <labels>
+        <fullName>IDPErrorDownMaintenance</fullName>
+        <categories>IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IDPErrorDownMaintenance</shortDescription>
+        <value>is down for maintenance</value>
+    </labels>
+    <labels>
+        <fullName>IDPErrorInconvenience</fullName>
+        <categories>IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IDPErrorInconvenience</shortDescription>
+        <value>Sorry for the inconvenience.</value>
+    </labels>
+    <labels>
+        <fullName>IDPErrorInconvenienceBackShortly</fullName>
+        <categories>IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IDPErrorInconvenienceBackShortly</shortDescription>
+        <value>Sorry for the inconvenience. We&apos;ll be back shortly.</value>
+    </labels>
+    <labels>
+        <fullName>IDPErrorLimitExceeded</fullName>
+        <categories>IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IDPErrorLimitExceeded</shortDescription>
+        <value>Limit Exceeded</value>
+    </labels>
+    <labels>
+        <fullName>IDPErrorPageNotFound</fullName>
+        <categories>IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IDPErrorPageNotFound</shortDescription>
+        <value>Page Not Found:</value>
+    </labels>
+    <labels>
+        <fullName>IDPErrorStayTuned</fullName>
+        <categories>IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IDPErrorStayTuned</shortDescription>
+        <value>Stay tuned.</value>
+    </labels>
+    <labels>
+        <fullName>IDPFirstName</fullName>
+        <categories>IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IDPFirstName</shortDescription>
+        <value>First Name</value>
+    </labels>
+    <labels>
+        <fullName>IDPForgotPassword</fullName>
+        <categories>IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IDPForgotPassword</shortDescription>
+        <value>Forgot your password?</value>
+    </labels>
+    <labels>
+        <fullName>IDPForgotPasswordButton</fullName>
+        <categories>Retail, IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IDPForgotPasswordButton</shortDescription>
+        <value>Send Password Reset Email</value>
+    </labels>
+    <labels>
+        <fullName>IDPForgotPasswordSMSButton</fullName>
+        <categories>IDP, Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IDPForgotPasswordSMSButton</shortDescription>
+        <value>Send Password Reset SMS</value>
+    </labels>
+    <labels>
+        <fullName>IDPForgotPasswordText</fullName>
+        <categories>Retail, IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IDPForgotPasswordText</shortDescription>
+        <value>Please enter the email address/phone number that you used when creating your account. An email/SMS will be sent to that address/phone number with further instructions on how to reset your password.</value>
+    </labels>
+    <labels>
+        <fullName>IDPForgotPasswordTextEmail</fullName>
+        <categories>IDP, Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IDPForgotPasswordTextEmail</shortDescription>
+        <value>Please enter the email address that you used when creating your account. An email will be sent to that address with further instructions on how to reset your password.</value>
+    </labels>
+    <labels>
+        <fullName>IDPForgotPasswordTextPhone</fullName>
+        <categories>IDP, Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IDPForgotPasswordTextPhone</shortDescription>
+        <value>Please enter the phone number that you used when creating your account. An SMS will be sent to that phone number with further instructions on how to reset your password.</value>
+    </labels>
+    <labels>
+        <fullName>IDPForgotPasswordTitle</fullName>
+        <categories>Retail, IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IDPForgotPasswordTitle</shortDescription>
+        <value>Password reset</value>
+    </labels>
+    <labels>
+        <fullName>IDPGetInTouch</fullName>
+        <categories>IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IDPGetInTouch</shortDescription>
+        <value>Please email us if you need to get in touch.</value>
+    </labels>
+    <labels>
+        <fullName>IDPGoToHelp</fullName>
+        <categories>IDP, Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IDPGoToHelp</shortDescription>
+        <value>Go to Help page</value>
+    </labels>
+    <labels>
+        <fullName>IDPGoToHome</fullName>
+        <categories>IDP, Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IDPGoToHome</shortDescription>
+        <value>Go to Home page</value>
+    </labels>
+    <labels>
+        <fullName>IDPGoToLogOut</fullName>
+        <categories>IDP, Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IDPGoToLogOut</shortDescription>
+        <value>Click to log out</value>
+    </labels>
+    <labels>
+        <fullName>IDPGoToProfile</fullName>
+        <categories>IDP, Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IDPGoToProfile</shortDescription>
+        <value>Go to Profile page</value>
+    </labels>
+    <labels>
+        <fullName>IDPHaveAccount</fullName>
+        <categories>IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IDPHaveAccount</shortDescription>
+        <value>Already have an account?</value>
+    </labels>
+    <labels>
+        <fullName>IDPHelp</fullName>
+        <categories>IDP, Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IDPHelp</shortDescription>
+        <value>Help</value>
+    </labels>
+    <labels>
+        <fullName>IDPHi</fullName>
+        <categories>Retail, IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IDPHi</shortDescription>
+        <value>Hi</value>
+    </labels>
+    <labels>
+        <fullName>IDPHome</fullName>
+        <categories>IDP, Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IDPHome</shortDescription>
+        <value>Home</value>
+    </labels>
+    <labels>
+        <fullName>IDPInvalidEmail</fullName>
+        <categories>IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IDPInvalidEmail</shortDescription>
+        <value>Invalid Email Address</value>
+    </labels>
+    <labels>
+        <fullName>IDPInvalidPassword</fullName>
+        <categories>IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IDP Invalid Password</shortDescription>
+        <value>Incorrect username or password. &lt;br/&gt;
+Number of remaining attempts: {0}</value>
+    </labels>
+    <labels>
+        <fullName>IDPInvalidPhoneNumber</fullName>
+        <categories>Retail, IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IDPInvalidPhoneNumber</shortDescription>
+        <value>Invalid Phone Number</value>
+    </labels>
+    <labels>
+        <fullName>IDPLanguagePrefix</fullName>
+        <categories>Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IDPLanguagePrefix</shortDescription>
+        <value>EN</value>
+    </labels>
+    <labels>
+        <fullName>IDPLastName</fullName>
+        <categories>IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IDPLastName</shortDescription>
+        <value>Last Name</value>
+    </labels>
+    <labels>
+        <fullName>IDPLastNameRequired</fullName>
+        <categories>IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IDPLastNameRequired</shortDescription>
+        <value>Last name is required.</value>
+    </labels>
+    <labels>
+        <fullName>IDPLogin</fullName>
+        <categories>IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IDPLogin</shortDescription>
+        <value>Log in</value>
+    </labels>
+    <labels>
+        <fullName>IDPLoginError</fullName>
+        <categories>IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IDP Login Error</shortDescription>
+        <value>Your login attempt has failed. Make sure the username and password are correct.</value>
+    </labels>
+    <labels>
+        <fullName>IDPLoginFailed</fullName>
+        <categories>IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IDPLoginFailed</shortDescription>
+        <value>Your login attempt has failed. Make sure the username and password are correct.</value>
+    </labels>
+    <labels>
+        <fullName>IDPLogout</fullName>
+        <categories>IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IDPLogout</shortDescription>
+        <value>Logout</value>
+    </labels>
+    <labels>
+        <fullName>IDPName</fullName>
+        <categories>IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IDPName</shortDescription>
+        <value>Name</value>
+    </labels>
+    <labels>
+        <fullName>IDPNew</fullName>
+        <categories>Retail, IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IDPNew</shortDescription>
+        <value>New to {0}?</value>
+    </labels>
+    <labels>
+        <fullName>IDPNewDevice</fullName>
+        <categories>Retail, IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IDPNewDevice</shortDescription>
+        <value>Hi, {0}!
+We have noticed that you have accessed your {1} account from a different device.</value>
+    </labels>
+    <labels>
+        <fullName>IDPNewPassword</fullName>
+        <categories>IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IDPNewPassword</shortDescription>
+        <value>New Password</value>
+    </labels>
+    <labels>
+        <fullName>IDPNewPasswordTitle</fullName>
+        <categories>Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Page title for new password page</shortDescription>
+        <value>Set Your Password</value>
+    </labels>
+    <labels>
+        <fullName>IDPOldPassword</fullName>
+        <categories>IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IDPOldPassword</shortDescription>
+        <value>Old Password</value>
+    </labels>
+    <labels>
+        <fullName>IDPPassword</fullName>
+        <categories>IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IDPPassword</shortDescription>
+        <value>Password</value>
+    </labels>
+    <labels>
+        <fullName>IDPPasswordChanged</fullName>
+        <categories>IDP, Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IDPPasswordChanged</shortDescription>
+        <value>Password has changed!</value>
+    </labels>
+    <labels>
+        <fullName>IDPPasswordLockout</fullName>
+        <categories>IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IDP Password Lockout</shortDescription>
+        <value>Your account has been locked out for {0} minutes due to a security policy violation. Please try again in {0} minutes.</value>
+    </labels>
+    <labels>
+        <fullName>IDPPasswordNotMatch</fullName>
+        <categories>IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IDPPasswordNotMatch</shortDescription>
+        <value>Passwords did not match.</value>
+    </labels>
+    <labels>
+        <fullName>IDPPasswordPrivacy</fullName>
+        <categories>IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IDPPasswordPrivacy</shortDescription>
+        <value>Your password must be at least 14 characters long and have a mix of numbers, uppercase and lowercase letters, and at least one of these special characters: !#$%-_=+&lt;&gt;</value>
+    </labels>
+    <labels>
+        <fullName>IDPPasswordPrivacyRule</fullName>
+        <categories>IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IDPPasswordPrivacyRule</shortDescription>
+        <value>Your password must be at least 14 characters long. Your password must have a mix of numbers, uppercase and lowercase letters, and at least one of these special characters: !#$%-_=+&lt;&gt;</value>
+    </labels>
+    <labels>
+        <fullName>IDPPasswordReset</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IDPPasswordReset</shortDescription>
+        <value>A password reset has been requested, your new one-time password is: {0}</value>
+    </labels>
+    <labels>
+        <fullName>IDPPasswordResetProblem</fullName>
+        <categories>IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IDPPasswordResetProblem</shortDescription>
+        <value>Your password cannot be reset at this time. Please contact your organization&apos;s administrator for more information.</value>
+    </labels>
+    <labels>
+        <fullName>IDPPhone</fullName>
+        <categories>IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IDPPhone</shortDescription>
+        <value>Phone</value>
+    </labels>
+    <labels>
+        <fullName>IDPPhoneCountryCodeRequired</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IDPPhoneCountryCodeRequired</shortDescription>
+        <value>Country Code is required</value>
+    </labels>
+    <labels>
+        <fullName>IDPPhoneNumberRequired</fullName>
+        <categories>Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IDPPhoneNumberRequired</shortDescription>
+        <value>Phone Number is required</value>
+    </labels>
+    <labels>
+        <fullName>IDPPrivacyPolicy</fullName>
+        <categories>Retail, IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IDPPrivacyPolicy</shortDescription>
+        <value>Privacy Policy</value>
+    </labels>
+    <labels>
+        <fullName>IDPProfile</fullName>
+        <categories>IDP, Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IDPProfile</shortDescription>
+        <value>Profile</value>
+    </labels>
+    <labels>
+        <fullName>IDPProfileDetails</fullName>
+        <categories>IDP, Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IDPProfileDetails</shortDescription>
+        <value>Profile Details</value>
+    </labels>
+    <labels>
+        <fullName>IDPRecordSaved</fullName>
+        <categories>IDP, Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IDPRecordSaved</shortDescription>
+        <value>A record is saved!</value>
+    </labels>
+    <labels>
+        <fullName>IDPRepeatPassword</fullName>
+        <categories>IDP, Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IDPRepeatPassword</shortDescription>
+        <value>Repeat Password</value>
+    </labels>
+    <labels>
+        <fullName>IDPResetPassword</fullName>
+        <categories>IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IDPResetPassword</shortDescription>
+        <value>Password reset</value>
+    </labels>
+    <labels>
+        <fullName>IDPRevokedServices</fullName>
+        <categories>Retail, IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IDPRevokedServices</shortDescription>
+        <value>Hi {0} from!
+Following Web Services were removed from your account: {1}. Go to {2} to see list of your current Web Services.</value>
+    </labels>
+    <labels>
+        <fullName>IDPSave</fullName>
+        <categories>IDP, Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IDPSave</shortDescription>
+        <value>Save</value>
+    </labels>
+    <labels>
+        <fullName>IDPServiceAcceptSMS</fullName>
+        <categories>Retail, IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IDPServiceAcceptSMS</shortDescription>
+        <value>Your request was accepted for: {0}. Go to {1} to see list of your services.</value>
+    </labels>
+    <labels>
+        <fullName>IDPServiceRejectSMS</fullName>
+        <categories>Retail, IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IDPServiceRejectSMS</shortDescription>
+        <value>Your request was rejected for: {0}. Go to {1} to see list of your services.</value>
+    </labels>
+    <labels>
+        <fullName>IDPSignUp</fullName>
+        <categories>IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IDPSignUp</shortDescription>
+        <value>Sign Up</value>
+    </labels>
+    <labels>
+        <fullName>IDPSubmit</fullName>
+        <categories>IDP, Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IDPSubmit</shortDescription>
+        <value>Submit</value>
+    </labels>
+    <labels>
+        <fullName>IDPSureForRequestLabel</fullName>
+        <categories>IDP, Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IDPSureForRequestLabel</shortDescription>
+        <value>Are you sure you want to request the access for the app?</value>
+    </labels>
+    <labels>
+        <fullName>IDPSystemError</fullName>
+        <categories>IDP, Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IDPSystemError</shortDescription>
+        <value>Password change failed. Please, check the input.</value>
+    </labels>
+    <labels>
+        <fullName>IDPTermsAndConditions</fullName>
+        <categories>Retail, IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IDPTermsAndConditions</shortDescription>
+        <value>Terms and Conditions</value>
+    </labels>
+    <labels>
+        <fullName>IDPUserInactive</fullName>
+        <categories>IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IDP User Inactive</shortDescription>
+        <value>Your access is disabled. Contact your site administrator.</value>
+    </labels>
+    <labels>
+        <fullName>IDPUserProfile</fullName>
+        <categories>IDP, Retail</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IDPUserProfile</shortDescription>
+        <value>User Profile</value>
+    </labels>
+    <labels>
+        <fullName>IDPVerifyNewPassword</fullName>
+        <categories>IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IDPVerifyNewPassword</shortDescription>
+        <value>Verify New Password</value>
+    </labels>
+    <labels>
+        <fullName>IDPWelcomeSMS</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IDPWelcomeSMS</shortDescription>
+        <value>Welcome to {0}! Your one-time password is: {1}</value>
+    </labels>
+    <labels>
+        <fullName>Is_in_commit_warning</fullName>
+        <categories>Castrol, SFO</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Is_in_commit_warning</shortDescription>
+        <value>Estimate can not be added when Opportunity is committed to planning.</value>
+    </labels>
+    <labels>
+        <fullName>LABP_Enter_Password</fullName>
+        <categories>LABP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LABP_Enter_Password</shortDescription>
+        <value>Enter a value in Password field</value>
+    </labels>
+    <labels>
+        <fullName>LABP_Enter_Username</fullName>
+        <categories>LABP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LABP_Enter_Username</shortDescription>
+        <value>Enter a value in Username field</value>
+    </labels>
+    <labels>
+        <fullName>LABP_ForgotPassword</fullName>
+        <categories>LABP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LABP_ForgotPassword</shortDescription>
+        <value>Forgot password?</value>
+    </labels>
+    <labels>
+        <fullName>LABP_Forgot_Password_Button</fullName>
+        <categories>LABP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LABP_Forgot_Password_Button</shortDescription>
+        <value>Submit</value>
+    </labels>
+    <labels>
+        <fullName>LABP_Forgot_Password_Text</fullName>
+        <categories>LABP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LABP_Forgot_Password_Text</shortDescription>
+        <value>To reset your password, enter your User Name</value>
+    </labels>
+    <labels>
+        <fullName>LABP_Forgot_Password_Title</fullName>
+        <categories>LABP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LABP_Forgot_Password_Title</shortDescription>
+        <value>Having trouble logging in?</value>
+    </labels>
+    <labels>
+        <fullName>LABP_Invalid_Username</fullName>
+        <categories>LABP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LABP_Invalid_Username</shortDescription>
+        <value>Your entered an incorrect User Name. Please verify and enter the correct User Name.</value>
+    </labels>
+    <labels>
+        <fullName>LABP_Login</fullName>
+        <categories>LABP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LABP_Login</shortDescription>
+        <value>Continue</value>
+    </labels>
+    <labels>
+        <fullName>LABP_Login_Error</fullName>
+        <categories>LABP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LABP_Login_Error</shortDescription>
+        <value>Your User Name or Password is incorrect. Your account will be locked after three incorrect attempts. Please contact Support if further assistance is required.</value>
+    </labels>
+    <labels>
+        <fullName>LABP_Login_Header_Text</fullName>
+        <categories>LABP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LABP_Login_Header_Text</shortDescription>
+        <value>Welcome to the Air BP Tendering system (LABP version)</value>
+    </labels>
+    <labels>
+        <fullName>LABP_Login_Page_Header_Text</fullName>
+        <categories>LABP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LABP_Login_Page_Header_Text</shortDescription>
+        <value>Air BP Tendering system (LABP version)</value>
+    </labels>
+    <labels>
+        <fullName>LABP_Password</fullName>
+        <categories>LABP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LABP_Password</shortDescription>
+        <value>Password</value>
+    </labels>
+    <labels>
+        <fullName>LABP_UserName</fullName>
+        <categories>LABP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LABP_UserName</shortDescription>
+        <value>User Name</value>
+    </labels>
+    <labels>
+        <fullName>LABP_User_Password_Error</fullName>
+        <categories>LABP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LABP_User_Password_Error</shortDescription>
+        <value>Please enter User Name and Password before clicking - Continue</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_You_have_already_taken_this_survey</fullName>
+        <categories>Castrol, LCF</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>You have already taken this survey!</shortDescription>
+        <value>You have already taken this survey!</value>
+    </labels>
+    <labels>
+        <fullName>LCF_Apology_Content</fullName>
+        <categories>Castrol, LCF</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LCF Apology Content</shortDescription>
+        <value>We are sorry to hear you had a poor experience, and we would like to contact you to learn more and rectify the issue. If you do not want us to contact you with any further queries on this issue, kindly click &quot;Do not contact&quot;.</value>
+    </labels>
+    <labels>
+        <fullName>LCF_Aral_Customer_Team</fullName>
+        <categories>Castrol, LCF</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Aral Customer Excellence Team</shortDescription>
+        <value>Aral Customer Excellence Team</value>
+    </labels>
+    <labels>
+        <fullName>LCF_BPCastrol_Customer_Team</fullName>
+        <categories>Castrol, LCF</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LCF_BPCastrol_Customer_Team</shortDescription>
+        <value>BP/Castrol Customer Excellence Team</value>
+    </labels>
+    <labels>
+        <fullName>LCF_BP_Customer_Team</fullName>
+        <categories>Castrol, LCF</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BP Customer Excellence Team</shortDescription>
+        <value>BP Customer Excellence Team</value>
+    </labels>
+    <labels>
+        <fullName>LCF_Castrol_Customer_Team</fullName>
+        <categories>Castrol, LCF</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Castrol Customer Excellence Team</shortDescription>
+        <value>Castrol Customer Excellence Team</value>
+    </labels>
+    <labels>
+        <fullName>LCF_Contact_Me</fullName>
+        <categories>Castrol, LCF</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LCF Contact Me</shortDescription>
+        <value>Contact me !</value>
+    </labels>
+    <labels>
+        <fullName>LCF_Contact_Us</fullName>
+        <categories>Castrol, LCF</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Contact Us</shortDescription>
+        <value>Contact Us</value>
+    </labels>
+    <labels>
+        <fullName>LCF_Contact_Us_URL</fullName>
+        <categories>Castrol, LCF</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LCF_Contact_Us_URL</shortDescription>
+        <value>http://www.castrol.com/en_gb/united-kingdom/about-us/contact-us.html</value>
+    </labels>
+    <labels>
+        <fullName>LCF_Delivery_Note_Details</fullName>
+        <categories>Castrol, LCF</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LCF_Delivery_Note_Details</shortDescription>
+        <value>Delivery Note Details</value>
+    </labels>
+    <labels>
+        <fullName>LCF_Do_Not_Contact</fullName>
+        <categories>Castrol, LCF</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LCF_Do_Not_Contact</shortDescription>
+        <value>Do Not Contact</value>
+    </labels>
+    <labels>
+        <fullName>LCF_Email_Subject</fullName>
+        <categories>Castrol, LCF</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LCF_Email_Subject</shortDescription>
+        <value>Tell us about your recent experience with Castrol</value>
+    </labels>
+    <labels>
+        <fullName>LCF_Email_Subject_Aral</fullName>
+        <categories>Castrol, LCF</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LCF_Email_Subject_Aral</shortDescription>
+        <value>Tell us about your recent experience with Aral</value>
+    </labels>
+    <labels>
+        <fullName>LCF_Email_Subject_BP</fullName>
+        <categories>Castrol, LCF</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LCF_Email_Subject_BP</shortDescription>
+        <value>Tell us about your recent experience with BP</value>
+    </labels>
+    <labels>
+        <fullName>LCF_Email_Subject_BPCastrol</fullName>
+        <categories>Castrol, LCF</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LCF_Email_Subject_BPCastrol</shortDescription>
+        <value>Tell us about your recent experience with BP/Castrol</value>
+    </labels>
+    <labels>
+        <fullName>LCF_Error_Code</fullName>
+        <categories>Castrol, LCF</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error Code</shortDescription>
+        <value>Error code</value>
+    </labels>
+    <labels>
+        <fullName>LCF_Error_Page</fullName>
+        <categories>Castrol, LCF</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error Page</shortDescription>
+        <value>Error page</value>
+    </labels>
+    <labels>
+        <fullName>LCF_Error_text</fullName>
+        <categories>Castrol, LCF</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error Page Text</shortDescription>
+        <value>Something went wrong while displaying this survey.</value>
+    </labels>
+    <labels>
+        <fullName>LCF_Hello</fullName>
+        <categories>Castrol, LCF</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Hi</shortDescription>
+        <value>Hi</value>
+    </labels>
+    <labels>
+        <fullName>LCF_Invoice_Number</fullName>
+        <categories>Castrol, LCF</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LCF_Invoice_Number</shortDescription>
+        <value>Invoice Number</value>
+    </labels>
+    <labels>
+        <fullName>LCF_Legal_Notice</fullName>
+        <categories>Castrol, LCF</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LCF Legal Notice</shortDescription>
+        <value>Legal Notice</value>
+    </labels>
+    <labels>
+        <fullName>LCF_Legal_Notice_URL</fullName>
+        <categories>Castrol, LCF</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LCF Legal Notice URL</shortDescription>
+        <value>http://www.castrol.com/en/home/legal-notice.html</value>
+    </labels>
+    <labels>
+        <fullName>LCF_Low_Score_Text1</fullName>
+        <categories>Castrol, LCF</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LCF_Low_Score_Text1</shortDescription>
+        <value>We are sorry to note that you are dissatisfied with your recent experience with Castrol.</value>
+    </labels>
+    <labels>
+        <fullName>LCF_Low_Score_Text2</fullName>
+        <categories>Castrol, LCF</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LCF_Low_Score_Text2</shortDescription>
+        <value>We would like to contact you to understand what went wrong and hear your thoughts on how we can improve our service. 
+Would you be happy for us to contact you to understand how we can improve our service?</value>
+    </labels>
+    <labels>
+        <fullName>LCF_Oops</fullName>
+        <categories>Castrol, LCF</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Oops!</shortDescription>
+        <value>Oops!</value>
+    </labels>
+    <labels>
+        <fullName>LCF_Opt_Out_Button</fullName>
+        <categories>Castrol, LCF</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LCF_Opt_Out_Button</shortDescription>
+        <value>Opt Out</value>
+    </labels>
+    <labels>
+        <fullName>LCF_Opt_Out_Button_No</fullName>
+        <categories>Castrol, LCF</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LCF_Opt_Out_Button_No</shortDescription>
+        <value>No, I still want survey requests</value>
+    </labels>
+    <labels>
+        <fullName>LCF_Opt_Out_Button_Yes</fullName>
+        <categories>Castrol, LCF</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LCF_Opt_Out_Button_Yes</shortDescription>
+        <value>Yes, I&apos;d like to opt out</value>
+    </labels>
+    <labels>
+        <fullName>LCF_Opt_Out_Header</fullName>
+        <categories>Castrol, LCF</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LCF_Opt_Out_Header</shortDescription>
+        <value>You have chosen to opt out from survey requests</value>
+    </labels>
+    <labels>
+        <fullName>LCF_Opt_Out_Preferences</fullName>
+        <categories>Castrol, LCF</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LCF_Opt_Out_Preferences</shortDescription>
+        <value>Your preferences have been updated.</value>
+    </labels>
+    <labels>
+        <fullName>LCF_Opt_Out_Text1</fullName>
+        <categories>Castrol, LCF</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LCF_Opt_Out_Text1</shortDescription>
+        <value>By selecting opt out, you will not receive a survey request for a period of 90 days.</value>
+    </labels>
+    <labels>
+        <fullName>LCF_Opt_Out_Text2</fullName>
+        <categories>Castrol, LCF</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LCF_Opt_Out_Text2</shortDescription>
+        <value>Are you sure you wish to opt out?</value>
+    </labels>
+    <labels>
+        <fullName>LCF_Order_Number</fullName>
+        <categories>Castrol, LCF</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LCF_Order_Number</shortDescription>
+        <value>Order Number</value>
+    </labels>
+    <labels>
+        <fullName>LCF_Privacy_Policy</fullName>
+        <categories>Castrol, LCF</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Privacy Policy</shortDescription>
+        <value>Privacy Policy</value>
+    </labels>
+    <labels>
+        <fullName>LCF_Privacy_Policy_URL</fullName>
+        <categories>Castrol, LCF</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LCF_Privacy_Policy_URL</shortDescription>
+        <value>http://www.castrol.com/en_gb/united-kingdom/privacy-statement.html</value>
+    </labels>
+    <labels>
+        <fullName>LCF_Reminder_Text1</fullName>
+        <categories>Castrol, LCF</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LCF_Reminder_Text1</shortDescription>
+        <value>We recently sent you an email requesting for your feedback about your recent experience resolving your issue</value>
+    </labels>
+    <labels>
+        <fullName>LCF_Reminder_Text1_Enquiries</fullName>
+        <categories>Castrol, LCF</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LCF_Reminder_Text1_Enquiries</shortDescription>
+        <value>We recently sent you an email survey requesting for your feedback about your recent experience contacting Castrol with a query</value>
+    </labels>
+    <labels>
+        <fullName>LCF_Reminder_Text1_Enquiries_BPCastrol</fullName>
+        <categories>Castrol, LCF</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LCF_Reminder_Text1_Enquiries_BPCastrol</shortDescription>
+        <value>We recently sent you an email survey requesting for your feedback about your recent experience contacting BP/Castrol with a query</value>
+    </labels>
+    <labels>
+        <fullName>LCF_Reminder_Text1_QBR</fullName>
+        <categories>Castrol, LCF</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LCF Reminder Text1 QBR</shortDescription>
+        <value>We recently sent you an email requesting your feedback about your recent quarterly review meeting on</value>
+    </labels>
+    <labels>
+        <fullName>LCF_Reminder_Text2</fullName>
+        <categories>Castrol, LCF</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LCF_Reminder_Text2</shortDescription>
+        <value>We really hope you are happy with this experience of interacting with us, but there’s only one way to find out – and that’s to ask for your feedback</value>
+    </labels>
+    <labels>
+        <fullName>LCF_Reminder_Text2_QBR</fullName>
+        <categories>Castrol, LCF</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LCF Reminder Text2 QBR</shortDescription>
+        <value>We really hope you found our meeting together valuable, but there’s only one way to find out – and that’s to ask for your feedback.</value>
+    </labels>
+    <labels>
+        <fullName>LCF_Rest_APIKEYNotCorrect</fullName>
+        <categories>Castrol, LCF</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Rest API KEY Not Correct</shortDescription>
+        <value>Invalid API key, contact LCF Support Team</value>
+    </labels>
+    <labels>
+        <fullName>LCF_Rest_APINotActive</fullName>
+        <categories>Castrol, LCF</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Rest API Not Active</shortDescription>
+        <value>API is not active</value>
+    </labels>
+    <labels>
+        <fullName>LCF_Rest_AccountNotExist</fullName>
+        <categories>Castrol, LCF</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Rest Account Not Exist</shortDescription>
+        <value>Customer Account does not exist</value>
+    </labels>
+    <labels>
+        <fullName>LCF_Rest_MultipleContactsAssociated</fullName>
+        <categories>Castrol, LCF</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Rest Multiple Contacts Associated</shortDescription>
+        <value>Multiple contacts associated.</value>
+    </labels>
+    <labels>
+        <fullName>LCF_Rest_MultipleContactsForContactSource</fullName>
+        <categories>Castrol, LCF</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Rest Multiple Contacts For Contact Source</shortDescription>
+        <value>Contact Source is flagged for review. Multiple contact records found.</value>
+    </labels>
+    <labels>
+        <fullName>LCF_Rest_NoContactAssociated</fullName>
+        <categories>Castrol, LCF</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Rest No Contact Associated</shortDescription>
+        <value>There is no Contact associated to External User Id and External Source</value>
+    </labels>
+    <labels>
+        <fullName>LCF_Rest_NoContactEmailAddress</fullName>
+        <categories>Castrol, LCF</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Rest No Contact Email Address</shortDescription>
+        <value>No contact email address provided for de-duplication key.</value>
+    </labels>
+    <labels>
+        <fullName>LCF_Rest_NoContactForContactSource</fullName>
+        <categories>Castrol, LCF</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Rest No Contact For Contact Source</shortDescription>
+        <value>Contact Source is flagged for review. No contact for Contact Source record</value>
+    </labels>
+    <labels>
+        <fullName>LCF_Rest_NoSurveyRequired</fullName>
+        <categories>Castrol, LCF</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Rest No Survey Required</shortDescription>
+        <value>No survey required.</value>
+    </labels>
+    <labels>
+        <fullName>LCF_Rest_NoTemplateAvailable</fullName>
+        <categories>Castrol, LCF</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Rest No Template Available</shortDescription>
+        <value>No template available.</value>
+    </labels>
+    <labels>
+        <fullName>LCF_Rest_NotSupportedSalesOrg</fullName>
+        <categories>Castrol, LCF</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Rest Not Supported Sales Org</shortDescription>
+        <value>The Sales Org is not currently supported</value>
+    </labels>
+    <labels>
+        <fullName>LCF_Rest_Not_Supported_Sales_Org_Or_Div_Code</fullName>
+        <categories>Castrol, LCF</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Rest Not Supported Sales Org Or Div Code</shortDescription>
+        <value>The Sales Org or Division or Distribution Channel is not supported.</value>
+    </labels>
+    <labels>
+        <fullName>LCF_Rest_RequiredParamMissing</fullName>
+        <categories>Castrol, LCF</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Required Input Parameter Missing</shortDescription>
+        <value>Missing required parameter :</value>
+    </labels>
+    <labels>
+        <fullName>LCF_Rest_Test_Mode</fullName>
+        <categories>Castrol, LCF</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LCF Rest Test Mode</shortDescription>
+        <value>Test mode is active. Only Test contacts will be processed.</value>
+    </labels>
+    <labels>
+        <fullName>LCF_Rest_WrongContactInContactSource</fullName>
+        <categories>Castrol, LCF</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Rest Wrong Contact In Contact Source</shortDescription>
+        <value>Wrong contact ID associated with Contact Source record</value>
+    </labels>
+    <labels>
+        <fullName>LCF_Return_Home</fullName>
+        <categories>Castrol, LCF</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Return Home</shortDescription>
+        <value>Return to Castrol.com</value>
+    </labels>
+    <labels>
+        <fullName>LCF_Survey_Email_1</fullName>
+        <categories>Castrol, LCF</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Email part 1</shortDescription>
+        <value>At  Castrol  we&apos;re  always  looking  for  ways  to  make  it  easier  for  our customers  to  do  business  with  us.</value>
+    </labels>
+    <labels>
+        <fullName>LCF_Survey_Email_1_Aral</fullName>
+        <categories>Castrol, LCF</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Email part 1 Aral</shortDescription>
+        <value>At  Aral  we&apos;re  always  looking  for  ways  to  make  it  easier  for  our customers  to  do  business  with  us.</value>
+    </labels>
+    <labels>
+        <fullName>LCF_Survey_Email_1_BP</fullName>
+        <categories>Castrol, LCF</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Email part 1 BP</shortDescription>
+        <value>At  BP  we&apos;re  always  looking  for  ways  to  make  it  easier  for  our customers  to  do  business  with  us.</value>
+    </labels>
+    <labels>
+        <fullName>LCF_Survey_Email_1_BPCastrol</fullName>
+        <categories>Castrol, LCF</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LCF_Survey_Email_1_BPCastrol</shortDescription>
+        <value>At  BP/Castrol  we&apos;re  always  looking  for  ways  to  make  it  easier  for  our customers  to  do  business  with  us.</value>
+    </labels>
+    <labels>
+        <fullName>LCF_Survey_Email_1_QBR</fullName>
+        <categories>Castrol, LCF</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Email part 1 QBR</shortDescription>
+        <value>At Castrol we&apos;re always looking for ways to improve the relationships we have with our customers.</value>
+    </labels>
+    <labels>
+        <fullName>LCF_Survey_Email_2</fullName>
+        <categories>Castrol, LCF</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Email part 2</shortDescription>
+        <value>To help us improve, we&apos;d really value your feedback on your recent experience {0} with us.</value>
+    </labels>
+    <labels>
+        <fullName>LCF_Survey_Email_2_Complaint</fullName>
+        <categories>Castrol, LCF</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Email part 2 Complaints</shortDescription>
+        <value>To help us improve, we&apos;d really value your feedback on your recent experience resolving a complaint with us.</value>
+    </labels>
+    <labels>
+        <fullName>LCF_Survey_Email_2_Enquiries</fullName>
+        <categories>Castrol, LCF</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Email 2 Enquiries</shortDescription>
+        <value>We noticed you recently contacted us with a query. We hope you are satisfied with our response.
+
+To help us improve our service to you, we&apos;d really value your feedback on this recent experience interacting with Castrol.</value>
+    </labels>
+    <labels>
+        <fullName>LCF_Survey_Email_2_Enquiries_BPCastrol</fullName>
+        <categories>Castrol, LCF</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LCF_Survey_Email_2_Enquiries_BPCastrol</shortDescription>
+        <value>We noticed you recently contacted us with a query. We hope you are satisfied with our response.
+
+To help us improve our service to you, we&apos;d really value your feedback on this recent experience interacting with BP/Castrol.</value>
+    </labels>
+    <labels>
+        <fullName>LCF_Survey_Email_2_Order</fullName>
+        <categories>Castrol, LCF</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Email part 2 Order</shortDescription>
+        <value>To help us improve, we&apos;d really value your feedback on your recent experience with placing an order with us.</value>
+    </labels>
+    <labels>
+        <fullName>LCF_Survey_Email_2_QBR</fullName>
+        <categories>Castrol, LCF</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Email part 2 QBR</shortDescription>
+        <value>Your opinion matters to us and we&apos;d really value your feedback from the conversation you had with your Castrol representative on</value>
+    </labels>
+    <labels>
+        <fullName>LCF_Survey_Email_3</fullName>
+        <categories>Castrol, LCF</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Email part 3</shortDescription>
+        <value>Please answer a short survey by clicking on the link below - we promise it shouldn&apos;t take more than 1 minute of your time.</value>
+    </labels>
+    <labels>
+        <fullName>LCF_Survey_Email_3_QBR</fullName>
+        <categories>Castrol, LCF</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Email part 3 QBR</shortDescription>
+        <value>Please answer a short survey by clicking on the link below - we promise it shouldn&apos;t take more than 2 minutes of your time.</value>
+    </labels>
+    <labels>
+        <fullName>LCF_Survey_Email_4</fullName>
+        <categories>Castrol, LCF</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Email part 4</shortDescription>
+        <value>Please do not reply to this email, since it has been sent from an unmonitored account. We would love to hear your opinion, if you have any questions, please contact your account manager.</value>
+    </labels>
+    <labels>
+        <fullName>LCF_Survey_Header</fullName>
+        <categories>Castrol, LCF</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LCF_Survey_Header</shortDescription>
+        <value>Please help us improve our service to you by sharing your feedback.</value>
+    </labels>
+    <labels>
+        <fullName>LCF_Survey_Subheader</fullName>
+        <categories>Castrol, LCF</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LCF_Survey_Subheader</shortDescription>
+        <value>Please complete all fields marked with *</value>
+    </labels>
+    <labels>
+        <fullName>LCF_Take_Survey</fullName>
+        <categories>Castrol, LCF</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Take Survey</shortDescription>
+        <value>Take Survey</value>
+    </labels>
+    <labels>
+        <fullName>LCF_Thank_you</fullName>
+        <categories>Castrol, LCF</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LCF_Thank_you</shortDescription>
+        <value>Thank you</value>
+    </labels>
+    <labels>
+        <fullName>LCF_Thank_you_Email_Subject</fullName>
+        <categories>Castrol, LCF</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LCF_Thank_you_Email_Subject</shortDescription>
+        <value>Thank you for sharing your opinion</value>
+    </labels>
+    <labels>
+        <fullName>LCF_Thank_you_text</fullName>
+        <categories>Castrol, LCF</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LCF Thank you text</shortDescription>
+        <value>Thank you for completing the Castrol survey.</value>
+    </labels>
+    <labels>
+        <fullName>LCF_Thank_you_text_2</fullName>
+        <categories>Castrol, LCF</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LCF_Thank_you_text_2</shortDescription>
+        <value>Here at Castrol we appreciate the time you have taken to provide this feedback.</value>
+    </labels>
+    <labels>
+        <fullName>LCF_Thank_you_text_3</fullName>
+        <categories>Castrol, LCF</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LCF_Thank_you_text_3</shortDescription>
+        <value>Your input helps us to improve the service we deliver and build stronger partnerships with customers.</value>
+    </labels>
+    <labels>
+        <fullName>LCF_Thanks_for_Support</fullName>
+        <categories>Castrol, LCF</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Thank you for your support</shortDescription>
+        <value>Thanks for your support!</value>
+    </labels>
+    <labels>
+        <fullName>OLCM_Siebel_Integration_User</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OLCM Siebel Integration User</shortDescription>
+        <value>Jewelslyn Shama P</value>
+    </labels>
+    <labels>
+        <fullName>Opportunity_Inactive_Product_War</fullName>
+        <categories>Castrol, SFO</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Opportunity Inactive Product Warning.</shortDescription>
+        <value>An inactive product is associated to this Opportunity!</value>
+    </labels>
+    <labels>
+        <fullName>Opportunity_Inactive_Products_War</fullName>
+        <categories>Castrol, SFO</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Opportunity Inactive Products Warning.</shortDescription>
+        <value>Multiple inactive products are associated to this Opportunity!</value>
+    </labels>
+    <labels>
+        <fullName>Opportunity_No_Inactive_Products</fullName>
+        <categories>Castrol, SFO</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Opportunity No Inactive Products used on SF1 mobile card</shortDescription>
+        <value>No inactive products are associated to this Opportunity.</value>
+    </labels>
+    <labels>
+        <fullName>REIDP</fullName>
+        <categories>Retail, IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>REIDP_NameLabel</shortDescription>
+        <value>Name</value>
+    </labels>
+    <labels>
+        <fullName>REIDP_ApplicationLabel</fullName>
+        <categories>Retail, IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>REIDP_ApplicationLabel</shortDescription>
+        <value>Application</value>
+    </labels>
+    <labels>
+        <fullName>REIDP_ApprovalPendingLabel</fullName>
+        <categories>Retail, IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>REIDP_ApprovalPendingLabel</shortDescription>
+        <value>Approval Pending</value>
+    </labels>
+    <labels>
+        <fullName>REIDP_EmailAccessApprovalBody</fullName>
+        <categories>Retail, IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>REIDP_EmailAccessApprovalBody</shortDescription>
+        <value>There is a request for approval.
+Please review.</value>
+    </labels>
+    <labels>
+        <fullName>REIDP_EmailAccessApprovalHeader</fullName>
+        <categories>Retail, IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>REIDP_EmailAccessApprovalHeader</shortDescription>
+        <value>Access for Approval</value>
+    </labels>
+    <labels>
+        <fullName>REIDP_EmailApprovedBody</fullName>
+        <categories>Retail, IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>REIDP_EmailApprovedBody</shortDescription>
+        <value>Your request was approved</value>
+    </labels>
+    <labels>
+        <fullName>REIDP_EmailApprovedHeader</fullName>
+        <categories>Retail, IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>REIDP_EmailApprovedHeader</shortDescription>
+        <value>Access Success</value>
+    </labels>
+    <labels>
+        <fullName>REIDP_EmailAutomationLabel</fullName>
+        <categories>Retail, IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>REIDP_EmailAutomationLabel</shortDescription>
+        <value>Best,
+REIDP automation</value>
+    </labels>
+    <labels>
+        <fullName>REIDP_EmailDearBodyLabel</fullName>
+        <categories>Retail, IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>REIDP_EmailDearBodyLabel</shortDescription>
+        <value>Dear</value>
+    </labels>
+    <labels>
+        <fullName>REIDP_EmailNewRequestSubject</fullName>
+        <categories>Retail, IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>REIDP_EmailNewRequestSubject</shortDescription>
+        <value>There is a request for approval</value>
+    </labels>
+    <labels>
+        <fullName>REIDP_EmailRejectedFirstBody</fullName>
+        <categories>Retail, IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>REIDP_EmailRejectedFirstBody</shortDescription>
+        <value>Your request was rejected for</value>
+    </labels>
+    <labels>
+        <fullName>REIDP_EmailRejectedHeader</fullName>
+        <categories>Retail, IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>REIDP_EmailRejectedHeader</shortDescription>
+        <value>Access Reject</value>
+    </labels>
+    <labels>
+        <fullName>REIDP_EmailRequestApprovedSubject</fullName>
+        <categories>Retail, IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>REIDP_EmailRequestApprovedSubject</shortDescription>
+        <value>Your Request for Application Was Approved</value>
+    </labels>
+    <labels>
+        <fullName>REIDP_EmailRequestRejectedSubject</fullName>
+        <categories>Retail, IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>REIDP_EmailRequestRejectedSubject</shortDescription>
+        <value>Your Request for Application Was Rejected</value>
+    </labels>
+    <labels>
+        <fullName>REIDP_ErrorLabel</fullName>
+        <categories>Retail, IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>REIDP_ErrorLabel</shortDescription>
+        <value>Error message:</value>
+    </labels>
+    <labels>
+        <fullName>REIDP_NameLabel</fullName>
+        <categories>Retail, IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>REIDP_NameLabel</shortDescription>
+        <value>Name</value>
+    </labels>
+    <labels>
+        <fullName>REIDP_NoLabel</fullName>
+        <categories>Retail, IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>REIDP_NoLabel</shortDescription>
+        <value>No</value>
+    </labels>
+    <labels>
+        <fullName>REIDP_RequestAccessLabel</fullName>
+        <categories>Retail, IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>REIDP_RequestAccessLabel</shortDescription>
+        <value>Request Access</value>
+    </labels>
+    <labels>
+        <fullName>REIDP_RequestSuccessLabel</fullName>
+        <categories>Retail, IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>REIDP_RequestSuccessLabel</shortDescription>
+        <value>Request was sent successfully!</value>
+    </labels>
+    <labels>
+        <fullName>REIDP_StatusLabel</fullName>
+        <categories>Retail, IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>REIDP_StatusLabel</shortDescription>
+        <value>Status</value>
+    </labels>
+    <labels>
+        <fullName>REIDP_SubmitForApprovalLabel</fullName>
+        <categories>Retail, IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>REIDP_SubmitForApprovalLabel</shortDescription>
+        <value>Submit for Approval</value>
+    </labels>
+    <labels>
+        <fullName>REIDP_SureForRequestLabel</fullName>
+        <categories>Retail, IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>REIDP_SureForRequestLabel</shortDescription>
+        <value>Are you sure you want to request the access for the app?</value>
+    </labels>
+    <labels>
+        <fullName>REIDP_YesLabel</fullName>
+        <categories>Retail, IDP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>REIDP_YesLabel</shortDescription>
+        <value>Yes</value>
+    </labels>
+    <labels>
+        <fullName>RestAPI_APIKEYNotCorrect</fullName>
+        <categories>Castrol, LCF</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RestAPI_APIKEYNotCorrect</shortDescription>
+        <value>API Key is missing, or incorrect.</value>
+    </labels>
+    <labels>
+        <fullName>RestResp_AccountNotExists</fullName>
+        <categories>Castrol, LCF</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RestResp_AccountNotExists</shortDescription>
+        <value>The Account does not exist in the system</value>
+    </labels>
+    <labels>
+        <fullName>RestResp_ContactNotExists</fullName>
+        <categories>Castrol, LCF</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RestResp_ContactNotExists</shortDescription>
+        <value>The Contact does not exist within the system</value>
+    </labels>
+    <labels>
+        <fullName>RestResp_DMLError</fullName>
+        <categories>Castrol, LCF</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RestResp_DMLError</shortDescription>
+        <value>DML operation failed.</value>
+    </labels>
+    <labels>
+        <fullName>RestResp_FakeResponse</fullName>
+        <categories>Castrol, LCF</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RestResp_FakeResponse</shortDescription>
+        <value>surveyFakeURL.com/takeSurvey</value>
+    </labels>
+    <labels>
+        <fullName>RestResp_FieldValidation</fullName>
+        <categories>Castrol, LCF</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RestResp_FieldValidation</shortDescription>
+        <value>Validation of required fields failed.</value>
+    </labels>
+    <labels>
+        <fullName>RestResp_Missing</fullName>
+        <categories>Castrol, LCF</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RestResp_Missing</shortDescription>
+        <value>Parameters are missing</value>
+    </labels>
+    <labels>
+        <fullName>RestResp_NoSurveyAvailable</fullName>
+        <categories>Castrol, LCF</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RestResp_NoSurveyAvailable</shortDescription>
+        <value>No survey is available for this source.</value>
+    </labels>
+    <labels>
+        <fullName>RestResp_NoSurveyFlag</fullName>
+        <categories>Castrol, LCF</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RestResp_NoSurveyFlag</shortDescription>
+        <value>Do not survey flag.</value>
+    </labels>
+    <labels>
+        <fullName>RestResp_NoSurveyRequired</fullName>
+        <categories>Castrol, LCF</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RestResp_NoSurveyRequired</shortDescription>
+        <value>We don&apos;t want survey you right now</value>
+    </labels>
+    <labels>
+        <fullName>RestResp_OnlySpain</fullName>
+        <categories>Castrol, LCF</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RestResp_OnlySpain</shortDescription>
+        <value>Only Spain customers are surveyed.</value>
+    </labels>
+    <labels>
+        <fullName>Survey_Agree_T_C_Link_Text</fullName>
+        <categories>Castrol, LCF</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Survey Terms and Conditions Link Text</shortDescription>
+        <value>Terms and Conditions</value>
+    </labels>
+    <labels>
+        <fullName>TouchType_Complaint</fullName>
+        <categories>Castrol, LCF</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>TouchType_Complaint</shortDescription>
+        <value>resolving a complaint</value>
+    </labels>
+    <labels>
+        <fullName>TouchType_Complaint_ES</fullName>
+        <categories>Castrol, LCF</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>TouchType_Complaint_ES</shortDescription>
+        <value>solucionando su problema</value>
+    </labels>
+    <labels>
+        <fullName>TouchType_Delivery</fullName>
+        <categories>Castrol, LCF</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>TouchType_Delivery</shortDescription>
+        <value>receiving an delivery</value>
+    </labels>
+    <labels>
+        <fullName>TouchType_Delivery_ES</fullName>
+        <categories>Castrol, LCF</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>TouchType_Delivery_ES</shortDescription>
+        <value>recibiendo un pedido</value>
+    </labels>
+    <labels>
+        <fullName>TouchType_Invoicing</fullName>
+        <categories>Castrol, LCF</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>TouchType_Invoicing</shortDescription>
+        <value>receiving a invoice</value>
+    </labels>
+    <labels>
+        <fullName>TouchType_Invoicing_ES</fullName>
+        <categories>Castrol, LCF</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>TouchType_Invoicing_ES</shortDescription>
+        <value>recibiendo una factura</value>
+    </labels>
+    <labels>
+        <fullName>TouchType_Ordering</fullName>
+        <categories>Castrol, LCF</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>TouchType_Ordering</shortDescription>
+        <value>placing an order</value>
+    </labels>
+    <labels>
+        <fullName>TouchType_Ordering_ES</fullName>
+        <categories>Castrol, LCF</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>TouchType_Ordering_ES</shortDescription>
+        <value>realizando un pedido</value>
+    </labels>
+    <labels>
+        <fullName>Wrong_Stage</fullName>
+        <categories>Castrol, SFO</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Estimate cannot be added in certain Opportunity stages</shortDescription>
+        <value>Estimate can be added only when opportunity is in &quot;Lead&quot;, &quot;Opportunity&quot; or &quot;Trial&quot; stage.</value>
+    </labels>
+    <labels>
+        <fullName>lcf_RequiredText</fullName>
+        <categories>Castrol, LCF</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Required Field Text</shortDescription>
+        <value>*</value>
+    </labels>
+</CustomLabels>

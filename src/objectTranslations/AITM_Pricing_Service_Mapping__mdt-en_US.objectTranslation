@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>AITM Pricing Service Mapping</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>AITM Pricing Service Mappings</value>
+    </caseValues>
+    <fields>
+        <label><!-- Field Name --></label>
+        <name>AITM_Field_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Required For A Target Price Call? --></label>
+        <name>AITM_Required_For_A_Target_Price_Call__c</name>
+    </fields>
+    <fields>
+        <label><!-- Response Field --></label>
+        <name>AITM_Response_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Service Name --></label>
+        <name>AITM_Service_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>AITM_Type__c</name>
+        <picklistValues>
+            <masterLabel>Number</masterLabel>
+            <translation><!-- Number --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Text</masterLabel>
+            <translation><!-- Text --></translation>
+        </picklistValues>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

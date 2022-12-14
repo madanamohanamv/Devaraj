@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QuickAction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Permanently prevent Contact to receive surveys.</description>
+    <height>250</height>
+    <label>Survey Opt Out</label>
+    <lightningComponent>Opt_Out_Contact</lightningComponent>
+    <optionsCreateFeedItem>false</optionsCreateFeedItem>
+    <type>LightningComponent</type>
+    <width>-100</width>
+</QuickAction>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>bp-idp@bluewolfgroup.com</contactEmail>
+    <label>RE IDP Fastlane</label>
+    <logoUrl>https://bpcustomer--c.eu6.content.force.com/servlet/servlet.ImageServer?id=01558000004BTNa&amp;oid=00D58000000axyD</logoUrl>
+    <oauthConfig>
+        <callbackUrl>https://www.castrolfastlane.com/fastlane.html/callback/j_security_check
+https://www.getpostman.com/oauth2/callback</callbackUrl>
+        <consumerKey>3MVG98_Psg5cppybfa6udyqaByeItwULB.cGzZkx_vANPWkiD44gqxC3BwQr9RSobxANXQWytdsUW_P_dPvj6</consumerKey>
+        <idTokenConfig>
+            <idTokenIncludeAttributes>false</idTokenIncludeAttributes>
+            <idTokenIncludeCustomPerms>false</idTokenIncludeCustomPerms>
+            <idTokenIncludeStandardClaims>true</idTokenIncludeStandardClaims>
+            <idTokenValidity>2</idTokenValidity>
+        </idTokenConfig>
+        <scopes>Basic</scopes>
+        <scopes>Api</scopes>
+        <scopes>RefreshToken</scopes>
+        <scopes>OpenID</scopes>
+    </oauthConfig>
+</ConnectedApp>

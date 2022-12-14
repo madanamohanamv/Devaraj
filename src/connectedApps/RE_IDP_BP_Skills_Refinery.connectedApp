@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <attributes>
+        <formula>$User.FirstName</formula>
+        <key>firstname</key>
+    </attributes>
+    <attributes>
+        <formula>$User.LastName</formula>
+        <key>lastname</key>
+    </attributes>
+    <contactEmail>bp-idp@bluewolfgroup.com</contactEmail>
+    <label>RE IDP BP Skills Refinery</label>
+    <samlConfig>
+        <acsUrl>https://www.bpskillsrefinery.com/saml</acsUrl>
+        <encryptionType>AES_128</encryptionType>
+        <entityUrl>bp-skills-refinery</entityUrl>
+        <issuer>http://bpcustomer.my.salesforce.com/</issuer>
+        <samlNameIdFormat>Unspecified</samlNameIdFormat>
+        <samlSubjectType>Username</samlSubjectType>
+    </samlConfig>
+</ConnectedApp>

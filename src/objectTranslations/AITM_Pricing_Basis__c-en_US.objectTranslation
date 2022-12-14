@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Pricing Basis</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Pricing Bases</value>
+    </caseValues>
+    <fields>
+        <label><!-- Currency --></label>
+        <name>AITM_Currency__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>AITM_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Not Represented --></label>
+        <name>AITM_Not_Represented__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pricing Basis Code --></label>
+        <name>AITM_Pricing_Basis_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rebate --></label>
+        <name>AITM_Rebate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Short Description --></label>
+        <name>AITM_Short_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>AITM_Type__c</name>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D</masterLabel>
+            <translation><!-- D --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F</masterLabel>
+            <translation><!-- F --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>T</masterLabel>
+            <translation><!-- T --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Unit of Measure --></label>
+        <name>AITM_Unit_Of_Measure__c</name>
+    </fields>
+    <layouts>
+        <layout>Air_TMPricing Basis Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

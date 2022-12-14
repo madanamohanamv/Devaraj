@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>RE IDP Admin Log</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>RE IDP Admin Logs</value>
+    </caseValues>
+    <fields>
+        <label><!-- Admin --></label>
+        <name>Admin__c</name>
+        <relationshipLabel><!-- RE IDP Admin Logs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Arguments --></label>
+        <name>Arguments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact --></label>
+        <name>Contact__c</name>
+        <relationshipLabel><!-- RE IDP Admin Logs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Function --></label>
+        <name>Function__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ticket Number --></label>
+        <name>Ticket_Number__c</name>
+    </fields>
+    <layouts>
+        <layout>REIDP Admin Log Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

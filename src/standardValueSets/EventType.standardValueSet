@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Customer Call</fullName>
+        <default>false</default>
+        <label>Customer Call</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Customer Email</fullName>
+        <default>false</default>
+        <label>Customer Email</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Customer Meeting</fullName>
+        <default>false</default>
+        <label>Customer Meeting</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Quarterly Business Review</fullName>
+        <default>false</default>
+        <label>Quarterly Business Review</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </standardValue>
+</StandardValueSet>

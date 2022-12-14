@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Tender Customer</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Tender Customers</value>
+    </caseValues>
+    <fields>
+        <help><!-- This field can be modified through Account object --></help>
+        <label><!-- Account Classification --></label>
+        <name>AITM_Account_Classification__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account --></label>
+        <name>AITM_Account__c</name>
+        <relationshipLabel><!-- Tenders --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Affiliates --></label>
+        <name>AITM_Affiliates_Account__c</name>
+        <relationshipLabel><!-- Tender Customers (Affiliates) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Affiliates --></label>
+        <name>AITM_Affiliates__c</name>
+    </fields>
+    <fields>
+        <label><!-- Aircraft Fleet --></label>
+        <name>AITM_Aircraft_Fleet__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bank Account --></label>
+        <name>AITM_Bank_Account__c</name>
+        <relationshipLabel><!-- Tender Customers --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Contact Name --></label>
+        <name>AITM_Contact_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Signatory --></label>
+        <name>AITM_Contracting_Entity_Signatory__c</name>
+    </fields>
+    <fields>
+        <label><!-- Title --></label>
+        <name>AITM_Contracting_Entity_Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contracting Entity --></label>
+        <name>AITM_Contracting_Entity__c</name>
+        <relationshipLabel><!-- Tender Customers --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Credit Days --></label>
+        <name>AITM_Credit_Days1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Credit Days --></label>
+        <name>AITM_Credit_Days__c</name>
+    </fields>
+    <fields>
+        <label><!-- Credit Terms --></label>
+        <name>AITM_Credit_Terms__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Name --></label>
+        <name>AITM_Customer_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Segment --></label>
+        <name>AITM_Customer_Segment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Type --></label>
+        <name>AITM_Customer_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>AITM_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email --></label>
+        <name>AITM_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- GRN --></label>
+        <name>AITM_GRN__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice Frequency --></label>
+        <name>AITM_Invoice_Frequency__c</name>
+    </fields>
+    <fields>
+        <label><!-- Legal Entity --></label>
+        <name>AITM_Legal_Entity__c</name>
+        <relationshipLabel><!-- Tender Customers (Legal Entity) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Payment Currency --></label>
+        <name>AITM_Payment_Currency__c</name>
+    </fields>
+    <fields>
+        <label><!-- Phone --></label>
+        <name>AITM_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Preferred Service Level --></label>
+        <name>AITM_Preferred_Service_Level__c</name>
+    </fields>
+    <fields>
+        <label><!-- Resellers --></label>
+        <name>AITM_Resellers__c</name>
+    </fields>
+    <fields>
+        <label><!-- Security Text on Offer --></label>
+        <name>AITM_Security_Text_on_Offer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Security Type --></label>
+        <name>AITM_Security_Type__c</name>
+        <picklistValues>
+            <masterLabel>BG - Bank Guarantee</masterLabel>
+            <translation><!-- BG - Bank Guarantee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BG/CD - Bank Guarantee+Cash Deposit</masterLabel>
+            <translation><!-- BG/CD - Bank Guarantee+Cash Deposit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BG/PCG - Guarantee</masterLabel>
+            <translation><!-- BG/PCG - Guarantee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BG/PCG+DD - Guarantee+Direct Debit</masterLabel>
+            <translation><!-- BG/PCG+DD - Guarantee+Direct Debit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CD - Cash Deposit</masterLabel>
+            <translation><!-- CD - Cash Deposit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CP - Cash Payment</masterLabel>
+            <translation><!-- CP - Cash Payment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CT - Credit Terms</masterLabel>
+            <translation><!-- CT - Credit Terms --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DD - Direct Debit</masterLabel>
+            <translation><!-- DD - Direct Debit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FP - Fixed Price Physical deals</masterLabel>
+            <translation><!-- FP - Fixed Price Physical deals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LC - Letters of Credit</masterLabel>
+            <translation><!-- LC - Letters of Credit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NA</masterLabel>
+            <translation><!-- NA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PP - Pre-pay</masterLabel>
+            <translation><!-- PP - Pre-pay --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Tender Unique ID --></label>
+        <name>AITM_Tender_Unique_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tender --></label>
+        <name>AITM_Tender__c</name>
+        <relationshipLabel><!-- Customers --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Title --></label>
+        <name>AITM_Title__c</name>
+    </fields>
+    <fields>
+        <help><!-- Automatically populated if Polish location is added to the tender --></help>
+        <label><!-- JV terms --></label>
+        <name>JV_terms__c</name>
+    </fields>
+    <layouts>
+        <layout>Air_TMLABPTender Account Layout</layout>
+        <sections>
+            <label><!-- Contracting Entity --></label>
+            <section>Contracting Entity</section>
+        </sections>
+        <sections>
+            <label><!-- Credit Terms --></label>
+            <section>Credit Terms</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Customer Contacts --></label>
+            <section>Customer Contacts</section>
+        </sections>
+        <sections>
+            <label><!-- Customer Defaults Locations --></label>
+            <section>Customer Defaults Locations</section>
+        </sections>
+        <sections>
+            <label><!-- JV Terms --></label>
+            <section>JV Terms</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Air_TMTender Account Layout</layout>
+        <sections>
+            <label><!-- Contracting Entity --></label>
+            <section>Contracting Entity</section>
+        </sections>
+        <sections>
+            <label><!-- Credit Terms --></label>
+            <section>Credit Terms</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Customer Contacts --></label>
+            <section>Customer Contacts</section>
+        </sections>
+        <sections>
+            <label><!-- Customer Defaults Locations --></label>
+            <section>Customer Defaults Locations</section>
+        </sections>
+        <sections>
+            <label><!-- JV Terms --></label>
+            <section>JV Terms</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- No Bank Account with currency matching Payment Currency is available for this Contracting Entity --></errorMessage>
+        <name>AITM_BA_Currency_and_TC_Currency_Mapping</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Credit days can&apos;t be more than 65. --></errorMessage>
+        <name>Credit_days_up_to_65</name>
+    </validationRules>
+</CustomObjectTranslation>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ModerationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <action>Review</action>
+    <active>true</active>
+    <description>Community moderators review posts and comments containing banned keywords</description>
+    <entitiesAndFields>
+        <entityName>FeedComment</entityName>
+        <fieldName>RawCommentBody</fieldName>
+        <keywordList>CAPL Castrol Custom Community.invalid_content</keywordList>
+    </entitiesAndFields>
+    <entitiesAndFields>
+        <entityName>FeedItem</entityName>
+        <fieldName>Title</fieldName>
+        <keywordList>CAPL Castrol Custom Community.invalid_content</keywordList>
+    </entitiesAndFields>
+    <entitiesAndFields>
+        <entityName>FeedItem</entityName>
+        <fieldName>RawBody</fieldName>
+        <keywordList>CAPL Castrol Custom Community.invalid_content</keywordList>
+    </entitiesAndFields>
+    <entitiesAndFields>
+        <entityName>FeedItem</entityName>
+        <fieldName>LinkUrl</fieldName>
+        <keywordList>CAPL Castrol Custom Community.invalid_content</keywordList>
+    </entitiesAndFields>
+    <entitiesAndFields>
+        <entityName>FeedPollChoice</entityName>
+        <fieldName>ChoiceBody</fieldName>
+        <keywordList>CAPL Castrol Custom Community.invalid_content</keywordList>
+    </entitiesAndFields>
+    <masterLabel>Flag posts or comments containing banned keywords</masterLabel>
+    <type>Content</type>
+    <userCriteria>CAPL Castrol Custom Community.Customer_Members</userCriteria>
+    <userCriteria>CAPL Castrol Custom Community.Members_without_contribution</userCriteria>
+    <userCriteria>CAPL Castrol Custom Community.Partner_and_Customer_members</userCriteria>
+    <userMessage>You can&apos;t use %BLOCKED_KEYWORD% or other inappropriate words in this community. Review your content and try again.</userMessage>
+</ModerationRule>

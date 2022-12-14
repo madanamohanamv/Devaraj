@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingOwnerRules>
+        <fullName>Plans_with_all_Location_Managers</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Share plans with all AirBP location managers</description>
+        <label>Plans with all Location Managers</label>
+        <sharedTo>
+            <role>AirBP</role>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>AirBP</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

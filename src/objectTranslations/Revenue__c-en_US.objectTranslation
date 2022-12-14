@@ -1,0 +1,754 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Opportunity Revenue</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Opportunity Revenues</value>
+    </caseValues>
+    <fields>
+        <help><!-- Price offered by a Competitor (best estimate) for their equivalent product (or products) against our Product (or Products) included in an Opportunity. --></help>
+        <label><!-- Competitor Price per Liter* --></label>
+        <name>CASFO_Competitor_Price_per_Liter__c</name>
+    </fields>
+    <fields>
+        <label><!-- *Legal Notice --></label>
+        <name>CASFO_Legal_Notice__c</name>
+    </fields>
+    <fields>
+        <label><!-- Main Competitor Name --></label>
+        <name>CASFO_Main_Competitor_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Main Competitor Product --></label>
+        <name>CASFO_Main_Competitor_Product__c</name>
+        <relationshipLabel><!-- Opportunity Revenues --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- OEM Region --></label>
+        <name>CASFO_OEM_Region__c</name>
+        <picklistValues>
+            <masterLabel>China</masterLabel>
+            <translation><!-- China --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>World</masterLabel>
+            <translation><!-- World --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Initial Year Margin multiplied by Opportunity&apos;s Probability. --></help>
+        <label><!-- Probability of Initial Year Margin --></label>
+        <name>CASFO_Probability_of_Initial_Year_Margin__c</name>
+    </fields>
+    <fields>
+        <help><!-- Initial Year Volume multiplied by Opportunity&apos;s Probability. --></help>
+        <label><!-- Probability of Initial Year Volume --></label>
+        <name>CASFO_Probability_of_Initial_Year_Volume__c</name>
+    </fields>
+    <fields>
+        <help><!-- Margin multiplied by Opportunity&apos;s Probability. --></help>
+        <label><!-- Probability of Margin --></label>
+        <name>CASFO_Probability_of_Margin__c</name>
+    </fields>
+    <fields>
+        <help><!-- Volume multiplied by Opportunity&apos;s Probability. --></help>
+        <label><!-- Probability of Volume --></label>
+        <name>CASFO_Probability_of_Volume__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Initial Year Margin --></label>
+        <name>Initial_Year_Margin__c</name>
+    </fields>
+    <fields>
+        <label><!-- Initial Year Revenue --></label>
+        <name>Initial_Year_Revenue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Initial Year Volume --></label>
+        <name>Initial_Year_Volume__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Estimate --></label>
+        <name>Is_Estimate__c</name>
+    </fields>
+    <fields>
+        <help><!-- Please enter annual value. --></help>
+        <label><!-- Margin --></label>
+        <name>Margin__c</name>
+    </fields>
+    <fields>
+        <label><!-- Net Volume --></label>
+        <name>Net_Volume__c</name>
+    </fields>
+    <fields>
+        <label><!-- OEM --></label>
+        <name>OEM__c</name>
+        <picklistValues>
+            <masterLabel>-- Select Specific OEM or None --</masterLabel>
+            <translation><!-- - -  Select Specific OEM or None - -  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ABB</masterLabel>
+            <translation><!-- ABB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Abarth</masterLabel>
+            <translation><!-- Abarth --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Airbus</masterLabel>
+            <translation><!-- Airbus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Alfa Romeo</masterLabel>
+            <translation><!-- Alfa Romeo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Anglo American</masterLabel>
+            <translation><!-- Anglo American --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aston Martin</masterLabel>
+            <translation><!-- Aston Martin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Atlas Copco</masterLabel>
+            <translation><!-- Atlas Copco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Audi</masterLabel>
+            <translation><!-- Audi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BD BAW</masterLabel>
+            <translation><!-- BD BAW --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BD BRL</masterLabel>
+            <translation><!-- BD BRL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BD BYD</masterLabel>
+            <translation><!-- BD BYD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BD Chery</masterLabel>
+            <translation><!-- BD Chery --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BD GAC Gonow</masterLabel>
+            <translation><!-- BD GAC Gonow --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BD GAIC</masterLabel>
+            <translation><!-- BD GAIC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BD GWM</masterLabel>
+            <translation><!-- BD GWM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BD HON (Honda)</masterLabel>
+            <translation><!-- BD HON (Honda) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BD Nissan</masterLabel>
+            <translation><!-- BD Nissan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BMW</masterLabel>
+            <translation><!-- BMW --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BP</masterLabel>
+            <translation><!-- BP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bentley</masterLabel>
+            <translation><!-- Bentley --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Boeing</masterLabel>
+            <translation><!-- Boeing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bosch</masterLabel>
+            <translation><!-- Bosch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA Changan</masterLabel>
+            <translation><!-- CA Changan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA Ford</masterLabel>
+            <translation><!-- CA Ford --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA Hanteng</masterLabel>
+            <translation><!-- CA Hanteng --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA Linclon</masterLabel>
+            <translation><!-- CA Linclon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chevrolet</masterLabel>
+            <translation><!-- Chevrolet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chrysler</masterLabel>
+            <translation><!-- Chrysler --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Citroen*</masterLabel>
+            <translation><!-- Citroen* --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DL Alison</masterLabel>
+            <translation><!-- DL Alison --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DL ETON</masterLabel>
+            <translation><!-- DL ETON --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DL GKN</masterLabel>
+            <translation><!-- DL GKN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DL Getrag</masterLabel>
+            <translation><!-- DL Getrag --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DL HHM</masterLabel>
+            <translation><!-- DL HHM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DL Magna</masterLabel>
+            <translation><!-- DL Magna --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DL ONB</masterLabel>
+            <translation><!-- DL ONB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DL QAC (Qoros)</masterLabel>
+            <translation><!-- DL QAC (Qoros) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DL QSH</masterLabel>
+            <translation><!-- DL QSH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DL SMS</masterLabel>
+            <translation><!-- DL SMS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DL ZF</masterLabel>
+            <translation><!-- DL ZF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dacia</masterLabel>
+            <translation><!-- Dacia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Daimler</masterLabel>
+            <translation><!-- Daimler --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delphi</masterLabel>
+            <translation><!-- Delphi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FAW Audi</masterLabel>
+            <translation><!-- FAW Audi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FAW FAW</masterLabel>
+            <translation><!-- FAW FAW --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FAW FVW</masterLabel>
+            <translation><!-- FAW FVW --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FAW KIA</masterLabel>
+            <translation><!-- FAW KIA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FAW Mazda</masterLabel>
+            <translation><!-- FAW Mazda --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FAW VGIC</masterLabel>
+            <translation><!-- FAW VGIC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FCA(Fiat Chrysler)</masterLabel>
+            <translation><!-- FCA(Fiat Chrysler) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FWS</masterLabel>
+            <translation><!-- FWS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Federal Mogul</masterLabel>
+            <translation><!-- Federal Mogul --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fiat</masterLabel>
+            <translation><!-- Fiat --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ford</masterLabel>
+            <translation><!-- Ford --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GAM Geely</masterLabel>
+            <translation><!-- GAM Geely --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GAM JLR</masterLabel>
+            <translation><!-- GAM JLR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GAM Volvo</masterLabel>
+            <translation><!-- GAM Volvo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GE</masterLabel>
+            <translation><!-- GE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GE WIND</masterLabel>
+            <translation><!-- GE WIND --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GKN</masterLabel>
+            <translation><!-- GKN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Geely</masterLabel>
+            <translation><!-- Geely --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>General Motors</masterLabel>
+            <translation><!-- General Motors --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HD DFCV</masterLabel>
+            <translation><!-- HD DFCV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HD DFJV</masterLabel>
+            <translation><!-- HD DFJV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HD Foton</masterLabel>
+            <translation><!-- HD Foton --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HD STK</masterLabel>
+            <translation><!-- HD STK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Honda</masterLabel>
+            <translation><!-- Honda --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hyundai</masterLabel>
+            <translation><!-- Hyundai --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Iberdrola</masterLabel>
+            <translation><!-- Iberdrola --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Infiniti</masterLabel>
+            <translation><!-- Infiniti --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JCB</masterLabel>
+            <translation><!-- JCB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JLR</masterLabel>
+            <translation><!-- JLR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jaguar</masterLabel>
+            <translation><!-- Jaguar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jeep</masterLabel>
+            <translation><!-- Jeep --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kia</masterLabel>
+            <translation><!-- Kia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Komatsu</masterLabel>
+            <translation><!-- Komatsu --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Land Rover</masterLabel>
+            <translation><!-- Land Rover --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lexus</masterLabel>
+            <translation><!-- Lexus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lotus</masterLabel>
+            <translation><!-- Lotus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MG</masterLabel>
+            <translation><!-- MG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MINI</masterLabel>
+            <translation><!-- MINI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Magna Getrag</masterLabel>
+            <translation><!-- Magna Getrag --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mahle</masterLabel>
+            <translation><!-- Mahle --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maserati</masterLabel>
+            <translation><!-- Maserati --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mazda</masterLabel>
+            <translation><!-- Mazda --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mercedes-Benz</masterLabel>
+            <translation><!-- Mercedes-Benz --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mitsubishi</masterLabel>
+            <translation><!-- Mitsubishi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nissan</masterLabel>
+            <translation><!-- Nissan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Opel</masterLabel>
+            <translation><!-- Opel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other British</masterLabel>
+            <translation><!-- Other British --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Imports</masterLabel>
+            <translation><!-- Other Imports --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PSA incl. FdM</masterLabel>
+            <translation><!-- PSA incl. FdM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Peugeot</masterLabel>
+            <translation><!-- Peugeot --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Porsche</masterLabel>
+            <translation><!-- Porsche --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Renault</masterLabel>
+            <translation><!-- Renault --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Renault Nissan</masterLabel>
+            <translation><!-- Renault Nissan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rolls-Royce plc</masterLabel>
+            <translation><!-- Rolls-Royce plc --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SAIC Naveco</masterLabel>
+            <translation><!-- SAIC Naveco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SAIC SAG</masterLabel>
+            <translation><!-- SAIC SAG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SAIC SAIC</masterLabel>
+            <translation><!-- SAIC SAIC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SAIC SAIC - CXJ</masterLabel>
+            <translation><!-- SAIC SAIC - CXJ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SAIC SGM</masterLabel>
+            <translation><!-- SAIC SGM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SAIC SVW</masterLabel>
+            <translation><!-- SAIC SVW --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SEAT</masterLabel>
+            <translation><!-- SEAT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SKF</masterLabel>
+            <translation><!-- SKF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Schaeffler</masterLabel>
+            <translation><!-- Schaeffler --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Siemens Group</masterLabel>
+            <translation><!-- Siemens Group --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Siemens Wind</masterLabel>
+            <translation><!-- Siemens Wind --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Skoda</masterLabel>
+            <translation><!-- Skoda --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ssangyong</masterLabel>
+            <translation><!-- Ssangyong --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Subaru</masterLabel>
+            <translation><!-- Subaru --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Suzuki</masterLabel>
+            <translation><!-- Suzuki --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tata</masterLabel>
+            <translation><!-- Tata --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Toyota</masterLabel>
+            <translation><!-- Toyota --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vauxhall</masterLabel>
+            <translation><!-- Vauxhall --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vestas</masterLabel>
+            <translation><!-- Vestas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Voith</masterLabel>
+            <translation><!-- Voith --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Volkswagen</masterLabel>
+            <translation><!-- Volkswagen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Volvo</masterLabel>
+            <translation><!-- Volvo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Volvo Group(Trucks)</masterLabel>
+            <translation><!-- Volvo Group(Trucks) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZF</masterLabel>
+            <translation><!-- ZF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>smart</masterLabel>
+            <translation><!-- smart --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Opportunity --></label>
+        <name>Opportunity__c</name>
+        <relationshipLabel><!-- Opportunity Revenues --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Pack Size --></label>
+        <name>Pack_Size__c</name>
+        <picklistValues>
+            <masterLabel>1L</masterLabel>
+            <translation><!-- 1L --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>208L</masterLabel>
+            <translation><!-- 208L --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>20L</masterLabel>
+            <translation><!-- 20L --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4&amp;5L</masterLabel>
+            <translation><!-- 4&amp;5L --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4L</masterLabel>
+            <translation><!-- 4L --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>60L</masterLabel>
+            <translation><!-- 60L --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bulk</masterLabel>
+            <translation><!-- Bulk --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cartorages</masterLabel>
+            <translation><!-- Cartorages --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IBC</masterLabel>
+            <translation><!-- IBC --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Planning Type --></label>
+        <name>Planning_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product --></label>
+        <lookupFilter>
+            <errorMessage><!-- This Product is not available for selection for your Sales Organisation --></errorMessage>
+        </lookupFilter>
+        <name>Product__c</name>
+        <relationshipLabel><!-- Opportunity Revenues --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Please enter annual value. --></help>
+        <label><!-- Revenue --></label>
+        <name>Revenue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>Type__c</name>
+        <picklistValues>
+            <masterLabel>Acquisition</masterLabel>
+            <translation><!-- Acquisition --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation><!-- New --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Portfolio reduction</masterLabel>
+            <translation><!-- Portfolio reduction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Switch Gain</masterLabel>
+            <translation><!-- Product Switch Gain --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Switch Loss</masterLabel>
+            <translation><!-- Product Switch Loss --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Promotion</masterLabel>
+            <translation><!-- Promotion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Renewal</masterLabel>
+            <translation><!-- Renewal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sell-out</masterLabel>
+            <translation><!-- Sell-out --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trade-up</masterLabel>
+            <translation><!-- Trade-up --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Please enter annual value. --></help>
+        <label><!-- Volume --></label>
+        <name>Volume__c</name>
+    </fields>
+    <layouts>
+        <layout>Castrol_DemandReductionLayout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Castrol_RevenueLayout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <description><!-- Used for capturing a reduction in demand for a particular product --></description>
+        <label><!-- Demand Reduction --></label>
+        <name>Demand_Reduction</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Used for capturing the new and renewal products that are being sold on an opportunity --></description>
+        <label><!-- Revenue --></label>
+        <name>Revenue</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Estimate products can only be applied by using the Estimate button. --></errorMessage>
+        <name>Estimate_can_only_be_used_on_Estimate_QA</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You cannot add a Portfolio Reduction to this Opportunity. --></errorMessage>
+        <name>Prevent_Add_Demand_Reduction_if_New_Rev</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You cannot add a New Revenue as a Portfolio Reduction Exists on this Opportunity. --></errorMessage>
+        <name>Prevent_Add_New_Rev_if_Demand_Red</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Revenue &amp; Margin must be 0 for the replacing product. Select a different Type or enter 0 as the Revenue &amp; Margin --></errorMessage>
+        <name>Prevent_Revenue_and_Margin_on_Replace</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please select specific OEM or None. --></errorMessage>
+        <name>Select_Specific_OEM_or_None</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Sell-out type is not available for your Role or Sales Organisation. --></errorMessage>
+        <name>Sell_out_only_for_PL_and_specific_roles</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please only use positive figures. Negative impacts on demand will automatically be considered for the reporting based on the revenue type. --></errorMessage>
+        <name>margin_positive</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please only use positive figures. Negative impacts on demand will automatically be considered for the reporting based on the revenue type. --></errorMessage>
+        <name>revenue_positive</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please only use positive figures. Negative impacts on demand will automatically be considered for the reporting based on the revenue type. --></errorMessage>
+        <name>volume_positive</name>
+    </validationRules>
+</CustomObjectTranslation>

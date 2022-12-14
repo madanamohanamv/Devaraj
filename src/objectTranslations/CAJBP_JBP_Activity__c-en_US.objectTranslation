@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>JBP Activity</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>JBP Activities</value>
+    </caseValues>
+    <fields>
+        <label><!-- Actual Cost --></label>
+        <name>CAJBP_Actual_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Actual Volume --></label>
+        <name>CAJBP_Actual_Volume__c</name>
+    </fields>
+    <fields>
+        <label><!-- Assigned To --></label>
+        <name>CAJBP_Assigned_To__c</name>
+        <relationshipLabel><!-- JBP Activities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Budgeted Spend --></label>
+        <name>CAJBP_Budgeted_Spend__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>CAJBP_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Distributor Joint Activity Fund --></label>
+        <name>CAJBP_Distributor_Joint_Activity_Fund__c</name>
+        <relationshipLabel><!-- JBP Activities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- End Date --></label>
+        <name>CAJBP_End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Estimated Cost --></label>
+        <name>CAJBP_Estimated_Cost__c</name>
+    </fields>
+    <fields>
+        <help><!-- Partner value is only to be entered when the Partner has suggested an appropriate number and should be left blank if the Partner has not suggested a number. This should not be populated by Castrol in the absence of a number from your Partner. --></help>
+        <label><!-- Estimated Partner Value --></label>
+        <name>CAJBP_Estimated_Partner_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Estimated Volume --></label>
+        <name>CAJBP_Estimated_Volume__c</name>
+    </fields>
+    <fields>
+        <label><!-- Objective --></label>
+        <name>CAJBP_Objective__c</name>
+        <relationshipLabel><!-- JBP Activities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Paid for by --></label>
+        <name>CAJBP_Paid_for_by__c</name>
+        <picklistValues>
+            <masterLabel>Castrol</masterLabel>
+            <translation><!-- Castrol --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JAF</masterLabel>
+            <translation><!-- JAF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partner</masterLabel>
+            <translation><!-- Partner --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Start Date --></label>
+        <name>CAJBP_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>CAJBP_Status__c</name>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Withdrawn</masterLabel>
+            <translation><!-- Withdrawn --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Partner value is only to be entered when the Partner has suggested an appropriate number and should be left blank if the Partner has not suggested a number. This should not be populated by Castrol in the absence of a number from your Partner. --></help>
+        <label><!-- Actual Partner Value --></label>
+        <name>CAJP_Actual_Partner_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Note --></label>
+        <name>Note__c</name>
+    </fields>
+    <layouts>
+        <layout>JBP Activity DJAF</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Note --></label>
+            <section>Note</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>JBP Activity Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Note --></label>
+            <section>Note</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>JBP Activity Read-Only</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Note --></label>
+            <section>Note</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>JBP Activity without DJAF</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Note --></label>
+            <section>Note</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- JBP Activity Completed --></label>
+        <name>CAJBP_JBP_Activity_Completed</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- JBP Activity DJAF --></label>
+        <name>CAJBP_JBP_Activity_DJAF</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- JBP Activity --></label>
+        <name>CAJBP_JBP_Activity_RT</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- JBP Activity without DJAF --></label>
+        <name>CAJBP_JBP_Activity_without_DJAF</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Actual Value must be populated. --></errorMessage>
+        <name>CAJBP_Actual_Value_must_be_entered</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Distributor Joint Activity Fund must be populated. --></errorMessage>
+        <name>CAJBP_DJAF_mut_be_populated</name>
+    </validationRules>
+</CustomObjectTranslation>

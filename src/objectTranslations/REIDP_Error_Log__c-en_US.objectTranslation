@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>RE IDP Error Log</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>RE IDP Error Logs</value>
+    </caseValues>
+    <fields>
+        <label><!-- Class Name --></label>
+        <name>REIDP_Class_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Community --></label>
+        <name>REIDP_Community__c</name>
+        <picklistValues>
+            <masterLabel>BP</masterLabel>
+            <translation><!-- BP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Castrol</masterLabel>
+            <translation><!-- Castrol --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Exception Line Number --></label>
+        <name>REIDP_Exception_Line_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Exception Message --></label>
+        <name>REIDP_Exception_Message__c</name>
+    </fields>
+    <fields>
+        <label><!-- Exception Stack Trace --></label>
+        <name>REIDP_Exception_Stack_Trace__c</name>
+    </fields>
+    <fields>
+        <label><!-- Exception Type --></label>
+        <name>REIDP_Exception_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Message --></label>
+        <name>REIDP_Message__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>REIDP_Type__c</name>
+        <picklistValues>
+            <masterLabel>Critical</masterLabel>
+            <translation><!-- Critical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Info</masterLabel>
+            <translation><!-- Info --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Warning</masterLabel>
+            <translation><!-- Warning --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>RE IDP Error Log Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Exception Information --></label>
+            <section>Exception Information</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCategoryGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <dataCategory>
+        <dataCategory>
+            <label>Grow at your Workplace</label>
+            <name>Grow_at_your_Workplace</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Know your Customers</label>
+            <name>Know_your_Customers</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Personal Development</label>
+            <name>Personal_Development</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Culture</label>
+            <name>Culture</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Technology</label>
+            <name>Technology</name>
+        </dataCategory>
+        <dataCategory>
+            <label>About Us</label>
+            <name>About_Us</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Car Engine Oil</label>
+            <name>Car_Engine_Oil</name>
+        </dataCategory>
+        <dataCategory>
+            <label>CASTROL EDGE PROFESSIONAL</label>
+            <name>CASTROL_EDGE_PROFESSIONAL</name>
+        </dataCategory>
+        <dataCategory>
+            <label>CASTROL MAGNATEC PROFESSIONAL</label>
+            <name>CASTROL_MAGNATEC_PROFESSIONAL</name>
+        </dataCategory>
+        <label>All</label>
+        <name>All</name>
+    </dataCategory>
+    <label>CAPL_Articles</label>
+    <objectUsage>
+        <object>KnowledgeArticleVersion</object>
+    </objectUsage>
+</DataCategoryGroup>

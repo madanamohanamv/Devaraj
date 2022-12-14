@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>REIDP Community Language</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>REIDP Community Languages</value>
+    </caseValues>
+    <fields>
+        <label><!-- Community --></label>
+        <name>Community__c</name>
+        <picklistValues>
+            <masterLabel>Aral</masterLabel>
+            <translation><!-- Aral --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BP</masterLabel>
+            <translation><!-- BP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Castrol</masterLabel>
+            <translation><!-- Castrol --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Language --></label>
+        <name>Language__c</name>
+        <picklistValues>
+            <masterLabel>English</masterLabel>
+            <translation><!-- English --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nederlands</masterLabel>
+            <translation><!-- Nederlands --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tiếng Việt</masterLabel>
+            <translation><!-- Tiếng Việt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Türkçe</masterLabel>
+            <translation><!-- Türkçe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Русский</masterLabel>
+            <translation><!-- Русский --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Українська</masterLabel>
+            <translation><!-- Українська --></translation>
+        </picklistValues>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

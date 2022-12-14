@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Tender Location</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Tender Locations</value>
+    </caseValues>
+    <fields>
+        <label><!-- Ad-hoc Volume --></label>
+        <name>AITM_Ad_hoc_Volume__c</name>
+    </fields>
+    <fields>
+        <label><!-- Additional Notes --></label>
+        <name>AITM_Additional_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Aircraft Type --></label>
+        <name>AITM_Aircraft_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Airport Classification --></label>
+        <name>AITM_Airport_Classification_GA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Apply to all --></label>
+        <name>AITM_Apply_to_all__c</name>
+    </fields>
+    <fields>
+        <label><!-- BP Location Volume --></label>
+        <name>AITM_BP_Location_Volume_GA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bids In By --></label>
+        <name>AITM_Bids_In_By__c</name>
+    </fields>
+    <fields>
+        <label><!-- Classification --></label>
+        <name>AITM_Classification__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comments --></label>
+        <name>AITM_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Competition --></label>
+        <name>AITM_Competition_GA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Competition --></label>
+        <name>AITM_Competition__c</name>
+    </fields>
+    <fields>
+        <label><!-- Competitor Info Other --></label>
+        <name>AITM_Competitor_Info_Other__c</name>
+    </fields>
+    <fields>
+        <label><!-- Competitor info --></label>
+        <name>AITM_Competitor_info__c</name>
+        <picklistValues>
+            <masterLabel>Cepsa</masterLabel>
+            <translation><!-- Cepsa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Exxon</masterLabel>
+            <translation><!-- Exxon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gulf</masterLabel>
+            <translation><!-- Gulf --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Local Provider</masterLabel>
+            <translation><!-- Local Provider --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mabanaft</masterLabel>
+            <translation><!-- Mabanaft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Q8</masterLabel>
+            <translation><!-- Q8 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Repsol</masterLabel>
+            <translation><!-- Repsol --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shell</masterLabel>
+            <translation><!-- Shell --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>State Owned Oil Company</masterLabel>
+            <translation><!-- State Owned Oil Company --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Total</masterLabel>
+            <translation><!-- Total --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Uvair</masterLabel>
+            <translation><!-- Uvair --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WFS</masterLabel>
+            <translation><!-- WFS --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Contracted --></label>
+        <name>AITM_Contracted__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partially</masterLabel>
+            <translation><!-- Partially --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Country --></label>
+        <name>AITM_Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current Round --></label>
+        <name>AITM_Current_Round__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product --></label>
+        <name>AITM_DEPE_Product__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delivery By --></label>
+        <name>AITM_Delivery_By__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delivery Method --></label>
+        <name>AITM_Delivery_Method__c</name>
+    </fields>
+    <fields>
+        <label><!-- Density --></label>
+        <name>AITM_Density__c</name>
+    </fields>
+    <fields>
+        <label><!-- Distance from Leading Bid --></label>
+        <name>AITM_Distance_From_Leading_Bid__c</name>
+    </fields>
+    <fields>
+        <label><!-- Distance from Leading Bid --></label>
+        <name>AITM_Distance_from_Leading_Bid1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Has Feedback --></label>
+        <name>AITM_Has_Feedback__c</name>
+    </fields>
+    <fields>
+        <label><!-- IATA/ICAO --></label>
+        <name>AITM_IATA_ICAO__c</name>
+    </fields>
+    <fields>
+        <label><!-- IATA --></label>
+        <name>AITM_IATA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Include in revised offer --></label>
+        <name>AITM_Include_In_Revised_Offer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Include Notes in Contract --></label>
+        <name>AITM_Include_Notes_in_Contract__c</name>
+    </fields>
+    <fields>
+        <label><!-- Include Taxes&amp;Fees in Contract --></label>
+        <name>AITM_Include_Taxes_Fees_in_Contract__c</name>
+    </fields>
+    <fields>
+        <label><!-- Into-plane --></label>
+        <name>AITM_Into_plane__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Current Round --></label>
+        <name>AITM_Is_Current_Round__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last look to incumbent --></label>
+        <name>AITM_Last_Look_To_Incumbent__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Varies</masterLabel>
+            <translation><!-- Varies --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Leading Bid Currency --></label>
+        <name>AITM_Leading_Bid_Currency__c</name>
+    </fields>
+    <fields>
+        <label><!-- Leading Bid UoM --></label>
+        <name>AITM_Leading_Bid_UoM__c</name>
+    </fields>
+    <fields>
+        <label><!-- Leading Bid --></label>
+        <name>AITM_Leading_Bid__c</name>
+    </fields>
+    <fields>
+        <label><!-- Location Manager --></label>
+        <name>AITM_Location_Manager__c</name>
+        <relationshipLabel><!-- Tender Locations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Location Segmentation --></label>
+        <name>AITM_Location_Segmentation_GA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Location Size --></label>
+        <name>AITM_Location_Size__c</name>
+    </fields>
+    <fields>
+        <label><!-- Location Strategy --></label>
+        <name>AITM_Location_Strategy_GA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Location Summary Details/Context --></label>
+        <name>AITM_Location_Summary_Details_Context__c</name>
+    </fields>
+    <fields>
+        <label><!-- Location --></label>
+        <name>AITM_Location__c</name>
+        <relationshipLabel><!-- Tender Locations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Locations Filter --></label>
+        <name>AITM_Locations_Filter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Market Classification --></label>
+        <name>AITM_Market_Classification_GA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Measure --></label>
+        <name>AITM_Measure__c</name>
+    </fields>
+    <fields>
+        <label><!-- No Revision --></label>
+        <name>AITM_No_Revision__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Bidders --></label>
+        <name>AITM_Number_Of_Bidders__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Rounds --></label>
+        <name>AITM_Number_Of_Rounds__c</name>
+    </fields>
+    <fields>
+        <label><!-- Offered Differential Currency --></label>
+        <name>AITM_Offered_Differential_Currency__c</name>
+    </fields>
+    <fields>
+        <label><!-- Offered Differential UoM --></label>
+        <name>AITM_Offered_Differential_UoM__c</name>
+    </fields>
+    <fields>
+        <label><!-- Offered Differential --></label>
+        <name>AITM_Offered_Differential__c</name>
+    </fields>
+    <fields>
+        <label><!-- Overall Location Size --></label>
+        <name>AITM_Overall_Location_Size_GA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Position --></label>
+        <name>AITM_Position__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary Airport Supply --></label>
+        <name>AITM_Primary_Airport_Supply_GA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary Product Supply --></label>
+        <name>AITM_Primary_Product_Supply_GA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary supply --></label>
+        <name>AITM_Primary_Supply__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product --></label>
+        <name>AITM_Product__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quality of feedback --></label>
+        <name>AITM_Quality_Of_Feedback__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recalculate Total Volume --></label>
+        <name>AITM_Recalculate_Total_Volume__c</name>
+    </fields>
+    <fields>
+        <label><!-- Round --></label>
+        <name>AITM_Round__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Organisation GA --></label>
+        <name>AITM_Sales_Organisation_GA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sector --></label>
+        <name>AITM_Sector__c</name>
+    </fields>
+    <fields>
+        <label><!-- Service Level --></label>
+        <name>AITM_Service_Level__c</name>
+    </fields>
+    <fields>
+        <label><!-- Specification --></label>
+        <name>AITM_Specification__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tender Stage --></label>
+        <name>AITM_Stage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>AITM_Status__c</name>
+        <picklistValues>
+            <masterLabel>Awaiting price</masterLabel>
+            <translation><!-- Awaiting price --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Represented</masterLabel>
+            <translation><!-- Not Represented --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Priced</masterLabel>
+            <translation><!-- Priced --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Suppliers Total Volume --></label>
+        <name>AITM_Suppliers_Total_Volume_GA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Taxes &amp; Fees --></label>
+        <name>AITM_Taxes_Fees__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tender Unique ID --></label>
+        <name>AITM_Tender_Unique_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tender --></label>
+        <name>AITM_Tender__c</name>
+        <relationshipLabel><!-- Tender Locations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Title --></label>
+        <name>AITM_Title__c</name>
+    </fields>
+    <fields>
+        <help><!-- To get the total requested volume --></help>
+        <label><!-- AITM_Total_Requested_Volume --></label>
+        <name>AITM_Total_Requested_Volume__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Volume Offered to the Group --></label>
+        <name>AITM_Total_Volume_Offered_To_The_Group__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unit Of Measure --></label>
+        <name>AITM_Unit_Of_Measure__c</name>
+    </fields>
+    <fields>
+        <label><!-- Volume --></label>
+        <name>AITM_Volume__c</name>
+    </fields>
+    <layouts>
+        <layout>AITM_TenderLocationLayout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Customer Specific Information --></label>
+            <section>Customer Specific Information</section>
+        </sections>
+        <sections>
+            <label><!-- Location Context --></label>
+            <section>Location Context</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Air_TMDelivery Information</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Delivery Information --></label>
+            <section>Delivery Information</section>
+        </sections>
+        <sections>
+            <label><!-- Location Summary Details/Context --></label>
+            <section>Location Summary Details/Context</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Aircraft type has to be filled for service level II or III --></errorMessage>
+        <name>AITM_Aircraft_Depends_on_Service_Level</name>
+    </validationRules>
+</CustomObjectTranslation>

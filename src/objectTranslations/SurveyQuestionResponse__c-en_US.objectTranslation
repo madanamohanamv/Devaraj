@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Survey Question Response</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Survey Question Responses</value>
+    </caseValues>
+    <fields>
+        <label><!-- SR Number --></label>
+        <name>CALCF_Case_SR_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Count of Related Tasks --></label>
+        <name>CALCF_Count_of_Related_Tasks__c</name>
+    </fields>
+    <fields>
+        <label><!-- Category --></label>
+        <name>Category__c</name>
+    </fields>
+    <fields>
+        <label><!-- Operations Manager Email --></label>
+        <name>Operations_Manager_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Operations Manager Name --></label>
+        <name>Operations_Manager_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Response --></label>
+        <name>Response__c</name>
+    </fields>
+    <fields>
+        <label><!-- Response by Contact --></label>
+        <name>Response_by_Contact__c</name>
+    </fields>
+    <fields>
+        <label><!-- SurveyTaker --></label>
+        <name>SurveyTaker__c</name>
+        <relationshipLabel><!-- Survey Question Responses --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Survey Question --></label>
+        <name>Survey_Question__c</name>
+        <relationshipLabel><!-- Survey Question Responses --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Survey Touchpoint Type --></label>
+        <name>Survey_Touchpoint_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account ERP ID --></label>
+        <name>lcf_Account_ERP_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Name --></label>
+        <name>lcf_Account_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Organisation --></label>
+        <name>lcf_Account_Sales_Organisation__c</name>
+    </fields>
+    <fields>
+        <label><!-- CES Dont know --></label>
+        <name>lcf_CES_Dont_know__c</name>
+    </fields>
+    <fields>
+        <label><!-- CES Level --></label>
+        <name>lcf_CES_Level__c</name>
+    </fields>
+    <fields>
+        <label><!-- CES Question --></label>
+        <name>lcf_CES_Question__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Country --></label>
+        <name>lcf_Contact_Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- Detractor --></label>
+        <name>lcf_Detractor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Difficult --></label>
+        <name>lcf_Difficult__c</name>
+    </fields>
+    <fields>
+        <label><!-- Easy --></label>
+        <name>lcf_Easy__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hide Response --></label>
+        <name>lcf_Hide_Response__c</name>
+    </fields>
+    <fields>
+        <label><!-- Response --></label>
+        <name>lcf_Hideable_Response__c</name>
+    </fields>
+    <fields>
+        <label><!-- NPS Level --></label>
+        <name>lcf_NPS_Level__c</name>
+    </fields>
+    <fields>
+        <label><!-- NPS Question --></label>
+        <name>lcf_NPS_Question__c</name>
+    </fields>
+    <fields>
+        <label><!-- Neither --></label>
+        <name>lcf_Neither__c</name>
+    </fields>
+    <fields>
+        <label><!-- Passive --></label>
+        <name>lcf_Passive__c</name>
+    </fields>
+    <fields>
+        <label><!-- Promoter --></label>
+        <name>lcf_Promoter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Question Type --></label>
+        <name>lcf_Question_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- ResponseNumber --></label>
+        <name>lcf_ResponseNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Response Submission Date --></label>
+        <name>lcf_Response_Submission_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Survey ID --></label>
+        <name>lcf_Survey_ID__c</name>
+    </fields>
+    <fields>
+        <help><!-- Name of the Survey --></help>
+        <label><!-- Survey Name --></label>
+        <name>lcf_Survey_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Survey Question --></label>
+        <name>lcf_Survey_Question__c</name>
+    </fields>
+    <fields>
+        <label><!-- Survey Sent Start Date --></label>
+        <name>lcf_Survey_Sent_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Survey Taker Id --></label>
+        <name>lcf_Survey_Taker_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Week Ending --></label>
+        <name>lcf_Week_Ending__c</name>
+    </fields>
+    <fields>
+        <label><!-- # of Time Question was Responded to --></label>
+        <name>of_Time_Question_was_Responded_to__c</name>
+    </fields>
+    <layouts>
+        <layout>Castrol_SurveyQuestionAnswerLayout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>
